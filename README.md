@@ -1,7 +1,18 @@
-# Director OS — Burmese Music Video
+# Director OS — Open AI Music Video Production Toolkit
 
-Private development backup for the Director OS rescue studio and the music video
-**The Bar Remembers Her**.
+Director OS is an open, local-first toolkit and research archive for
+human-directed AI music-video production. It preserves practical workflows for
+concept development, visual storyboarding, full-song animatics, generation
+prompts, media import and review, audio-to-lyric alignment, lip-sync gating,
+face correction, quality control, and GPU continuation.
+
+The repository includes **The Bar Remembers Her**, a multilingual Burmese music
+video, as a real-world case study. The case study is intentionally specific;
+the production methods, evidence model, safety gates, and handoff structure are
+designed to be reused for other songs, languages, performers, and visual worlds.
+
+Public project page:
+https://director-os-research.chanmyayaung.chatgpt.site
 
 Start with [`PROJECT_HANDOFF.md`](PROJECT_HANDOFF.md). It is the authoritative
 production state, creative lock, lip-sync status, asset policy, and continuation
@@ -17,7 +28,7 @@ mapping is in
 [`ADVANCED_SYSTEM_COVERAGE.md`](ADVANCED_SYSTEM_COVERAGE.md), including the
 historical database export and full media-free Director OS state.
 
-## Current creative direction
+## Included case study: The Bar Remembers Her
 
 - Adult lead performer performs alone in the established dark-teak Finnish bar.
 - Mature, emotionally intense singing performance; the lead performer is not
