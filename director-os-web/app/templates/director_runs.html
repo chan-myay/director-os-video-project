@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Autonomous Studio</p>
+    <h1>Director Runs</h1>
+  </div>
+  <a class="button" href="/director-runs/new">New Run</a>
+</header>
+<div class="list">
+  {% for run in runs %}
+  <a class="row" href="/director-runs/{{ run.run_id }}">
+    <strong>#{{ run.run_id }} {{ run.status }} · {{ run.current_stage }}</strong>
+    <span>{{ run.active_provider }} {{ run.provider_version }}</span>
+    <small>{{ run.idea }}</small>
+  </a>
+  {% else %}
+  <article class="row static"><strong>No autonomous runs yet</strong></article>
+  {% endfor %}
+</div>
+{% endblock %}

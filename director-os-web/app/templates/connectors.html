@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Disabled integration layer</p>
+    <h1>Connectors</h1>
+  </div>
+  <span class="status-pill danger">Execution blocked</span>
+</header>
+<article class="panel">
+  <h2>{{ connectors.status }}</h2>
+  <p class="path">{{ connectors.path }}</p>
+  <pre>{{ connectors.content }}</pre>
+</article>
+{% endblock %}

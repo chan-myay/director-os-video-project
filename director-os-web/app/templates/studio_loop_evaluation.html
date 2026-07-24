@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">Watch & Listen</p><h1>Evaluation</h1></div></header>
+<section class="director-grid">
+  <article class="panel"><h2>Score</h2><p>{{ detail.evaluation.score }}</p></article>
+  <article class="panel"><h2>Status</h2><p>{{ detail.evaluation.status }}</p></article>
+  <article class="panel"><h2>Version</h2><p>{{ detail.evaluation.active_animatic_version }}</p></article>
+  <article class="panel"><h2>Brain</h2><p>{{ detail.evaluation.brain_version }}</p></article>
+</section>
+<section class="panel">
+  <h2>Scorecard</h2>
+  <table><tr><th>Gate</th><th>Score</th></tr>
+  {% for key, value in detail.evaluation.scorecard.items() %}
+  <tr><td>{{ key }}</td><td>{{ value }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+{% endblock %}

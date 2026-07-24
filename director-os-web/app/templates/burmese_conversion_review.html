@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Burmese Text Safety</p><h1>Conversion Review</h1></div>
+  <form method="post" action="/burmese-language/conversion-review/bulk-approve">
+    <button type="submit">Approve High-Confidence Validated</button>
+  </form>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<section class="director-grid">
+  <article class="panel"><h2>Active Converter</h2><p>{{ converter.active }}</p></article>
+  <article class="panel"><h2>Zawgyi</h2><p>{{ review.confirmed_zawgyi }}</p></article>
+  <article class="panel"><h2>Converted</h2><p>{{ review.converted_validated }}</p></article>
+  <article class="panel"><h2>Awaiting Review</h2><p>{{ review.needs_review }}</p></article>
+  <article class="panel"><h2>Approved</h2><p>{{ review.approved }}</p></article>
+</section>
+<section class="panel">
+  <h2>Source Lines</h2>
+  <table>
+    <tr><th>#</th><th>Category</th><th>Original</th><th>Detected</th><th>Unicode</th><th>Status</th><th>Warnings</th><th>Review</th></tr>
+    {% for row in review.rows %}
+    <tr>
+      <td>{{ row.line_index }}</td>
+      <td>{{ row.source_category }}</td>
+      <td>{{ row.original_text }}</td>
+      <td>{{ row.detected_encoding }} · {{ '%.2f'|format(row.detection_confidence) }}</td>
+      <td>{{ row.normalized_unicode }}</td>
+      <td>{{ row.conversion_status }} · {{ row.review_status }}</td>
+      <td>{{ row.validation_warnings }}</td>
+      <td>
+        <form method="post" action="/burmese-language/conversion-review/{{ row.source_line_id }}">
+          <select name="action">
+            <option value="approve">approve</option>
+            <option value="edit">edit</option>
+            <option value="reject">reject</option>
+            <option value="mark_original_unicode">mark original as Unicode</option>
+          </select>
+          <input name="corrected_unicode" placeholder="Corrected Unicode">
+          <button type="submit">Save</button>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

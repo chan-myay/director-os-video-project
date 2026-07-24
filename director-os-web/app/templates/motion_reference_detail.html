@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Shot pack motion reference</p>
+    <h1>{{ shot_id }}</h1>
+  </div>
+  <a class="button" href="/motion-references/new">Add Reference</a>
+</header>
+{% if reference %}
+<section class="panel">
+  <h2>{{ reference.source_title }}</h2>
+  <dl>
+    <dt>Status</dt><dd>{{ reference.approval_status }}</dd>
+    <dt>Source</dt><dd>{{ reference.source }}</dd>
+    <dt>Timecode</dt><dd>{{ reference.start_time }} to {{ reference.end_time }}</dd>
+    <dt>Framing</dt><dd>{{ reference.body_framing }}</dd>
+    <dt>Direction</dt><dd>{{ reference.travel_direction }}</dd>
+    <dt>Rights</dt><dd>{{ reference.rights_status }} / {{ reference.source_owner_license }}</dd>
+    <dt>Transfer</dt><dd>body movement, timing, travel path, shoulder/torso rhythm only</dd>
+    <dt>Do Not Transfer</dt><dd>source identity, clothing, location, body shape</dd>
+    <dt>Notes</dt><dd>{{ reference.notes }}</dd>
+  </dl>
+</section>
+{% else %}
+<section class="panel">
+  <h2>No Motion Reference</h2>
+  <p>F01 is blocked from production readiness until an approved motion-reference video is recorded.</p>
+</section>
+{% endif %}
+{% endblock %}

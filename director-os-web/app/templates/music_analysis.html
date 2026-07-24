@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Local Audio Analysis</p><h1>Music Analysis</h1></div>
+</header>
+<section class="director-grid">
+  <article class="panel"><h2>Duration</h2><p>{{ '%.2f'|format(analysis.duration) }}s</p></article>
+  <article class="panel"><h2>Vocal Phrases</h2><p>{{ analysis.vocal_phrase_regions|length }}</p></article>
+  <article class="panel"><h2>Instrumental Gaps</h2><p>{{ analysis.instrumental_regions|length }}</p></article>
+  <article class="panel"><h2>Auto Sync</h2><p>{{ auto_sync.status }} · {{ auto_sync.auto_synced_phrase_count }} suggestions</p></article>
+  <article class="panel"><h2>Warning</h2><p>{{ analysis.warning }}</p></article>
+</section>
+<section class="action-row">
+  <a class="button" href="/auto-sync">Auto Sync Status</a>
+  <a class="button" href="/burmese-language/listening-sync">Listening Review</a>
+</section>
+<section class="panel">
+  <h2>Energy Peaks</h2>
+  <table><tr><th>Time</th><th>RMS</th></tr>
+  {% for item in analysis.energy_peaks %}
+  <tr><td>{{ item.time }}</td><td>{{ item.rms }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+<section class="panel">
+  <h2>Vocal Phrase Regions</h2>
+  <table><tr><th>Phrase</th><th>Start</th><th>End</th></tr>
+  {% for item in analysis.vocal_phrase_regions %}
+  <tr><td>{{ item.phrase_id }}</td><td>{{ item.start }}</td><td>{{ item.end }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+<section class="panel">
+  <h2>Instrumental Gaps</h2>
+  <table><tr><th>Start</th><th>End</th><th>Duration</th></tr>
+  {% for item in analysis.instrumental_regions %}
+  <tr><td>{{ item.start }}</td><td>{{ item.end }}</td><td>{{ item.duration }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+{% endblock %}

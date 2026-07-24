@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Shot Pack</p>
+    <h1>{{ pack.id }}</h1>
+  </div>
+</header>
+<p class="path">{{ pack.path }}</p>
+<div class="doc-list">
+  {% for file in pack.files %}
+  <article class="panel">
+    <h2>{{ file.name }}</h2>
+    <p class="path">{{ file.path }}</p>
+    <pre>{{ file.content }}</pre>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

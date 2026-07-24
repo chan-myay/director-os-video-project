@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Burmese-First Production</p><h1>Burmese Language Timeline</h1></div>
+  <form method="post" action="/burmese-language/build"><button type="submit">Build Timeline</button></form>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<section class="director-grid">
+  <article class="panel"><h2>Lines</h2><p>{{ summary.line_count }}</p></article>
+  <article class="panel"><h2>Phrases</h2><p>{{ summary.phrase_count }}</p></article>
+  <article class="panel"><h2>Lip-Sync Locked</h2><p>{{ summary.locked_count }}</p></article>
+  <article class="panel"><h2>Fonts</h2><p>{{ 'available' if summary.fonts.available else 'not verified' }}</p></article>
+  <article class="panel"><h2>Timeline</h2><p>{{ summary.timeline_path }}</p></article>
+  <article class="panel"><h2>Timing Authority</h2><p>{{ summary.timing_authority_path }}</p></article>
+</section>
+<section class="panel">
+  <h2>Final Timing Phrases</h2>
+  <table><tr><th>#</th><th>Start</th><th>End</th><th>Original</th><th>Caption</th><th>Timing Source</th><th>Confidence</th></tr>
+  {% for row in summary.phrases %}
+  <tr><td>{{ row.phrase_index }}</td><td>{{ '%.2f'|format(row.final_start_time) }}</td><td>{{ '%.2f'|format(row.final_end_time) }}</td><td>{{ row.original_text }}</td><td>{{ row.caption_text }}</td><td>{{ row.final_timing_source }}</td><td>{{ '%.2f'|format(row.alignment_confidence) }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+<section class="panel">
+  <h2>Caption Records</h2>
+  <table><tr><th>#</th><th>Original</th><th>Unicode</th><th>Pronunciation</th><th>Status</th></tr>
+  {% for row in summary.records %}
+  <tr><td>{{ row.line_index }}</td><td>{{ row.original_text }}</td><td>{{ row.normalized_unicode }}</td><td>{{ row.pronunciation_helper }}</td><td>{{ row.status }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+{% endblock %}

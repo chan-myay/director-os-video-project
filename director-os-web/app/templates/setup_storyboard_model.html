@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Local Generation Approval</p>
+    <h1>Storyboard AI Backend</h1>
+  </div>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<section class="director-grid">
+  <article class="panel metric-panel"><span>{{ setup.hardware.chip }}</span><p>Detected Mac</p></article>
+  <article class="panel metric-panel"><span>{{ setup.hardware.unified_memory_gb }} GB</span><p>Unified Memory</p></article>
+  <article class="panel metric-panel"><span>{{ setup.hardware.free_disk_gb }} GB</span><p>Free Disk</p></article>
+  <article class="panel metric-panel"><span>{{ setup.real_project_ai_frame_count }}</span><p>Real Project AI Frames</p></article>
+</section>
+<section class="split">
+  <article class="panel">
+    <h2>Recommended Primary</h2>
+    <dl>
+      <dt>Runtime</dt><dd>{{ setup.primary.runtime }}</dd>
+      <dt>Model</dt><dd>{{ setup.primary.model }}</dd>
+      <dt>Source</dt><dd>{{ setup.primary.official_source }}</dd>
+      <dt>Why</dt><dd>{{ setup.primary.why_selected }}</dd>
+      <dt>License</dt><dd>{{ setup.primary.license }}</dd>
+      <dt>Commercial Use</dt><dd>{{ setup.primary.commercial_use_state }}</dd>
+      <dt>Download</dt><dd>{{ setup.primary.download_size }}</dd>
+      <dt>Installed Size</dt><dd>{{ setup.primary.installed_size }}</dd>
+      <dt>Memory</dt><dd>{{ setup.primary.memory_estimate }}</dd>
+      <dt>Limits</dt><dd>{{ setup.primary.expected_limitations }}</dd>
+      <dt>Uninstall</dt><dd>{{ setup.primary.uninstall_plan }}</dd>
+    </dl>
+    <h3>Exact Files</h3>
+    <ul class="compact-list">
+      {% for file in setup.primary.exact_files %}
+      <li>{{ file }}</li>
+      {% endfor %}
+    </ul>
+    <h3>Commands</h3>
+    <ul class="compact-list">
+      {% for command in setup.primary.commands %}
+      <li><code>{{ command }}</code></li>
+      {% endfor %}
+    </ul>
+  </article>
+  <article class="panel">
+    <h2>Lightweight Fallback</h2>
+    <dl>
+      <dt>Runtime</dt><dd>{{ setup.fallback.runtime }}</dd>
+      <dt>Model</dt><dd>{{ setup.fallback.model }}</dd>
+      <dt>Source</dt><dd>{{ setup.fallback.official_source }}</dd>
+      <dt>Why</dt><dd>{{ setup.fallback.why_selected }}</dd>
+      <dt>License</dt><dd>{{ setup.fallback.license }}</dd>
+      <dt>Commercial Use</dt><dd>{{ setup.fallback.commercial_use_state }}</dd>
+      <dt>Download</dt><dd>{{ setup.fallback.download_size }}</dd>
+      <dt>Installed Size</dt><dd>{{ setup.fallback.installed_size }}</dd>
+      <dt>Memory</dt><dd>{{ setup.fallback.memory_estimate }}</dd>
+      <dt>Limits</dt><dd>{{ setup.fallback.expected_limitations }}</dd>
+      <dt>Uninstall</dt><dd>{{ setup.fallback.uninstall_plan }}</dd>
+    </dl>
+    <h3>Exact Files</h3>
+    <ul class="compact-list">
+      {% for file in setup.fallback.exact_files %}
+      <li>{{ file }}</li>
+      {% endfor %}
+    </ul>
+    <h3>Commands</h3>
+    <ul class="compact-list">
+      {% for command in setup.fallback.commands %}
+      <li><code>{{ command }}</code></li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+<section class="panel">
+  <h2>Current Status</h2>
+  <dl>
+    <dt>Operational</dt><dd>{{ setup.operational }}</dd>
+    <dt>Downloads Performed</dt><dd>{{ setup.downloads_performed }}</dd>
+    <dt>MLX Available Now</dt><dd>{{ setup.hardware.mlx_available }}</dd>
+    <dt>Existing ComfyUI Code</dt><dd>{{ setup.hardware.existing_comfyui }}</dd>
+  </dl>
+</section>
+<form class="panel form" method="post" action="/setup/storyboard-model">
+  <label>Decision
+    <select name="choice">
+      <option value="decide_later">Decide later</option>
+      <option value="continue_composite_previs">Continue with composite previs</option>
+      <option value="approve_primary">Approve primary</option>
+      <option value="approve_lightweight_fallback">Approve lightweight fallback</option>
+    </select>
+  </label>
+  <label>Notes <textarea name="notes" placeholder="Approval notes, limits, or reason for deferring."></textarea></label>
+  <button type="submit">Record Decision</button>
+</form>
+{% if setup.installations %}
+<section class="panel">
+  <h2>Install Plans</h2>
+  <ul class="compact-list">
+    {% for install in setup.installations %}
+    <li>{{ install.created_at }} · {{ install.selected_option }} · {{ install.status }} · {{ install.install_root }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% if setup.benchmarks %}
+<section class="panel">
+  <h2>Benchmarks</h2>
+  <ul class="compact-list">
+    {% for benchmark in setup.benchmarks %}
+    <li>{{ benchmark.created_at }} · {{ benchmark.runtime }} · {{ benchmark.benchmark_type }} · {{ benchmark.quality_review_state }} · {{ benchmark.output_path }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "unicode_noop",
+    "source": "မြန်မာ Unicode စာသား",
+    "expected_unicode": "မြန်မာ Unicode စာသား",
+    "expected_detection": "unicode"
+  },
+  {
+    "name": "prebase_vowel",
+    "source": "ေတးေရး",
+    "expected_unicode": "တေးရေး",
+    "expected_detection": "zawgyi"
+  },
+  {
+    "name": "asat_rewrite",
+    "source": "အခ်စ္မဲ့",
+    "expected_unicode": "အချစ်မဲ့",
+    "expected_detection": "zawgyi"
+  },
+  {
+    "name": "zawgyi_only_codepoint",
+    "source": "အေၾကာင္းေတြ",
+    "expected_unicode": "အကြောင်းတွေ",
+    "expected_detection": "zawgyi"
+  },
+  {
+    "name": "kinzi_like_and_tone",
+    "source": "လြဲမွားျခင္းရဲ႕",
+    "expected_unicode": "လွဲမွားွခင်းရဲ့",
+    "expected_detection": "zawgyi"
+  },
+  {
+    "name": "digits_punctuation_english",
+    "source": "Cho1: ၾကာေလ (ေ၀းေလး)4",
+    "expected_unicode": "Cho1: ကြာလေ (ေ၀းလေး)4",
+    "expected_detection": "zawgyi"
+  },
+  {
+    "name": "ambiguous_short",
+    "source": "ပါ",
+    "expected_unicode": "ပါ",
+    "expected_detection": "unicode"
+  }
+]

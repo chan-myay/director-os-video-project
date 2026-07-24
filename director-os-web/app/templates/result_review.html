@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">World-class QC</p><h1>Review Result #{{ result.result_id }}</h1></div></header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<form class="panel form" method="post" action="/results/{{ result.result_id }}/review">
+  <div class="score-grid">
+    {% for field in ["identity_fidelity","face_safety","natural_body_proportions","movement_realism","choreography_fit","dress_continuity","bar_location_continuity","burmese_cultural_authenticity","camera_composition","lighting","hands_feet_limb_quality","fabric_physics","song_section_usefulness","world_class_readiness"] %}
+    <label>{{ field.replace("_", " ") }} <input type="number" name="{{ field }}" min="0" max="10" required></label>
+    {% endfor %}
+  </div>
+  <h2>Critical Pass Gates</h2>
+  {% for field in ["no_kung_fu_martial_arts","no_kpop_tiktok_drift","no_karaoke_lounge_staging","no_fake_lipsync","no_microphone_centered","no_fake_body_distortion","no_wrong_dress","no_wrong_venue","no_dangerous_face_failure","normal_speed_review_completed"] %}
+  <label class="check"><input type="checkbox" name="{{ field }}"> {{ field.replace("_", " ") }}</label>
+  {% endfor %}
+  <label>Notes <textarea name="notes"></textarea></label>
+  <button type="submit">Save Result QC</button>
+</form>
+{% endblock %}

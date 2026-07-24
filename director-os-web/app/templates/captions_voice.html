@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Burmese Language + Voice</p>
+    <h1>Captions / Voice</h1>
+  </div>
+  <a class="button" href="/director-assets/captions/latest/BURMESE_CAPTION_WORKSPACE.json">Export Captions JSON</a>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<section class="split">
+  <div>
+    <h2>Burmese Caption Lines</h2>
+    <div class="list">
+      {% for line in lines[:20] %}
+      <article class="panel compact">
+        <p><strong>{{ line.line_index }}</strong> {{ line.original_text }}</p>
+        <form class="form" method="post" action="/captions/{{ line.line_id }}">
+          <label>Caption Text
+            <input name="caption_text" value="{{ line.caption_text }}">
+          </label>
+          <label>Pronunciation Helper
+            <input name="pronunciation_helper" value="{{ line.pronunciation_helper }}">
+          </label>
+          <div class="grid three">
+            <label>Start <input name="start_time" value="{{ line.start_time }}"></label>
+            <label>End <input name="end_time" value="{{ line.end_time }}"></label>
+            <label>Status
+              <select name="status">
+                <option value="draft">draft</option>
+                <option value="approved">approved</option>
+                <option value="needs_review">needs_review</option>
+              </select>
+            </label>
+          </div>
+          <label>Translation / Explanation
+            <input name="translation_note" value="{{ line.translation_note }}">
+          </label>
+          <button type="submit">Save Line</button>
+        </form>
+      </article>
+      {% else %}
+      <article class="panel"><h2>No lyrics found</h2></article>
+      {% endfor %}
+    </div>
+  </div>
+  <div>
+    <h2>Voice Test Workspace</h2>
+    <form class="panel form" method="post" action="/voice-tests">
+      <label>Provider
+        <select name="provider">
+          <option value="manual">manual</option>
+          <option value="azure_burmese_review_required">Azure Burmese review required</option>
+          <option value="local_candidate_review_required">local candidate review required</option>
+        </select>
+      </label>
+      <label>Voice Name <input name="voice_name"></label>
+      <label>Input Text <textarea name="input_text"></textarea></label>
+      <label>Pronunciation Notes <textarea name="pronunciation_notes"></textarea></label>
+      <label class="check"><input type="checkbox" name="consent_confirmed"> Consent confirmed if real-person voice is involved</label>
+      <label class="check"><input type="checkbox" name="cloud_upload_approved"> Cloud upload explicitly approved</label>
+      <button type="submit">Record Voice Test Plan</button>
+    </form>
+    <div class="list">
+      {% for test in voice_tests %}
+      <article class="row static">
+        <strong>#{{ test.voice_test_id }} {{ test.provider }} / {{ test.voice_name }}</strong>
+        <span>{{ test.status }} · consent {{ test.consent_confirmed }} · cloud {{ test.cloud_upload_approved }}</span>
+        <small>No API call is made by this workspace.</small>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

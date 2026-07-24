@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Required before renderer use</p>
+    <h1>Approval Gate</h1>
+  </div>
+  <span class="status-pill danger">Closed</span>
+</header>
+<article class="panel">
+  <h2>{{ selected.filename }}</h2>
+  <p class="path">{{ selected.path }}</p>
+  <pre>{{ selected.content }}</pre>
+</article>
+
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+
+<section class="split">
+  <form class="panel form" method="post" action="/approval-gate/{{ shot_id }}">
+    <h2>Record Approval Gate</h2>
+    <label>Renderer selected
+      <input name="renderer_selected" required placeholder="seedance / kling / wan / manual">
+    </label>
+    <label>Exact references listed
+      <textarea name="exact_references" required placeholder="One approved file path per line"></textarea>
+    </label>
+    <label>Spend/upload limit
+      <input name="spend_upload_limit" required placeholder="Example: no upload, no spend; or 1 test under $X">
+    </label>
+    <label>Notes
+      <textarea name="notes" placeholder="Decision context"></textarea>
+    </label>
+    <label class="check"><input type="checkbox" name="privacy_warning_acknowledged"> Privacy warning acknowledged</label>
+    <label class="check"><input type="checkbox" name="final_request_reviewed"> Final request reviewed</label>
+    <div class="inline">
+      <label><input type="radio" name="decision" value="approve" required> Approve</label>
+      <label><input type="radio" name="decision" value="reject"> Reject</label>
+    </div>
+    <button type="submit">Save Approval Record</button>
+  </form>
+  <div>
+    <h2>Approval History</h2>
+    <div class="list">
+      {% for approval in approvals %}
+      <div class="row static">
+        <strong>{{ approval.decision }} / {{ approval.renderer_selected }}</strong>
+        <span>{{ approval.spend_upload_limit }}</span>
+        <small>{{ approval.created_at }}</small>
+      </div>
+      {% else %}
+      <div class="row static"><strong>No approval records yet</strong></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

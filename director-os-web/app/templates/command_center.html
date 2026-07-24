@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="command-hero">
+  <p class="eyebrow">Autonomous Creative Director</p>
+  <h1>One Idea. One Project Folder. Complete Director Plan.</h1>
+  <form class="director-create" method="post" action="/director-runs/new">
+    <label>Idea
+      <textarea name="idea">{{ default_idea }}</textarea>
+    </label>
+    <label>Project Folder
+      <input name="project_path" value="/Users/chan/song-video-project">
+    </label>
+    <button type="submit">Create With Director OS</button>
+  </form>
+</header>
+
+<section class="panel hero-panel">
+  <h2>Self-Driving Production Loop</h2>
+  <form class="director-create" method="post" action="/studio-loop/create">
+    <label>One Prompt
+      <textarea name="idea">{{ studio_idea }}</textarea>
+    </label>
+    <label>Project Folder
+      <input name="project_path" value="/Users/chan/song-video-project">
+    </label>
+    <button type="submit">Create With Director OS</button>
+  </form>
+  {% if latest_studio_loop %}
+  <p>Latest loop {{ latest_studio_loop.loop_id }} · {{ latest_studio_loop.status }} · score {{ latest_studio_loop.quality_score }} · {{ latest_studio_loop.next_action }}</p>
+  <p><a class="button" href="/studio-loop/{{ latest_studio_loop.loop_id }}">Open Studio Loop</a></p>
+  {% endif %}
+</section>
+
+{% if status.has_plan %}
+<section class="director-grid">
+  <article class="panel hero-panel">
+    <p class="eyebrow">Current Concept</p>
+    <h2>{{ status.state.selected_concept.title }}</h2>
+    <p>{{ status.state.selected_concept.summary }}</p>
+  </article>
+  <article class="panel metric-panel">
+    <span>{{ status.state.storyboard_count }}</span>
+    <p>Storyboard Cards</p>
+  </article>
+  <article class="panel metric-panel">
+    <span>{{ status.state.shot_count }}</span>
+    <p>Planned Shots</p>
+  </article>
+  <article class="panel">
+    <h2>Next Best Action</h2>
+    <p>{{ status.next_best_action }}</p>
+  </article>
+</section>
+
+<section class="action-row">
+  <a class="button" href="/director-runs">Open Director Runs</a>
+  <a class="button" href="/storyboard">Open Storyboard</a>
+  <a class="button" href="/director-plan">Review Director Treatment</a>
+  <a class="button" href="/animatic">Review Animatic</a>
+  <a class="button" href="/shot-plan">Review Shot Plan</a>
+  <a class="button" href="/lipsync">Lip-Sync Plan</a>
+  <a class="button" href="/production">Begin Production</a>
+  <a class="button" href="/results">Continue Existing Production</a>
+</section>
+<section class="director-grid">
+  <article class="panel">
+    <h2>What Director OS Understood</h2>
+    <p>Burmese heartbreak music video, wife performer, dark Finnish bar, winter window, red dress, amber/crimson lighting, Burmese art world.</p>
+  </article>
+  <article class="panel">
+    <h2>What It Reused</h2>
+    <p>Approved A1/A2 face refs, wardrobe/body B, bar C, Burmese art E, success/failure memory, song analysis, selected/rejected footage.</p>
+  </article>
+  <article class="panel">
+    <h2>What It Created</h2>
+    <p>Director plan, research leads, concepts, storyboard, visual grammar, blocking diagrams, review captions, edit plan, renderer plan, full-song MP4 animatic, Burmese language workspace, local capability audit and lip-sync planning.</p>
+  </article>
+  <article class="panel">
+    <h2>What Ran Locally</h2>
+    <p>SQLite state, project archaeology, FFmpeg/FFprobe validation, H.264/AAC animatic build, caption export, composite previs, local capability audit, and no-upload production-control checks.</p>
+  </article>
+</section>
+<section class="director-grid">
+  <article class="panel">
+    <h2>What It Researched</h2>
+    <p>Rights-aware link records and local-first technology notes are stored separately from production inputs. Search suggestions are not treated as licensed reference evidence.</p>
+  </article>
+  <article class="panel">
+    <h2>Approvals Available</h2>
+    <p>Storyboard AI backend, Burmese voice provider, InfiniteTalk/RunPod, cloud upload, paid spend, model downloads and final renderer submission remain explicit approval gates.</p>
+  </article>
+  <article class="panel">
+    <h2>Cannot Practically Run Locally Yet</h2>
+    <p>Final cinematic video generation, InfiniteTalk, and Burmese voice synthesis are not marked operational until an approved model/provider is installed and benchmarked.</p>
+  </article>
+  <article class="panel">
+    <h2>Next Best Action</h2>
+    <p>Review the Run 15 sync-calibrated animatic, then approve or adjust the proposed global offset before treating captions or lip-sync as production-ready.</p>
+  </article>
+</section>
+<section class="director-grid">
+  <article class="panel">
+    <h2>Caption/Lip-Sync Truth</h2>
+    <p>Run 14 is preserved as brain-sync review. Run 15 is sync-calibrated review using the proposed offset candidate. Captions remain unverified until listening approval. Voice sync is not tested.</p>
+  </article>
+  <article class="panel">
+    <h2>Review Loop</h2>
+    <p><a class="button" href="/burmese-language/sync-calibration">Sync Calibration</a> <a class="button" href="/music-analysis/brain">Open Brain Timeline</a> <a class="button" href="/burmese-language/listening-sync">Listening Review</a> <a class="button" href="/lipsync/brain-readiness">Lip-Sync Brain Readiness</a></p>
+  </article>
+</section>
+{% else %}
+<section class="panel">
+  <h2>No Director Plan Yet</h2>
+  <p>Create a plan from the default brief or your own one-line idea. Director OS will inspect the folder and reuse existing evidence automatically.</p>
+</section>
+{% endif %}
+{% endblock %}

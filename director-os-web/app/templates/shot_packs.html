@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Renderer-agnostic control</p>
+    <h1>Shot Packs</h1>
+  </div>
+</header>
+<div class="list">
+  {% for pack in shot_packs %}
+  <a class="row" href="/shot-packs/{{ pack.id }}">
+    <strong>{{ pack.id }}</strong>
+    <span>{{ pack.purpose }}</span>
+    <small>{{ pack.path }}</small>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

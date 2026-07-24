@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Lip-Sync Job</p><h1>Job #{{ job.job_id if job else 'unknown' }}</h1></div>
+  {% if job %}<form method="post" action="/lipsync/jobs/{{ job.job_id }}/manual-export"><button type="submit">Create Manual InfiniteTalk Package</button></form>{% endif %}
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+{% if job %}
+<section class="panel"><h2>Job</h2><pre>{{ job }}</pre></section>
+<section class="panel"><h2>Outputs</h2><pre>{{ outputs }}</pre></section>
+{% endif %}
+{% endblock %}

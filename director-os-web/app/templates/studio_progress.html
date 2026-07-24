@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Studio Progress</p>
+    <h1>{{ project.name }}</h1>
+  </div>
+  <a class="button" href="/studio/projects/{{ project.project_id }}/result">Open Result</a>
+</header>
+
+<section class="flow-strip large">
+  {% for node in ["UNDERSTANDING INPUTS","RESEARCHING","CREATING CONCEPTS","BUILDING VISUAL WORLD","DIRECTING SHOTS","GENERATING STORYBOARD","BUILDING CAPTIONS","CREATING VIDEO SKETCH","PREPARING RENDERERS","CHECKING QUALITY","FIXING PROBLEMS","READY FOR REVIEW"] %}
+  <div>{{ node }}</div>
+  {% endfor %}
+</section>
+
+<section class="grid three">
+  <article class="panel"><h2>Inputs</h2><p class="metric">{{ inputs|length }}</p><p>Managed local uploads and existing evidence.</p></article>
+  <article class="panel"><h2>Latest Loop</h2><p class="metric">{{ latest_loop.status if latest_loop else "none" }}</p><p>{{ latest_loop.next_action if latest_loop else "" }}</p></article>
+  <article class="panel"><h2>Preview</h2><p class="metric">{{ safe_animatic.latest_version }}</p><p>{{ safe_animatic.validation.status }}</p></article>
+</section>
+{% endblock %}

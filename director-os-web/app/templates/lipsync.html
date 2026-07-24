@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Professional Lip-Sync</p><h1>Lip-Sync Control</h1></div>
+  <form method="post" action="/lipsync/plan"><button type="submit">Build Lip-Sync Plan</button></form>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<section class="director-grid">
+  <article class="panel"><h2>Eligible Shots</h2><p>{{ dashboard.eligibility|length }}</p><a class="button" href="/lipsync/shots">Open Shot Map</a></article>
+  <article class="panel"><h2>Jobs</h2><p>{{ dashboard.jobs|length }}</p><a class="button" href="/lipsync/jobs">Open Jobs</a></article>
+  <article class="panel"><h2>Providers</h2><p>InfiniteTalk local / RunPod / manual</p><a class="button" href="/lipsync/providers">Open Providers</a></article>
+  <article class="panel"><h2>Setup</h2><p>No upload or spend without approval.</p><a class="button" href="/setup/infinitetalk">Setup InfiniteTalk</a></article>
+</section>
+{% endblock %}

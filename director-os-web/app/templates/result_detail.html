@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+{% if result %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Local result</p>
+    <h1>Result #{{ result.result_id }}</h1>
+  </div>
+  <span class="status-pill">{{ result.status }}</span>
+</header>
+<section class="split">
+  <div class="panel">
+    <h2>Video</h2>
+    <video controls preload="metadata" poster="/result-media/{{ result.poster_path.split('/result-media/')[-1] }}">
+      <source src="/result-media/{{ result.stored_path.split('/result-media/')[-1] }}">
+    </video>
+  </div>
+  <div class="panel">
+    <h2>Metadata</h2>
+    <dl>
+      <dt>Renderer</dt><dd>{{ result.renderer }}</dd>
+      <dt>Shot / Job / Export</dt><dd>{{ result.shot_id }} / {{ result.job_id }} / {{ result.export_id }}</dd>
+      <dt>Size</dt><dd>{{ result.width }}x{{ result.height }} {{ "%.2f"|format(result.duration) }}s {{ "%.2f"|format(result.fps) }}fps</dd>
+      <dt>SHA-256</dt><dd>{{ result.sha256 }}</dd>
+    </dl>
+    <p><a class="button" href="/results/{{ result.result_id }}/review">QC Review</a></p>
+    <p><a class="button" href="/results/{{ result.result_id }}/decision">Decision</a></p>
+  </div>
+</section>
+<section class="panel">
+  <h2>Contact Sheet</h2>
+  <img class="contact-sheet" src="/result-media/{{ result.contact_sheet_path.split('/result-media/')[-1] }}" alt="contact sheet">
+</section>
+<section class="split">
+  <article class="panel"><h2>Import Record</h2><pre>{{ result.import_record }}</pre></article>
+  <article class="panel"><h2>QC State</h2><pre>{{ result.qc_result }}</pre></article>
+</section>
+<section class="panel"><h2>Decision History</h2><pre>{{ result.decision_text }}</pre></section>
+{% else %}
+<header class="page-header"><h1>Result Not Found</h1></header>
+{% endif %}
+{% endblock %}

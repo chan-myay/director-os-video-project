@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Local file import</p>
+    <h1>Import Generated Result</h1>
+  </div>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<form class="panel form" method="post" action="/results/import">
+  <label>Source video path
+    <input name="source_path" required placeholder="/absolute/path/to/generated-result.mp4">
+  </label>
+  <label>Shot ID <input name="shot_id" value="F01_side_travel_dance" required></label>
+  <label>Job ID <input name="job_id" value="2" required></label>
+  <label>Export ID <input name="export_id" value="1" required></label>
+  <label>Renderer <input name="renderer" value="manual" required></label>
+  <label class="check"><input type="checkbox" name="is_test"> Test result</label>
+  <button type="submit">Import Local Result</button>
+</form>
+<section class="panel">
+  <h2>Available Exports</h2>
+  <div class="list">
+    {% for export in exports %}
+    <div class="row static">
+      <strong>#{{ export.export_id }} {{ export.shot_id }}</strong>
+      <span>job {{ export.job_id }} / {{ export.renderer }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

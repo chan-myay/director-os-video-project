@@ -1,0 +1,103 @@
+{
+  "project_id": "burmese-music-video",
+  "manual_workflow": true,
+  "automatic_api_generation": false,
+  "shots": [
+    {
+      "shot_id": "S001",
+      "folder": "SHOT_001"
+    },
+    {
+      "shot_id": "S002",
+      "folder": "SHOT_002"
+    },
+    {
+      "shot_id": "S003",
+      "folder": "SHOT_003"
+    },
+    {
+      "shot_id": "S004",
+      "folder": "SHOT_004"
+    },
+    {
+      "shot_id": "S005",
+      "folder": "SHOT_005"
+    },
+    {
+      "shot_id": "S006",
+      "folder": "SHOT_006"
+    },
+    {
+      "shot_id": "S007",
+      "folder": "SHOT_007"
+    },
+    {
+      "shot_id": "S008",
+      "folder": "SHOT_008"
+    },
+    {
+      "shot_id": "S009",
+      "folder": "SHOT_009"
+    },
+    {
+      "shot_id": "S010",
+      "folder": "SHOT_010"
+    },
+    {
+      "shot_id": "S011",
+      "folder": "SHOT_011"
+    },
+    {
+      "shot_id": "S012",
+      "folder": "SHOT_012"
+    },
+    {
+      "shot_id": "S013",
+      "folder": "SHOT_013"
+    },
+    {
+      "shot_id": "S014",
+      "folder": "SHOT_014"
+    },
+    {
+      "shot_id": "S015",
+      "folder": "SHOT_015"
+    },
+    {
+      "shot_id": "S016",
+      "folder": "SHOT_016"
+    },
+    {
+      "shot_id": "S017",
+      "folder": "SHOT_017"
+    },
+    {
+      "shot_id": "S018",
+      "folder": "SHOT_018"
+    },
+    {
+      "shot_id": "S019",
+      "folder": "SHOT_019"
+    },
+    {
+      "shot_id": "S020",
+      "folder": "SHOT_020"
+    },
+    {
+      "shot_id": "S021",
+      "folder": "SHOT_021"
+    },
+    {
+      "shot_id": "S022",
+      "folder": "SHOT_022"
+    },
+    {
+      "shot_id": "S023",
+      "folder": "SHOT_023"
+    },
+    {
+      "shot_id": "S024",
+      "folder": "SHOT_024"
+    }
+  ]
+}

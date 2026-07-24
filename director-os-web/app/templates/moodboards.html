@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">URL-only reference maps</p>
+    <h1>Moodboards</h1>
+  </div>
+  <a class="button" href="/moodboards/new">New Moodboard URL</a>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<div class="doc-list">
+  {% for item in moodboards %}
+  <article class="panel">
+    <h2>{{ item.title }}</h2>
+    <p><a href="{{ item.url }}">{{ item.url }}</a></p>
+    <dl>
+      <dt>Source</dt><dd>{{ item.source }}</dd>
+      <dt>Shot pack</dt><dd>{{ item.shot_pack_id or "general" }}</dd>
+      <dt>Rights</dt><dd>{{ item.rights_notes }}</dd>
+      <dt>Warning</dt><dd>{{ item.do_not_copy_warning }}</dd>
+    </dl>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

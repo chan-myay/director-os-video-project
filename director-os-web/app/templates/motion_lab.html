@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Motion Intelligence</p>
+    <h1>Motion Lab</h1>
+  </div>
+  <a class="button" href="/motion-references/new">Add Motion Reference</a>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<section class="split">
+  <div>
+    <h2>References</h2>
+    <div class="list">
+      {% for ref in references %}
+      <article class="row static">
+        <strong>#{{ ref.motion_id }} {{ ref.shot_id }} · {{ ref.source_title }}</strong>
+        <span>{{ ref.approval_status }} · {{ ref.body_framing }} · {{ ref.travel_direction }}</span>
+        <small>{{ ref.source }}</small>
+        <form method="post" action="/motion-lab/{{ ref.motion_id }}/analyze">
+          <button type="submit">Analyze Metadata</button>
+        </form>
+      </article>
+      {% else %}
+      <article class="row static"><strong>No motion references yet</strong></article>
+      {% endfor %}
+    </div>
+  </div>
+  <div>
+    <h2>Analysis</h2>
+    <div class="list">
+      {% for item in analyses %}
+      <article class="row static">
+        <strong>#{{ item.analysis_id }} {{ item.shot_id }}</strong>
+        <span>{{ item.analysis_status }} · {{ item.inferred_body_framing }} · {{ item.inferred_travel_direction }}</span>
+        <small>{{ item.warnings }}</small>
+      </article>
+      {% else %}
+      <article class="row static"><strong>No analysis yet</strong></article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

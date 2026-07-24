@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">Consolidated Approval</p><h1>Approvals</h1></div></header>
+<section class="panel warning-panel">
+  <h2>Required</h2>
+  {% if detail.acceptance.approvals_required %}
+  <ul class="compact-list">
+    {% for approval in detail.acceptance.approvals_required %}
+    <li><strong>{{ approval.approval_type }}</strong>: {{ approval.summary }}</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No approval is currently required.</p>
+  {% endif %}
+</section>
+{% endblock %}

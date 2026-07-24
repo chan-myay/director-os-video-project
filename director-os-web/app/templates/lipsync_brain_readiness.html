@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Lip-Sync Brain Readiness</p><h1>Phrase and Shot Readiness</h1></div>
+</header>
+<section class="director-grid">
+  <article class="panel"><h2>Status</h2><p>{{ readiness.status }}</p></article>
+  <article class="panel"><h2>High Confidence</h2><p>{{ readiness.high_confidence_phrase_count }}</p></article>
+  <article class="panel"><h2>Low Confidence</h2><p>{{ readiness.low_confidence_phrase_count }}</p></article>
+</section>
+<section class="panel">
+  <h2>Readiness Rows</h2>
+  <table>
+    <tr><th>Shot</th><th>Phrase</th><th>Confidence</th><th>Audio Segment</th><th>Face</th><th>Action</th></tr>
+    {% for row in readiness.rows %}
+    <tr>
+      <td>{{ row.shot_id }}</td>
+      <td>{{ row.phrase_id }}</td>
+      <td>{{ row.sync_confidence }}</td>
+      <td>{{ row.audio_segment }}</td>
+      <td>{{ row.face_suitability }}</td>
+      <td>{{ row.recommended_action }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

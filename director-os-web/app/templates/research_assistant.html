@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Reference Intelligence</p>
+    <h1>Research Assistant</h1>
+  </div>
+</header>
+<form class="panel form" method="get" action="/research-assistant">
+  <label>Search Need
+    <input name="query" value="{{ query }}" placeholder="Find mature side-travel performance references for a lonely blues-jazz bar music video">
+  </label>
+  <button type="submit">Build Search Map</button>
+</form>
+<form class="panel form" method="post" action="/research-assistant/audit">
+  <button type="submit">Refresh GitHub Architecture Audit</button>
+</form>
+{% if result %}
+<section class="panel">
+  <h2>Useful Search Links</h2>
+  <ul>
+    {% for link in result.search_links %}
+    <li><a href="{{ link }}">{{ link }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+<section class="grid three">
+  <article class="panel"><h2>Visual Categories</h2><p>{{ result.visual_categories | join(', ') }}</p></article>
+  <article class="panel"><h2>Movement Categories</h2><p>{{ result.movement_categories | join(', ') }}</p></article>
+  <article class="panel"><h2>Rights Rule</h2><p>{{ result.notes }}</p></article>
+</section>
+{% endif %}
+<section class="panel">
+  <h2>Saved Research Leads</h2>
+  <div class="list">
+    {% for item in items %}
+    <article class="row static">
+      <strong>{{ item.title }} · {{ item.category }}</strong>
+      <a href="{{ item.url }}">{{ item.url }}</a>
+      <small>{{ item.rights_status }} · {{ item.notes }}</small>
+    </article>
+    {% else %}
+    <article class="row static"><strong>No research leads saved yet</strong></article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

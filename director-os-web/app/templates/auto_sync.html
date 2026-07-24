@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Automatic Local Sync</p><h1>Auto Lyric Sync</h1></div>
+  <form method="post" action="/auto-sync/run"><button type="submit">Run Auto Sync</button></form>
+</header>
+<section class="action-row">
+  <a class="button" href="/music-analysis/brain">Open Brain Timeline</a>
+  <a class="button" href="/setup/local-asr">Local ASR Setup</a>
+</section>
+<section class="director-grid">
+  <article class="panel"><h2>Status</h2><p>{{ auto_sync.status }}</p></article>
+  <article class="panel"><h2>Method</h2><p>{{ auto_sync.method }}</p></article>
+  <article class="panel"><h2>Auto-Synced</h2><p>{{ auto_sync.auto_synced_phrase_count }}</p></article>
+  <article class="panel"><h2>Low Confidence</h2><p>{{ auto_sync.low_confidence_phrase_count }}</p></article>
+  <article class="panel"><h2>Blocked</h2><p>{{ auto_sync.blocked_phrase_count }}</p></article>
+  <article class="panel"><h2>ASR</h2><p>{{ auto_sync.asr.available }}</p></article>
+</section>
+<section class="panel warning-panel">
+  <h2>Honesty Warning</h2>
+  <p>{{ auto_sync.warning }}</p>
+</section>
+<section class="panel">
+  <h2>Phrase Suggestions</h2>
+  <table>
+    <tr><th>Phrase</th><th>Time</th><th>Confidence</th><th>Status</th><th>Reason</th><th>Lyric</th></tr>
+    {% for row in auto_sync.phrases %}
+    <tr>
+      <td>{{ row.phrase_index }}</td>
+      <td>{{ '%.2f'|format(row.candidate_start) }}-{{ '%.2f'|format(row.candidate_end) }}</td>
+      <td>{{ row.confidence }}</td>
+      <td>{{ row.review_label }}</td>
+      <td>{{ row.reason }}</td>
+      <td class="burmese-text">{{ row.lyric_line }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Self-Driving Studio</p><h1>Studio Loop</h1></div>
+</header>
+<section class="panel">
+  <h2>One Prompt Production Loop</h2>
+  <form class="director-create" method="post" action="/studio-loop/create">
+    <label>Idea
+      <textarea name="idea">{{ default_idea }}</textarea>
+    </label>
+    <label>Project Folder
+      <input name="project_path" value="/Users/chan/song-video-project">
+    </label>
+    <button type="submit">Create With Director OS</button>
+  </form>
+</section>
+<section class="panel">
+  <h2>Loops</h2>
+  <table>
+    <tr><th>ID</th><th>Status</th><th>Score</th><th>Iteration</th><th>Next Action</th><th></th></tr>
+    {% for studio in loops %}
+    <tr>
+      <td>{{ studio.loop_id }}</td>
+      <td>{{ studio.status }}</td>
+      <td>{{ studio.quality_score }}</td>
+      <td>{{ studio.current_iteration }}</td>
+      <td>{{ studio.next_action }}</td>
+      <td><a class="button" href="/studio-loop/{{ studio.loop_id }}">Open</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Optional Setup</p>
+    <h1>Burmese Voice</h1>
+  </div>
+</header>
+<section class="grid three">
+  <article class="panel">
+    <h2>Detected</h2>
+    <dl>
+      <dt>System voice command</dt><dd>{{ setup.system_voice_available }}</dd>
+      <dt>Burmese voices</dt><dd>{{ setup.burmese_system_voices | join(', ') or 'none verified' }}</dd>
+      <dt>Azure configured</dt><dd>{{ setup.azure_configured }}</dd>
+      <dt>Local runtime</dt><dd>{{ setup.local_voice_runtime }}</dd>
+    </dl>
+  </article>
+  <article class="panel">
+    <h2>Primary Recommendation</h2>
+    <p>{{ setup.primary.name }}</p>
+    <p>{{ setup.primary.privacy }} · blocks director run: {{ setup.primary.blocks_director_run }}</p>
+  </article>
+  <article class="panel">
+    <h2>Fallback</h2>
+    <p>{{ setup.fallback.name }}</p>
+    <p>Consent required: {{ setup.fallback.consent_required }}</p>
+  </article>
+</section>
+<form class="panel form" method="post" action="/setup/burmese-voice">
+  <label>Decision
+    <select name="choice">
+      <option value="caption_only">Caption-only for now</option>
+      <option value="manual_human_voice">Use manual human voice workflow</option>
+      <option value="configure_recommended_provider">Configure recommended provider</option>
+      <option value="configure_fallback">Configure fallback</option>
+      <option value="decide_later">Decide later</option>
+    </select>
+  </label>
+  <label>Notes <textarea name="notes"></textarea></label>
+  <button type="submit">Record Decision</button>
+</form>
+{% endblock %}

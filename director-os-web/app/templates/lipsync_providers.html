@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">Provider Health</p><h1>Lip-Sync Providers</h1></div></header>
+<section class="director-grid">
+  {% for provider in providers %}
+  <article class="panel"><h2>{{ provider.provider }}</h2><p>{{ provider.classification }} · {{ provider.status }}</p><pre>{{ provider.health }}</pre></article>
+  {% endfor %}
+</section>
+{% endblock %}

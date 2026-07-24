@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Production Continuation</p>
+    <h1>Next Production Move</h1>
+  </div>
+</header>
+{% if status.has_plan %}
+<section class="director-grid">
+  <article class="panel">
+    <h2>Recommended Next Action</h2>
+    <p>{{ status.next_best_action }}</p>
+  </article>
+  <article class="panel">
+    <h2>Local Path</h2>
+    <p>No API, no upload. Use existing clips, storyboard, and local review tools.</p>
+  </article>
+  <article class="panel">
+    <h2>Cloud Path</h2>
+    <p>Blocked until exact references, motion reference, privacy, upload and spend approval pass.</p>
+  </article>
+</section>
+<section class="action-row">
+  <a class="button" href="/motion-references/new">Add Motion Reference</a>
+  <a class="button" href="/exports">Manual Exports</a>
+  <a class="button" href="/results/import">Import Result</a>
+  <a class="button" href="/advanced">Advanced Control</a>
+</section>
+{% else %}
+<section class="panel"><h2>No plan yet</h2></section>
+{% endif %}
+{% endblock %}

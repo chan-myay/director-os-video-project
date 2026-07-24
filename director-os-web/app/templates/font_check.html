@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Burmese Caption Readability</p><h1>Font Check</h1></div>
+</header>
+<section class="director-grid">
+  <article class="panel"><h2>Selected</h2><p>{{ font.selected_font or 'none' }}</p></article>
+  <article class="panel"><h2>Readable</h2><p>{{ font.readable }}</p></article>
+  <article class="panel"><h2>Render Test</h2><p>{{ font.render_test_passed }}</p></article>
+  <article class="panel"><h2>ASS Style</h2><p>{{ font.ass_style }}</p></article>
+</section>
+<section class="panel">
+  <h2>Sample</h2>
+  <p class="burmese-sample">{{ font.sample_text }}</p>
+  {% if font.font_sample %}
+  <img class="preview-image" src="/director-assets/{{ font.font_sample.split('/director-os/')[-1] }}" alt="Burmese font render sample">
+  {% endif %}
+  {% if font.caption_overlay_sample %}
+  <img class="preview-image" src="/director-assets/{{ font.caption_overlay_sample.split('/director-os/')[-1] }}" alt="Caption overlay render sample">
+  {% endif %}
+</section>
+<section class="panel">
+  <h2>Detected Fonts</h2>
+  <table><tr><th>Name</th><th>Path</th><th>Exists</th></tr>
+  {% for item in font.detected_fonts %}
+  <tr><td>{{ item.name }}</td><td>{{ item.path }}</td><td>{{ item.exists }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+{% endblock %}

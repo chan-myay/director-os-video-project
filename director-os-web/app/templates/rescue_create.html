@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Director OS — Rescue Studio</title>
+  <link rel="stylesheet" href="/static/rescue.css?v=2">
+  <link rel="stylesheet" href="/static/rescue-movement.css?v=1">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/create">DIRECTOR OS <span>RESCUE STUDIO</span></a>
+    <nav><a href="#storyboard">Storyboard</a><a href="#animatic">Animation</a><a href="#movement-references">Movement</a><a href="#prompts">Prompts</a><a href="#import">Import</a><a href="/advanced">Advanced</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">CURRENT PROJECT · AUTO-LOADED · READY</p>
+        <h1>The Bar Remembers Her</h1>
+        <p class="lede">{{ summary.creative_direction }}</p>
+      </div>
+      <div class="hero-stats">
+        <div><strong>{{ summary.shot_count }}</strong><span>shots</span></div>
+        <div><strong>{{ summary.existing_media.usable_count }}</strong><span>usable clips</span></div>
+        <div><strong>4:52</strong><span>full song</span></div>
+      </div>
+    </section>
+
+    <section class="inputs">
+      <div class="section-title"><p class="eyebrow">PROJECT INPUTS</p><h2>Everything is already here</h2></div>
+      <div class="input-strip">
+        {% for item in summary.inputs %}
+        <a class="input-card" href="{{ item.url }}">
+          {% if item.url.endswith('.png') or item.url.endswith('.jpg') %}
+          <img src="{{ item.url }}" loading="lazy" alt="">
+          {% else %}<div class="file-icon">{{ item.kind[:2]|upper }}</div>{% endif %}
+          <div><strong>{{ item.kind }}</strong><span>{{ item.name }}</span><em class="{{ item.status|replace(' ', '-') }}">{{ item.status }}</em></div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="create-panel">
+      <form id="create-form">
+        <label for="idea">EVERYTHING IS ALREADY CREATED <span>no upload or repeat setup required</span></label>
+        <textarea id="idea" name="idea" rows="2" placeholder="Optional: add a new idea only if you want another version."></textarea>
+        <a class="primary link-button" href="#animatic">WATCH CURRENT STORYBOARD AND VIDEO SKETCH <span>→</span></a>
+      </form>
+      <button class="secondary import-trigger" type="button">IMPORT NEW RESULTS — OPTIONAL</button>
+      <div id="progress" class="progress" aria-live="polite">
+        <div><span id="progress-message">{{ job.message }}</span><strong id="progress-percent">{{ job.progress }}%</strong></div>
+        <i><b style="width:{{ job.progress }}%"></b></i>
+      </div>
+      <button id="optional-rebuild" class="quiet-rebuild" type="button">Optional: rebuild after changing the idea</button>
+    </section>
+
+    <section id="results">
+      <div class="section-title split"><div><p class="eyebrow">RESULTS</p><h2>Creative result</h2><p>Missing shots: <strong>0</strong> · all 24 have storyboard composites and generation packages.</p></div><span class="truth-label">NO CAPTIONS · LIP-SYNC DISABLED</span></div>
+      <article class="concept-card"><div><span>RECOMMENDED CONCEPT</span><h3>{{ summary.concept }}</h3></div><p>A solitary adult performance in a bar that holds the physical memory of an absent relationship. Teak, snow, amber, crimson and Burmese material details carry the emotional history.</p></article>
+
+      <section id="animatic" class="result-block">
+        <div class="result-heading"><div><p class="eyebrow">RAW ANIMATED SKETCH</p><h2>{{ summary.animatic.label }}</h2></div><div class="actions"><a href="{{ summary.animatic.clean_url }}" download>Download MP4</a><button id="rebuild-button" type="button">Rebuild</button></div></div>
+        <video id="main-video" controls preload="none" playsinline poster="{{ summary.contact_sheet_url }}"><source src="{{ summary.animatic.clean_url }}" type="video/mp4"></video>
+        <div class="video-meta"><span>H.264 / AAC</span><span>Full song · 4:52.72</span><span>Seekable</span><span>No lyric captions</span></div>
+      </section>
+
+      <section id="storyboard" class="result-block">
+        <div class="result-heading">
+          <div><p class="eyebrow">VISUAL STORYBOARD</p><h2>24-shot sequence</h2><p>Every visible frame below is a composite, not an AI-generated frame.</p></div>
+          <div class="view-switch"><button class="active" data-view="grid">Grid</button><button data-view="sequence">Sequence</button></div>
+        </div>
+        <div id="shot-grid" class="shot-grid">
+          {% for shot in storyboard.shots %}
+          <article class="shot-card{% if not shot.enabled %} disabled{% endif %}" draggable="true" data-shot="{{ shot.shot_number }}">
+            <button class="frame-button" type="button" data-full="{{ shot.image_url }}"><img src="{{ shot.thumbnail_url }}" loading="lazy" alt="Shot {{ shot.shot_number }} composite"></button>
+            <div class="shot-top"><strong>SHOT {{ "%03d"|format(shot.shot_number) }}</strong><span>{{ shot.song_time }}</span></div>
+            <h3>{{ shot.visual_purpose }}</h3>
+            <p>{{ shot.performer_action }}</p>
+            <div class="chips"><span>{{ shot.camera }}</span><span>{{ shot.lens }}</span><span>{{ "%.2f"|format(shot.duration_seconds) }}s</span></div>
+            <details><summary>Direction & prompts</summary>
+              <dl>
+                <dt>Meaning</dt><dd>{{ shot.lyric_meaning_relationship }}</dd>
+                <dt>Composition</dt><dd>{{ shot.composition }}</dd>
+                <dt>Layers</dt><dd>{{ shot.foreground_background }}</dd>
+                <dt>Lighting</dt><dd>{{ shot.lighting }}</dd>
+                <dt>Movement</dt><dd>{{ shot.movement }}</dd>
+                <dt>Transition</dt><dd>{{ shot.transition }}</dd>
+                <dt>Renderer</dt><dd>{{ shot.renderer_recommendation }}</dd>
+              </dl>
+              <a href="{{ shot.prompt_url }}">Open complete prompt package</a>
+            </details>
+            <div class="shot-actions"><button class="toggle-shot" type="button">{{ "Disable" if shot.enabled else "Enable" }}</button><button class="replace-shot import-trigger" type="button">Replace</button></div>
+            <em class="asset-badge composite">LOCAL ASSET COMPOSITE</em>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="prompts" class="prompt-panel">
+        <div><p class="eyebrow">PROMPT PACKAGE</p><h2>24 complete third-party generation packages</h2><p>Tailored for Gemini, Veo, Kling, Seedance, Runway and generic image/video tools. This is a manual export/import workflow; no automatic provider API generation is claimed.</p></div>
+        <div class="prompt-actions"><a class="primary link-button" href="{{ summary.prompt_zip_url }}" download>EXPORT ALL PROMPTS AND REFERENCES</a><a href="{{ summary.prompt_all_url }}">Read all prompts</a></div>
+      </section>
+
+      <section id="existing-media" class="result-block">
+        <div class="result-heading"><div><p class="eyebrow">EXISTING GENERATED VIDEOS USED</p><h2>{{ summary.existing_media.used_count }} selected for the current sketch</h2></div><span>{{ summary.existing_media.count }} audited</span></div>
+        <div class="clip-list">
+          {% for clip in summary.existing_media.records[:18] %}
+          <div><strong>{{ clip.name }}</strong><span>{{ clip.likely_shot }} · {{ clip.duration }}s · {{ clip.resolution }}</span><em>{{ clip.classification }}</em></div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="movement-references" class="result-block">
+        <div class="result-heading">
+          <div><p class="eyebrow">PRESERVED MOVEMENT & DANCE REFERENCES</p><h2>The performance references you already made</h2><p>Selected local/generated clips are preserved and available here. Rejected fake-body and wrong-motion clips remain excluded.</p></div>
+          <span class="truth-label">NATURAL MOVEMENT · NO MARTIAL ARTS</span>
+        </div>
+        <div class="media-grid">
+          {% set movement_clips = [
+            ("Dark dance entrance", "production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4", "generated video · selected"),
+            ("Natural-body rhythm", "production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4", "movement reference · use with caution"),
+            ("Backlit silhouette rhythm", "production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4", "generated video · selected"),
+            ("Feet and dress rhythm", "production/selected/batch-d/D05_feet-dress-rhythm_SELECTED.mp4", "movement reference · selected"),
+            ("Chorus power silhouette", "production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4", "movement reference · trim"),
+            ("Aisle travel A", "production/selected/batch-b/B04_aisle-travel-a_SELECTED.mp4", "movement reference · selected"),
+            ("Aisle travel B", "production/selected/batch-b/B05_aisle-travel-b_SELECTED.mp4", "movement reference · selected"),
+            ("Weight shift and wrist", "production/selected/batch-b/B02_weight-shift-wrist_SELECTED.mp4", "movement reference · selected")
+          ] %}
+          {% for title, path, label in movement_clips %}
+          <article class="media-card">
+            <video controls preload="none" src="/project-source/{{ path }}"></video>
+            <h3>{{ title }}</h3>
+            <p>{{ label }}</p>
+          </article>
+          {% endfor %}
+        </div>
+        <p class="notice">Original wife motion-source videos are also preserved under references/My wife. They are not exposed as broad generator inputs; only approved, scoped references are used.</p>
+      </section>
+
+      <section id="import" class="import-panel">
+        <div><p class="eyebrow">IMPORT GENERATED RESULTS</p><h2>Drop in Gemini or other generated files</h2><p>SHOT_001.png, SHOT_001_v2.png, SHOT_006.mp4 and F07_final.mp4 are recognized automatically. Sources remain untouched; managed copies are inspected and assigned.</p></div>
+        <form id="import-form"><input id="generated-files" name="files" type="file" multiple accept=".jpg,.jpeg,.png,.mp4,.mov"><label for="generated-files">Choose JPG, PNG, MP4 or MOV files</label><button type="submit">IMPORT GENERATED RESULTS</button></form>
+        <div id="import-results" class="import-results">
+          {% for item in imports %}<div><strong>{{ item.name }}</strong><span>{{ item.kind }} · Shot {{ item.assigned_shot or "unassigned" }}</span><em>{{ item.status }}</em></div>{% endfor %}
+        </div>
+      </section>
+
+      <section class="refine-panel">
+        <p class="eyebrow">ONE-SENTENCE REFINEMENT</p><h2>Direct the next pass</h2>
+        <form id="refine-form"><input name="refinement" required placeholder="Make the chorus stronger."><button type="submit">Update affected shots & rebuild</button></form>
+        <div class="suggestions">{% for text in ["Make it darker and more emotional.","Use fewer close-ups.","Keep her on the right side.","Show more of the winter window.","Remove background people.","Make movement natural, not martial arts.","Use the new Gemini clips.","Replace shot 7.","Make the ending more powerful."] %}<button type="button">{{ text }}</button>{% endfor %}</div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="lightbox"><button type="button" aria-label="Close">×</button><img alt="Full storyboard composite"></dialog>
+  <script src="/static/rescue.js?v=2" defer></script>
+</body>
+</html>

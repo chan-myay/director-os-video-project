@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block content %}
+{% if job %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Frozen job package</p>
+    <h1>Job #{{ job.id }} / {{ job.shot_id }}</h1>
+  </div>
+  <span class="status-pill {% if job.status == 'blocked' %}danger{% endif %}">{{ job.status }}</span>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<section class="grid three">
+  <div class="panel">
+    <h2>Renderer</h2>
+    <p>{{ job.renderer }}</p>
+  </div>
+  <div class="panel">
+    <h2>Request</h2>
+    <p>{{ job.request_filename }}</p>
+  </div>
+  <div class="panel">
+    <h2>Package</h2>
+    <p class="path">{{ job.package_path }}</p>
+  </div>
+</section>
+<section class="split">
+  <div class="panel">
+    <h2>Blockers</h2>
+    <pre>{{ job.blocked_reasons or "[]" }}</pre>
+    <p><a class="button" href="/jobs/{{ job.shot_id }}/{{ job.id }}/readiness">View Readiness</a></p>
+    <p><a class="button" href="/exports/new/{{ job.shot_id }}/{{ job.id }}">Create Manual Export</a></p>
+    <form method="post" action="/jobs/{{ job.shot_id }}/{{ job.id }}/dry-run">
+      <button type="submit">Run Dry-Run Validation</button>
+    </form>
+  </div>
+  <div class="panel">
+    <h2>Spend / Privacy</h2>
+    <dl>
+      <dt>Spend/upload limit</dt><dd>{{ job.spend_upload_limit }}</dd>
+      <dt>Privacy acknowledged</dt><dd>{{ job.privacy_acknowledged }}</dd>
+      <dt>Dry-run summary</dt><dd>{{ job.dry_run_summary }}</dd>
+    </dl>
+  </div>
+</section>
+<section class="split">
+  <div>
+    <h2>Assets</h2>
+    <div class="list">
+      {% for asset in job.assets %}
+      <div class="row static">
+        <strong>{{ asset.role }} / {{ asset.policy_status }}</strong>
+        <span>{{ asset.path }}</span>
+        <small>{{ asset.notes }}</small>
+      </div>
+      {% else %}
+      <div class="row static"><strong>No assets recorded</strong></div>
+      {% endfor %}
+    </div>
+  </div>
+  <div>
+    <h2>Outputs</h2>
+    <div class="list">
+      {% for output in job.outputs %}
+      <div class="row static">
+        <strong>{{ output.output_type }} / {{ output.status }}</strong>
+        <span>{{ output.path }}</span>
+        <small>{{ output.notes }}</small>
+      </div>
+      {% else %}
+      <div class="row static"><strong>No outputs yet</strong></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="panel">
+  <h2>Job Events</h2>
+  <div class="list">
+    {% for event in job.events %}
+    <div class="row static">
+      <strong>{{ event.event_type }}</strong>
+      <span>{{ event.summary }}</span>
+      <small>{{ event.created_at }} {{ event.metadata }}</small>
+    </div>
+    {% else %}
+    <div class="row static"><strong>No events yet</strong></div>
+    {% endfor %}
+  </div>
+</section>
+{% else %}
+<header class="page-header"><h1>Job Not Found</h1></header>
+{% endif %}
+{% endblock %}

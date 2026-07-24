@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">One Command</p>
+    <h1>Create With Director OS</h1>
+  </div>
+</header>
+<section class="panel compact">
+  <h2>Provider</h2>
+  <p>{{ provider.provider }} · {{ provider.runtime }} · available {{ provider.available }}</p>
+</section>
+<form class="panel form" method="post" action="/director-runs/new">
+  <label>Idea
+    <textarea name="idea">{{ default_idea }}</textarea>
+  </label>
+  <label>Project Path
+    <input name="project_path" value="/Users/chan/song-video-project">
+  </label>
+  <button type="submit">Create With Director OS</button>
+</form>
+{% endblock %}

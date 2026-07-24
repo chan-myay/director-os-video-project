@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Local evidence trail</p>
+    <h1>Audit Log</h1>
+  </div>
+</header>
+<div class="list">
+  {% for log in logs %}
+  <div class="row static">
+    <strong>{{ log.event_type }} / {{ log.entity_type }} #{{ log.entity_id }}</strong>
+    <span>{{ log.summary }}</span>
+    <small>{{ log.created_at }} {{ log.metadata }}</small>
+  </div>
+  {% else %}
+  <div class="row static"><strong>No audit events yet</strong></div>
+  {% endfor %}
+</div>
+{% endblock %}

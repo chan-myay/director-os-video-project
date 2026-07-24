@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Director Plan</p>
+    <h1>Autonomous Treatment</h1>
+  </div>
+  <a class="button" href="/storyboard">Open Storyboard</a>
+</header>
+{% if status.has_plan %}
+<section class="split">
+  <article class="panel">
+    <h2>What Director OS Understood</h2>
+    <dl>
+      <dt>Project</dt><dd>{{ status.state.locked_truth.project }}</dd>
+      <dt>Song</dt><dd>{{ status.state.locked_truth.song }}</dd>
+      <dt>Performer</dt><dd>{{ status.state.locked_truth.performer }}</dd>
+      <dt>World</dt><dd>{{ status.state.locked_truth.location }}</dd>
+      <dt>Mood</dt><dd>{{ status.state.locked_truth.mood }}</dd>
+    </dl>
+  </article>
+  <article class="panel">
+    <h2>Created Package</h2>
+    <div class="tag-cloud">
+      {% for output in status.outputs %}
+      <span>{{ output }}</span>
+      {% endfor %}
+    </div>
+  </article>
+</section>
+<section class="panel">
+  <h2>Summary</h2>
+  <pre>{{ status.summary }}</pre>
+</section>
+<section class="panel">
+  <h2>Still Needed</h2>
+  <ul>
+    {% for question in status.state.missing_inputs %}
+    <li>{{ question }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% else %}
+<section class="panel"><h2>No plan yet</h2><p>Use the Command Center first.</p></section>
+{% endif %}
+{% endblock %}

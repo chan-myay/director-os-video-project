@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Voice Timing Review</p><h1>Voice Sync</h1></div>
+  <a class="button" href="/captions-voice/import">Import Voice</a>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+{% if sync.status == "not_tested_no_voice_audio" %}
+<section class="panel warning-panel">
+  <h2>Voice Sync Not Tested</h2>
+  <p>No generated or imported voice audio is linked to the lyric phrases yet. Director OS can measure a local WAV, M4A, or MP3 after import, but it must not call the voice synchronized before real audio exists.</p>
+</section>
+{% endif %}
+<section class="director-grid">
+  <article class="panel"><h2>Status</h2><p>{{ sync.status }}</p></article>
+  <article class="panel"><h2>Imported</h2><p>{{ sync.imported_voice_file_count }}</p></article>
+  <article class="panel"><h2>Measured</h2><p>{{ sync.measured_voice_count }}</p></article>
+  <article class="panel"><h2>Synchronized</h2><p>{{ sync.synchronized_voice_count }}</p></article>
+</section>
+<section class="panel">
+  <h2>Phrase Sync</h2>
+  <table>
+    <tr><th>Phrase</th><th>Target</th><th>Voice</th><th>Delta</th><th>%</th><th>Class</th></tr>
+    {% for row in sync.records %}
+    <tr>
+      <td>{{ row.phrase_index }}</td>
+      <td>{{ '%.2f'|format(row.target_duration) }}</td>
+      <td>{{ '%.2f'|format(row.measured_voice_duration) }}</td>
+      <td>{{ '%.2f'|format(row.difference_seconds) }}</td>
+      <td>{{ '%.1f'|format(row.difference_percent) }}</td>
+      <td>{{ row.sync_classification }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

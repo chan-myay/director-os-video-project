@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Advanced · Preserved Work</p>
+    <h1>Burmese Audio / Caption Archive</h1>
+    <p class="hero-copy">Preserved for evidence only. The current timing does not match reliably and is not used by Rescue Studio.</p>
+  </div>
+  <a class="button" href="/create">Back to Rescue Studio</a>
+</header>
+
+<section class="readiness-banner">
+  <h2>NOT RELIABLE — DO NOT USE FOR CAPTIONS OR LIP-SYNC</h2>
+  <p>The previous alignment attempts, anchors and caption previews are retained, but none is represented as approved truth.</p>
+</section>
+
+<section class="grid three">
+  <article class="panel">
+    <h2>Approved caption timing</h2>
+    <p class="metric">0</p>
+    <p>No Burmese caption timing is approved for the clean video.</p>
+  </article>
+  <article class="panel">
+    <h2>Approved lip-sync segments</h2>
+    <p class="metric">0</p>
+    <p>Lip-sync remains disabled until reliable human-verified timing exists.</p>
+  </article>
+  <article class="panel">
+    <h2>Creative production</h2>
+    <p class="metric">Not blocked</p>
+    <p>Storyboard, animation, prompts and imports continue without captions or lip-sync.</p>
+  </article>
+</section>
+
+<section class="panel">
+  <h2>What is preserved</h2>
+  <div class="found-grid">
+    <article><strong>Corrected Unicode lyrics</strong><p>Canonical text remains untouched.</p></article>
+    <article><strong>Audio evidence</strong><p>Master audio, stems and analysis remain untouched.</p></article>
+    <article><strong>Previous alignment attempts</strong><p>All status files, anchors and evaluations remain available for future review.</p></article>
+    <article><strong>Failure memory</strong><p>The mismatch is retained so it is not silently reused or repeated.</p></article>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>Preserved evidence files</h2>
+  <div class="button-row">
+    <a class="button secondary" href="/studio-assets/burmese-music-video/audio-truth/NORMALIZED_LYRICS.json">Corrected lyric record</a>
+    <a class="button secondary" href="/studio-assets/burmese-music-video/audio-truth/AUDIO_TRUTH_STATUS.json">Original status</a>
+    <a class="button secondary" href="/studio-assets/burmese-music-video/audio-truth/v2/AUDIO_TRUTH_V2_STATUS.json">V2 attempt</a>
+    <a class="button secondary" href="/studio-assets/burmese-music-video/audio-truth/v3/AUDIO_TRUTH_V3_STATUS.json">V3 attempt</a>
+    <a class="button secondary" href="/studio-assets/burmese-music-video/audio-truth/v4/AUDIO_TRUTH_V4_STATUS.json">V4 attempt</a>
+  </div>
+  <p class="notice">These are archival records, not production approval.</p>
+</section>
+{% endblock %}

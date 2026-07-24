@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Motion library</p>
+    <h1>Motion References</h1>
+  </div>
+  <a class="button" href="/motion-references/new">New Motion Reference</a>
+</header>
+<div class="list">
+  {% for ref in references %}
+  <a class="row" href="/shot-packs/{{ ref.shot_id }}/motion-reference">
+    <strong>#{{ ref.motion_id }} {{ ref.shot_id }} / {{ ref.source_title }}</strong>
+    <span>{{ ref.approval_status }} · {{ ref.body_framing }} · {{ ref.travel_direction }}</span>
+    <small>{{ ref.source }}</small>
+  </a>
+  {% else %}
+  <div class="row static"><strong>No motion references recorded</strong></div>
+  {% endfor %}
+</div>
+{% endblock %}

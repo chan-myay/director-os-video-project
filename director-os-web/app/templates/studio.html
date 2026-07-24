@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="studio-hero">
+  <div>
+    <p class="eyebrow">One-Screen Automatic Creative Studio</p>
+    <h1>Upload, write one idea, press create.</h1>
+    <p class="hero-copy">Director OS scans the project, builds the creative direction, storyboard, captions, local video sketch, prompt packages, and quality review without making you fill technical forms.</p>
+  </div>
+  <div class="studio-actions">
+    <a class="button" href="/studio/projects/{{ selected.project.project_id }}">Open Current Project</a>
+    {% if latest_loop %}
+    <a class="button" href="/studio-loop/{{ latest_loop.loop_id }}">Open Latest Loop</a>
+    {% endif %}
+  </div>
+</section>
+
+<section class="studio-grid">
+  <article class="panel studio-create-panel">
+    <h2>Create Everything</h2>
+    <form method="post" action="/studio/projects/{{ selected.project.project_id }}/create">
+      <label>Project</label>
+      <select name="project_id" disabled>
+        {% for project in projects %}
+        <option {% if project.project_id == selected.project.project_id %}selected{% endif %}>{{ project.name }} · {{ project.project_id }}</option>
+        {% endfor %}
+      </select>
+      <label>Idea</label>
+      <textarea name="idea" rows="8">{{ default_idea }}</textarea>
+      <div class="button-row">
+        <button type="submit" class="primary-action">CREATE EVERYTHING</button>
+        <a class="button" href="/studio/projects/{{ selected.project.project_id }}">Upload Or Select Inputs</a>
+      </div>
+    </form>
+    <form method="post" action="/studio/projects/{{ selected.project.project_id }}/continue" class="inline-form">
+      <input name="refinement" placeholder="Refine with one sentence, e.g. captions are too early">
+      <button type="submit">CONTINUE AND IMPROVE</button>
+    </form>
+  </article>
+
+  <aside class="panel">
+    <h2>Director OS Found</h2>
+    <div class="found-list">
+      {% for key, value in selected.scan.director_os_found.items() %}
+      <div><strong>{{ key|replace("_", " ")|title }}</strong><span>{{ value }}</span></div>
+      {% endfor %}
+    </div>
+    <p class="notice">Privacy stays local. Cloud upload, paid services, substantial model downloads, voice cloning and publishing remain approval-gated.</p>
+  </aside>
+</section>
+
+<section class="panel">
+  <h2>Upload Or Select Inputs</h2>
+  <form method="post" action="/studio/projects/{{ selected.project.project_id }}/upload" enctype="multipart/form-data" class="dropzone">
+    <input type="file" name="files" multiple accept=".jpg,.jpeg,.png,.heic,.webp,.mp4,.mov,.webm,.mp3,.wav,.m4a,.flac,.txt,.srt,.vtt,.ass,.pdf">
+    <p>Drop photos, clips, music, lyrics, voice recordings, artwork, references or scripts here.</p>
+    <button type="submit">Upload And Scan</button>
+  </form>
+  <div class="media-grid">
+    {% for item in selected.inputs[:8] %}
+    <article class="media-card">
+      {% if item.thumbnail_url %}<img src="{{ item.thumbnail_url }}" alt="">{% else %}<div class="media-placeholder">{{ item.media_type }}</div>{% endif %}
+      <h3>{{ item.original_name }}</h3>
+      <p>{{ item.classification }} · {{ item.privacy }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="panel audio-truth-panel">
+  <div class="story-head">
+    <h2>Audio Understanding</h2>
+    <a class="button" href="/studio/projects/{{ selected.project.project_id }}/audio-truth">Open Audio Truth</a>
+  </div>
+  {% set modern_audio_truth = audio_truth and audio_truth.version in ['v2.3', 'v2.4', 'v2.4.1'] %}
+  <div class="found-grid">
+    <article>
+      <strong>Canonical Lyric Source</strong>
+      <p>{{ audio_truth.canonical_lyric_source.split('/')[-1] if modern_audio_truth and audio_truth.canonical_lyric_source else (audio_truth.canonical_lyric_source.selected.filename if audio_truth.canonical_lyric_source and audio_truth.canonical_lyric_source.selected else "Not available yet") }}</p>
+    </article>
+    <article>
+      <strong>Encoding</strong>
+      <p>{{ "unicode" if modern_audio_truth else (audio_truth.canonical_lyric_source.encoding if audio_truth.canonical_lyric_source else "Not available yet") }}</p>
+    </article>
+    <article>
+      <strong>Audio Bundle</strong>
+      <p>{{ "approved installed" if modern_audio_truth else (audio_truth.model_bundle.approval_status if audio_truth.model_bundle else "pending") }}</p>
+    </article>
+    <article>
+      <strong>Caption Readiness</strong>
+      <p>{{ "production ready" if audio_truth.captions and audio_truth.captions.production_ready else "anchor check / review only" }}</p>
+    </article>
+    <article>
+      <strong>Lip-Sync Readiness</strong>
+      <p>{{ audio_truth.lipsync.ready_occurrence_count ~ " ready" if modern_audio_truth and audio_truth.lipsync else (audio_truth.lipsync.status if audio_truth.lipsync else "blocked") }}</p>
+    </article>
+    <article>
+      <strong>Next Action</strong>
+      <p>{{ audio_truth.next_action if audio_truth and audio_truth.next_action else "Needs approval" }}</p>
+    </article>
+  </div>
+</section>
+
+<section class="flow-strip">
+  {% for node in ["UNDERSTANDING INPUTS","RESEARCHING","CREATING CONCEPTS","BUILDING VISUAL WORLD","DIRECTING SHOTS","GENERATING STORYBOARD","BUILDING CAPTIONS","CREATING VIDEO SKETCH","PREPARING RENDERERS","CHECKING QUALITY","FIXING PROBLEMS","READY FOR REVIEW"] %}
+  <div>{{ node }}</div>
+  {% endfor %}
+</section>
+{% endblock %}

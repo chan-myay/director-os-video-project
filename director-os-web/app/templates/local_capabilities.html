@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Local-First Runtime</p><h1>Local Capabilities</h1></div>
+  <form method="post" action="/settings/local-capabilities/refresh"><button type="submit">Refresh Audit</button></form>
+</header>
+<section class="director-grid">
+  <article class="panel"><h2>Hardware</h2><pre>{{ capabilities.hardware }}</pre></article>
+  <article class="panel"><h2>Toolchain</h2><pre>{{ capabilities.toolchain }}</pre></article>
+</section>
+<section class="panel">
+  <h2>Capability Matrix</h2>
+  <div class="flow-strip">
+    {% for item in capabilities.matrix.capabilities %}
+    <article class="flow-node {{ 'completed' if item.operational else 'pending' }}">
+      <strong>{{ item.name }}</strong>
+      <span>{{ item.classification }} · {{ item.status }}</span>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+<section class="split">
+  <article class="panel"><h2>Models Found</h2><p>{{ capabilities.models.installed_model_count }} local model-like files found. None approved for new use automatically.</p></article>
+  <article class="panel"><h2>Benchmarks</h2><pre>{{ capabilities.benchmarks }}</pre></article>
+</section>
+{% endblock %}

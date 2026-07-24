@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+{% if readiness %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Reference completeness</p>
+    <h1>Readiness: Job #{{ readiness.job.id }}</h1>
+  </div>
+  <a class="button" href="/jobs/{{ readiness.job.shot_id }}/{{ readiness.job.id }}">Back to Job</a>
+</header>
+<article class="panel">
+  <h2>Readiness Report</h2>
+  <p class="path">{{ readiness.path }}</p>
+  <pre>{{ readiness.content }}</pre>
+</article>
+{% else %}
+<header class="page-header"><h1>Readiness Not Found</h1></header>
+{% endif %}
+{% endblock %}

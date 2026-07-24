@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Full-Song Review Timeline</p>
+    <h1>Animatic</h1>
+  </div>
+  <form method="post" action="/animatic/build">
+    <button type="submit">Build Run 14 Brain-Sync Review</button>
+  </form>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+
+<section class="director-grid">
+  <article class="panel"><h2>Active Version</h2><p>{{ safe.latest_version or 'none' }}</p></article>
+  <article class="panel"><h2>Duration</h2><p>{{ safe.validation.status|default('not built') }}</p></article>
+  <article class="panel"><h2>Font</h2><p>{{ safe.font.selected_font|default('missing') }} · readable {{ safe.font.readable|default(false) }}</p></article>
+  <article class="panel"><h2>Lyric Sync</h2><p>{{ safe.brain.sync_method_counts|default(safe.sync.status|default('unknown')) }} · offset {{ '%.3f'|format(safe.brain.offset.global_caption_delay_seconds|default(0)) }}s</p></article>
+  <article class="panel"><h2>Voice Sync</h2><p>{{ safe.voice_sync_status|default('not_tested_no_voice_audio') }}</p></article>
+  <article class="panel"><h2>Lip-Sync</h2><p>{{ safe.lipsync.readiness_status|default('not_ready') }}</p></article>
+</section>
+
+<section class="panel">
+  <h2>Latest Safe Animatic</h2>
+  {% if safe.clean_mp4_exists %}
+  <video controls src="{{ safe.clean_asset_url }}"></video>
+  {% else %}
+  <p>No playable clean full-song animatic is available yet.</p>
+  {% endif %}
+  <dl>
+    <dt>Master Song</dt><dd>{{ safe.validation.master_duration|default('unknown') }}</dd>
+    <dt>Animatic</dt><dd>{{ safe.validation.animatic_duration|default('unknown') }}</dd>
+    <dt>Difference</dt><dd>{{ safe.validation.difference|default('unknown') }}</dd>
+    <dt>Mode</dt><dd>{{ safe.validation.mode|default('unknown') }}</dd>
+  </dl>
+  <div class="action-row">
+    {% if safe.clean_mp4_exists %}<a class="button" href="{{ safe.clean_asset_url }}">Clean MP4</a>{% endif %}
+    {% if safe.captioned_review_exists %}<a class="button" href="{{ safe.captioned_review_asset_url }}">Caption Review MP4</a>{% endif %}
+    {% if safe.review_mp4_exists %}<a class="button" href="{{ safe.review_asset_url }}">Review MP4</a>{% endif %}
+    <a class="button" href="/music-analysis/brain">Brain Timeline</a>
+    <a class="button" href="/auto-sync">Auto Sync v4</a>
+    <a class="button" href="/music-analysis">Music Analysis</a>
+    <a class="button" href="/burmese-language/listening-sync">Listening Review</a>
+    <a class="button" href="/burmese-language/font-check">Font Check</a>
+  </div>
+</section>
+
+<section class="director-grid">
+  <article class="panel">
+    <h2>Caption State</h2>
+    <p>Review captions can be shown only with phrase ID, timing source, confidence, and visible unverified labels. Production captions remain blocked until Unicode and timing review pass.</p>
+  </article>
+  <article class="panel">
+    <h2>Next Action</h2>
+    <p>{{ safe.next_action|default('Review the brain-sync animatic and approve or correct the proposed caption offset.') }}</p>
+  </article>
+</section>
+
+{% if safe.warnings %}
+<section class="panel warning-panel">
+  <h2>Warnings</h2>
+  <ul class="compact-list">
+    {% for warning in safe.warnings %}
+    <li>{{ warning }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if safe.caption_readiness.blockers %}
+<section class="panel warning-panel">
+  <h2>Caption Blockers</h2>
+  <ul class="compact-list">
+    {% for blocker in safe.caption_readiness.blockers[:40] %}
+    <li>{{ blocker }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}

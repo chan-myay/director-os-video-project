@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+{% if export %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Manual export package</p>
+    <h1>Export #{{ export.export_id }}</h1>
+  </div>
+  <span class="status-pill">{{ export.status }}</span>
+</header>
+<section class="readiness-banner {{ 'ready' if export.readiness_status == 'production_ready' else 'blocked' }}">
+  <strong>{{ export.readiness_banner }}</strong>
+  {% if export.missing_requirements_list %}
+  <ul>
+    {% for item in export.missing_requirements_list %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No missing requirements recorded.</p>
+  {% endif %}
+</section>
+<section class="panel">
+  <h2>Export Folder</h2>
+  <p class="path">{{ export.export_folder }}</p>
+  {% if export.readiness_status == 'production_ready' %}
+  <p class="notice">Upload instructions are enabled for this production-ready package.</p>
+  {% else %}
+  <p class="notice">Renderer upload instructions are blocked until production readiness passes.</p>
+  {% endif %}
+</section>
+<div class="doc-list">
+  {% for file in export.files %}
+  <article class="panel">
+    <h2>{{ file.name }}</h2>
+    <p class="path">{{ file.path }}</p>
+    {% if export.readiness_status != 'production_ready' and file.name == 'STEP_BY_STEP_UPLOAD_GUIDE.md' %}
+    <pre>BLOCKED. Upload instructions are hidden until this export is production_ready.</pre>
+    {% else %}
+    <pre>{{ file.content }}</pre>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<header class="page-header"><h1>Export Not Found</h1></header>
+{% endif %}
+{% endblock %}

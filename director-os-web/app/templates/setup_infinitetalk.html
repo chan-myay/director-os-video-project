@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">InfiniteTalk Setup</p><h1>InfiniteTalk</h1></div></header>
+<section class="panel">
+  <h2>Policy</h2>
+  <p>InfiniteTalk is treated as lip-sync/performance, not movement generation. Local install, RunPod, and manual workflows all require explicit approval before upload, spend, or model download.</p>
+</section>
+<section class="director-grid">
+  {% for provider in providers %}
+  <article class="panel"><h2>{{ provider.provider }}</h2><p>{{ provider.classification }} · {{ provider.status }}</p><pre>{{ provider.health }}</pre></article>
+  {% endfor %}
+</section>
+{% endblock %}

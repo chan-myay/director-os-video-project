@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">No media storage</p>
+    <h1>New Moodboard URL</h1>
+  </div>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<form class="panel form" method="post" action="/moodboards/new">
+  <label>URL
+    <input name="url" required placeholder="https://...">
+  </label>
+  <label>Title
+    <input name="title" required>
+  </label>
+  <label>Source
+    <input name="source" required placeholder="ShotDeck / YouTube / Vimeo / user-owned">
+  </label>
+  <label>Shot-pack relationship
+    <input name="shot_pack_id" placeholder="F01_side_travel_dance">
+  </label>
+  <label>Composition notes <textarea name="composition_notes"></textarea></label>
+  <label>Lighting notes <textarea name="lighting_notes"></textarea></label>
+  <label>Camera notes <textarea name="camera_notes"></textarea></label>
+  <label>Color notes <textarea name="color_notes"></textarea></label>
+  <label>Cultural notes <textarea name="cultural_notes"></textarea></label>
+  <label>Rights notes <textarea name="rights_notes"></textarea></label>
+  <label>Do-not-copy warning
+    <textarea name="do_not_copy_warning">URL/reference only. Do not copy or rehost copyrighted media.</textarea>
+  </label>
+  <button type="submit">Save URL Reference</button>
+</form>
+{% endblock %}

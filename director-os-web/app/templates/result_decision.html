@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">Permanent result decision</p><h1>Decision Result #{{ result.result_id }}</h1></div></header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<form class="panel form" method="post" action="/results/{{ result.result_id }}/decision">
+  <label>Outcome
+    <select name="outcome" required>
+      <option value="accept">accept</option>
+      <option value="reject">reject</option>
+      <option value="needs recut">needs recut</option>
+      <option value="needs face correction">needs face correction</option>
+      <option value="archive">archive</option>
+    </select>
+  </label>
+  <label>Reason <textarea name="reason"></textarea></label>
+  <label>Usable time range <input name="usable_time_range" placeholder="00:00-00:04"></label>
+  <label>Intended song section <input name="intended_song_section" placeholder="verse1 / chorus bridge"></label>
+  <label>Face-correction requirement <input name="face_correction_requirement" placeholder="none / HiFiFace / review"></label>
+  <label>Edit notes <textarea name="edit_notes"></textarea></label>
+  <h2>Failure Tags</h2>
+  <div class="score-grid">
+    {% for tag in ["wrong_identity","bad_face","fake_body","bad_limbs","bad_fabric","wrong_dance","kung_fu_drift","kpop_drift","karaoke_drift","fake_lipsync","wrong_dress","wrong_location","weak_motion","repeated_motion","poor_camera","poor_lighting","cultural_drift"] %}
+    <label class="check"><input type="checkbox" name="{{ tag }}"> {{ tag }}</label>
+    {% endfor %}
+  </div>
+  <button type="submit">Save Decision</button>
+</form>
+{% endblock %}

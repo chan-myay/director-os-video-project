@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Manual renderer handoff</p>
+    <h1>Manual Exports</h1>
+  </div>
+  <a class="button" href="/exports/new/F01_side_travel_dance/2">New F01 Export</a>
+</header>
+<div class="list">
+  {% for export in exports %}
+  <a class="row" href="/exports/{{ export.shot_id }}/{{ export.export_id }}">
+    <strong>#{{ export.export_id }} {{ export.shot_id }} / {{ export.renderer }}</strong>
+    <span>{{ export.readiness_status or export.status }}</span>
+    <small>{{ export.export_folder }}</small>
+  </a>
+  {% else %}
+  <div class="row static"><strong>No manual exports yet</strong></div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,55 @@
+{
+  "status": "performer_direction_locked",
+  "effective_date": "2026-07-24",
+  "rule": "Use zero dancing or choreography footage. Natural singing-related micro-movement is allowed.",
+  "preservation_policy": "Files remain preserved locally as history but are excluded from all revised edits.",
+  "excluded_selected_clips": [
+    "production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4",
+    "production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4",
+    "production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4",
+    "production/selected/batch-d/D05_feet-dress-rhythm_SELECTED.mp4",
+    "production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4",
+    "production/selected/batch-b/B04_aisle-travel-a_SELECTED.mp4",
+    "production/selected/batch-b/B05_aisle-travel-b_SELECTED.mp4"
+  ],
+  "excluded_categories": [
+    "dance",
+    "choreography",
+    "rhythmic body performance",
+    "feet or dress rhythm",
+    "hip or butt emphasis",
+    "rear body framing",
+    "dance entrance",
+    "dance travel",
+    "dance silhouette"
+  ],
+  "allowed_replacements": [
+    "mature emotional portrait with mouth closed",
+    "existing mouth-safe singing/performance hold",
+    "subtle breathing, tiny natural weight shift, gentle head or shoulder response",
+    "Finnish winter exterior or nature",
+    "same-bar adult band insert",
+    "same-bar sparse mature audience",
+    "Burmese architectural or material insert",
+    "glass, chair, rose, clock, door bolt or snow-window insert"
+  ],
+  "allowed_movement": [
+    "natural breathing",
+    "very small weight shift",
+    "slight head movement",
+    "gentle shoulder response",
+    "one restrained hand-to-heart gesture",
+    "natural dress movement caused by breathing or a small turn"
+  ],
+  "forbidden_movement": [
+    "dance steps",
+    "choreography",
+    "hip rhythm",
+    "spins or pivots presented as dance",
+    "repeated arm routine",
+    "nightclub sway",
+    "body display"
+  ],
+  "caption_policy": "No unverified captions.",
+  "lip_sync_policy": "No visible unmatched singing mouth; lip-sync remains disabled until reliable."
+}

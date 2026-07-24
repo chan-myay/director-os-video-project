@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Review before acceptance</p>
+    <h1>QC Scorecard</h1>
+  </div>
+</header>
+<article class="panel">
+  <h2>{{ selected.filename }}</h2>
+  <p class="path">{{ selected.path }}</p>
+  <pre>{{ selected.content }}</pre>
+</article>
+
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+
+<section class="split">
+  <form class="panel form" method="post" action="/qc/{{ shot_id }}">
+    <h2>Record QC Review</h2>
+    <label>Decision
+      <select name="decision" required>
+        <option value="pass">pass</option>
+        <option value="fail">fail</option>
+        <option value="needs recut">needs recut</option>
+        <option value="needs face correction">needs face correction</option>
+        <option value="needs new generation">needs new generation</option>
+      </select>
+    </label>
+    <label>Notes
+      <textarea name="notes" placeholder="Normal-speed review notes"></textarea>
+    </label>
+    <div class="score-grid">
+      <label>Identity <input type="number" name="identity_score" min="0" max="10" required></label>
+      <label>Face risk <input type="number" name="face_risk_score" min="0" max="10" required></label>
+      <label>Body risk <input type="number" name="body_risk_score" min="0" max="10" required></label>
+      <label>Motion <input type="number" name="motion_score" min="0" max="10" required></label>
+      <label>Cultural authenticity <input type="number" name="cultural_authenticity_score" min="0" max="10" required></label>
+      <label>World-class <input type="number" name="world_class_score" min="0" max="10" required></label>
+    </div>
+    <button type="submit">Save QC Review</button>
+  </form>
+  <div>
+    <h2>QC History</h2>
+    <div class="list">
+      {% for review in reviews %}
+      <div class="row static">
+        <strong>{{ review.decision }}</strong>
+        <span>Identity {{ review.identity_score }} / Motion {{ review.motion_score }} / World {{ review.world_class_score }}</span>
+        <small>{{ review.created_at }}</small>
+      </div>
+      {% else %}
+      <div class="row static"><strong>No QC records yet</strong></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

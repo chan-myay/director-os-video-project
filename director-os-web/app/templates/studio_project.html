@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Default Autopilot Studio</p>
+    <h1>{{ project.name or "Burmese Music Video" }}</h1>
+    <p class="hero-copy">Current project loads automatically. Upload replacements, write one optional idea, then let Director OS continue, rebuild, watch, listen and repair.</p>
+  </div>
+  <div class="button-row">
+    <a class="button secondary" href="/studio/projects/{{ project.project_id }}/result">Result</a>
+    <a class="button secondary" href="/studio/projects/{{ project.project_id }}/storyboard">Storyboard</a>
+    <a class="button secondary" href="/studio/projects/{{ project.project_id }}/audio-truth">Advanced Audio Truth</a>
+  </div>
+</header>
+
+{% set best = result.best_video if result and result.best_video else autopilot.preview %}
+{% set clean_url = best.clean_url if best else "" %}
+{% set captioned_url = best.captioned_url if best else "" %}
+{% set review_url = best.review_url if best else "" %}
+
+<section class="panel autopilot-player">
+  <div class="story-head">
+    <div>
+      <h2>Best Current Video</h2>
+      <p class="notice">Clean video is the default. Verified captions use only trusted Audio Truth V5 lines; review/debug captions are separate.</p>
+    </div>
+    <div class="tag-row">
+      <span>{{ "full song" if best else "pending" }}</span>
+      <span>{{ caption_status.verified_caption_count if caption_status else 0 }} verified captions</span>
+      <span>{{ caption_status.hidden_occurrence_count if caption_status else 0 }} hidden</span>
+    </div>
+  </div>
+  <div class="tab-row" role="tablist">
+    <button type="button" class="tab-button active" data-target="clean-player">CLEAN VIDEO</button>
+    <button type="button" class="tab-button" data-target="caption-player">CAPTIONED VIDEO</button>
+    <button type="button" class="tab-button" data-target="review-player">REVIEW / DEBUG</button>
+  </div>
+  <div id="clean-player" class="tab-panel active">
+    {% if clean_url %}
+    <video controls preload="metadata" class="video-preview" src="{{ clean_url }}"></video>
+    <p><a class="button secondary" href="{{ clean_url }}">Open direct clean video</a></p>
+    {% else %}
+    <p class="notice">Clean video will appear after the first automatic run.</p>
+    {% endif %}
+  </div>
+  <div id="caption-player" class="tab-panel">
+    {% if captioned_url and font_status.readability_status == "passed" %}
+    <video controls preload="metadata" class="video-preview" src="{{ captioned_url }}"></video>
+    <p class="notice">This uses CAPTIONS_VERIFIED_ONLY. Untrusted Burmese lines are hidden from the main player.</p>
+    {% else %}
+    <p class="notice">Captioned player is blocked until Burmese font validation and caption truth gates pass.</p>
+    {% endif %}
+  </div>
+  <div id="review-player" class="tab-panel">
+    {% if review_url %}
+    <video controls preload="metadata" class="video-preview" src="{{ review_url }}"></video>
+    <p class="notice">Review/debug may show uncertain lyrics with status labels. It is not the production caption source.</p>
+    {% else %}
+    <p class="notice">Review video will appear after automatic caption rebuild.</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="studio-grid">
+  <article class="panel studio-create-panel">
+    <h2>Create / Continue Automatically</h2>
+    <form method="post" action="/studio/projects/{{ project.project_id }}/create">
+      <label>Optional idea</label>
+      <textarea name="idea" rows="6" placeholder="Leave blank to continue from the current project truth."></textarea>
+      <button type="submit" class="primary-action">CREATE / CONTINUE AUTOMATICALLY</button>
+    </form>
+    <form method="post" action="/studio/projects/{{ project.project_id }}/continue" class="inline-form">
+      <input name="refinement" placeholder="Improve with one sentence: make captions larger, remove background people, make chorus stronger...">
+      <button type="submit">IMPROVE WITH ONE SENTENCE</button>
+    </form>
+  </article>
+  <article class="panel">
+    <h2>Upload Or Replace Inputs</h2>
+    <form method="post" action="/studio/projects/{{ project.project_id }}/upload" enctype="multipart/form-data" class="dropzone">
+      <input type="file" name="files" multiple accept=".jpg,.jpeg,.png,.heic,.webp,.mp4,.mov,.webm,.mp3,.wav,.m4a,.flac,.txt,.srt,.vtt,.ass,.pdf">
+      <p>Photos, video clips, music, lyrics, voice recordings, artwork and reference files are copied into managed local storage. Source files are not modified.</p>
+      <button type="submit">Upload And Auto-Scan</button>
+    </form>
+  </article>
+</section>
+
+<section class="panel">
+  <h2>Project Inputs</h2>
+  <div class="found-grid">
+    {% for key, value in scan.director_os_found.items() %}
+    <article><strong>{{ key|replace("_", " ")|title }}</strong><p>{{ value }}</p></article>
+    {% endfor %}
+  </div>
+  <div class="media-grid">
+    {% for item in inputs[:12] %}
+    <article class="media-card">
+      {% if item.thumbnail_url %}<img src="{{ item.thumbnail_url }}" alt="">{% else %}<div class="media-placeholder">{{ item.media_type }}</div>{% endif %}
+      <h3>{{ item.original_name }}</h3>
+      <p>{{ item.classification }} · {{ item.privacy }}</p>
+    </article>
+    {% else %}
+    <article class="media-card"><div class="media-placeholder">existing</div><h3>Existing approved project evidence</h3><p>Director OS is reusing the current wife, wardrobe, bar, song and lyric evidence.</p></article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="grid three">
+  <article class="panel"><h2>Already Available</h2><p class="metric">{{ inventory.prompt_packages if inventory else 0 }}</p><p>prompt packages · {{ inventory.generated_videos if inventory else 0 }} generated/local videos · {{ inventory.composite_frames if inventory else 0 }} composite frames</p></article>
+  <article class="panel"><h2>Burmese Captions</h2><p class="metric">{{ caption_status.verified_caption_count if caption_status else 0 }} verified</p><p>{{ caption_status.hidden_occurrence_count if caption_status else 0 }} hidden from main player · production blocked until all gates pass</p></article>
+  <article class="panel"><h2>Font Readability</h2><p class="metric">{{ font_status.readability_status or "pending" }}</p><p>{{ font_status.font_name or "Noto Sans Myanmar" }}</p></article>
+</section>
+
+<section class="studio-grid">
+  <article class="panel">
+    <h2>Creative Direction</h2>
+    {% if result.recommended_concept %}
+    <p class="metric">{{ result.recommended_concept.title }}</p>
+    <p>{{ result.recommended_concept.idea }}</p>
+    <div class="palette-row">{% for color in result.recommended_concept.palette %}<span>{{ color }}</span>{% endfor %}</div>
+    {% else %}
+    <p class="notice">Director OS will reuse the existing concept and regenerate only missing dependent outputs.</p>
+    {% endif %}
+  </article>
+  <article class="panel">
+    <h2>Production</h2>
+    <div class="found-grid">
+      <article><strong>Storyboard</strong><p>{{ result.storyboard.shot_count if result.storyboard else inventory.storyboard_frames if inventory else 0 }} shots</p></article>
+      <article><strong>Images</strong><p>{{ inventory.generated_images if inventory else 0 }} AI · {{ inventory.composite_frames if inventory else 0 }} composite</p></article>
+      <article><strong>Videos</strong><p>{{ inventory.generated_videos if inventory else 0 }} available</p></article>
+      <article><strong>Lip-sync</strong><p>0 ready, gated by V5 caption truth</p></article>
+    </div>
+    <div class="button-row">
+      <a class="button" href="/studio/projects/{{ project.project_id }}/storyboard">Open Storyboard</a>
+      <a class="button" href="/studio-assets/{{ project.project_id }}/production-packages/PACKAGE_MANIFEST.json">EXPORT ALL</a>
+    </div>
+  </article>
+</section>
+
+<section class="panel">
+  <h2>Autopilot Activity</h2>
+  <div class="flow-strip large">
+    {% for node in ["SCAN INPUTS","SELECT SOURCES","ANALYSE MUSIC","VERIFY LYRICS","MAP MEANING","DESIGN STORYBOARD","REUSE / GENERATE IMAGES","CREATE MOTION PREVIEW","BUILD CAPTIONS","PREPARE LIP-SYNC","WATCH & LISTEN","REPAIR","READY FOR REVIEW"] %}
+    <div>{{ node }}</div>
+    {% endfor %}
+  </div>
+  <p class="notice">{{ result.next_action if result.next_action else autopilot.next_action }}</p>
+</section>
+
+<script>
+document.querySelectorAll(".tab-button").forEach((button) => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll(".tab-button").forEach((item) => item.classList.remove("active"));
+    document.querySelectorAll(".tab-panel").forEach((item) => item.classList.remove("active"));
+    button.classList.add("active");
+    document.getElementById(button.dataset.target).classList.add("active");
+  });
+});
+</script>
+{% endblock %}

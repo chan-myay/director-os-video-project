@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Public SaaS foundation</p>
+    <h1>Product Documents</h1>
+  </div>
+</header>
+<div class="doc-list">
+  {% for doc in documents %}
+  <article class="panel">
+    <h2>{{ doc.name }}</h2>
+    <p class="path">{{ doc.path }}</p>
+    <pre>{{ doc.preview }}</pre>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

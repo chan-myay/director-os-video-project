@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+{% set run = status.run %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Autonomous Studio Run</p>
+    <h1>Run #{{ run.run_id }} · {{ run.status }}</h1>
+  </div>
+  <div class="action-row">
+    <form method="post" action="/director-runs/{{ run.run_id }}/start"><button type="submit">Run / Continue</button></form>
+    <form method="post" action="/director-runs/{{ run.run_id }}/pause"><button type="submit">Pause</button></form>
+    <form method="post" action="/director-runs/{{ run.run_id }}/resume"><button type="submit">Resume Local</button></form>
+    <form method="post" action="/director-runs/{{ run.run_id }}/cancel"><button type="submit">Cancel</button></form>
+  </div>
+</header>
+<section class="panel">
+  <h2>Idea</h2>
+  <p>{{ run.idea }}</p>
+  <dl>
+    <dt>Provider</dt><dd>{{ run.active_provider }} {{ run.provider_version }}</dd>
+    <dt>Current Stage</dt><dd>{{ run.current_stage }}</dd>
+    <dt>Progress</dt><dd>{{ status.completed_stages }} / {{ status.total_stages }}</dd>
+    <dt>Last Artifact</dt><dd>{{ status.last_artifact }}</dd>
+    <dt>Next Action</dt><dd>{{ status.next_action }}</dd>
+  </dl>
+</section>
+<section class="flow-strip">
+  {% for stage in status.stages %}
+  <article class="flow-node {{ stage.status }}">
+    <strong>{{ stage.stage_name.replace('_', ' ') }}</strong>
+    <span>{{ stage.status }} · {{ "%.2f"|format(stage.confidence) }}</span>
+    {% if stage.error %}<small>{{ stage.error }}</small>{% endif %}
+    <form method="post" action="/director-runs/{{ run.run_id }}/retry/{{ stage.stage_name }}">
+      <button type="submit">Retry</button>
+    </form>
+  </article>
+  {% endfor %}
+</section>
+<section class="split">
+  <article class="panel">
+    <h2>Blockers</h2>
+    <ul>
+      {% for blocker in status.blockers %}
+      <li>{{ blocker }}</li>
+      {% else %}
+      <li>none</li>
+      {% endfor %}
+    </ul>
+  </article>
+  <article class="panel">
+    <h2>Events</h2>
+    <ul class="compact-list">
+      {% for event in status.events[:20] %}
+      <li>{{ event.created_at }} · {{ event.event_type }} · {{ event.message }}</li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+{% endblock %}

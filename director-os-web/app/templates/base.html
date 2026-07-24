@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ app_name }} v{{ app_version }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/app.css') }}">
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark"></span>
+        <div>
+          <strong>{{ app_name }}</strong>
+          <small>v{{ app_version }}</small>
+        </div>
+      </div>
+      <nav>
+        <a href="/studio">Studio</a>
+        <a href="/command-center">Command Center</a>
+        <a href="/studio-loop">Studio Loop</a>
+        <a href="/director-plan">Director Plan</a>
+        <a href="/director-runs">Director Runs</a>
+        <a href="/storyboard">Storyboard</a>
+        <a href="/shot-plan">Shot Plan</a>
+        <a href="/animatic">Animatic</a>
+        <a href="/production">Production</a>
+        <a href="/results">Results</a>
+        <a href="/research-assistant">Research</a>
+        <a href="/reference-library">References</a>
+        <a href="/motion-references">Motion Library</a>
+        <a href="/motion-lab">Motion Lab</a>
+        <a href="/burmese-language">Burmese Language</a>
+        <a href="/lipsync">Lip-Sync</a>
+        <a href="/captions-voice">Captions/Voice</a>
+        <a href="/moodboards">Moodboards</a>
+        <a href="/advanced">Advanced</a>
+        <a href="/settings/intelligence">Intelligence</a>
+        <a href="/settings/system-tools">System Tools</a>
+        <a href="/settings/local-capabilities">Local Capabilities</a>
+        <a href="/setup/storyboard-model">Storyboard Model</a>
+        <a href="/setup/burmese-voice">Burmese Voice</a>
+        <a href="/workflow">Workflow</a>
+        <a href="/jobs">Jobs</a>
+        <a href="/exports">Exports</a>
+        <a href="/product">Product</a>
+        <a href="/shot-packs">Shot Packs</a>
+        <a href="/generated-requests">Requests</a>
+        <a href="/connectors">Connectors</a>
+        <a href="/connectors/status">Connector Status</a>
+        <a href="/approval-gate">Approval</a>
+        <a href="/qc">QC</a>
+        <a href="/audit-log">Audit Log</a>
+      </nav>
+      <p class="lock">Local only. No upload. No generation.</p>
+    </aside>
+    <main class="main">
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Generated result intake</p>
+    <h1>Results</h1>
+  </div>
+  <a class="button" href="/results/import">Import Result</a>
+</header>
+<section class="grid three">
+  <div class="panel"><h2>Awaiting</h2><p class="metric">{{ counts.awaiting_review }}</p></div>
+  <div class="panel"><h2>Accepted</h2><p class="metric">{{ counts.accepted }}</p></div>
+  <div class="panel"><h2>Rejected</h2><p class="metric">{{ counts.rejected }}</p></div>
+</section>
+<p><a class="button" href="/results?show_tests={% if show_tests %}0{% else %}1{% endif %}">{% if show_tests %}Hide Test Results{% else %}Show Test Results{% endif %}</a></p>
+<div class="list">
+  {% for result in results %}
+  <a class="row" href="/results/{{ result.result_id }}">
+    <strong>#{{ result.result_id }} {{ result.shot_id }} / {{ result.renderer }}</strong>
+    <span>{{ result.status }} / {{ result.width }}x{{ result.height }} / {{ "%.2f"|format(result.duration) }}s</span>
+    <small>{{ result.stored_path }}</small>
+  </a>
+  {% else %}
+  <div class="row static"><strong>No results</strong></div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">Diagnose And Repair</p><h1>Repairs</h1></div></header>
+<section class="panel">
+  <h2>Planned Repairs</h2>
+  <table><tr><th>Defect</th><th>Action</th><th>Status</th><th>Approval</th><th>Summary</th></tr>
+  {% for repair in detail.repairs.repairs %}
+  <tr><td>{{ repair.defect_code }}</td><td>{{ repair.repair_action }}</td><td>{{ repair.status }}</td><td>{{ repair.approval_required }}</td><td>{{ repair.summary }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+<section class="panel">
+  <h2>Repair Results</h2>
+  <pre>{{ detail.repairs.repair_results }}</pre>
+</section>
+{% endblock %}

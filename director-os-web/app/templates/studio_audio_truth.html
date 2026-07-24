@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Burmese Audio Truth</p>
+    <h1>Lyrics, Singing, Captions And Lip-Sync</h1>
+  </div>
+  <form method="post" action="/studio/projects/{{ project.project_id }}/audio-truth/run">
+    <button type="submit">Run Audio Truth Check</button>
+  </form>
+  <form method="post" action="/studio/projects/{{ project.project_id }}/audio-truth/run-v23">
+    <button type="submit">Run Approved Local Bundle</button>
+  </form>
+  <form method="post" action="/studio/projects/{{ project.project_id }}/audio-truth/run-v24">
+    <button type="submit">Run V3 Confidence Calibration</button>
+  </form>
+  <form method="post" action="/studio/projects/{{ project.project_id }}/audio-truth/run-v241">
+    <button type="submit">Repair Audio Truth Anchors</button>
+  </form>
+</header>
+
+<section class="readiness-banner {% if bundle.approval_status == 'approved' %}ready{% endif %}">
+  <h2>{{ audio_truth.next_action if audio_truth and audio_truth.next_action else "Needs approval" }}</h2>
+  <p>This page uses only local processing. It does not call paid APIs, upload private media, install InfiniteTalk, or overwrite source lyrics/audio.</p>
+</section>
+
+<section class="grid three">
+  <article class="panel">
+    <h2>Canonical Lyric Source</h2>
+    <p class="metric">{{ canonical.selected.filename if canonical and canonical.selected and canonical.selected.filename else "Not available yet" }}</p>
+    <dl>
+      <dt>Encoding</dt><dd>{{ canonical.encoding if canonical and canonical.encoding else "Not available yet" }}</dd>
+      <dt>Status</dt><dd>{{ canonical.status if canonical and canonical.status else "Blocked" }}</dd>
+      <dt>Path</dt><dd>{{ canonical.selected.path if canonical and canonical.selected and canonical.selected.path else "Not available yet" }}</dd>
+    </dl>
+  </article>
+  <article class="panel">
+    <h2>Old Source</h2>
+    {% if canonical and canonical.previous_sources %}
+    <p class="metric">{{ canonical.previous_sources[0].status }}</p>
+    <p>{{ canonical.previous_sources[0].path }}</p>
+    {% else %}
+    <p class="metric">none</p>
+    {% endif %}
+  </article>
+  <article class="panel">
+    <h2>Model Bundle</h2>
+    <p class="metric">{{ bundle.approval_status if bundle and bundle.approval_status else "Needs approval" }}</p>
+    <p>{{ bundle.reason if bundle and bundle.reason else "Not available yet" }}</p>
+  </article>
+</section>
+
+<section class="panel">
+  <h2>Audio Understanding Stages</h2>
+  <div class="flow-strip large">
+    <div>Finding current lyric</div>
+    <div>Normalizing without overwrite</div>
+    <div>Separating vocals</div>
+    <div>Transcribing Burmese</div>
+    <div>Forced alignment</div>
+    <div>Verifying text</div>
+    <div>Mapping meaning</div>
+    <div>Rebuilding captions</div>
+    <div>Preparing lip-sync segments</div>
+  </div>
+</section>
+
+<section class="grid three">
+  {% if audio_truth.version == 'v2.4.1' %}
+  <article class="panel"><h2>Vocal Separation</h2><p class="metric">preserved</p><p>{{ audio_truth.first_anchor }}</p></article>
+  <article class="panel"><h2>Repair Cause</h2><p class="metric">V3 invalidated</p><p>{{ audio_truth.invalidated_v3_anchor_set }}</p></article>
+  <article class="panel"><h2>Timeline V4</h2><p class="metric">{{ audio_truth.timeline.occurrence_count }}</p><p>{{ audio_truth.timeline.high_confidence }} high / {{ audio_truth.timeline.medium_confidence }} medium / {{ audio_truth.timeline.low_confidence }} low</p></article>
+  {% elif audio_truth.version == 'v2.4' %}
+  <article class="panel"><h2>Vocal Separation</h2><p class="metric">selected</p><p>{{ audio_truth.selected_stem.reason }}</p></article>
+  <article class="panel"><h2>ASR / CTC</h2><p class="metric">calibrated</p><p>{{ audio_truth.v2_zero_high_confidence_cause }}</p></article>
+  <article class="panel"><h2>Timeline V3</h2><p class="metric">{{ audio_truth.timeline.occurrence_count }}</p><p>{{ audio_truth.timeline.high_confidence }} high / {{ audio_truth.timeline.medium_confidence }} medium / {{ audio_truth.timeline.low_confidence }} low</p></article>
+  {% elif audio_truth.version == 'v2.3' %}
+  <article class="panel"><h2>Vocal Separation</h2><p class="metric">{{ audio_truth.stems.status }}</p><p>Energy {{ audio_truth.stems.vocal_energy }}</p></article>
+  <article class="panel"><h2>ASR / CTC</h2><p class="metric">{{ audio_truth.evidence.segment_count }}</p><p>{{ audio_truth.evidence.model_count }} model records</p></article>
+  <article class="panel"><h2>Timeline</h2><p class="metric">{{ audio_truth.timeline.occurrence_count }}</p><p>{{ audio_truth.timeline.high_confidence }} high / {{ audio_truth.timeline.medium_confidence }} medium / {{ audio_truth.timeline.low_confidence }} low</p></article>
+  {% else %}
+  <article class="panel"><h2>Vocal Separation</h2><p class="metric">{{ audio_truth.vocal_separation.status }}</p><p>{{ audio_truth.vocal_separation.reason }}</p></article>
+  <article class="panel"><h2>ASR Ensemble</h2><p class="metric">{{ audio_truth.asr.status }}</p><p>{{ audio_truth.asr.agreement }}</p></article>
+  <article class="panel"><h2>Timeline</h2><p class="metric">{{ audio_truth.timeline.occurrence_count }}</p><p>{{ audio_truth.timeline.blocked }} blocked occurrences</p></article>
+  {% endif %}
+</section>
+
+{% if audio_truth.version == 'v2.4.1' %}
+<section class="grid three">
+  <article class="panel"><h2>First Anchor</h2><p class="metric">Confirmed</p><p>Preserved as human-verified evidence.</p></article>
+  <article class="panel"><h2>Caption Status</h2><p class="metric">{{ 'production ready' if audio_truth.captions.production_ready else 'repair review' }}</p><p>{{ audio_truth.captions.review_caption_count }} V4 review captions</p></article>
+  <article class="panel"><h2>Lip-Sync Segments</h2><p class="metric">{{ audio_truth.lipsync.ready_occurrence_count }}</p><p>{{ audio_truth.lipsync.blocked_occurrence_count }} blocked occurrences</p></article>
+</section>
+<section class="panel">
+  <h2>Audio Truth Repair</h2>
+  <p class="notice">The previous middle and late anchors are invalidated and are not used as production evidence. Review only the two replacement anchors below; the first anchor is already confirmed.</p>
+  <div class="media-grid">
+    {% for anchor in audio_truth.get('anchor_records', []) %}
+    <article class="media-card">
+      <video controls preload="metadata" src="{{ anchor.clip_url }}"></video>
+      <h3>{{ anchor.position|title }} Anchor</h3>
+      <p>{{ anchor.lyric }}</p>
+      <p><strong>Status:</strong> {{ anchor.status }} · <strong>Duration:</strong> {{ anchor.clip_duration }}s</p>
+      <p><strong>Song:</strong> {{ anchor.start }}–{{ anchor.end }}s · <strong>Vocal energy:</strong> {{ anchor.vocal_energy }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% elif audio_truth.version == 'v2.4' %}
+<section class="grid three">
+  <article class="panel"><h2>Captions</h2><p class="metric">{{ 'production ready' if audio_truth.captions.production_ready else 'anchor check' }}</p><p>{{ audio_truth.captions.review_caption_count }} V3 review captions</p></article>
+  <article class="panel"><h2>Anchor Check</h2><p class="metric">{{ audio_truth.anchors.anchor_count }}</p><p>{{ audio_truth.anchors.status }}</p></article>
+  <article class="panel"><h2>Lip-Sync Segments</h2><p class="metric">{{ audio_truth.lipsync.ready_occurrence_count }}</p><p>{{ audio_truth.lipsync.blocked_occurrence_count }} blocked occurrences</p></article>
+</section>
+<section class="panel">
+  <h2>Audio Truth Quick Check</h2>
+  <div class="media-grid">
+    {% for anchor in audio_truth.get('anchor_records', []) %}
+    <article class="media-card">
+      <video controls src="/studio-assets/{{ project.project_id }}/audio-truth/v3/anchors/{{ anchor.anchor_id }}.mp4"></video>
+      <h3>{{ anchor.position|title }} Anchor</h3>
+      <p>{{ anchor.lyric }}</p>
+    </article>
+    {% endfor %}
+    {% if not audio_truth.get('anchor_records') %}
+    <article class="media-card">
+      <video controls src="/studio-assets/{{ project.project_id }}/audio-truth/v3/anchors/anchor_early.mp4"></video>
+      <h3>Early Anchor</h3>
+      <p>Confirm lyric and timing.</p>
+    </article>
+    <article class="media-card">
+      <video controls src="/studio-assets/{{ project.project_id }}/audio-truth/v3/anchors/anchor_middle.mp4"></video>
+      <h3>Middle Anchor</h3>
+      <p>Confirm lyric and timing.</p>
+    </article>
+    <article class="media-card">
+      <video controls src="/studio-assets/{{ project.project_id }}/audio-truth/v3/anchors/anchor_late.mp4"></video>
+      <h3>Late Anchor</h3>
+      <p>Confirm lyric and timing.</p>
+    </article>
+    {% endif %}
+  </div>
+  <p class="notice">This replaces the 21-line manual review. Confirming these anchors can calibrate global timing and drift.</p>
+</section>
+{% elif audio_truth.version == 'v2.3' %}
+<section class="grid three">
+  <article class="panel"><h2>Captions</h2><p class="metric">{{ 'production ready' if audio_truth.captions.production_ready else 'review only' }}</p><p>{{ audio_truth.captions.review_caption_count }} review captions</p></article>
+  <article class="panel"><h2>Lyric Review</h2><p class="metric">{{ audio_truth.verification.unresolved_count }}</p><p>Unresolved model/lyric evidence items</p></article>
+  <article class="panel"><h2>Lip-Sync Segments</h2><p class="metric">{{ audio_truth.lipsync.ready_occurrence_count }}</p><p>{{ audio_truth.lipsync.blocked_occurrence_count }} blocked occurrences</p></article>
+</section>
+{% endif %}
+
+{% if audio_truth.version != 'v2.3' %}
+<section class="panel">
+  <h2>Bundle Options</h2>
+  <div class="media-grid">
+    {% for option in bundle.options %}
+    <article class="media-card">
+      <div class="media-placeholder">{{ option.id }}</div>
+      <h3>{{ option.name }}</h3>
+      <p>{{ option.models }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="panel">
+  <h2>Audio-Truth Review Sketch</h2>
+  {% if preview_url %}
+  <video controls src="{{ preview_url }}" class="video-preview"></video>
+  <p><a class="button secondary" href="{{ preview_url }}">Open video directly</a></p>
+  {% else %}
+  <p class="notice">Not available yet</p>
+  {% endif %}
+  {% if audio_truth.version == 'v2.4.1' %}
+  <p class="notice">Audio Truth V4 rebuilt the preview with browser-compatible H.264/AAC and +faststart. If the player does not start, open the direct link above; playback validation is recorded in the V4 status.</p>
+  {% elif audio_truth.version == 'v2.4' %}
+  <p class="notice">Audio Truth V3 captions use constrained full-song timing. Production captions still require anchor confirmation for medium-confidence occurrences.</p>
+  {% elif audio_truth.version == 'v2.3' %}
+  <p class="notice">Audio Truth V2 captions are review-only unless every occurrence has high-confidence alignment or targeted approval.</p>
+  {% else %}
+  <p class="notice">Lyric captions are blocked in audio-truth mode until CTC/ASR alignment is approved and run.</p>
+  {% endif %}
+</section>
+{% endblock %}

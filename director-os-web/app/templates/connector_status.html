@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Persisted connector records</p>
+    <h1>Connector Status</h1>
+  </div>
+  <span class="status-pill danger">All disabled</span>
+</header>
+<div class="list">
+  {% for record in records %}
+  <div class="row static">
+    <strong>{{ record.name }} / {{ record.status }}</strong>
+    <span>enabled={{ record.enabled }} local={{ record.local_possible }} risk={{ record.private_media_risk }}</span>
+    <small>{{ record.next_step }}</small>
+  </div>
+  {% endfor %}
+</div>
+<article class="panel">
+  <h2>Raw Source</h2>
+  <p class="path">{{ connectors.path }}</p>
+  <pre>{{ connectors.content }}</pre>
+</article>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Local production database</p>
+    <h1>Workflow</h1>
+  </div>
+  <span class="status-pill">SQLite local</span>
+</header>
+
+<section class="grid three">
+  {% for name, count in workflow.counts.items() %}
+  <div class="panel">
+    <h2>{{ name }}</h2>
+    <p class="metric">{{ count }}</p>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="panel">
+  <h2>Seeded Shot Packs</h2>
+  <div class="list">
+    {% for shot in workflow.shot_packs %}
+    <a class="row" href="/approval-gate/{{ shot.shot_id }}">
+      <strong>{{ shot.shot_id }}</strong>
+      <span>{{ shot.purpose }}</span>
+      <small>{{ shot.status }}</small>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

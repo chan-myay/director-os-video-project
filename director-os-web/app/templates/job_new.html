@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Frozen local package</p>
+    <h1>New Job: {{ shot_id }}</h1>
+  </div>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<form class="panel form" method="post" action="/jobs/new/{{ shot_id }}">
+  <label>Renderer
+    <select name="renderer" required>
+      {% for connector in connectors %}
+      <option value="{{ connector.name }}">{{ connector.name }} / {{ connector.status }} / enabled={{ connector.enabled }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>Generated request file
+    <select name="request_filename" required>
+      {% for request_file in requests %}
+      <option value="{{ request_file.filename }}">{{ request_file.filename }} / {{ request_file.renderer }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>Spend/upload limit
+    <input name="spend_upload_limit" required placeholder="Example: dry-run only; no spend; no upload">
+  </label>
+  <label>Fallback exact references
+    <textarea name="exact_references" placeholder="Usually inherited from the latest approved approval gate. Use only approved reference paths if needed."></textarea>
+  </label>
+  <label class="check"><input type="checkbox" name="privacy_acknowledged"> Privacy warning acknowledged</label>
+  <button type="submit">Create Frozen Job Package</button>
+</form>
+<section class="panel">
+  <h2>v0.5 Rule</h2>
+  <p>This creates a local package only. Connectors remain disabled. Dry-run validation writes markdown and database events only.</p>
+</section>
+{% endblock %}

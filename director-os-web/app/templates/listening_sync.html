@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Listening Sync Review</p><h1>Is This The Sung Lyric?</h1></div>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<section class="director-grid">
+  <article class="panel"><h2>Status</h2><p>{{ sync.status }}</p></article>
+  <article class="panel"><h2>Brain Sync</h2><p>{{ brain.sync_method_counts }} · {{ brain.low_confidence_phrase_count }} low confidence</p></article>
+  <article class="panel"><h2>Caption Offset</h2><p>{{ '%.3f'|format(brain.offset.global_caption_delay_seconds|default(0)) }}s later</p></article>
+  <article class="panel"><h2>Verified</h2><p>{{ sync.verified_phrases }}</p></article>
+  <article class="panel"><h2>Unverified</h2><p>{{ sync.unverified_phrases }}</p></article>
+  <article class="panel"><h2>Wrong Line</h2><p>{{ sync.wrong_line_phrases }}</p></article>
+</section>
+<section class="panel warning-panel">
+  <h2>Review Task</h2>
+  <p>Director OS has proposed phrase timing from the brain timeline using vocal boundaries, phrase order, local onset evidence and the reported caption-ahead offset. Play each corrected clip and confirm whether the proposed lyric is actually what is sung. These are not word, syllable, phoneme, or ASR-verified captions.</p>
+  <div class="action-row">
+    <a class="button" href="/music-analysis/brain">Open Brain Timeline</a>
+    <a class="button" href="/burmese-language/sync-calibration">Sync Calibration</a>
+    <form method="post" action="/brain-sync/apply-offset"><input type="hidden" name="seconds" value="0.25"><button type="submit">Shift All Later 0.25s</button></form>
+    <form method="post" action="/brain-sync/apply-offset"><input type="hidden" name="seconds" value="0.50"><button type="submit">Shift All Later 0.50s</button></form>
+    <form method="post" action="/brain-sync/apply-offset"><input type="hidden" name="seconds" value="-0.25"><button type="submit">Shift All Earlier 0.25s</button></form>
+  </div>
+</section>
+<section class="panel">
+  <h2>Phrase Review</h2>
+  <table>
+    <tr><th>ID</th><th>#</th><th>Caption Start</th><th>Caption End</th><th>Method</th><th>Confidence</th><th>Offset</th><th>Reason</th><th>Lyric</th><th>Status</th><th>Action</th></tr>
+    {% for row in sync.phrases %}
+    {% set suggestion = brain.events[loop.index0] %}
+    <tr>
+      <td>{{ row.phrase_id }}</td>
+      <td>{{ row.phrase_index }}</td>
+      <td>{{ '%.2f'|format(suggestion.caption_start|default(row.final_start_time)) }}</td>
+      <td>{{ '%.2f'|format(suggestion.caption_end|default(row.final_end_time)) }}</td>
+      <td>{{ suggestion.sync_method }}</td>
+      <td>{{ suggestion.confidence }}</td>
+      <td>{{ '%.3f'|format(suggestion.offset_applied|default(0)) }}</td>
+      <td>{{ suggestion.reason }}</td>
+      <td>{{ row.approved_display_text or row.normalized_unicode or row.original_text }}</td>
+      <td>{{ row.listening_sync_status }}</td>
+      <td>
+        <audio controls src="/director-assets/{{ row.audio_segment }}"></audio>
+        <form method="post" action="/burmese-language/listening-sync/{{ row.phrase_id }}">
+          <select name="status">
+            <option value="correct_line_verified">approve auto sync</option>
+            <option value="wrong_line">wrong line</option>
+            <option value="timing_too_early">too early</option>
+            <option value="timing_too_late">too late</option>
+            <option value="too_short">too short</option>
+            <option value="too_long">too long</option>
+            <option value="needs_split">needs split</option>
+            <option value="needs_merge">needs merge</option>
+            <option value="instrumental">instrumental/no caption</option>
+            <option value="uncertain">uncertain</option>
+          </select>
+          <input name="notes" placeholder="Notes">
+          <button type="submit">Save</button>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

@@ -1,0 +1,49 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.venvs/
+venv/
+node_modules/
+.tmp*/
+*.log
+*.sqlite
+*.sqlite3
+
+# Personal references and source media must stay local.
+references/
+**/references/
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.aac
+*.mov
+*.mp4
+*.mkv
+*.avi
+
+# Generated/imported raster assets stay local unless deliberately reviewed.
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Models and heavyweight runtime data.
+*.onnx
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+*.bin
+models/
+caches/
+.caches/
+local-tools/
+face-correction/
+
+# Export archives can contain personal references or large binaries.
+*.zip
+*.tar
+*.tar.gz
+

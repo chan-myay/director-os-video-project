@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Local ASR Setup</p><h1>Speech Alignment Option</h1></div>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<section class="director-grid">
+  <article class="panel"><h2>Available</h2><p>{{ asr.available }}</p></article>
+  <article class="panel"><h2>Burmese Verified</h2><p>{{ asr.burmese_verified }}</p></article>
+  <article class="panel"><h2>Downloads</h2><p>{{ asr.downloads_performed }}</p></article>
+</section>
+<section class="panel">
+  <h2>Detected Providers</h2>
+  <table><tr><th>Provider</th><th>Available</th><th>Path</th></tr>
+  {% for provider in asr.providers %}
+  <tr><td>{{ provider.provider }}</td><td>{{ provider.available }}</td><td>{{ provider.path }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+<section class="panel warning-panel">
+  <h2>Decision</h2>
+  <p>ASR is optional evidence for singing alignment. Burmese singing transcription may be imperfect, so ASR output never overrides approved lyrics or human listening review.</p>
+  <div class="action-row">
+    <form method="post" action="/setup/local-asr/run-existing"><button type="submit">Use Existing ASR If Available</button></form>
+    <button disabled>Approve Small Local ASR Setup</button>
+    <a class="button" href="/burmese-language/sync-calibration">Continue Without ASR</a>
+    <a class="button" href="/animatic">Decide Later</a>
+  </div>
+</section>
+<section class="director-grid">
+  <article class="panel">
+    <h2>Recommended Local Option</h2>
+    <p>{{ asr.recommendation.primary.tool }} · {{ asr.recommendation.primary.model }}</p>
+    <p>{{ asr.recommendation.primary.burmese_support }}</p>
+  </article>
+  <article class="panel">
+    <h2>Fallback</h2>
+    <p>{{ asr.recommendation.fallback.tool }} · {{ asr.recommendation.fallback.model }}</p>
+    <p>{{ asr.recommendation.fallback.burmese_support }}</p>
+  </article>
+</section>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Combined Music-Lyric-Emotion Brain</p><h1>Production Brain Timeline</h1></div>
+  <form method="post" action="/brain-sync/run"><button type="submit">Rebuild Brain Sync</button></form>
+</header>
+<section class="director-grid">
+  <article class="panel"><h2>Version</h2><p>{{ brain.version }}</p></article>
+  <article class="panel"><h2>Duration</h2><p>{{ brain.master_duration }}</p></article>
+  <article class="panel"><h2>Offset</h2><p>+{{ brain.offset.global_caption_delay_seconds }}s · {{ brain.offset.reason }}</p></article>
+  <article class="panel"><h2>High Confidence</h2><p>{{ brain.high_confidence_phrase_count }}</p></article>
+  <article class="panel"><h2>Low Confidence</h2><p>{{ brain.low_confidence_phrase_count }}</p></article>
+  <article class="panel"><h2>Blocked</h2><p>{{ brain.blocked_phrase_count }}</p></article>
+</section>
+<section class="panel warning-panel">
+  <h2>Sync Honesty</h2>
+  <p>{{ brain.warning }}</p>
+</section>
+<section class="panel">
+  <h2>Phrase Brain Events</h2>
+  <table>
+    <tr><th>Phrase</th><th>Caption</th><th>Method</th><th>Conf</th><th>Offset</th><th>Emotion</th><th>Shot</th><th>Blockers</th></tr>
+    {% for row in brain.events %}
+    <tr>
+      <td>{{ row.phrase_index }}</td>
+      <td>{{ '%.2f'|format(row.caption_start) }}-{{ '%.2f'|format(row.caption_end) }}</td>
+      <td>{{ row.sync_method }}</td>
+      <td>{{ row.confidence }}</td>
+      <td>{{ row.offset_applied }}</td>
+      <td>{{ row.emotional_meaning }}</td>
+      <td>{{ row.shot_id }}</td>
+      <td>{{ row.blockers|join(', ') }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Phrase Boundary Review</p><h1>Lyric Alignment</h1></div>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<section class="director-grid">
+  <article class="panel"><h2>Timing Label</h2><p>{{ validation.timing_label }}</p></article>
+  <article class="panel"><h2>Phrases</h2><p>{{ validation.phrase_count }}</p></article>
+  <article class="panel"><h2>Word Aligned</h2><p>{{ validation.word_aligned }}</p></article>
+  <article class="panel"><h2>Warnings</h2><p>{{ validation.warnings|length }}</p></article>
+</section>
+<section class="panel">
+  <h2>17 Phrase Timings</h2>
+  <table>
+    <tr><th>ID</th><th>Phrase</th><th>Start</th><th>End</th><th>Duration</th><th>Lyric</th><th>Timing</th><th>Review</th></tr>
+    {% for row in timing.records %}
+    <tr>
+      <td>{{ row.phrase_id }}</td>
+      <td>{{ row.phrase_index }}</td>
+      <td>{{ '%.2f'|format(row.final_start_time) }}</td>
+      <td>{{ '%.2f'|format(row.final_end_time) }}</td>
+      <td>{{ '%.2f'|format(row.final_end_time - row.final_start_time) }}</td>
+      <td>{{ row.approved_display_text or row.normalized_unicode }}</td>
+      <td>{{ row.final_timing_source }} · {{ '%.2f'|format(row.alignment_confidence) }}</td>
+      <td>{{ row.timing_review_status }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

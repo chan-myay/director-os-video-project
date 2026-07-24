@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Director-grade preparation</p>
+    <h1>Control Room</h1>
+  </div>
+  <span class="status-pill">Local-only shell</span>
+</header>
+
+<section class="grid three">
+  <div class="panel">
+    <h2>Engine</h2>
+    <dl>
+      <dt>Version</dt><dd>{{ engine.version }}</dd>
+      <dt>Root</dt><dd>{{ engine.engine_root }}</dd>
+      <dt>Stop</dt><dd>{{ engine.hard_stop }}</dd>
+    </dl>
+  </div>
+  <div class="panel">
+    <h2>Product</h2>
+    <dl>
+      <dt>Status</dt><dd>{{ product.status }}</dd>
+      <dt>Docs</dt><dd>{{ product.documents|length }}</dd>
+      <dt>Database</dt><dd>{{ workflow.counts.projects }} project / {{ workflow.counts.audit_logs }} audit events</dd>
+    </dl>
+  </div>
+  <div class="panel">
+    <h2>Connectors</h2>
+    <dl>
+      <dt>Status</dt><dd>{{ connectors.status }}</dd>
+      <dt>Path</dt><dd>{{ connectors.path }}</dd>
+    </dl>
+  </div>
+</section>
+
+<section class="grid three">
+  <div class="panel">
+    <h2>Workflow DB</h2>
+    <dl>
+      <dt>Shot packs</dt><dd>{{ workflow.counts.shot_packs }}</dd>
+      <dt>Generated requests</dt><dd>{{ workflow.counts.generated_requests }}</dd>
+      <dt>Approvals</dt><dd>{{ workflow.counts.approval_gates }}</dd>
+    </dl>
+  </div>
+  <div class="panel">
+    <h2>Reviews</h2>
+    <dl>
+      <dt>QC records</dt><dd>{{ workflow.counts.qc_reviews }}</dd>
+      <dt>Moodboards</dt><dd>{{ workflow.counts.reference_moodboards }}</dd>
+    </dl>
+  </div>
+  <div class="panel">
+    <h2>Gates</h2>
+    <p>Approval, privacy, final-request review, spend/upload limit, and QC are persisted before any future connector work.</p>
+  </div>
+</section>
+
+<section class="grid three">
+  <div class="panel"><h2>Awaiting Review</h2><p class="metric">{{ result_counts.awaiting_review }}</p></div>
+  <div class="panel"><h2>Accepted</h2><p class="metric">{{ result_counts.accepted }}</p></div>
+  <div class="panel"><h2>Rejected</h2><p class="metric">{{ result_counts.rejected }}</p></div>
+</section>
+
+<section class="split">
+  <div>
+    <h2>Shot Packs</h2>
+    <div class="list">
+      {% for pack in shot_packs %}
+      <a class="row" href="/shot-packs/{{ pack.id }}">
+        <strong>{{ pack.id }}</strong>
+        <span>{{ pack.purpose }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div>
+    <h2>Generated Requests</h2>
+    <div class="list">
+      {% for package in generated %}
+      <div class="row static">
+        <strong>{{ package.id }}</strong>
+        <span>{{ package.files|length }} review files</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

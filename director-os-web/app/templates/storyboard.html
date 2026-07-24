@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Working Visual Workspace</p>
+    <h1>Storyboard Review</h1>
+  </div>
+  <form method="post" action="/storyboard/sync">
+    <button type="submit">Sync Director Plan</button>
+  </form>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<section class="director-grid">
+  <article class="panel metric-panel"><span>{{ workspace.card_count }}</span><p>Cards</p></article>
+  <article class="panel metric-panel"><span>{{ workspace.approved }}</span><p>Approved</p></article>
+  <article class="panel metric-panel"><span>{{ workspace.needs_refine }}</span><p>Needs Refine</p></article>
+  <article class="panel"><h2>Next Action</h2><p>{{ workspace.next_action }}</p></article>
+</section>
+<section class="action-row">
+  <a class="button" href="/director-assets/previs/latest/S001.png">Open First PNG Previs</a>
+  <a class="button" href="/director-assets/animatics/latest/ANIMATIC.html">Open Playable Animatic</a>
+  <a class="button" href="/director-assets/plans/latest/STORYBOARD_WORKSPACE.json">Export JSON</a>
+  <a class="button" href="/director-assets/plans/latest/STORYBOARD_WORKSPACE.csv">Export CSV</a>
+</section>
+{% if cards %}
+<div class="storyboard-grid">
+  {% for card in cards %}
+  <article class="story-card status-{{ card.status }}">
+    <img class="story-frame" src="/director-assets/previs/latest/{{ card.shot_number }}.png" alt="{{ card.shot_number }} raster previs">
+    <div class="card-title-row">
+      <h2>{{ card.shot_number }} · {{ card.title }}</h2>
+      <span class="status-pill">{{ card.status }}</span>
+    </div>
+    <p><strong>{{ card.timecode_start }} - {{ card.timecode_end }}</strong> · {{ card.song_section }}</p>
+    <p>{{ card.purpose }}</p>
+    <dl>
+      <dt>Framing</dt><dd>{{ card.framing }}</dd>
+      <dt>Camera</dt><dd>{{ card.camera_movement }}</dd>
+      <dt>Lighting</dt><dd>{{ card.lighting }}</dd>
+      <dt>Movement</dt><dd>{{ card.exact_movement }}</dd>
+      <dt>Renderer</dt><dd>{{ card.recommended_renderer }} / {{ card.fallback_renderer }}</dd>
+      <dt>Risk</dt><dd>Identity {{ card.identity_risk }} / Body {{ card.body_motion_risk }}</dd>
+      <dt>Version</dt><dd>{{ card.version }}</dd>
+    </dl>
+    <form class="inline-form" method="post" action="/storyboard/{{ card.shot_number }}/decision">
+      <select name="decision">
+        <option value="approved">approve</option>
+        <option value="needs_refine">needs refine</option>
+        <option value="rejected">reject</option>
+        <option value="planned">planned</option>
+      </select>
+      <input name="reason" placeholder="Reason or direction note">
+      <button type="submit">Save</button>
+    </form>
+    <form class="inline-form" method="post" action="/storyboard/{{ card.shot_number }}/comment">
+      <input name="comment" placeholder="Add comment">
+      <button type="submit">Comment</button>
+    </form>
+    <form class="inline-form" method="post" action="/storyboard/{{ card.shot_number }}/generate-local-ai">
+      <input name="refinement_text" placeholder="Refine one local AI variant">
+      <button type="submit">Generate Local AI Variant</button>
+    </form>
+    {% set shown_variants = [] %}
+    {% for variant in variants %}
+      {% if variant.shot_number == card.shot_number %}
+        {% set _ = shown_variants.append(variant) %}
+      {% endif %}
+    {% endfor %}
+    {% if shown_variants %}
+    <h3>Generated Variants</h3>
+    <ul class="compact-list">
+      {% for variant in shown_variants[:3] %}
+      <li>{{ variant.created_at }} · {{ variant.origin_label }} · {{ variant.status }} · {{ variant.image_path }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if card.decisions %}
+    <h3>Decision History</h3>
+    <ul class="compact-list">
+      {% for decision in card.decisions[:3] %}
+      <li>{{ decision.created_at }} · {{ decision.decision }} · {{ decision.reason }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if card.comments %}
+    <h3>Comments</h3>
+    <ul class="compact-list">
+      {% for comment in card.comments[:3] %}
+      <li>{{ comment.created_at }} · {{ comment.comment }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<section class="panel"><h2>No cards yet</h2><p>Sync the Director Plan to populate persistent storyboard cards.</p></section>
+{% endif %}
+{% endblock %}

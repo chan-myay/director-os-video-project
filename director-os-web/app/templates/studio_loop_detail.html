@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+{% set studio = detail.loop %}
+<header class="page-header">
+  <div><p class="eyebrow">Studio Loop {{ studio.loop_id }}</p><h1>{{ studio.status }}</h1></div>
+  <form method="post" action="/studio-loop/{{ studio.loop_id }}/continue"><button type="submit">Continue And Improve</button></form>
+</header>
+<section class="flow-strip">
+  {% for node in ["IDEA","UNDERSTAND","RESEARCH","DIRECT","GENERATE","ASSEMBLE","WATCH & LISTEN","FIND PROBLEMS","FIX","REVIEW","FINISH"] %}
+  <span>{{ node }}</span>
+  {% endfor %}
+</section>
+<section class="director-grid">
+  <article class="panel"><h2>Score</h2><p>{{ studio.quality_score }}</p></article>
+  <article class="panel"><h2>Iteration</h2><p>{{ studio.current_iteration }}</p></article>
+  <article class="panel"><h2>Acceptance</h2><p>{{ studio.acceptance_status }}</p></article>
+  <article class="panel"><h2>Next Action</h2><p>{{ studio.next_action }}</p></article>
+</section>
+<section class="panel">
+  <h2>Current Production Preview</h2>
+  {% if detail.evaluation.evidence.captioned_asset_url %}
+  <video controls src="{{ detail.evaluation.evidence.captioned_asset_url }}"></video>
+  {% else %}
+  <p>No preview artifact is currently route-resolvable.</p>
+  {% endif %}
+  <div class="action-row">
+    <a class="button" href="/studio-loop/{{ studio.loop_id }}/evaluation">Evaluation</a>
+    <a class="button" href="/studio-loop/{{ studio.loop_id }}/repairs">Repairs</a>
+    <a class="button" href="/studio-loop/{{ studio.loop_id }}/artifacts">Artifacts</a>
+    <a class="button" href="/studio-loop/{{ studio.loop_id }}/approvals">Approvals</a>
+  </div>
+</section>
+<section class="panel warning-panel">
+  <h2>Defects</h2>
+  <ul class="compact-list">
+    {% for defect in detail.defects.defects %}
+    <li><strong>{{ defect.code }}</strong> · {{ defect.severity }} · {{ defect.symptom }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

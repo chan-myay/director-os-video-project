@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div><p class="eyebrow">Voice Measurement</p><h1>Import Voice Audio</h1></div>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+<form class="panel form" method="post" action="/captions-voice/import">
+  <label>Phrase
+    <select name="phrase_id">
+      {% for row in timing.records %}
+      <option value="{{ row.phrase_id }}" {% if row.phrase_id == phrase_id %}selected{% endif %}>{{ row.phrase_index }} · {{ row.caption_text }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>Local audio path <input name="audio_path" placeholder="director-os-web/data/test.wav"></label>
+  <label>Provider <input name="provider" value="manual_import"></label>
+  <button type="submit">Import And Measure</button>
+</form>
+{% endblock %}

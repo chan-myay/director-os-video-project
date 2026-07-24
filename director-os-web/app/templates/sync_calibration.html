@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Smart Lyric Sync Calibration</p>
+    <h1>Calibrate Caption Timing</h1>
+  </div>
+  <form method="post" action="/burmese-language/sync-calibration/rebuild-run15">
+    <button type="submit">Rebuild Run 15</button>
+  </form>
+</header>
+{% if message %}<p class="notice">{{ message }}</p>{% endif %}
+
+<section class="director-grid">
+  <article class="panel"><h2>Run 14 Offset</h2><p>+{{ calibration.run14_offset_seconds }}s</p></article>
+  <article class="panel"><h2>Current Offset</h2><p>{{ calibration.current_offset_seconds }}s</p></article>
+  <article class="panel"><h2>Proposed Offset</h2><p>{{ calibration.proposed_offset_seconds }}s</p></article>
+  <article class="panel"><h2>Feedback Events</h2><p>{{ calibration.feedback_event_count }}</p></article>
+  <article class="panel"><h2>Approved Offset</h2><p>{{ calibration.approved_global_offset_seconds|default('not approved', true) }}</p></article>
+  <article class="panel"><h2>Next Action</h2><p>{{ calibration.suggested_next_action }}</p></article>
+</section>
+
+<section class="panel warning-panel">
+  <h2>Listening Task</h2>
+  <p>Use this page to move all captions together when they are consistently early or late. The current sync is still review-only and not word, syllable, phoneme, or ASR verified.</p>
+  <div class="action-row">
+    <form method="post" action="/sync-calibration/suggest"><button type="submit">Refresh Candidates</button></form>
+    <form method="post" action="/burmese-language/sync-calibration/apply"><input type="hidden" name="seconds" value="{{ calibration.proposed_offset_seconds }}"><input type="hidden" name="approve" value="1"><button type="submit">Approve Proposed Offset</button></form>
+    <a class="button" href="/music-analysis/brain">Brain Timeline</a>
+    <a class="button" href="/animatic">Animatic</a>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>Global Controls</h2>
+  <div class="action-row">
+    <form method="post" action="/burmese-language/sync-calibration/apply"><input type="hidden" name="seconds" value="0.1"><button type="submit">Captions Still Too Early +0.1s</button></form>
+    <form method="post" action="/burmese-language/sync-calibration/apply"><input type="hidden" name="seconds" value="0.25"><button type="submit">Apply +0.25s</button></form>
+    <form method="post" action="/burmese-language/sync-calibration/apply"><input type="hidden" name="seconds" value="0.5"><button type="submit">Apply +0.5s</button></form>
+    <form method="post" action="/burmese-language/sync-calibration/apply"><input type="hidden" name="seconds" value="-0.1"><button type="submit">Captions Too Late -0.1s</button></form>
+    <form method="post" action="/burmese-language/sync-calibration/apply"><input type="hidden" name="seconds" value="-0.25"><button type="submit">Apply -0.25s</button></form>
+    <form method="post" action="/burmese-language/sync-calibration/apply"><input type="hidden" name="seconds" value="-0.5"><button type="submit">Apply -0.5s</button></form>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>Offset Candidates</h2>
+  <table>
+    <tr><th>Offset</th><th>Avg Distance</th><th>Before Vocal</th><th>Silence</th><th>Coverage</th><th>Readability</th><th>Score</th><th>Reason</th><th>Action</th></tr>
+    {% for row in calibration.candidates.candidates %}
+    <tr>
+      <td>{{ row.offset_seconds }}</td>
+      <td>{{ row.average_distance_to_vocal_onset }}</td>
+      <td>{{ row.captions_starting_before_vocal_onset_count }}</td>
+      <td>{{ row.captions_inside_silence_count }}</td>
+      <td>{{ row.phrase_coverage_score }}</td>
+      <td>{{ row.likely_readability_score }}</td>
+      <td>{{ row.score }}</td>
+      <td>{{ row.reason }}</td>
+      <td><form method="post" action="/burmese-language/sync-calibration/apply"><input type="hidden" name="seconds" value="{{ row.offset_seconds }}"><input type="hidden" name="approve" value="1"><button type="submit">Approve</button></form></td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+
+<section class="panel">
+  <h2>Phrase Calibration</h2>
+  <table>
+    <tr><th>Phrase</th><th>Caption</th><th>Method</th><th>Confidence</th><th>Offset</th><th>Lyric</th><th>Actions</th></tr>
+    {% for row in brain.events %}
+    <tr>
+      <td>{{ row.phrase_index }}</td>
+      <td>{{ '%.2f'|format(row.caption_start) }}-{{ '%.2f'|format(row.caption_end) }}</td>
+      <td>{{ row.sync_method }}</td>
+      <td>{{ row.confidence }}</td>
+      <td>{{ row.offset_applied }}</td>
+      <td>{{ row.approved_unicode }}</td>
+      <td>
+        <form method="post" action="/burmese-language/listening-sync/{{ row.phrase_id }}">
+          <select name="status">
+            <option value="correct_line_verified">mark correct</option>
+            <option value="timing_too_early">too early</option>
+            <option value="timing_too_late">too late</option>
+            <option value="wrong_line">wrong lyric</option>
+            <option value="instrumental">skip caption here</option>
+            <option value="needs_split">split</option>
+            <option value="needs_merge">merge</option>
+          </select>
+          <input name="notes" placeholder="Optional note">
+          <button type="submit">Save</button>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

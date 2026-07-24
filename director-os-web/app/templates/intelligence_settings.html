@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Runtime</p>
+    <h1>Intelligence Provider</h1>
+  </div>
+</header>
+<section class="panel">
+  <dl>
+    <dt>Active Provider</dt><dd>{{ provider.provider }}</dd>
+    <dt>Available</dt><dd>{{ provider.available }}</dd>
+    <dt>Runtime</dt><dd>{{ provider.runtime }}</dd>
+    <dt>Version</dt><dd>{{ provider.version }}</dd>
+    <dt>Privacy Mode</dt><dd>{{ provider.privacy_mode or 'local/no upload by default' }}</dd>
+    <dt>Research Permission</dt><dd>{{ provider.research_permission or 'link verification only unless enabled' }}</dd>
+    <dt>Fallback Status</dt><dd>{{ provider.fallback_status }}</dd>
+    <dt>Credentials Exposed</dt><dd>{{ provider.credentials_exposed }}</dd>
+  </dl>
+</section>
+{% endblock %}

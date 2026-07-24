@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">v0.2 compiler output</p>
+    <h1>Generated Requests</h1>
+  </div>
+</header>
+<section class="split">
+  <div>
+    <h2>Packages</h2>
+    {% for package in packages %}
+    <div class="panel compact">
+      <h3>{{ package.id }}</h3>
+      {% for file in package.files %}
+      <a class="file-link" href="/generated-requests/{{ package.id }}/{{ file }}">{{ file }}</a>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  <div>
+    {% if selected %}
+    <article class="panel">
+      <h2>{{ selected.filename }}</h2>
+      <p class="path">{{ selected.path }}</p>
+      <pre>{{ selected.content }}</pre>
+    </article>
+    {% else %}
+    <div class="panel">
+      <h2>No Request Selected</h2>
+      <p>Select a generated request file to inspect its approval and QC gates.</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

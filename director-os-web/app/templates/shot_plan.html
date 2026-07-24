@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Song-Aligned Plan</p>
+    <h1>Shot Plan</h1>
+  </div>
+</header>
+{% if status.storyboard.shots %}
+<div class="timeline-list">
+  {% for shot in status.storyboard.shots %}
+  <article class="row static">
+    <strong>{{ shot.shot_number }} · {{ shot.timecode_start }}-{{ shot.timecode_end }} · {{ shot.title }}</strong>
+    <span>{{ shot.song_section }} · {{ shot.source_or_missing_shot_id }}</span>
+    <small>{{ shot.performer_action }} / {{ shot.exact_movement }}</small>
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<section class="panel"><h2>No shot plan yet</h2></section>
+{% endif %}
+{% endblock %}

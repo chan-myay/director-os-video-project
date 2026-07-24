@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Metadata only</p>
+    <h1>New Motion Reference</h1>
+  </div>
+</header>
+{% if message %}
+<p class="notice">{{ message }}</p>
+{% endif %}
+<form class="panel form" method="post" action="/motion-references/new">
+  <label>Shot ID
+    <input name="shot_id" value="F01_side_travel_dance" required>
+  </label>
+  <label>Source Type
+    <select name="source_type">
+      <option value="local_path">local_path</option>
+      <option value="external_url">external_url</option>
+    </select>
+  </label>
+  <label>Local Path or External URL
+    <input name="source" required>
+  </label>
+  <label>Source Title
+    <input name="source_title" required>
+  </label>
+  <label>Owner / License
+    <input name="owner_license">
+  </label>
+  <label>Permitted Use
+    <input name="permitted_use" placeholder="motion reference only, no identity/clothing/location transfer">
+  </label>
+  <div class="grid three">
+    <label>Start Time
+      <input name="start_time" placeholder="00:00:01.000">
+    </label>
+    <label>End Time
+      <input name="end_time" placeholder="00:00:05.000">
+    </label>
+    <label>Speed
+      <input name="speed" placeholder="normal">
+    </label>
+  </div>
+  <div class="grid three">
+    <label>Body Framing
+      <select name="body_framing">
+        <option value="">Select</option>
+        <option value="full-body">full-body</option>
+        <option value="medium-wide">medium-wide</option>
+      </select>
+    </label>
+    <label>Travel Direction
+      <select name="travel_direction">
+        <option value="">Select</option>
+        <option value="left-to-right">left-to-right</option>
+        <option value="right-to-left">right-to-left</option>
+      </select>
+    </label>
+    <label>Face Visibility
+      <input name="face_visibility" placeholder="small/profile/shadowed">
+    </label>
+  </div>
+  <label>Rights Status
+    <input name="rights_status" placeholder="approved / owned / licensed / UNKNOWN">
+  </label>
+  <label>Source Owner / License
+    <input name="source_owner_license">
+  </label>
+  <div class="inline">
+    <label><input type="checkbox" name="transfer_body_movement"> transfer body movement</label>
+    <label><input type="checkbox" name="transfer_timing"> transfer timing</label>
+    <label><input type="checkbox" name="transfer_travel_path"> transfer travel path</label>
+    <label><input type="checkbox" name="transfer_shoulder_torso_rhythm"> transfer shoulder/torso rhythm</label>
+  </div>
+  <div class="inline">
+    <label><input type="checkbox" name="do_not_transfer_identity" checked> do not transfer identity</label>
+    <label><input type="checkbox" name="do_not_transfer_clothing" checked> do not transfer clothing</label>
+    <label><input type="checkbox" name="do_not_transfer_location" checked> do not transfer location</label>
+    <label><input type="checkbox" name="do_not_transfer_body_shape" checked> do not transfer body shape</label>
+  </div>
+  <label>Approval Status
+    <select name="approval_status">
+      <option value="draft">draft</option>
+      <option value="approved">approved</option>
+      <option value="rejected">rejected</option>
+    </select>
+  </label>
+  <label>Notes
+    <textarea name="notes"></textarea>
+  </label>
+  <button type="submit">Save Motion Reference</button>
+</form>
+{% endblock %}

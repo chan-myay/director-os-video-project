@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">Lip-Sync Jobs</p><h1>Jobs</h1></div><a class="button" href="/lipsync/jobs/new">New Job</a></header>
+<section class="panel">
+  <table><tr><th>ID</th><th>Shot</th><th>Status</th><th>Provider</th><th>Package</th></tr>
+  {% for job in jobs %}
+  <tr><td><a href="/lipsync/jobs/{{ job.job_id }}">{{ job.job_id }}</a></td><td>{{ job.shot_id }}</td><td>{{ job.status }}</td><td>{{ job.provider }}</td><td>{{ job.package_path }}</td></tr>
+  {% endfor %}
+  </table>
+</section>
+{% endblock %}

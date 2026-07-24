@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header"><div><p class="eyebrow">New Lip-Sync Job</p><h1>Create Job</h1></div></header>
+<form class="panel form" method="post" action="/lipsync/jobs/new">
+  <label>Shot ID <input name="shot_id" value="{{ shot_id }}"></label>
+  <button type="submit">Create Local Planning Job</button>
+</form>
+{% endblock %}

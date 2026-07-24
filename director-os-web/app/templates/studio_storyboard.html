@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Visual Storyboard</p>
+    <h1>{{ project.name }}</h1>
+  </div>
+  <div class="button-row">
+    <a class="button" href="/studio/projects/{{ project.project_id }}/result">Result</a>
+    <a class="button" href="/storyboard">Advanced Storyboard</a>
+  </div>
+</header>
+
+{% set shots = result.storyboard.shots if result and result.storyboard else [] %}
+<section class="storyboard-toolbar panel">
+  <strong>{{ shots|length }} shots</strong>
+  <span>LOCAL ASSET COMPOSITE frames are labelled honestly. AI generation remains optional until a local model is approved.</span>
+  <div class="tag-row">
+    <span>Composition overlay</span>
+    <span>Blocking diagram</span>
+    <span>Lighting diagram</span>
+    <span>Camera diagram</span>
+    <span>Captions</span>
+    <span>References</span>
+  </div>
+</section>
+
+<section class="storyboard-grid">
+  {% for shot in shots %}
+  <article class="story-card">
+    {% if shot.image_path %}
+    <img src="/director-assets/{{ shot.image_path|replace('/Users/chan/song-video-project/director-os/', '') }}" alt="">
+    {% else %}
+    <div class="media-placeholder">Storyboard frame</div>
+    {% endif %}
+    <div class="story-card-body">
+      <div class="story-head"><strong>{{ shot.shot_id }}</strong><span>{{ shot.timecode }}</span></div>
+      <p>{{ shot.story_purpose }}</p>
+      <dl>
+        <dt>Camera</dt><dd>{{ shot.camera }}</dd>
+        <dt>Lighting</dt><dd>{{ shot.lighting }}</dd>
+        <dt>Movement</dt><dd>{{ shot.movement }}</dd>
+        <dt>Renderer</dt><dd>{{ shot.renderer }} · fallback {{ shot.fallback_renderer }}</dd>
+      </dl>
+      <div class="tag-row">
+        <span>{{ shot.image_origin }}</span>
+        <span>{{ shot.quality_status }}</span>
+      </div>
+      <div class="button-row">
+        <button>Approve</button>
+        <button>Reject</button>
+        <button>Refine</button>
+        <button>Regenerate This Shot</button>
+      </div>
+    </div>
+  </article>
+  {% else %}
+  <article class="panel"><h2>No storyboard yet</h2><p>Create everything first.</p></article>
+  {% endfor %}
+</section>
+{% endblock %}

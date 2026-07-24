@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Approval-gated orchestration</p>
+    <h1>Generation Jobs</h1>
+  </div>
+  <a class="button" href="/jobs/new/F01_side_travel_dance">New F01 Job</a>
+</header>
+<div class="list">
+  {% for job in jobs %}
+  <a class="row" href="/jobs/{{ job.shot_id }}/{{ job.id }}">
+    <strong>#{{ job.id }} {{ job.shot_id }} / {{ job.renderer }}</strong>
+    <span>{{ job.status }} / {{ job.request_filename }}</span>
+    <small>{{ job.package_path }}</small>
+  </a>
+  {% else %}
+  <div class="row static"><strong>No jobs yet</strong><span>Create the first frozen dry-run package from F01.</span></div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Rights-aware references</p>
+    <h1>Reference Library</h1>
+  </div>
+</header>
+<section class="panel">
+  <h2>Policy</h2>
+  <p>{{ reference.policy }}</p>
+  <p class="path">{{ reference.root }}</p>
+</section>
+<div class="doc-list">
+  {% for file in reference.files %}
+  <article class="panel">
+    <h2>{{ file.name }}</h2>
+    <p class="path">{{ file.path }}</p>
+    <pre>{{ file.preview }}</pre>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}
