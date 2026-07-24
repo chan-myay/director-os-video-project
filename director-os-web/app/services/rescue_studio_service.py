@@ -80,7 +80,7 @@ def _probe(path: Path) -> Dict[str, Any]:
 def _prompt_markdown(shot: Dict[str, Any]) -> str:
     sid = shot["shot_id"]
     base = (
-        "{sid} — {purpose}. Adult wife performs alone in a dark teak Finnish bar with a "
+        "{sid} — {purpose}. Adult lead performer performs alone in a dark teak Finnish bar with a "
         "winter window, wearing the approved deep-red Burmese-inspired one-shoulder dress. "
         "Mature, emotionally intense, realistic adult proportions, amber/crimson practical "
         "light with cold winter contrast. Composition: {composition}. Camera: {camera}; "
@@ -141,7 +141,7 @@ def _prompt_markdown(shot: Dict[str, Any]) -> str:
 - Generic image-to-video: Animate the approved start frame with {movement}; no morphing.
 
 ## Identity and body restrictions
-Exact adult wife identity only. Natural mature adult body and true-to-reference proportions.
+Exact adult lead performer identity only. Natural mature adult body and true-to-reference proportions.
 Do not beautify into another person, narrow the waist, enlarge body features, or change age.
 
 ## Forbidden styles
@@ -245,10 +245,10 @@ def build_rescue_artifacts() -> Dict[str, Any]:
         "project_id": PROJECT_ID,
         "title": "Burmese Music Video",
         "concept": "The Bar Remembers Her",
-        "creative_direction": "Adult wife performs alone in a dark teak Finnish bar with winter window and Burmese material identity.",
+        "creative_direction": "Adult lead performer performs alone in a dark teak Finnish bar with winter window and Burmese material identity.",
         "inputs": [
-            {"name": "Performer identity A1/A2", "kind": "performer photos", "status": "approved source", "url": "/reference-assets/approved/REF-A1_WIFE-FACE-FRONT_APPROVED.png"},
-            {"name": "Wardrobe / body B", "kind": "wardrobe", "status": "approved source", "url": "/reference-assets/approved/REF-B_WIFE-WARDROBE-FULLBODY_APPROVED.png"},
+            {"name": "Performer identity A1/A2", "kind": "performer photos", "status": "approved source", "url": "/reference-assets/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png"},
+            {"name": "Wardrobe / body B", "kind": "wardrobe", "status": "approved source", "url": "/reference-assets/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"},
             {"name": "Dark teak bar C", "kind": "location", "status": "approved source", "url": "/reference-assets/approved/REF-C_BAR-STAGE_APPROVED.png"},
             {"name": "Burmese art / world E", "kind": "Burmese visual references", "status": "approved source", "url": "/reference-assets/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png"},
             {"name": "01.mp3", "kind": "song", "status": "approved source", "url": "/project-source/audio/01.mp3"},

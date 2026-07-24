@@ -26,12 +26,12 @@ including:
 - `nsfw_1.onnx`, `nsfw_2.onnx`, `nsfw_3.onnx`
 - `crossface_hififace.onnx`
 
-### Current trained wife models
+### Current trained lead performer models
 
 Do not remove:
 
-- `face-correction/work/models/p03-wife-dlight-v1/`
-- `face-correction/v2/models/p03-wife-dlight-384-v2/`
+- `face-correction/work/models/p03-performer-dlight-v1/`
+- `face-correction/v2/models/p03-performer-dlight-384-v2/`
 
 The current model files are approximately 1.5 GB and 2.0 GB respectively.
 
@@ -59,7 +59,7 @@ These are caches/downloads or cloned research code and can be recreated:
 | `local-tools/research-repos/` | 401 MB | Research clones; not the production pipeline |
 
 This group does not include the approved face models, current environments,
-wife references or production video.
+lead performer references or production video.
 
 ## Unused FaceFusion swapper downloads — approximately 6 GB
 
@@ -92,8 +92,8 @@ training history:
 
 Locations:
 
-- `face-correction/work/models/p03-wife-dlight-v1_snapshot_*`
-- `face-correction/v2/models/p03-wife-dlight-384-v2_snapshot_*`
+- `face-correction/work/models/p03-performer-dlight-v1_snapshot_*`
+- `face-correction/v2/models/p03-performer-dlight-384-v2_snapshot_*`
 - backup files ending in `.bk`
 
 The current V1 and V2 model folders remain separate. Before removing snapshots,

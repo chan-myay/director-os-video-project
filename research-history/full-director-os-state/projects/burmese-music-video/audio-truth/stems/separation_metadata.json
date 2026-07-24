@@ -1,0 +1,36 @@
+{
+  "status": "blocked_pending_model_approval",
+  "reason": "Demucs model execution/download requires LOCAL BURMESE AUDIO INTELLIGENCE BUNDLE approval.",
+  "master_audio": "/Users/chan/song-video-project/audio/01.mp3",
+  "master_metadata": {
+    "duration": 292.702041,
+    "size": 11787104,
+    "format": "mp3",
+    "video_codec": "",
+    "audio_codec": "mp3",
+    "width": 0,
+    "height": 0,
+    "streams": 1
+  },
+  "full_mix_normalized_16k": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/stems/full_mix_normalized_16k.wav",
+  "full_mix_metadata": {
+    "duration": 292.657625,
+    "size": 9365122,
+    "format": "wav",
+    "video_codec": "",
+    "audio_codec": "pcm_s16le",
+    "width": 0,
+    "height": 0,
+    "streams": 1
+  },
+  "vocals_wav": "",
+  "instrumental_wav": "",
+  "duration_matches_master": true,
+  "hashes": {
+    "master": "0f001b10bb4ae766d271c83cc960b91d4b8f62cc673abd679c8d6f89f381141c",
+    "full_mix_normalized_16k": "1872e3364983025deccdacd26781338c2c1c6e4abc23eeef0121c5b3ad4551d7",
+    "vocals": ""
+  },
+  "tool": "Demucs",
+  "tool_revision": "not_run_in_v2_2_without_bundle_approval"
+}

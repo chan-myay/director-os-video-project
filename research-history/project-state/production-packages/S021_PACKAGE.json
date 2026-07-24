@@ -1,0 +1,52 @@
+{
+  "shot_id": "S021",
+  "renderer": "Seedance",
+  "fallback_renderer": "existing footage / local storyboard mock / manual export",
+  "short_director_instruction": "S021: fabric punctuation",
+  "full_technical_prompt": "S021: fabric punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: controlled pivot only from reference. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: controlled pivot only if present in motion source. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+  "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+  "input_reference_mapping": [
+    "approved face refs A1/A2 only when explicitly allowed",
+    "approved wardrobe/body B",
+    "approved bar C",
+    "approved Burmese art E"
+  ],
+  "motion_mapping": "controlled pivot only if present in motion source",
+  "duration": "04:24.83",
+  "identity_rules": "Use only exact approved references; no broad private folders.",
+  "body_rules": "Natural adult proportions; no reshaping.",
+  "privacy_state": "local package; cloud upload requires approval.",
+  "likely_failures": [
+    "caption sync unverified",
+    "identity drift",
+    "generic choreography"
+  ],
+  "qc_scorecard": [
+    "identity",
+    "body realism",
+    "Burmese cultural specificity",
+    "caption timing",
+    "motion realism"
+  ],
+  "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+  "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+  "renderer_specific_prompts": {
+    "local_image_backend": "S021: fabric punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: controlled pivot only from reference. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: controlled pivot only if present in motion source. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+    "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+    "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+    "kling": "Provider package prepared only; paid/cloud use requires approval.",
+    "runway": "Provider package prepared only; paid/cloud use requires approval.",
+    "veo": "Provider package prepared only; paid/cloud use requires approval.",
+    "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+  },
+  "qc_requirements": [
+    "identity",
+    "body realism",
+    "Burmese cultural specificity",
+    "caption timing",
+    "motion realism",
+    "caption_truth_gate",
+    "readable_burmese_font",
+    "no_wrong_lyrics_in_main_player"
+  ]
+}

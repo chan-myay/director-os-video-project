@@ -244,12 +244,12 @@ Manual test order:
 8. Do QC with `QC_AFTER_GENERATION.md` before generating more.
 
 Do not upload child-containing sources, rejected identity sheets, broad private
-wife/source folders, or any unlisted private media.
+lead performer/source folders, or any unlisted private media.
 """
 
 
 def _base_controlled_request() -> str:
-    return """Subject: approved adult wife performer from the provided approved references only.
+    return """Subject: approved adult lead performer performer from the provided approved references only.
 
 Action: sustained side-travel dance across the bar floor.
 
@@ -338,7 +338,7 @@ def _reference_manifest(job: dict[str, Any]) -> str:
             "",
             "- child-containing sources",
             "- rejected identity sheets",
-            "- broad private wife/source folders",
+            "- broad private lead performer/source folders",
             "- unlisted private media",
         ]
     )
@@ -357,8 +357,8 @@ Rules:
 
 - Consent is required for real people.
 - Do not upload child-containing sources.
-- Do not upload rejected wife reference sheets.
-- Do not upload broad private wife/source folders.
+- Do not upload rejected lead performer reference sheets.
+- Do not upload broad private lead performer/source folders.
 - Upload only the exact approved reference files listed in the manifest.
 - Stop after one test and review privacy, identity, body, motion, and QC.
 """
@@ -407,7 +407,7 @@ Reject the result immediately if any are true:
 
 | Item | Pass/Fail | Notes |
 |---|---|---|
-| Wife identity from approved references only |  |  |
+| lead performer identity from approved references only |  |  |
 | Face stays small/profile/shadowed |  |  |
 | Natural adult body proportions |  |  |
 | Deep red one-shoulder Burmese-inspired dress |  |  |

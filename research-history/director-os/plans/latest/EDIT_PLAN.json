@@ -1,0 +1,250 @@
+{
+  "timeline": [
+    {
+      "order": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:08.00",
+      "shot_id": "S001",
+      "song_section": "intro",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 2,
+      "start_time": "00:08.04",
+      "end_time": "00:16.05",
+      "shot_id": "S002",
+      "song_section": "intro",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 3,
+      "start_time": "00:16.09",
+      "end_time": "00:24.09",
+      "shot_id": "S003",
+      "song_section": "intro",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 4,
+      "start_time": "00:24.13",
+      "end_time": "00:32.13",
+      "shot_id": "S004",
+      "song_section": "intro",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 5,
+      "start_time": "00:32.18",
+      "end_time": "00:40.18",
+      "shot_id": "S005",
+      "song_section": "verse1",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 6,
+      "start_time": "00:47.28",
+      "end_time": "00:55.28",
+      "shot_id": "S006",
+      "song_section": "verse1",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 7,
+      "start_time": "01:02.38",
+      "end_time": "01:10.38",
+      "shot_id": "S007",
+      "song_section": "verse1",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 8,
+      "start_time": "01:17.48",
+      "end_time": "01:25.48",
+      "shot_id": "S008",
+      "song_section": "verse1",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 9,
+      "start_time": "01:37.66",
+      "end_time": "01:45.66",
+      "shot_id": "S009",
+      "song_section": "chorus1",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 10,
+      "start_time": "01:54.28",
+      "end_time": "02:02.28",
+      "shot_id": "S010",
+      "song_section": "chorus1",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 11,
+      "start_time": "02:10.89",
+      "end_time": "02:18.89",
+      "shot_id": "S011",
+      "song_section": "chorus1",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 12,
+      "start_time": "02:27.50",
+      "end_time": "02:35.50",
+      "shot_id": "S012",
+      "song_section": "chorus1",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 13,
+      "start_time": "02:44.12",
+      "end_time": "02:50.18",
+      "shot_id": "S013",
+      "song_section": "instrumental_breath",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 14,
+      "start_time": "02:50.18",
+      "end_time": "02:56.24",
+      "shot_id": "S014",
+      "song_section": "instrumental_breath",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 15,
+      "start_time": "02:56.24",
+      "end_time": "03:04.24",
+      "shot_id": "S015",
+      "song_section": "later_verse",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 16,
+      "start_time": "03:10.83",
+      "end_time": "03:18.83",
+      "shot_id": "S016",
+      "song_section": "later_verse",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 17,
+      "start_time": "03:25.41",
+      "end_time": "03:33.41",
+      "shot_id": "S017",
+      "song_section": "later_verse",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 18,
+      "start_time": "03:40.00",
+      "end_time": "03:48.00",
+      "shot_id": "S018",
+      "song_section": "later_verse",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 19,
+      "start_time": "03:55.44",
+      "end_time": "04:03.44",
+      "shot_id": "S019",
+      "song_section": "chorus2_final",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 20,
+      "start_time": "04:06.13",
+      "end_time": "04:14.13",
+      "shot_id": "S020",
+      "song_section": "chorus2_final",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 21,
+      "start_time": "04:16.83",
+      "end_time": "04:24.83",
+      "shot_id": "S021",
+      "song_section": "chorus2_final",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 22,
+      "start_time": "04:27.53",
+      "end_time": "04:35.53",
+      "shot_id": "S022",
+      "song_section": "chorus2_final",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 23,
+      "start_time": "04:38.22",
+      "end_time": "04:45.44",
+      "shot_id": "S023",
+      "song_section": "outro",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    },
+    {
+      "order": 24,
+      "start_time": "04:45.44",
+      "end_time": "04:52.66",
+      "shot_id": "S024",
+      "song_section": "outro",
+      "transition": "hard cut on pulse",
+      "face_safe_coverage": "use object/profile/silhouette cover for any mouth/face uncertainty",
+      "caption_note": "Burmese caption timing pass required before final typography"
+    }
+  ],
+  "exports": [
+    "EDL CSV",
+    "OTIO placeholder JSON",
+    "DaVinci handoff outline",
+    "ffmpeg diagnostic plan"
+  ]
+}

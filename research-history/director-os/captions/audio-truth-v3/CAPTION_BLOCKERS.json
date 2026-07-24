@@ -1,0 +1,6 @@
+{
+  "production_captions_ready": false,
+  "blockers": [
+    "ANCHOR_CONFIRMATION_REQUIRED_FOR_MEDIUM_CONFIDENCE_OCCURRENCES"
+  ]
+}

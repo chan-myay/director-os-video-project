@@ -1,0 +1,41 @@
+order,start_time,end_time,song_section,clip_path,in_point,out_point,reason,face_action_needed,body_risk,notes
+1,00:00.00,00:08.00,intro,production/selected/batch-a/A01_winter-exterior_SELECTED.mp4,00:00.00,00:08.00,winter world setup,none,low,No face
+2,00:08.00,00:16.00,intro,production/selected/batch-a/A02_empty-bar_SELECTED.mp4,00:00.00,00:08.00,bar geography before performer,none,low,No mic performance
+3,00:16.00,00:21.00,intro,production/selected/batch-a/A03_two-glasses_SELECTED.mp4,00:00.00,00:05.00,object story setup,none,low,Cut before entrance
+4,00:21.00,00:29.00,intro,production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4,00:00.00,00:08.00,best available entrance,review visible face later,low,Slightly slow but correct direction
+5,00:29.00,00:37.00,verse1,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,00:00.00,00:08.00,begin body rhythm,keep wide medium,low,Best existing travel promise
+6,00:37.00,00:45.00,verse1,production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4,00:00.00,00:08.00,hide face and increase rhythm,none,low,Safe silhouette
+7,00:45.00,00:50.00,verse1,production/selected/batch-b/B02_weight-shift-wrist_SELECTED.mp4,00:00.00,00:05.00,non-face body detail,avoid face,low,Movement only
+8,00:50.00,00:58.00,verse1,production/selected/batch-a/A04_empty-chair_SELECTED.mp4,00:00.00,00:08.00,cover face risk with object story,none,low,Absence beat
+9,00:58.00,01:06.00,verse1,production/selected/batch-b/B04_aisle-travel-a_SELECTED.mp4,00:00.00,00:08.00,spatial travel bridge,avoid face,medium,Batch B movement only
+10,01:06.00,01:14.00,verse1,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,00:00.00,00:08.00,return to dance rhythm,keep wide medium,low,Repeat acceptable if separated
+11,01:14.00,01:22.00,verse1,production/selected/batch-c/C01_verse1-stable-medium_SELECTED.mp4,00:00.00,00:08.00,brief emotional punctuation,HiFiFace required,low,Placeholder only
+12,01:22.00,01:30.00,verse1,production/selected/batch-a/A08_snow-window_SELECTED.mp4,00:00.00,00:08.00,cover close face and reset,none,low,Winter contrast
+13,01:30.00,01:38.00,pre_chorus,production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4,00:00.00,00:08.00,build tension without face,none,low,Lead into chorus
+14,01:38.00,01:43.42,chorus1,production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4,00:00.00,00:05.42,chorus power body,review late face risk,low,Use trimmed only
+15,01:43.42,01:51.42,chorus1,production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4,00:00.00,00:08.00,chorus silhouette drive,none,low,High movement
+16,01:51.42,01:55.42,chorus1,production/selected/batch-d/D05_feet-dress-rhythm_SELECTED.mp4,00:00.00,00:04.00,beat punctuation,none,low,D05 short only
+17,01:55.42,02:03.42,chorus1,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,00:00.00,00:08.00,wide movement relief,keep wide medium,low,Avoid face emphasis
+18,02:03.42,02:11.42,chorus1,production/selected/batch-a/A05_rose-macro_SELECTED.mp4,00:00.00,00:08.00,object emotion hides lip risk,none,low,Cover missing power coverage
+19,02:11.42,02:16.84,chorus1,production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4,00:00.00,00:05.42,repeat strongest power beat,review late face risk,low,Use sparingly
+20,02:16.84,02:24.84,chorus1,production/selected/batch-b/B03_curtain-silhouette_SELECTED.mp4,00:00.00,00:08.00,non-close silhouette variation,avoid face,low,Batch B identity safe if silhouette
+21,02:24.84,02:32.84,chorus1,production/selected/batch-c/C08_tearful-close-eye-detail_SELECTED.mp4,00:00.00,00:08.00,eye/detail emotional punctuation,HiFiFace required or detail only,low,Do not approve close face here
+22,02:32.84,02:40.84,chorus1,production/selected/batch-a/A07_burmese-craft_SELECTED.mp4,00:00.00,00:08.00,cultural/object breath,none,low,Cover face uncertainty
+23,02:40.84,02:48.84,instrumental_breath,production/selected/batch-a/A06_stopped-clock_SELECTED.mp4,00:00.00,00:08.00,time object transition,none,low,Instrumental breath
+24,02:48.84,02:56.84,instrumental_breath,production/selected/batch-b/B05_aisle-travel-b_SELECTED.mp4,00:00.00,00:08.00,walking/spatial movement,avoid face,medium,Movement only
+25,02:56.84,03:04.84,later_verse,production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4,00:00.00,00:08.00,restart high movement,none,low,Face hidden
+26,03:04.84,03:12.84,later_verse,production/selected/batch-c/C07_profile-memory-look_SELECTED_use-after-00-02.mp4,00:00.00,00:06.00,profile memory punctuation,review profile only,low,Trim only
+27,03:12.84,03:20.84,later_verse,production/selected/batch-b/B06_return-to-stage_SELECTED.mp4,00:00.00,00:08.00,return stage geography,avoid face,medium,Movement only
+28,03:20.84,03:28.84,later_verse,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,00:00.00,00:08.00,body rhythm continuation,keep wide medium,low,Use as core dance
+29,03:28.84,03:36.84,later_verse,production/selected/batch-a/A09_door-bolt_SELECTED-reversed-to-lock.mp4,00:00.00,00:08.00,closure object beat,none,low,Hide face/lip risk
+30,03:36.84,03:44.84,later_verse,production/selected/batch-b/B08_curtain-exit_SELECTED-TRIM-BEFORE-CLOSE.mp4,00:00.00,00:08.00,exit/curtain movement,avoid close face,medium,Use trim only
+31,03:44.84,03:52.84,later_verse,production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4,00:00.00,00:08.00,reuse entrance as power walk,review visible face later,low,May need replacement later
+32,03:52.84,04:00.84,chorus2_final,production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4,00:00.00,00:08.00,final chorus face-safe drive,none,low,High movement
+33,04:00.84,04:06.26,chorus2_final,production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4,00:00.00,00:05.42,final chorus power,review late face risk,low,Use strongest body material
+34,04:06.26,04:10.26,chorus2_final,production/selected/batch-d/D05_feet-dress-rhythm_SELECTED.mp4,00:04.00,00:08.00,beat accent only,none,low,D05 punctuation only
+35,04:10.26,04:18.26,chorus2_final,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,00:00.00,00:08.00,final wide movement,keep wide medium,low,Core dance
+36,04:18.26,04:26.26,chorus2_final,production/selected/batch-c/C06_chorus-silent-emotional-hold_SELECTED.mp4,00:00.00,00:08.00,emotional hold punctuation,HiFiFace required,low,Placeholder only
+37,04:26.26,04:34.26,chorus2_final,production/selected/batch-a/A03_two-glasses_SELECTED.mp4,00:00.00,00:08.00,object cover near vocal peak,none,low,Hide lip risk
+38,04:34.26,04:42.26,outro,production/selected/batch-b/B07_rose-placement_SELECTED.mp4,00:00.00,00:08.00,rose action transition,avoid face,low,Body/object action
+39,04:42.26,04:50.26,outro,production/selected/batch-a/A10_empty-microphone_SELECTED.mp4,00:00.00,00:08.00,ending symbol,none,low,Microphone only as symbol
+40,04:50.26,04:52.66,outro,production/selected/batch-a/A01_winter-exterior_SELECTED.mp4,00:00.00,00:02.40,final cold exterior fade,none,low,End breath

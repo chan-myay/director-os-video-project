@@ -1,0 +1,25 @@
+shot_id: "F01_side_travel_dance"
+intent: "sustained side-travel dance across bar floor"
+song_section_targets: ["verse1", "later_verse", "chorus_bridge"]
+references:
+  identity: ["references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png"]
+  wardrobe_body: ["references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"]
+  location: ["references/approved/REF-C_BAR-STAGE_APPROVED.png"]
+motion:
+  type: "side_travel"
+  direction: "lateral"
+  existing_support: ["D03", "B04", "B05"]
+identity:
+  face_exposure: "small_profile_shadowed"
+body_wardrobe:
+  proportions: "natural_adult"
+  dress: "deep_red_one_shoulder"
+location:
+  world: "dark_teak_bar_winter_window"
+camera_lighting:
+  scale: "medium_wide_full_body"
+  camera: "side_tracking"
+negative_rules: ["no_karaoke", "no_fake_lipsync", "no_mic_center", "no_martial_arts", "no_model_body"]
+qc:
+  required_review: "normal_speed"
+  status: "not_generated"

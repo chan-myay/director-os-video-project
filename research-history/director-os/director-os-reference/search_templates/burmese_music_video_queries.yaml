@@ -1,0 +1,11 @@
+version: "0.3"
+queries:
+  burmese_modern_music_video:
+    query: "Burmese modern music video cinematic dance performance"
+    notes: "look for cultural grammar, not generic Asian substitution"
+  myanmar_traditional_craft:
+    query: "Myanmar Burmese lacquerware textile craft cinematic closeup"
+    notes: "use as cultural research with rights notes"
+  burmese_red_dress_stage:
+    query: "Burmese singer red dress stage cinematic music video"
+    notes: "avoid karaoke staging unless used as negative comparison"

@@ -1,0 +1,68 @@
+{
+  "status": "needs_targeted_review",
+  "unresolved_count": 21,
+  "unresolved": [
+    {
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "line": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_6d042445_occurrence_1",
+      "line": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+      "line": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+      "line": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+      "line": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "line": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_1",
+      "line": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "line": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    },
+    {
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "line": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "status": "needs_targeted_review",
+      "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+    }
+  ],
+  "auto_accepted_normalization_count": 0,
+  "meaning_changing_corrections_auto_applied": 0
+}

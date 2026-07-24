@@ -1,0 +1,9 @@
+{
+  "timing_label": "phrase_boundary_local_analysis",
+  "word_aligned": false,
+  "syllable_aligned": false,
+  "phoneme_aligned": false,
+  "phrase_count": 21,
+  "warnings": [],
+  "valid": true
+}

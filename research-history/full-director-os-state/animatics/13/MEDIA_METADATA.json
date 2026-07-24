@@ -1,0 +1,32 @@
+{
+  "clean": {
+    "duration": 292.657007,
+    "size": 8137162,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1920,
+    "height": 1080,
+    "streams": 2
+  },
+  "captioned_review": {
+    "duration": 292.657007,
+    "size": 8526366,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1920,
+    "height": 1080,
+    "streams": 2
+  },
+  "review": {
+    "duration": 292.657007,
+    "size": 8217113,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1920,
+    "height": 1080,
+    "streams": 2
+  }
+}

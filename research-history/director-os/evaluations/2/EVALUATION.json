@@ -1,0 +1,289 @@
+{
+  "loop_id": 2,
+  "iteration": 2,
+  "active_animatic_version": "15",
+  "media": {
+    "clean": {
+      "duration": 292.657007,
+      "size": 8137162,
+      "format": "mov,mp4,m4a,3gp,3g2,mj2",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
+      "streams": 2
+    },
+    "captioned": {
+      "duration": 292.657007,
+      "size": 8709842,
+      "format": "mov,mp4,m4a,3gp,3g2,mj2",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
+      "streams": 2
+    }
+  },
+  "duration_validation": {
+    "master_duration": 292.702041,
+    "animatic_duration": 292.657007,
+    "difference": 0.04503399999998692,
+    "status": "ok",
+    "mode": "full_song"
+  },
+  "brain_version": "v1.0.7",
+  "sync_method_counts": {
+    "vocal_onset_corrected": 17
+  },
+  "caption_confidence": {
+    "high": 0,
+    "medium": 15,
+    "low": 2,
+    "blocked": 17
+  },
+  "lipsync": {
+    "status": "blocked_on_brain_sync",
+    "rows": [
+      {
+        "shot_id": "S005",
+        "phrase_id": 126,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          32.98,
+          35.62
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S005",
+        "phrase_id": 127,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          36.34,
+          38.42
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S024",
+        "phrase_id": 128,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          39.66,
+          45.9
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S024",
+        "phrase_id": 129,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          46.22,
+          48.62
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S024",
+        "phrase_id": 130,
+        "sync_confidence": 0.61,
+        "audio_segment": [
+          49.22,
+          65.74
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S007",
+        "phrase_id": 131,
+        "sync_confidence": 0.66,
+        "audio_segment": [
+          65.96,
+          72.2
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S024",
+        "phrase_id": 132,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          72.44,
+          78.92
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S008",
+        "phrase_id": 133,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          79.2,
+          91.28
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S024",
+        "phrase_id": 134,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          92.3,
+          93.38
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S009",
+        "phrase_id": 135,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          98.46,
+          101.36
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S009",
+        "phrase_id": 136,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          101.62,
+          104.86
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S024",
+        "phrase_id": 137,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          105.54,
+          112.9
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S024",
+        "phrase_id": 138,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          113.3,
+          114.32
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S010",
+        "phrase_id": 139,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          114.84,
+          118.24
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S010",
+        "phrase_id": 140,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          118.76,
+          124.48
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S024",
+        "phrase_id": 141,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          124.66,
+          131.16
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      },
+      {
+        "shot_id": "S011",
+        "phrase_id": 142,
+        "sync_confidence": 0.71,
+        "audio_segment": [
+          131.56,
+          134.0
+        ],
+        "face_suitability": "unknown_until_source_shot_review",
+        "movement_risk": "unknown",
+        "recommended_action": "blocked_on_low_confidence_sync"
+      }
+    ],
+    "ready_count": 0,
+    "blocked_count": 17,
+    "high_confidence_phrase_count": 0,
+    "low_confidence_phrase_count": 2
+  },
+  "scorecard": {
+    "creative_coherence": 72,
+    "narrative_emotional_coherence": 70,
+    "music_image_relationship": 62,
+    "lyric_image_relationship": 45,
+    "burmese_cultural_authenticity": 68,
+    "composition": 64,
+    "cinematography": 60,
+    "lighting": 62,
+    "performance": 50,
+    "movement": 44,
+    "identity_consistency": 40,
+    "body_realism": 50,
+    "character_location_continuity": 58,
+    "caption_readability": 80,
+    "caption_timing": 30,
+    "lip_sync_quality": 0,
+    "edit_rhythm": 58,
+    "technical_integrity": 85,
+    "privacy_rights_compliance": 95
+  },
+  "score": 57.53,
+  "critical_failures": [
+    "MAJOR_CAPTION_OFFSET_OR_UNVERIFIED_SYNC",
+    "LIPSYNC_NOT_READY"
+  ],
+  "status": "failed_gates",
+  "evidence": {
+    "clean_asset_url": "/director-assets/animatics/15/ANIMATIC.mp4",
+    "captioned_asset_url": "/director-assets/animatics/15/ANIMATIC_WITH_CAPTIONS_SYNC_CALIBRATED_REVIEW.mp4",
+    "route_resolution": 200
+  }
+}

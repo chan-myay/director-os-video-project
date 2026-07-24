@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "defect_count": 8,
+    "caption_count": 21,
+    "production_ready": false,
+    "timing_plot": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/evaluation/CAPTION_VOCAL_TIMING.png"
+  },
+  "defects": [
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "code": "ANCHOR_VALIDATION_PENDING"
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "code": "ANCHOR_VALIDATION_PENDING"
+    },
+    {
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "code": "ANCHOR_VALIDATION_PENDING"
+    },
+    {
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "code": "ANCHOR_VALIDATION_PENDING"
+    },
+    {
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "code": "ANCHOR_VALIDATION_PENDING"
+    },
+    {
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "code": "ANCHOR_VALIDATION_PENDING"
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "code": "ANCHOR_VALIDATION_PENDING"
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "code": "ANCHOR_VALIDATION_PENDING"
+    }
+  ]
+}

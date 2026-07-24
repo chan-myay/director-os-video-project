@@ -1,0 +1,300 @@
+$ /Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffmpeg -y -f concat -safe 0 -i /Users/chan/song-video-project/director-os/animatics/15/frames.txt -i /Users/chan/song-video-project/audio/01.mp3 -t 292.702 -vf scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,format=yuv420p -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 192k /Users/chan/song-video-project/director-os/animatics/15/ANIMATIC.mp4
+ffmpeg version 6.0-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers
+  built with Apple clang version 11.0.0 (clang-1100.0.33.17)
+  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay
+  libavutil      58.  2.100 / 58.  2.100
+  libavcodec     60.  3.100 / 60.  3.100
+  libavformat    60.  3.100 / 60.  3.100
+  libavdevice    60.  1.100 / 60.  1.100
+  libavfilter     9.  3.100 /  9.  3.100
+  libswscale      7.  1.100 /  7.  1.100
+  libswresample   4. 10.100 /  4. 10.100
+  libpostproc    57.  1.100 / 57.  1.100
+Input #0, concat, from '/Users/chan/song-video-project/director-os/animatics/15/frames.txt':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc), 1280x720, 25 fps, 25 tbr, 25 tbn
+Input #1, mp3, from '/Users/chan/song-video-project/audio/01.mp3':
+  Metadata:
+    TBPM            : 0
+    compilation     : 0
+  Duration: 00:04:52.70, start: 0.025057, bitrate: 322 kb/s
+  Stream #1:0: Audio: mp3, 44100 Hz, stereo, fltp, 320 kb/s
+    Metadata:
+      encoder         : LAME3.100
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+  Stream #1:0 -> #0:1 (mp3 (mp3float) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 0x7fb604710c40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2
+[libx264 @ 0x7fb604710c40] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x7fb604710c40] 264 - core 164 r3106 eaa68fa - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=12 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/Users/chan/song-video-project/director-os/animatics/15/ANIMATIC.mp4':
+  Metadata:
+    encoder         : Lavf60.3.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 25 fps, 12800 tbn
+    Metadata:
+      encoder         : Lavc60.3.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.3.100 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    
+frame=  175 fps=0.0 q=25.0 size=       0kB time=00:00:06.88 bitrate=   0.1kbits/s dup=199 drop=0 speed=12.2x    
+frame=  375 fps=323 q=25.0 size=       0kB time=00:00:14.88 bitrate=   0.0kbits/s dup=398 drop=0 speed=12.8x    
+frame=  574 fps=337 q=25.0 size=     256kB time=00:00:22.88 bitrate=  91.7kbits/s dup=597 drop=0 speed=13.4x    
+frame=  775 fps=306 q=25.0 size=     512kB time=00:00:30.88 bitrate= 135.8kbits/s dup=796 drop=0 speed=12.2x    
+frame=  975 fps=296 q=25.0 size=     768kB time=00:00:38.88 bitrate= 161.8kbits/s dup=995 drop=0 speed=11.8x    
+[vost#0:0/libx264 @ 0x7fb604710940] More than 1000 frames duplicated
+frame= 1174 fps=303 q=25.0 size=    1024kB time=00:00:46.88 bitrate= 178.9kbits/s dup=1194 drop=0 speed=12.1x    
+frame= 1375 fps=298 q=25.0 size=    1280kB time=00:00:54.88 bitrate= 191.1kbits/s dup=1393 drop=0 speed=11.9x    
+frame= 1575 fps=303 q=25.0 size=    1536kB time=00:01:02.88 bitrate= 200.1kbits/s dup=1592 drop=0 speed=12.1x    
+frame= 1775 fps=306 q=25.0 size=    1792kB time=00:01:10.88 bitrate= 207.1kbits/s dup=1791 drop=0 speed=12.2x    
+frame= 1975 fps=309 q=25.0 size=    1792kB time=00:01:18.88 bitrate= 186.1kbits/s dup=1990 drop=0 speed=12.3x    
+frame= 2175 fps=313 q=25.0 size=    2048kB time=00:01:26.88 bitrate= 193.1kbits/s dup=2189 drop=0 speed=12.5x    
+frame= 2375 fps=316 q=25.0 size=    2304kB time=00:01:34.88 bitrate= 198.9kbits/s dup=2388 drop=0 speed=12.6x    
+frame= 2527 fps=315 q=25.0 size=    2560kB time=00:01:40.96 bitrate= 207.7kbits/s dup=2539 drop=0 speed=12.6x    
+frame= 2678 fps=315 q=25.0 size=    2816kB time=00:01:47.97 bitrate= 213.7kbits/s dup=2689 drop=0 speed=12.7x    
+frame= 2878 fps=319 q=25.0 size=    3072kB time=00:01:55.00 bitrate= 218.8kbits/s dup=2888 drop=0 speed=12.8x    
+frame= 3078 fps=323 q=25.0 size=    3072kB time=00:02:03.00 bitrate= 204.6kbits/s dup=3087 drop=0 speed=12.9x    
+frame= 3278 fps=325 q=25.0 size=    3328kB time=00:02:11.00 bitrate= 208.1kbits/s dup=3286 drop=0 speed=  13x    
+frame= 3478 fps=326 q=25.0 size=    3584kB time=00:02:19.00 bitrate= 211.2kbits/s dup=3485 drop=0 speed=  13x    
+frame= 3677 fps=328 q=25.0 size=    3840kB time=00:02:27.00 bitrate= 214.0kbits/s dup=3684 drop=0 speed=13.1x    
+frame= 3878 fps=330 q=25.0 size=    4096kB time=00:02:35.00 bitrate= 216.5kbits/s dup=3883 drop=0 speed=13.2x    
+frame= 4078 fps=331 q=25.0 size=    4352kB time=00:02:43.00 bitrate= 218.7kbits/s dup=4082 drop=0 speed=13.2x    
+frame= 4278 fps=332 q=25.0 size=    4608kB time=00:02:51.00 bitrate= 220.8kbits/s dup=4281 drop=0 speed=13.3x    
+frame= 4459 fps=333 q=25.0 size=    4608kB time=00:02:58.24 bitrate= 211.8kbits/s dup=4461 drop=0 speed=13.3x    
+frame= 4639 fps=334 q=25.0 size=    4864kB time=00:03:05.44 bitrate= 214.9kbits/s dup=4640 drop=0 speed=13.3x    
+frame= 4817 fps=334 q=25.0 size=    5120kB time=00:03:12.60 bitrate= 217.8kbits/s dup=4819 drop=0 speed=13.4x    
+frame= 4818 fps=323 q=25.0 size=    5632kB time=00:03:39.26 bitrate= 210.4kbits/s dup=4819 drop=0 speed=14.7x    
+frame= 4818 fps=312 q=25.0 size=    6400kB time=00:04:10.52 bitrate= 209.3kbits/s dup=4819 drop=0 speed=16.2x    
+frame= 4818 fps=303 q=25.0 size=    7168kB time=00:04:45.25 bitrate= 205.9kbits/s dup=4819 drop=0 speed=17.9x    
+frame= 4844 fps=302 q=-1.0 Lsize=    7946kB time=00:04:52.64 bitrate= 222.4kbits/s dup=4998 drop=0 speed=18.2x    
+video:812kB audio:6958kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.269516%
+[libx264 @ 0x7fb604710c40] frame I:20    Avg QP: 6.95  size: 13997
+[libx264 @ 0x7fb604710c40] frame P:1220  Avg QP:11.82  size:   245
+[libx264 @ 0x7fb604710c40] frame B:3604  Avg QP:10.27  size:    70
+[libx264 @ 0x7fb604710c40] consecutive B-frames:  0.8%  0.0%  0.0% 99.2%
+[libx264 @ 0x7fb604710c40] mb I  I16..4: 95.4%  2.5%  2.1%
+[libx264 @ 0x7fb604710c40] mb P  I16..4:  1.1%  0.0%  0.0%  P16..4:  0.2%  0.0%  0.0%  0.0%  0.0%    skip:98.7%
+[libx264 @ 0x7fb604710c40] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.0%  0.0%  0.0%  direct: 0.0%  skip:100.0%  L0:45.6% L1:54.3% BI: 0.1%
+[libx264 @ 0x7fb604710c40] 8x8 transform intra:1.6% inter:2.9%
+[libx264 @ 0x7fb604710c40] coded y,uvDC,uvAC intra: 3.1% 18.5% 13.2% inter: 0.0% 0.1% 0.0%
+[libx264 @ 0x7fb604710c40] i16 v,h,dc,p: 86% 13%  1%  0%
+[libx264 @ 0x7fb604710c40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 14% 43% 41%  1%  0%  0%  0%  0%  0%
+[libx264 @ 0x7fb604710c40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 15% 45% 27%  2%  2%  2%  1%  2%  3%
+[libx264 @ 0x7fb604710c40] i8c dc,h,v,p: 42% 49%  9%  0%
+[libx264 @ 0x7fb604710c40] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x7fb604710c40] kb/s:34.30
+[aac @ 0x7fb604712000] Qavg: 456.269
+
+$ /Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffmpeg -y -i /Users/chan/song-video-project/director-os/animatics/15/ANIMATIC.mp4 -vf subtitles=/Users/chan/song-video-project/director-os/captions/final-timing-v6/CAPTIONS_REVIEW_SYNC_CALIBRATED.ass -c:v libx264 -preset veryfast -crf 20 -c:a copy /Users/chan/song-video-project/director-os/animatics/15/ANIMATIC_WITH_CAPTIONS_SYNC_CALIBRATED_REVIEW.mp4
+ffmpeg version 6.0-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers
+  built with Apple clang version 11.0.0 (clang-1100.0.33.17)
+  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay
+  libavutil      58.  2.100 / 58.  2.100
+  libavcodec     60.  3.100 / 60.  3.100
+  libavformat    60.  3.100 / 60.  3.100
+  libavdevice    60.  1.100 / 60.  1.100
+  libavfilter     9.  3.100 /  9.  3.100
+  libswscale      7.  1.100 /  7.  1.100
+  libswresample   4. 10.100 /  4. 10.100
+  libpostproc    57.  1.100 / 57.  1.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/chan/song-video-project/director-os/animatics/15/ANIMATIC.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.3.100
+  Duration: 00:04:52.66, start: 0.000000, bitrate: 222 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 34 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.3.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[Parsed_subtitles_0 @ 0x7fae40706080] libass API version: 0x1700000
+[Parsed_subtitles_0 @ 0x7fae40706080] libass source: tarball: 0.17.0
+[Parsed_subtitles_0 @ 0x7fae40706080] Shaper: FriBidi 1.0.12 (SIMPLE) HarfBuzz-ng 3.2.0 (COMPLEX)
+[Parsed_subtitles_0 @ 0x7fae40706080] Using font provider coretext
+[Parsed_subtitles_0 @ 0x7fae40706080] fontselect: (Noto Sans Myanmar, 700, 0) -> /System/Library/Fonts/NotoSansMyanmar.ttc, -1, NotoSansMyanmar-Bold
+[Parsed_subtitles_0 @ 0x7fae40706080] Glyph 0x53 not found, selecting one more font for (Noto Sans Myanmar, 700, 0)
+[Parsed_subtitles_0 @ 0x7fae40706080] fontselect: (Noto Sans Myanmar, 700, 0) -> /System/Library/Fonts/Helvetica.ttc, -1, Helvetica-Bold
+[libx264 @ 0x7fae50716740] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2
+[libx264 @ 0x7fae50716740] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x7fae50716740] 264 - core 164 r3106 eaa68fa - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=12 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/Users/chan/song-video-project/director-os/animatics/15/ANIMATIC_WITH_CAPTIONS_SYNC_CALIBRATED_REVIEW.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.3.100
+  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, q=2-31, 25 fps, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.3.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.30 bitrate=   1.3kbits/s speed=23.5x    
+frame=  143 fps=0.0 q=25.0 size=       0kB time=00:00:07.08 bitrate=   0.1kbits/s speed=13.8x    
+frame=  337 fps=332 q=25.0 size=     256kB time=00:00:14.86 bitrate= 141.1kbits/s speed=14.6x    
+frame=  532 fps=351 q=25.0 size=     512kB time=00:00:22.66 bitrate= 185.1kbits/s speed=14.9x    
+frame=  729 fps=361 q=25.0 size=     768kB time=00:00:30.53 bitrate= 206.1kbits/s speed=15.1x    
+[Parsed_subtitles_0 @ 0x7fae40706080] fontselect: (Noto Sans Myanmar, 400, 0) -> /System/Library/Fonts/NotoSansMyanmar.ttc, -1, NotoSansMyanmar-Regular
+[Parsed_subtitles_0 @ 0x7fae40706080] Glyph 0x50 not found, selecting one more font for (Noto Sans Myanmar, 400, 0)
+[Parsed_subtitles_0 @ 0x7fae40706080] fontselect: (Noto Sans Myanmar, 400, 0) -> /System/Library/Fonts/Helvetica.ttc, -1, Helvetica
+frame=  876 fps=348 q=25.0 size=    1024kB time=00:00:36.40 bitrate= 230.4kbits/s speed=14.5x    
+frame= 1009 fps=334 q=25.0 size=    1024kB time=00:00:41.70 bitrate= 201.2kbits/s speed=13.8x    
+frame= 1133 fps=321 q=25.0 size=    1280kB time=00:00:46.64 bitrate= 224.8kbits/s speed=13.2x    
+frame= 1257 fps=312 q=25.0 size=    1536kB time=00:00:51.61 bitrate= 243.8kbits/s speed=12.8x    
+frame= 1379 fps=305 q=25.0 size=    1536kB time=00:00:56.54 bitrate= 222.6kbits/s speed=12.5x    
+frame= 1503 fps=299 q=25.0 size=    1792kB time=00:01:01.44 bitrate= 238.9kbits/s speed=12.2x    
+frame= 1628 fps=294 q=25.0 size=    1792kB time=00:01:06.45 bitrate= 220.9kbits/s speed=  12x    
+frame= 1750 fps=290 q=25.0 size=    2048kB time=00:01:11.37 bitrate= 235.1kbits/s speed=11.8x    
+frame= 1875 fps=287 q=25.0 size=    2304kB time=00:01:16.32 bitrate= 247.3kbits/s speed=11.7x    
+frame= 1999 fps=284 q=25.0 size=    2304kB time=00:01:21.33 bitrate= 232.0kbits/s speed=11.6x    
+frame= 2122 fps=281 q=25.0 size=    2560kB time=00:01:26.26 bitrate= 243.1kbits/s speed=11.4x    
+frame= 2245 fps=279 q=25.0 size=    2560kB time=00:01:31.16 bitrate= 230.1kbits/s speed=11.3x    
+frame= 2418 fps=283 q=25.0 size=    2816kB time=00:01:38.08 bitrate= 235.2kbits/s speed=11.5x    
+frame= 2551 fps=282 q=25.0 size=    3072kB time=00:01:43.42 bitrate= 243.3kbits/s speed=11.4x    
+frame= 2680 fps=281 q=25.0 size=    3328kB time=00:01:48.53 bitrate= 251.2kbits/s speed=11.4x    
+frame= 2799 fps=278 q=25.0 size=    3584kB time=00:01:53.33 bitrate= 259.1kbits/s speed=11.3x    
+frame= 2927 fps=277 q=25.0 size=    3584kB time=00:01:58.44 bitrate= 247.9kbits/s speed=11.2x    
+frame= 3053 fps=276 q=25.0 size=    3840kB time=00:02:03.46 bitrate= 254.8kbits/s speed=11.2x    
+frame= 3177 fps=275 q=25.0 size=    4096kB time=00:02:08.40 bitrate= 261.3kbits/s speed=11.1x    
+frame= 3301 fps=274 q=25.0 size=    4096kB time=00:02:13.42 bitrate= 251.5kbits/s speed=11.1x    
+frame= 3430 fps=273 q=25.0 size=    4352kB time=00:02:18.55 bitrate= 257.3kbits/s speed=  11x    
+frame= 3556 fps=272 q=25.0 size=    4608kB time=00:02:23.56 bitrate= 262.9kbits/s speed=  11x    
+frame= 3679 fps=271 q=25.0 size=    4608kB time=00:02:28.53 bitrate= 254.1kbits/s speed=  11x    
+frame= 3804 fps=270 q=25.0 size=    4864kB time=00:02:33.53 bitrate= 259.5kbits/s speed=10.9x    
+frame= 4005 fps=275 q=25.0 size=    5120kB time=00:02:41.56 bitrate= 259.6kbits/s speed=11.1x    
+frame= 4207 fps=279 q=25.0 size=    5376kB time=00:02:49.62 bitrate= 259.6kbits/s speed=11.3x    
+frame= 4403 fps=283 q=25.0 size=    5632kB time=00:02:57.49 bitrate= 259.9kbits/s speed=11.4x    
+frame= 4603 fps=286 q=25.0 size=    5632kB time=00:03:05.48 bitrate= 248.7kbits/s speed=11.5x    
+frame= 4808 fps=290 q=25.0 size=    5888kB time=00:03:15.79 bitrate= 246.4kbits/s speed=11.8x    
+frame= 4844 fps=291 q=-1.0 Lsize=    8647kB time=00:04:52.64 bitrate= 242.1kbits/s speed=17.6x    
+video:1513kB audio:6958kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.079983%
+[libx264 @ 0x7fae50716740] frame I:20    Avg QP: 7.70  size: 37137
+[libx264 @ 0x7fae50716740] frame P:1220  Avg QP:11.92  size:   446
+[libx264 @ 0x7fae50716740] frame B:3604  Avg QP:11.22  size:    73
+[libx264 @ 0x7fae50716740] consecutive B-frames:  0.8%  0.0%  0.0% 99.2%
+[libx264 @ 0x7fae50716740] mb I  I16..4: 90.4%  2.8%  6.8%
+[libx264 @ 0x7fae50716740] mb P  I16..4:  0.4%  0.0%  0.1%  P16..4:  0.3%  0.0%  0.0%  0.0%  0.0%    skip:99.3%
+[libx264 @ 0x7fae50716740] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.0%  0.0%  0.0%  direct: 0.0%  skip:99.9%  L0:47.3% L1:52.7% BI: 0.0%
+[libx264 @ 0x7fae50716740] 8x8 transform intra:2.6% inter:6.4%
+[libx264 @ 0x7fae50716740] coded y,uvDC,uvAC intra: 9.1% 16.9% 14.8% inter: 0.0% 0.1% 0.0%
+[libx264 @ 0x7fae50716740] i16 v,h,dc,p: 76% 23%  1%  0%
+[libx264 @ 0x7fae50716740] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 45% 33%  1%  0%  0%  0%  0%  0%
+[libx264 @ 0x7fae50716740] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 36% 31% 14%  2%  3%  4%  3%  3%  3%
+[libx264 @ 0x7fae50716740] i8c dc,h,v,p: 46% 47%  6%  0%
+[libx264 @ 0x7fae50716740] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x7fae50716740] kb/s:63.93
+
+$ /Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffmpeg -y -i /Users/chan/song-video-project/director-os/animatics/15/ANIMATIC.mp4 -vf drawtext=text='SYNC CALIBRATED REVIEW - LOW CONFIDENCE UNTIL APPROVED':x=40:y=40:fontsize=40:fontcolor=white:box=1:boxcolor=black@0.65 -c:v libx264 -preset veryfast -crf 20 -c:a copy /Users/chan/song-video-project/director-os/animatics/15/ANIMATIC_REVIEW.mp4
+ffmpeg version 6.0-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers
+  built with Apple clang version 11.0.0 (clang-1100.0.33.17)
+  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay
+  libavutil      58.  2.100 / 58.  2.100
+  libavcodec     60.  3.100 / 60.  3.100
+  libavformat    60.  3.100 / 60.  3.100
+  libavdevice    60.  1.100 / 60.  1.100
+  libavfilter     9.  3.100 /  9.  3.100
+  libswscale      7.  1.100 /  7.  1.100
+  libswresample   4. 10.100 /  4. 10.100
+  libpostproc    57.  1.100 / 57.  1.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/chan/song-video-project/director-os/animatics/15/ANIMATIC.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.3.100
+  Duration: 00:04:52.66, start: 0.000000, bitrate: 222 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 34 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.3.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+Fontconfig error: Cannot load default config file: No such file: (null)
+[Parsed_drawtext_0 @ 0x7fcc49104680] Using "/System/Library/Fonts/ヒラギノ丸ゴ ProN W4.ttc"
+[libx264 @ 0x7fcc48716740] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2
+[libx264 @ 0x7fcc48716740] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x7fcc48716740] 264 - core 164 r3106 eaa68fa - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=12 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/Users/chan/song-video-project/director-os/animatics/15/ANIMATIC_REVIEW.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.3.100
+  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, q=2-31, 25 fps, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.3.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.30 bitrate=   1.3kbits/s speed=20.9x    
+frame=  163 fps=0.0 q=25.0 size=       0kB time=00:00:07.84 bitrate=   0.0kbits/s speed=15.2x    
+frame=  367 fps=360 q=25.0 size=     256kB time=00:00:16.04 bitrate= 130.7kbits/s speed=15.8x    
+frame=  572 fps=377 q=25.0 size=     512kB time=00:00:24.21 bitrate= 173.2kbits/s speed=15.9x    
+frame=  777 fps=384 q=25.0 size=     768kB time=00:00:32.41 bitrate= 194.1kbits/s speed=  16x    
+frame=  984 fps=390 q=25.0 size=    1024kB time=00:00:40.68 bitrate= 206.2kbits/s speed=16.1x    
+frame= 1187 fps=392 q=25.0 size=    1280kB time=00:00:48.80 bitrate= 214.8kbits/s speed=16.1x    
+frame= 1391 fps=394 q=25.0 size=    1536kB time=00:00:57.00 bitrate= 220.7kbits/s speed=16.2x    
+frame= 1595 fps=396 q=25.0 size=    1792kB time=00:01:05.13 bitrate= 225.4kbits/s speed=16.2x    
+frame= 1797 fps=397 q=25.0 size=    2048kB time=00:01:13.21 bitrate= 229.2kbits/s speed=16.2x    
+frame= 2002 fps=398 q=25.0 size=    2304kB time=00:01:21.45 bitrate= 231.7kbits/s speed=16.2x    
+frame= 2210 fps=399 q=25.0 size=    2304kB time=00:01:29.76 bitrate= 210.3kbits/s speed=16.2x    
+frame= 2409 fps=399 q=25.0 size=    2560kB time=00:01:37.73 bitrate= 214.6kbits/s speed=16.2x    
+frame= 2613 fps=400 q=25.0 size=    2816kB time=00:01:45.88 bitrate= 217.9kbits/s speed=16.2x    
+frame= 2816 fps=400 q=25.0 size=    3072kB time=00:01:54.00 bitrate= 220.7kbits/s speed=16.2x    
+frame= 3020 fps=400 q=25.0 size=    3328kB time=00:02:02.16 bitrate= 223.2kbits/s speed=16.2x    
+frame= 3226 fps=401 q=25.0 size=    3584kB time=00:02:10.40 bitrate= 225.2kbits/s speed=16.2x    
+frame= 3432 fps=401 q=25.0 size=    3840kB time=00:02:18.64 bitrate= 226.9kbits/s speed=16.2x    
+frame= 3637 fps=402 q=25.0 size=    4096kB time=00:02:26.84 bitrate= 228.5kbits/s speed=16.2x    
+frame= 3840 fps=402 q=25.0 size=    4352kB time=00:02:34.96 bitrate= 230.1kbits/s speed=16.2x    
+frame= 4040 fps=402 q=25.0 size=    4608kB time=00:02:42.93 bitrate= 231.7kbits/s speed=16.2x    
+frame= 4242 fps=402 q=25.0 size=    4608kB time=00:02:51.06 bitrate= 220.7kbits/s speed=16.2x    
+frame= 4437 fps=401 q=25.0 size=    4864kB time=00:02:58.81 bitrate= 222.8kbits/s speed=16.2x    
+frame= 4640 fps=401 q=25.0 size=    5120kB time=00:03:06.96 bitrate= 224.3kbits/s speed=16.2x    
+frame= 4844 fps=402 q=-1.0 Lsize=    8090kB time=00:04:52.64 bitrate= 226.5kbits/s speed=24.3x    
+video:956kB audio:6958kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.226245%
+[libx264 @ 0x7fcc48716740] frame I:20    Avg QP: 7.34  size: 25808
+[libx264 @ 0x7fcc48716740] frame P:1221  Avg QP:12.70  size:   168
+[libx264 @ 0x7fcc48716740] frame B:3603  Avg QP:11.02  size:    71
+[libx264 @ 0x7fcc48716740] consecutive B-frames:  0.8%  0.0%  0.0% 99.2%
+[libx264 @ 0x7fcc48716740] mb I  I16..4: 92.1%  2.8%  5.1%
+[libx264 @ 0x7fcc48716740] mb P  I16..4:  0.3%  0.0%  0.0%  P16..4:  0.2%  0.0%  0.0%  0.0%  0.0%    skip:99.4%
+[libx264 @ 0x7fcc48716740] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.0%  0.0%  0.0%  direct: 0.0%  skip:100.0%  L0:42.1% L1:57.9% BI: 0.0%
+[libx264 @ 0x7fcc48716740] 8x8 transform intra:2.6% inter:2.4%
+[libx264 @ 0x7fcc48716740] coded y,uvDC,uvAC intra: 5.4% 15.1% 12.5% inter: 0.0% 0.1% 0.0%
+[libx264 @ 0x7fcc48716740] i16 v,h,dc,p: 79% 20%  1%  0%
+[libx264 @ 0x7fcc48716740] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19% 43% 35%  1%  0%  0%  0%  0%  1%
+[libx264 @ 0x7fcc48716740] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 36% 17%  2%  2%  6%  2%  4%  3%
+[libx264 @ 0x7fcc48716740] i8c dc,h,v,p: 48% 46%  6%  0%
+[libx264 @ 0x7fcc48716740] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x7fcc48716740] kb/s:40.39
+

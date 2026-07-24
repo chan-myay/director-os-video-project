@@ -1,0 +1,17 @@
+{
+  "status": "review_required",
+  "metadata": {
+    "duration": 292.657007,
+    "size": 8137162,
+    "codec": "h264",
+    "sample_rate": null,
+    "channels": null
+  },
+  "caption_evaluation": {
+    "source": "AUDIO_TRUTH_TIMELINE_V2.json",
+    "caption_count": 20,
+    "instrumental_leakage_detected": false,
+    "production_ready": false,
+    "warning": "Review captions remain blocked from production unless high-confidence alignment or targeted approval exists."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "duration": {
+    "master_duration": 292.702041,
+    "preview_duration": 292.72,
+    "video_stream_duration": 292.72,
+    "audio_stream_duration": 292.663991,
+    "video_pad_applied": 98.942,
+    "difference": 0.017959000000018932,
+    "status": "ok"
+  },
+  "source_timeline": "/Users/chan/song-video-project/director-os/state/AUDIO_TRUTH_TIMELINE_V4.json"
+}

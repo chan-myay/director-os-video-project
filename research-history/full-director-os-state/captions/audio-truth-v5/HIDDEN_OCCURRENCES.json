@@ -1,0 +1,144 @@
+{
+  "hidden": [
+    {
+      "occurrence_id": "lyric_line_6d042445_occurrence_1",
+      "lyric": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "blockers": [
+        "caption_truth_gate_hidden_until_validated"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+      "lyric": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "blockers": [
+        "caption_truth_gate_hidden_until_validated"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+      "lyric": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "blockers": [
+        "caption_truth_gate_hidden_until_validated"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+      "lyric": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "blockers": [
+        "caption_truth_gate_hidden_until_validated"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "lyric": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "blockers": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_1",
+      "lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "blockers": [
+        "caption_truth_gate_hidden_until_validated"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "lyric": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "blockers": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "lyric": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "blockers": [
+        "INVALIDATED_BY_REAL_USER_REVIEW"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "lyric": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "blockers": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_92457abb_occurrence_1",
+      "lyric": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "blockers": [
+        "caption_truth_gate_hidden_until_validated"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "lyric": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "blockers": [
+        "REPLACEMENT_ANCHOR_CONFIRMATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "lyric": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "blockers": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+      "lyric": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "blockers": [
+        "caption_truth_gate_hidden_until_validated"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "lyric": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "blockers": [
+        "INVALIDATED_BY_REAL_USER_REVIEW"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "lyric": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "blockers": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "lyric": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "blockers": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+      "lyric": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "blockers": [
+        "caption_truth_gate_hidden_until_validated"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "lyric": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "blockers": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "blockers": [
+        "REPLACEMENT_ANCHOR_CONFIRMATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "lyric": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "blockers": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    }
+  ]
+}

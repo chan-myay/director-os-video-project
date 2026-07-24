@@ -1,0 +1,4 @@
+{
+  "source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2/CREATIVE_SKETCH_AUDIO_TRUTH_V2.mp4",
+  "captions": "/Users/chan/song-video-project/director-os/captions/audio-truth-v3/CAPTIONS_AUDIO_TRUTH_V3_REVIEW.ass"
+}

@@ -1,0 +1,25 @@
+shot_number,title,song_section,timecode_start,timecode_end,status,version,recommended_renderer,identity_risk,body_motion_risk
+S001,Object Prologue,intro,00:00.00,00:08.00,planned,1,manual/local existing,low,medium
+S002,Stronger Entrance,intro,00:08.04,00:16.05,planned,1,Seedance or Kling after refs,medium,medium
+S003,Side Travel,intro,00:16.09,00:24.09,planned,1,"Seedance first, Kling fallback",medium,high without motion reference
+S004,Profile Shadow,intro,00:24.13,00:32.13,planned,1,Kling/Seedance after motion ref,medium,medium
+S005,Dress Pivot,verse1,00:32.18,00:40.18,planned,1,Seedance,medium,high without motion reference
+S006,Chorus Power,verse1,00:47.28,00:55.28,planned,1,Kling Motion Control if start frame exists,medium,high without motion reference
+S007,Non-face Inserts,verse1,01:02.38,01:10.38,planned,1,local/existing cutaways,medium,medium
+S008,Final Symbol,verse1,01:17.48,01:25.48,planned,1,existing footage,low,medium
+S009,Object Prologue,chorus1,01:37.66,01:45.66,planned,1,manual/local existing,low,medium
+S010,Stronger Entrance,chorus1,01:54.28,02:02.28,planned,1,Seedance or Kling after refs,medium,medium
+S011,Side Travel,chorus1,02:10.89,02:18.89,planned,1,"Seedance first, Kling fallback",medium,high without motion reference
+S012,Profile Shadow,chorus1,02:27.50,02:35.50,planned,1,Kling/Seedance after motion ref,medium,medium
+S013,Dress Pivot,instrumental_breath,02:44.12,02:50.18,planned,1,Seedance,medium,high without motion reference
+S014,Chorus Power,instrumental_breath,02:50.18,02:56.24,planned,1,Kling Motion Control if start frame exists,medium,high without motion reference
+S015,Non-face Inserts,later_verse,02:56.24,03:04.24,planned,1,local/existing cutaways,medium,medium
+S016,Final Symbol,later_verse,03:10.83,03:18.83,planned,1,existing footage,low,medium
+S017,Object Prologue,later_verse,03:25.41,03:33.41,planned,1,manual/local existing,low,medium
+S018,Stronger Entrance,later_verse,03:40.00,03:48.00,planned,1,Seedance or Kling after refs,medium,medium
+S019,Side Travel,chorus2_final,03:55.44,04:03.44,planned,1,"Seedance first, Kling fallback",medium,high without motion reference
+S020,Profile Shadow,chorus2_final,04:06.13,04:14.13,planned,1,Kling/Seedance after motion ref,medium,medium
+S021,Dress Pivot,chorus2_final,04:16.83,04:24.83,planned,1,Seedance,medium,high without motion reference
+S022,Chorus Power,chorus2_final,04:27.53,04:35.53,planned,1,Kling Motion Control if start frame exists,medium,high without motion reference
+S023,Non-face Inserts,outro,04:38.22,04:45.44,planned,1,local/existing cutaways,medium,medium
+S024,Final Symbol,outro,04:45.44,04:52.66,planned,1,existing footage,low,medium

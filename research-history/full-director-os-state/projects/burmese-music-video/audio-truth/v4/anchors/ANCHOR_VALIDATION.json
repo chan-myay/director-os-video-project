@@ -1,0 +1,112 @@
+{
+  "version": "audio-truth-v4",
+  "created_at": "2026-07-24T00:42:18.656755+00:00",
+  "status": "replacement_anchors_ready",
+  "anchors": [
+    {
+      "anchor_id": "anchor_early_verified",
+      "position": "early",
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/anchors/anchor_early_verified.mp4",
+      "lyric": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "english_meaning": "meaning retained from Audio Truth map; exact translation review remains separate",
+      "start": 32.98,
+      "end": 35.62,
+      "detected_vocal_start": 32.98,
+      "detected_vocal_end": 35.62,
+      "caption_start": 32.98,
+      "caption_end": 35.62,
+      "confidence": 0.835,
+      "status": "human_verified_early_anchor",
+      "clip_url": "/studio-assets/burmese-music-video/audio-truth/v4/anchors/anchor_early_verified.mp4",
+      "clip_start": 30.8,
+      "clip_end": 37.8,
+      "clip_duration": 7.0,
+      "vocal_energy": 0.148348,
+      "valid": true,
+      "validation_reasons": [
+        "anchor_validity_gate_passed"
+      ],
+      "ffprobe": {
+        "exists": true,
+        "duration": 7.0,
+        "has_audio": true,
+        "has_video": true,
+        "audio_codec": "aac",
+        "video_codec": "h264",
+        "audio_duration": 7.0,
+        "video_duration": 7.0
+      }
+    },
+    {
+      "anchor_id": "anchor_middle_candidate",
+      "position": "middle",
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/anchors/anchor_middle_candidate.mp4",
+      "lyric": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "english_meaning": "meaning retained from Audio Truth map; exact translation review remains separate",
+      "start": 105.54,
+      "end": 112.9,
+      "detected_vocal_start": 105.54,
+      "detected_vocal_end": 112.9,
+      "caption_start": 105.54,
+      "caption_end": 112.9,
+      "confidence": 0.83,
+      "status": "replacement_candidate",
+      "clip_url": "/studio-assets/burmese-music-video/audio-truth/v4/anchors/anchor_middle_candidate.mp4",
+      "clip_start": 103.54,
+      "clip_end": 114.9,
+      "clip_duration": 11.375,
+      "vocal_energy": 0.165067,
+      "valid": true,
+      "validation_reasons": [
+        "anchor_validity_gate_passed"
+      ],
+      "ffprobe": {
+        "exists": true,
+        "duration": 11.375,
+        "has_audio": true,
+        "has_video": true,
+        "audio_codec": "aac",
+        "video_codec": "h264",
+        "audio_duration": 11.36,
+        "video_duration": 11.375
+      }
+    },
+    {
+      "anchor_id": "anchor_late_candidate",
+      "position": "late",
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/anchors/anchor_late_candidate.mp4",
+      "lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "english_meaning": "meaning retained from Audio Truth map; exact translation review remains separate",
+      "start": 144.62,
+      "end": 150.68,
+      "detected_vocal_start": 144.62,
+      "detected_vocal_end": 150.68,
+      "caption_start": 144.62,
+      "caption_end": 150.68,
+      "confidence": 0.822,
+      "status": "replacement_candidate",
+      "clip_url": "/studio-assets/burmese-music-video/audio-truth/v4/anchors/anchor_late_candidate.mp4",
+      "clip_start": 142.62,
+      "clip_end": 152.68,
+      "clip_duration": 10.083,
+      "vocal_energy": 0.176141,
+      "valid": true,
+      "validation_reasons": [
+        "anchor_validity_gate_passed"
+      ],
+      "ffprobe": {
+        "exists": true,
+        "duration": 10.083333,
+        "has_audio": true,
+        "has_video": true,
+        "audio_codec": "aac",
+        "video_codec": "h264",
+        "audio_duration": 10.06,
+        "video_duration": 10.083333
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+  "segments": 10,
+  "no_cloud_upload": true
+}

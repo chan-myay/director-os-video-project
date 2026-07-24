@@ -3,7 +3,7 @@
 This is the operational rule for the revised cut:
 
 **Do not rebuild the whole project. Keep the same song, approved bar, dress,
-wife identity, Burmese art, winter world, object story and edit structure.
+lead performer identity, Burmese art, winter world, object story and edit structure.
 Replace only dance/body-motion coverage and any shot that violates the new
 performer direction.**
 
@@ -31,7 +31,7 @@ edit.
 Use these seven kinds of coverage across the former dance slots:
 
 1. **Winter outside the bar** — frozen lake, birch/spruce, snow, warm window.
-2. **Mature emotional portrait** — wife in the same bar, mouth naturally
+2. **Mature emotional portrait** — lead performer in the same bar, mouth naturally
    closed, gaze and breath carrying the lyric.
 3. **Adult band insert** — restrained professional musicians playing the song
    atmosphere; never a nightclub act.

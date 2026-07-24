@@ -1,0 +1,134 @@
+{
+  "ready_occurrence_count": 0,
+  "ready": [],
+  "blocked_occurrence_count": 21,
+  "blocked": [
+    {
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_6d042445_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_92457abb_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "blockers": [
+        "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+      ]
+    }
+  ],
+  "status": "blocked_no_high_confidence_occurrences"
+}

@@ -26,7 +26,7 @@ def build_stage_context(project_path: str | Path, idea: str, stage: str) -> dict
         },
         "locked_truth": {
             "project": "Burmese heartbreak music video",
-            "performer": "consenting adult wife performer",
+            "performer": "consenting adult lead performer performer",
             "location": "approved dark teak Finnish bar/stage",
             "hard_negatives": ["karaoke", "kung fu", "martial arts", "K-pop", "TikTok", "fake lip-sync", "fake body proportions"],
         },

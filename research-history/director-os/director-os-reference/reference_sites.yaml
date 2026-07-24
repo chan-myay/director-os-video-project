@@ -1,0 +1,47 @@
+version: "0.3"
+rights_policy: "store_urls_notes_tags_analysis_not_copyrighted_media"
+sites:
+  shotdeck:
+    url: "https://shotdeck.com/"
+    use: "cinematography still search and composition analysis"
+    store_media: false
+  shot_cafe:
+    url: "https://shot.cafe/"
+    use: "frame references and cinematography notes"
+    store_media: false
+  flim_ai:
+    url: "https://flim.ai/"
+    use: "visual reference search and moodboards"
+    store_media: false
+  film_vibes:
+    url: "https://www.filmvibes.com/"
+    use: "mood and frame inspiration"
+    store_media: false
+  frameset:
+    url: "https://frameset.app/"
+    use: "shot references and visual analysis"
+    store_media: false
+  filmgrab:
+    url: "https://film-grab.com/"
+    use: "film still research"
+    store_media: false
+  moviestillsdb:
+    url: "https://www.moviestillsdb.com/"
+    use: "movie still reference lookup"
+    store_media: false
+  youtube:
+    url: "https://www.youtube.com/"
+    use: "music video and motion reference links/timecodes"
+    store_media: false
+  vimeo:
+    url: "https://vimeo.com/"
+    use: "director/music video reference links/timecodes"
+    store_media: false
+user_owned_uploads:
+  store_media: true
+  required_metadata:
+    - owner
+    - consent_status
+    - rights_status
+    - allowed_projects
+    - allowed_connectors

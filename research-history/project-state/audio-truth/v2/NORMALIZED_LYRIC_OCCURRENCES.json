@@ -1,0 +1,173 @@
+{
+  "source": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+  "occurrences": [
+    {
+      "phrase_id": 1,
+      "line_number": 5,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "canonical_unicode_lyric": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "source_hash": "2ba26721cfa5d0b43f6fdfaacac19423f201715194ce3187a56fe425d9ff569a"
+    },
+    {
+      "phrase_id": 2,
+      "line_number": 6,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_6d042445_occurrence_1",
+      "canonical_unicode_lyric": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "source_hash": "ed5fc467f5037467a27249aaf3b5776a3a405b411956df11837b1469296c4ebe"
+    },
+    {
+      "phrase_id": 3,
+      "line_number": 7,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+      "canonical_unicode_lyric": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "source_hash": "c570aa5f54ca748a632cca00a955b454e6d2a61a97bba7d2de5ac23fb7091036"
+    },
+    {
+      "phrase_id": 4,
+      "line_number": 8,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+      "canonical_unicode_lyric": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "source_hash": "b0519bdebb492ccc6df6513dd7963317832cb3b5b321359d23b38ee2aee648e0"
+    },
+    {
+      "phrase_id": 5,
+      "line_number": 11,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+      "canonical_unicode_lyric": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "source_hash": "de24e8416a95accba42909b1c089241f92631e13880205d2e35f1289530e41cc"
+    },
+    {
+      "phrase_id": 6,
+      "line_number": 12,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "canonical_unicode_lyric": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "source_hash": "5bf7eb4b2f495f5e495b2e0bb82b794c65939da3df6f40c071741bd3b19f643a"
+    },
+    {
+      "phrase_id": 7,
+      "line_number": 13,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_6545c465_occurrence_1",
+      "canonical_unicode_lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "source_hash": "89ece9be5edbc28d7aa20996762054342a43711fa1c0cce62f365e84d04df19c"
+    },
+    {
+      "phrase_id": 8,
+      "line_number": 14,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "canonical_unicode_lyric": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "source_hash": "fed74583ce4408a6e68129468c0fa32e3b0818ccce83079cf78bb46827e95627"
+    },
+    {
+      "phrase_id": 9,
+      "line_number": 17,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "canonical_unicode_lyric": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "source_hash": "84c010dbddd4a0ea4607be6b4e0eda498ac719af7b19178fe615b545d35bf16d"
+    },
+    {
+      "phrase_id": 10,
+      "line_number": 18,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "canonical_unicode_lyric": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "source_hash": "291db698aa85496d7c309bee3a6a1dd1b117728318c80d20150f6494495fcaca"
+    },
+    {
+      "phrase_id": 11,
+      "line_number": 19,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_92457abb_occurrence_1",
+      "canonical_unicode_lyric": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "source_hash": "2b40d3a759822e4a9cd6217d7bfa55f7465d8e9dd6df2fb6784c7be1e8daa38c"
+    },
+    {
+      "phrase_id": 12,
+      "line_number": 20,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "canonical_unicode_lyric": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "source_hash": "c511267cea20e34cf48fe3af6b2b20abdb1314f22549f6bf5a49de66935fe535"
+    },
+    {
+      "phrase_id": 13,
+      "line_number": 21,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "canonical_unicode_lyric": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "source_hash": "5925bdd69ce09bd4442db963bc4ee976a6df5d96a901ef5e19aa44401be2fd8f"
+    },
+    {
+      "phrase_id": 14,
+      "line_number": 24,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+      "canonical_unicode_lyric": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "source_hash": "2c8a18178f36f21e9b87979f44404315509959b61c4d7b686d68360774a721d4"
+    },
+    {
+      "phrase_id": 15,
+      "line_number": 25,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "canonical_unicode_lyric": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "source_hash": "0323a4fdec9355273b18134bf2bc332879d09a610d9fb62bd4e0d49a5cd32700"
+    },
+    {
+      "phrase_id": 16,
+      "line_number": 26,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "canonical_unicode_lyric": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "source_hash": "dd3e79d13feb2ca9464f22eb31956968091d0134a3c5f9999936065e9ff8cf3f"
+    },
+    {
+      "phrase_id": 17,
+      "line_number": 27,
+      "occurrence_index": 1,
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "canonical_unicode_lyric": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "source_hash": "b4a2ac81a9dccb817221d66624e440df13a12f462cb4e9aa0911cad46b1f8ad9"
+    },
+    {
+      "phrase_id": 18,
+      "line_number": 29,
+      "occurrence_index": 2,
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+      "canonical_unicode_lyric": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "source_hash": "de24e8416a95accba42909b1c089241f92631e13880205d2e35f1289530e41cc"
+    },
+    {
+      "phrase_id": 19,
+      "line_number": 30,
+      "occurrence_index": 2,
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "canonical_unicode_lyric": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "source_hash": "5bf7eb4b2f495f5e495b2e0bb82b794c65939da3df6f40c071741bd3b19f643a"
+    },
+    {
+      "phrase_id": 20,
+      "line_number": 31,
+      "occurrence_index": 2,
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "canonical_unicode_lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "source_hash": "89ece9be5edbc28d7aa20996762054342a43711fa1c0cce62f365e84d04df19c"
+    },
+    {
+      "phrase_id": 21,
+      "line_number": 32,
+      "occurrence_index": 2,
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "canonical_unicode_lyric": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "source_hash": "fed74583ce4408a6e68129468c0fa32e3b0818ccce83079cf78bb46827e95627"
+    }
+  ]
+}

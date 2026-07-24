@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "code": "CAPTION_SYNC_UNVERIFIED",
+      "severity": "critical",
+      "symptom": "Caption timing is not trusted for production.",
+      "root_cause": "No human-approved or ASR-supported lyric alignment yet.",
+      "affected_artifact": "",
+      "metadata": {}
+    },
+    {
+      "code": "LIPSYNC_PROVIDER_UNAVAILABLE",
+      "severity": "major",
+      "symptom": "No phrase is ready for lip-sync packaging.",
+      "root_cause": "Brain sync confidence and source-shot eligibility are insufficient.",
+      "affected_artifact": "",
+      "metadata": {}
+    },
+    {
+      "code": "LOCAL_ASR_UNAVAILABLE",
+      "severity": "major",
+      "symptom": "No local ASR evidence is available for Burmese singing alignment.",
+      "root_cause": "No approved/detected local ASR model.",
+      "affected_artifact": "",
+      "metadata": {}
+    },
+    {
+      "code": "AI_GENERATION_UNAVAILABLE",
+      "severity": "major",
+      "symptom": "Production AI frame count is zero.",
+      "root_cause": "No approved local image/video generation backend is operational.",
+      "affected_artifact": "",
+      "metadata": {}
+    }
+  ],
+  "root_causes": [
+    {
+      "defect_code": "CAPTION_SYNC_UNVERIFIED",
+      "root_cause": "No human-approved or ASR-supported lyric alignment yet.",
+      "lowest_cost_safe_repair": "generate sync-calibrated candidates and rebuild review captions",
+      "approval_need": false
+    },
+    {
+      "defect_code": "LIPSYNC_PROVIDER_UNAVAILABLE",
+      "root_cause": "Brain sync confidence and source-shot eligibility are insufficient.",
+      "lowest_cost_safe_repair": "wait for brain-sync approval and provider setup",
+      "approval_need": true
+    },
+    {
+      "defect_code": "LOCAL_ASR_UNAVAILABLE",
+      "root_cause": "No approved/detected local ASR model.",
+      "lowest_cost_safe_repair": "request one local ASR setup approval or continue with listening review",
+      "approval_need": true
+    },
+    {
+      "defect_code": "AI_GENERATION_UNAVAILABLE",
+      "root_cause": "No approved local image/video generation backend is operational.",
+      "lowest_cost_safe_repair": "request one local storyboard model approval or continue with composite previs",
+      "approval_need": true
+    }
+  ]
+}

@@ -8,13 +8,13 @@ Use only the approved set below. If Gemini/Flow limits the number of reference
 uploads, use the first three as the primary pack and do not substitute other
 files:
 
-1. `references/approved/REF-A1_WIFE-FACE-FRONT_APPROVED.png`
-2. `references/approved/REF-B_WIFE-WARDROBE-FULLBODY_APPROVED.png`
+1. `references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png`
+2. `references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png`
 3. `references/approved/REF-C_BAR-STAGE_APPROVED.png`
 
 Optional only when more slots are available:
 
-4. `references/approved/REF-A2_WIFE-FACE-THREEQUARTER_APPROVED.png`
+4. `references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png`
 5. `references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png`
 
 Do not upload rejected references or broad private folders.
@@ -30,7 +30,7 @@ Save as:
 ```text
 PHOTOREALISTIC LIVE-ACTION CINEMATIC PORTRAIT OF THE EXACT APPROVED ADULT WOMAN.
 
-Identity and age: preserve the exact approved wife identity from A1 and A2. She
+Identity and age: preserve the exact approved lead performer identity from A1 and A2. She
 is a real mature Burmese woman over 40. Keep her true age, natural facial
 structure, natural skin texture, subtle expression lines and realistic adult
 body proportions. Do not make her younger, glamorous in a generic way, thinner,
@@ -78,7 +78,7 @@ hands, extra fingers, text, captions, logos.
 
 ## Acceptance check before G02
 
-- Exact wife identity is close enough for the approved face-correction pipeline.
+- Exact lead performer identity is close enough for the approved face-correction pipeline.
 - She reads as over 40, not age-reduced.
 - Body and dress remain natural and faithful to B.
 - Mouth stays naturally closed with no visible singing or speaking.

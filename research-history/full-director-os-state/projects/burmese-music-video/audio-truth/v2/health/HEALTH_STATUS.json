@@ -1,0 +1,33 @@
+{
+  "sample": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/health/health_sample.wav",
+  "demucs": {
+    "status": "passed",
+    "log": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/health/demucs_health.log",
+    "vocal_energy": 0.188113
+  },
+  "ctc": {
+    "status": "passed",
+    "load_and_infer_seconds": 3.638,
+    "decoded_text": "ရဲ့[UNK]ကြျောင်း ဇာတ်တ[UNK]ခ[UNK]း[UNK]မိန်း ပြည်းတဲ့ [UNK]န[UNK] [UNK]ခု[UNK]ကျ[UNK]တော့ လွှမ်[UNK]နင်[UNK]်[UNK] စဇာတ်[UNK]သ[UNK]ိေ်း[UNK]ရိ[UNK]်[UNK] [UNK]မာ[UNK]ယ[UNK]ာ[UNK]မျှာ[UNK]း[UNK]နင်းဖြေ[UNK]",
+    "logit_shape": [
+      1,
+      300,
+      65
+    ],
+    "tokenizer_char_coverage": {
+      "covered": 42,
+      "total": 42
+    }
+  },
+  "whisper": {
+    "status": "passed",
+    "load_and_infer_seconds": 4.269,
+    "decoded_text": "ရဲ့ကြောင်း ဇာတ်ခါး အား အမ်း မင�",
+    "hallucination_warning": false
+  },
+  "ctc_alignment": {
+    "status": "technically_possible",
+    "monotonic": true,
+    "method": "ctc_logits_available_for_known_text_alignment"
+  }
+}

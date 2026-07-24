@@ -1,0 +1,30 @@
+approved_references:
+  lead performer_face_front: "references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png"
+  lead performer_face_threequarter: "references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png"
+  wardrobe_body: "references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"
+  bar_stage: "references/approved/REF-C_BAR-STAGE_APPROVED.png"
+  burmese_art: "references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png"
+
+selected_identity_sources:
+  natural_body: "references/identity-source-selected/IMG_4079.heic.png"
+  close_face: "references/identity-source-selected/IMG_6771.HEIC.png"
+
+approved_motion_or_edit_assets:
+  safe_p03_opening: "pilot/selected/edits/P03_SAFE-WIDE_00-00_to_00-02.5_v1.mp4"
+  p03_motion_base: "pilot/selected/P03_performer-reveal_take01_SELECTED-BASE.mp4"
+  wan_motion_background: "wan-test/input/P03_FIRST-5S_MOTION-BACKGROUND.mp4"
+  current_v2c: "production/edit/roughcut-v2/ROUGH-CUT-V2C_SAFE-LOCAL-RECUT_WITH-MP3.mp4"
+
+selected_batches:
+  batch_a: "production/selected/batch-a/"
+  batch_b: "production/selected/batch-b/"
+  batch_c: "production/selected/batch-c/"
+  batch_d: "production/selected/batch-d/"
+
+forbidden_references:
+  rejected_three_angle_sheet: "references/rejected/REF-A_PERFORMER-IDENTITY-3ANGLE_v1_REJECTED-right-profile.png"
+  simswap_pilot: "pilot/selected/edits/P03_PERFORMER-IDENTITY_SIMSWAP512_v1.mp4"
+  child_sources:
+    - "references/My lead performer/IMG_5930.MOV"
+    - "references/My lead performer/IMG_6737.MOV"
+    - "references/My lead performer/IMG_6742.MOV"

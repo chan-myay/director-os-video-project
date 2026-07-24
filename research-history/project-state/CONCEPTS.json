@@ -1,0 +1,103 @@
+{
+  "project_id": "burmese-music-video",
+  "idea": "Create and finish the strongest possible cinematic Burmese music video from everything already present in this project. Use approved identity, wardrobe, bar, Burmese world, song, lyrics, failures and production evidence. Research, direct, assemble, watch, diagnose, repair and stop only for consolidated approval.",
+  "concepts": [
+    {
+      "id": "concept-a",
+      "title": "The Bar Remembers Her",
+      "idea": "A restrained solo performance where the empty bar behaves like memory around her.",
+      "palette": [
+        "dark teak",
+        "deep crimson",
+        "amber practicals",
+        "winter blue"
+      ],
+      "setting": "approved Finnish bar, winter window, Burmese craft inserts",
+      "performance": "mature, elegant, emotionally pressurized, no karaoke staging",
+      "camera": "slow lateral tracks, profile coverage, wide face-safe frames",
+      "movement": "grounded side-travel, below-shoulder arms, no random dance vocabulary",
+      "edit_rhythm": "quiet verses, stronger chorus object/face alternation",
+      "strengths": [
+        "uses approved world",
+        "supports full-song edit",
+        "protects identity risk"
+      ],
+      "risks": [
+        "caption sync still review-only",
+        "AI frames require optional model approval"
+      ]
+    },
+    {
+      "id": "concept-b",
+      "title": "Winter Window, Crimson Dress",
+      "idea": "A colder, more graphic version built around negative space and the window as emotional pressure.",
+      "palette": [
+        "winter blue",
+        "crimson silk",
+        "black wood",
+        "muted gold"
+      ],
+      "setting": "bar stage reduced to silhouettes and window reflections",
+      "performance": "stillness, breath, small hand releases",
+      "camera": "asymmetric frames with left-side negative space",
+      "movement": "minimal walking, turns and object touch only",
+      "edit_rhythm": "longer holds with chorus emphasis",
+      "strengths": [
+        "readable emotion",
+        "less motion risk"
+      ],
+      "risks": [
+        "may need more object insert coverage"
+      ]
+    },
+    {
+      "id": "concept-c",
+      "title": "Objects After Love",
+      "idea": "The song is carried by bar objects, lacquer/craft inserts and withheld performance.",
+      "palette": [
+        "lacquer red",
+        "teak brown",
+        "amber",
+        "smoke gray"
+      ],
+      "setting": "bar details, empty glass, microphone only at ending",
+      "performance": "few direct face moments, mostly profile and silhouette",
+      "camera": "macro inserts and slow reveals",
+      "movement": "object actions and small grounded steps",
+      "edit_rhythm": "object cutaways cover low-confidence lyric regions",
+      "strengths": [
+        "face-safe",
+        "culturally specific material world"
+      ],
+      "risks": [
+        "less performer-forward if overused"
+      ]
+    }
+  ],
+  "recommended": {
+    "id": "concept-a",
+    "title": "The Bar Remembers Her",
+    "idea": "A restrained solo performance where the empty bar behaves like memory around her.",
+    "palette": [
+      "dark teak",
+      "deep crimson",
+      "amber practicals",
+      "winter blue"
+    ],
+    "setting": "approved Finnish bar, winter window, Burmese craft inserts",
+    "performance": "mature, elegant, emotionally pressurized, no karaoke staging",
+    "camera": "slow lateral tracks, profile coverage, wide face-safe frames",
+    "movement": "grounded side-travel, below-shoulder arms, no random dance vocabulary",
+    "edit_rhythm": "quiet verses, stronger chorus object/face alternation",
+    "strengths": [
+      "uses approved world",
+      "supports full-song edit",
+      "protects identity risk"
+    ],
+    "risks": [
+      "caption sync still review-only",
+      "AI frames require optional model approval"
+    ]
+  },
+  "status": "created"
+}

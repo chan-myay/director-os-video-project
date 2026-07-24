@@ -1,0 +1,8 @@
+shot_pack,motion_need,existing_support,gap,priority,status
+F01_side_travel_dance,sustained side-travel across bar floor,D03 plus B04/B05,not enough clean lateral dance,high,missing
+F02_profile_shadow_movement,profile movement with small/shadowed face,D03 plus C07 trim,not enough clean profile dance,high,missing
+F03_silhouette_variation,additional face-hidden silhouette rhythm,D04 plus B03 plus D06,existing silhouette repeats,high,partial
+F04_stronger_entrance,stronger entrance with room ownership,D01,existing entrance too polite,medium,partial
+F05_dress_pivot,controlled dress pivot or spin,D05 plus D03,full-body pivot missing,medium,missing
+F06_chorus_power_body,chorus body power without close face,D06 plus D04,too limited for both choruses,high,partial
+F07_non_face_dance_inserts,hands waist torso fabric rhythm,D05 plus B02,not enough variety beyond feet,medium,partial

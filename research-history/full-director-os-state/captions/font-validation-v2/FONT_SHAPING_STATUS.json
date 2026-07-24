@@ -1,0 +1,25 @@
+{
+  "version": "font-validation-v2",
+  "font_name": "Noto Sans Myanmar",
+  "font_file": "/System/Library/Fonts/NotoSansMyanmar.ttc",
+  "font_exists": true,
+  "sample_text": "မြန်မာစာ စမ်းသပ်မှု ၁၂၃ ABC\nအချစ်မဲ့ ဇာတ်လမ်း",
+  "sample_path": "/Users/chan/song-video-project/director-os/captions/font-validation-v2/BURMESE_SAMPLE.png",
+  "player_sample_path": "/Users/chan/song-video-project/director-os/captions/font-validation-v2/PLAYER_CAPTION_SAMPLE.png",
+  "ass_sample_path": "/Users/chan/song-video-project/director-os/captions/font-validation-v2/ASS_CAPTION_SAMPLE.png",
+  "readability_status": "passed",
+  "caption_style": {
+    "font_size_1080p": 72,
+    "outline_px": 5,
+    "shadow_px": 2,
+    "bottom_margin_px": 110,
+    "max_lines": 2,
+    "background_box": "semi_transparent_black"
+  },
+  "checks": {
+    "burmese_shaping": "rendered_sample_created",
+    "combining_marks": "included_in_sample",
+    "line_wrapping": "two_line_sample",
+    "mixed_burmese_english": "included_in_sample"
+  }
+}

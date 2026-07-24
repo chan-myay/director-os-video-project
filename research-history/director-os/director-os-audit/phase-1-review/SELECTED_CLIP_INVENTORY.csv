@@ -1,0 +1,34 @@
+clip_id,path,batch,type,usable_seconds,best_song_section,face_risk,body_risk,movement_value,stage_value,lip_sync_risk,use_rule,notes
+A01,production/selected/batch-a/A01_winter-exterior_SELECTED.mp4,A,atmosphere,8.00,intro/outro,none,none,low,medium,none,object atmosphere cutaway,Finnish winter setup and breath
+A02,production/selected/batch-a/A02_empty-bar_SELECTED.mp4,A,atmosphere,8.00,intro/outro,none,none,low,high,none,empty bar geography,Use before entrance or after exit
+A03,production/selected/batch-a/A03_two-glasses_SELECTED.mp4,A,object,8.00,verse/chorus transitions,none,none,low,medium,none,hide weak face/lip moments,Core object story
+A04,production/selected/batch-a/A04_empty-chair_SELECTED.mp4,A,object,8.00,verse/later_verse,none,none,low,medium,none,hide weak face/lip moments,Absence memory beat
+A05,production/selected/batch-a/A05_rose-macro_SELECTED.mp4,A,object,8.00,chorus/outro,none,none,low,medium,none,beat punctuation or ending,Strong emotional object
+A06,production/selected/batch-a/A06_stopped-clock_SELECTED.mp4,A,object,8.00,instrumental_breath/later_verse,none,none,low,low,none,time/absence insert,Use briefly
+A07,production/selected/batch-a/A07_burmese-craft_SELECTED.mp4,A,cultural insert,8.00,instrumental_breath,none,none,low,medium,none,cultural cutaway,Good for Burmese material texture
+A08,production/selected/batch-a/A08_snow-window_SELECTED.mp4,A,atmosphere,8.00,intro/outro,none,none,low,medium,none,winter contrast cutaway,Use to cool down emotional sections
+A09,production/selected/batch-a/A09_door-bolt_SELECTED-reversed-to-lock.mp4,A,object,8.00,later_verse/outro,none,none,low,medium,none,story transition,Lock/closure symbol
+A10,production/selected/batch-a/A10_empty-microphone_SELECTED.mp4,A,symbol,8.00,outro,none,none,low,high,none,ending symbol only,Do not make mic performance center
+B02,production/selected/batch-b/B02_weight-shift-wrist_SELECTED.mp4,B,movement detail,8.00,verse1/instrumental_breath,medium,low,medium,medium,medium,movement/stage only,Use hands/wrist/body not face
+B03,production/selected/batch-b/B03_curtain-silhouette_SELECTED.mp4,B,silhouette,8.00,chorus/later_verse,low,low,high,high,low,non-close silhouette only,Good transition if face hidden
+B04,production/selected/batch-b/B04_aisle-travel-a_SELECTED.mp4,B,movement travel,8.00,verse1/later_verse,high,medium,high,high,medium,movement/stage only,Use wide travel and avoid face emphasis
+B05,production/selected/batch-b/B05_aisle-travel-b_SELECTED.mp4,B,movement travel,8.00,verse1/later_verse,high,medium,high,high,medium,movement/stage only,Use as spatial bridge only
+B06,production/selected/batch-b/B06_return-to-stage_SELECTED.mp4,B,movement travel,8.00,instrumental_breath/later_verse,high,medium,medium,high,medium,movement/stage only,Use body return not face
+B07,production/selected/batch-b/B07_rose-placement_SELECTED.mp4,B,object action,8.00,outro/verse transition,medium,low,medium,medium,low,body/object action only,Useful hand/rose story beat
+B08,production/selected/batch-b/B08_curtain-exit_SELECTED-TRIM-BEFORE-CLOSE.mp4,B,exit movement,8.00,outro,high,medium,medium,high,medium,trim before close face,Use exit silhouette only
+C01,production/selected/batch-c/C01_verse1-stable-medium_SELECTED.mp4,C,emotional medium,8.00,verse1,medium,low,low,medium,medium,emotional punctuation after correction review,Do not carry dance energy
+C02,production/selected/batch-c/C02_verse1-frontal-close_SELECTED.mp4,C,emotional close,8.00,verse1,high,low,low,medium,high,use only after face correction review,Close face not approved here
+C03,production/selected/batch-c/C03_verse1-threequarter-emotion_SELECTED.mp4,C,emotional medium,8.00,verse1/chorus1,high,low,low,medium,medium,use only after face correction review,Three-quarter emotion only
+C04,production/selected/batch-c/C04_pre-chorus-hand-heart_SELECTED.mp4,C,emotional gesture,8.00,pre_chorus/chorus1,medium,low,low,medium,medium,emotional punctuation after correction review,Use hand/heart moment briefly
+C05,production/selected/batch-c/C05_chorus-emotional-front_SELECTED.mp4,C,emotional front,8.00,chorus1/chorus2_final,high,low,low,medium,high,avoid as final lip-sync,Generated mouth movement risk
+C06,production/selected/batch-c/C06_chorus-silent-emotional-hold_SELECTED.mp4,C,emotional hold,8.00,chorus1/chorus2_final,high,low,low,medium,medium,use only after face correction review,Silent hold punctuation
+C07,production/selected/batch-c/C07_profile-memory-look_SELECTED.mp4,C,profile emotion,8.00,later_verse,high,low,low,medium,medium,no use original first 2s,Prefer trimmed version
+C07T,production/selected/batch-c/C07_profile-memory-look_SELECTED_use-after-00-02.mp4,C,profile emotion trim,6.00,later_verse,medium,low,low,medium,low,profile punctuation only,Use after weak first 2 seconds
+C08,production/selected/batch-c/C08_tearful-close-eye-detail_SELECTED.mp4,C,eye/detail close,8.00,chorus1/chorus2_final,high,low,low,low,medium,object/eye/detail only before correction,Do not approve full close face
+C09,production/selected/batch-c/C09_chorus-performance-wide_SELECTED-stage-continuity-face-caution.mp4,C,wide performance,8.00,chorus1/chorus2_final,high,low,medium,high,medium,wide/medium only,Stage okay but face caution
+C10,production/selected/batch-c/C10_final-still-resolve_SELECTED.mp4,C,emotional resolve,8.00,outro,high,low,low,medium,medium,use only after face correction review,Final punctuation only
+D01,production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4,D,dance entrance,8.00,intro/verse1,medium,low,medium,high,low,current dance core,Slightly slow but correct direction
+D03,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,D,dance movement,8.00,verse1/later_verse,medium,low,high,high,low,current dance core wide/medium,Best existing side/profile promise
+D04,production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4,D,silhouette dance,8.00,chorus1/later_verse/chorus2_final,low,low,high,high,low,current dance core,Safe face-hidden rhythm
+D05,production/selected/batch-d/D05_feet-dress-rhythm_SELECTED.mp4,D,dance insert,8.00,beat accents,none,low,medium,medium,none,punctuation only,Do not overuse
+D06,production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4,D,power silhouette,5.42,chorus1/chorus2_final,medium,low,high,high,low,use trimmed before face close,Strongest chorus body material

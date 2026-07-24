@@ -1,0 +1,9 @@
+{
+  "production_captions_ready": false,
+  "blockers": [
+    "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED",
+    "NO_CTC_FORCED_ALIGNMENT_RUN",
+    "NO_ASR_ENSEMBLE_EVIDENCE",
+    "LYRIC_TEXT_VERIFICATION_BLOCKED"
+  ]
+}

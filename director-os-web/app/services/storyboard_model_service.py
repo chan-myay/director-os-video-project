@@ -455,7 +455,7 @@ def _has_operational_backend() -> bool:
 def _project_prompt(card: dict[str, Any], refinement_text: str) -> str:
     base = (
         f"Storyboard previs for {card['shot_number']}: mature cinematic Burmese music video, "
-        "wife performer as consenting adult, natural adult body proportions, deep red one-shoulder Burmese-inspired dress, "
+        "lead performer performer as consenting adult, natural adult body proportions, deep red one-shoulder Burmese-inspired dress, "
         "dark teak Finnish bar, winter window, amber and crimson practical lighting, face-safe medium-wide/profile framing, "
         f"purpose: {card.get('purpose', '')}, movement: {card.get('exact_movement', '')}. "
         "No karaoke, no microphone-centered performance, no fake lip-sync, no martial arts, no K-pop, no TikTok, no exaggerated body."

@@ -1,0 +1,325 @@
+{
+  "version": "audio-truth-v3",
+  "mappings": [
+    {
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "base_lyric_identity": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "occurrence_number": 1,
+      "expected_section": "verse_1",
+      "candidate_audio_region": [
+        32.98,
+        35.62
+      ],
+      "preceding_phrase": "",
+      "following_phrase": "lyric_line_6d042445_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_6d042445_occurrence_1",
+      "base_lyric_identity": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "occurrence_number": 1,
+      "expected_section": "verse_1",
+      "candidate_audio_region": [
+        36.34,
+        38.42
+      ],
+      "preceding_phrase": "lyric_line_3b6a71e0_occurrence_1",
+      "following_phrase": "lyric_line_4aefb4cd_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+      "base_lyric_identity": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "occurrence_number": 1,
+      "expected_section": "verse_1",
+      "candidate_audio_region": [
+        39.66,
+        45.9
+      ],
+      "preceding_phrase": "lyric_line_6d042445_occurrence_1",
+      "following_phrase": "lyric_line_29f7541c_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+      "base_lyric_identity": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "occurrence_number": 1,
+      "expected_section": "chorus_1",
+      "candidate_audio_region": [
+        46.22,
+        48.62
+      ],
+      "preceding_phrase": "lyric_line_4aefb4cd_occurrence_1",
+      "following_phrase": "lyric_line_cfe97aeb_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+      "base_lyric_identity": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "occurrence_number": 1,
+      "expected_section": "chorus_1",
+      "candidate_audio_region": [
+        49.22,
+        65.74
+      ],
+      "preceding_phrase": "lyric_line_29f7541c_occurrence_1",
+      "following_phrase": "lyric_line_8118d138_occurrence_1",
+      "chorus_structure": "repeated_line",
+      "current_mapping_confidence": 0.86,
+      "resolution": "neighbouring_unique_lines_preserve_occurrence_order"
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+      "base_lyric_identity": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "occurrence_number": 2,
+      "expected_section": "chorus_2",
+      "candidate_audio_region": [
+        134.78,
+        140.5
+      ],
+      "preceding_phrase": "lyric_line_8bc3a7b6_occurrence_1",
+      "following_phrase": "lyric_line_8118d138_occurrence_2",
+      "chorus_structure": "repeated_line",
+      "current_mapping_confidence": 0.86,
+      "resolution": "neighbouring_unique_lines_preserve_occurrence_order"
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "base_lyric_identity": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "occurrence_number": 1,
+      "expected_section": "chorus_1",
+      "candidate_audio_region": [
+        65.96,
+        72.2
+      ],
+      "preceding_phrase": "lyric_line_cfe97aeb_occurrence_1",
+      "following_phrase": "lyric_line_6545c465_occurrence_1",
+      "chorus_structure": "repeated_line",
+      "current_mapping_confidence": 0.86,
+      "resolution": "neighbouring_unique_lines_preserve_occurrence_order"
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "base_lyric_identity": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "occurrence_number": 2,
+      "expected_section": "chorus_2",
+      "candidate_audio_region": [
+        141.1,
+        144.26
+      ],
+      "preceding_phrase": "lyric_line_cfe97aeb_occurrence_2",
+      "following_phrase": "lyric_line_6545c465_occurrence_2",
+      "chorus_structure": "repeated_line",
+      "current_mapping_confidence": 0.86,
+      "resolution": "neighbouring_unique_lines_preserve_occurrence_order"
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_1",
+      "base_lyric_identity": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "occurrence_number": 1,
+      "expected_section": "chorus_1",
+      "candidate_audio_region": [
+        72.44,
+        78.92
+      ],
+      "preceding_phrase": "lyric_line_8118d138_occurrence_1",
+      "following_phrase": "lyric_line_0d3a08bf_occurrence_1",
+      "chorus_structure": "repeated_line",
+      "current_mapping_confidence": 0.86,
+      "resolution": "neighbouring_unique_lines_preserve_occurrence_order"
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "base_lyric_identity": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "occurrence_number": 2,
+      "expected_section": "chorus_2",
+      "candidate_audio_region": [
+        144.62,
+        150.68
+      ],
+      "preceding_phrase": "lyric_line_8118d138_occurrence_2",
+      "following_phrase": "lyric_line_0d3a08bf_occurrence_2",
+      "chorus_structure": "repeated_line",
+      "current_mapping_confidence": 0.86,
+      "resolution": "neighbouring_unique_lines_preserve_occurrence_order"
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "base_lyric_identity": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "occurrence_number": 1,
+      "expected_section": "chorus_1",
+      "candidate_audio_region": [
+        79.2,
+        91.28
+      ],
+      "preceding_phrase": "lyric_line_6545c465_occurrence_1",
+      "following_phrase": "lyric_line_22df2ed0_occurrence_1",
+      "chorus_structure": "repeated_line",
+      "current_mapping_confidence": 0.86,
+      "resolution": "neighbouring_unique_lines_preserve_occurrence_order"
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "base_lyric_identity": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "occurrence_number": 2,
+      "expected_section": "chorus_2",
+      "candidate_audio_region": [
+        150.9,
+        153.66
+      ],
+      "preceding_phrase": "lyric_line_6545c465_occurrence_2",
+      "following_phrase": "",
+      "chorus_structure": "repeated_line",
+      "current_mapping_confidence": 0.86,
+      "resolution": "neighbouring_unique_lines_preserve_occurrence_order"
+    },
+    {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "base_lyric_identity": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "occurrence_number": 1,
+      "expected_section": "verse_bridge",
+      "candidate_audio_region": [
+        92.3,
+        93.38
+      ],
+      "preceding_phrase": "lyric_line_0d3a08bf_occurrence_1",
+      "following_phrase": "lyric_line_e7715751_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "base_lyric_identity": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "occurrence_number": 1,
+      "expected_section": "verse_bridge",
+      "candidate_audio_region": [
+        98.46,
+        101.36
+      ],
+      "preceding_phrase": "lyric_line_22df2ed0_occurrence_1",
+      "following_phrase": "lyric_line_92457abb_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_92457abb_occurrence_1",
+      "base_lyric_identity": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "occurrence_number": 1,
+      "expected_section": "verse_bridge",
+      "candidate_audio_region": [
+        101.62,
+        104.86
+      ],
+      "preceding_phrase": "lyric_line_e7715751_occurrence_1",
+      "following_phrase": "lyric_line_7a8eb022_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "base_lyric_identity": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "occurrence_number": 1,
+      "expected_section": "verse_bridge",
+      "candidate_audio_region": [
+        105.54,
+        112.9
+      ],
+      "preceding_phrase": "lyric_line_92457abb_occurrence_1",
+      "following_phrase": "lyric_line_9129302f_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "base_lyric_identity": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "occurrence_number": 1,
+      "expected_section": "verse_bridge",
+      "candidate_audio_region": [
+        113.3,
+        114.32
+      ],
+      "preceding_phrase": "lyric_line_7a8eb022_occurrence_1",
+      "following_phrase": "lyric_line_2f38aa93_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+      "base_lyric_identity": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "occurrence_number": 1,
+      "expected_section": "verse_bridge",
+      "candidate_audio_region": [
+        114.84,
+        118.24
+      ],
+      "preceding_phrase": "lyric_line_9129302f_occurrence_1",
+      "following_phrase": "lyric_line_68353461_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "base_lyric_identity": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "occurrence_number": 1,
+      "expected_section": "chorus_2",
+      "candidate_audio_region": [
+        118.76,
+        124.48
+      ],
+      "preceding_phrase": "lyric_line_2f38aa93_occurrence_1",
+      "following_phrase": "lyric_line_a3e2ead6_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "base_lyric_identity": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "occurrence_number": 1,
+      "expected_section": "chorus_2",
+      "candidate_audio_region": [
+        124.66,
+        131.16
+      ],
+      "preceding_phrase": "lyric_line_68353461_occurrence_1",
+      "following_phrase": "lyric_line_8bc3a7b6_occurrence_1",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    },
+    {
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "base_lyric_identity": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "occurrence_number": 1,
+      "expected_section": "chorus_2",
+      "candidate_audio_region": [
+        131.56,
+        134.0
+      ],
+      "preceding_phrase": "lyric_line_a3e2ead6_occurrence_1",
+      "following_phrase": "lyric_line_cfe97aeb_occurrence_2",
+      "chorus_structure": "unique_line",
+      "current_mapping_confidence": 0.94,
+      "resolution": "unique_text"
+    }
+  ],
+  "summary": {
+    "repeated_base_count": 4,
+    "ambiguous_after_neighbour_check": 0,
+    "method": "monotonic_order_plus_neighbouring_unique_lines"
+  }
+}

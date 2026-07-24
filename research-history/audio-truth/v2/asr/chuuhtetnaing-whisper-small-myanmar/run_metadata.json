@@ -1,0 +1,5 @@
+{
+  "model": "chuuhtetnaing/whisper-small-myanmar",
+  "segments": 8,
+  "no_cloud_upload": true
+}

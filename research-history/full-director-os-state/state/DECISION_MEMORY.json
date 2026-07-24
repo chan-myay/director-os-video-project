@@ -1,0 +1,59 @@
+{
+  "decisions": [
+    {
+      "status": "approved",
+      "decision": "Use separate A1/A2 lead performer face references only.",
+      "evidence_source": "SUCCESS_REGISTER.md",
+      "confidence": 0.96,
+      "date": "2026-07-13T17:07:16.768473+00:00",
+      "superseded_by": "",
+      "user_decision": ""
+    },
+    {
+      "status": "approved",
+      "decision": "Deep-red one-shoulder Burmese-inspired dress is locked.",
+      "evidence_source": "SUCCESS_REGISTER.md",
+      "confidence": 0.95,
+      "date": "2026-07-13T17:07:16.768476+00:00",
+      "superseded_by": "",
+      "user_decision": ""
+    },
+    {
+      "status": "approved",
+      "decision": "Dark teak Finnish bar, winter window, amber/crimson lighting locked.",
+      "evidence_source": "SUCCESS_REGISTER.md",
+      "confidence": 0.95,
+      "date": "2026-07-13T17:07:16.768478+00:00",
+      "superseded_by": "",
+      "user_decision": ""
+    },
+    {
+      "status": "restricted",
+      "decision": "Microphone is final symbol only.",
+      "evidence_source": "SUCCESS_REGISTER.md and movement directives",
+      "confidence": 0.93,
+      "date": "2026-07-13T17:07:16.768480+00:00",
+      "superseded_by": "",
+      "user_decision": ""
+    },
+    {
+      "status": "rejected",
+      "decision": "SimSwap 512 rejected for final.",
+      "evidence_source": "FAILURE_REGISTER.md",
+      "confidence": 0.95,
+      "date": "2026-07-13T17:07:16.768483+00:00",
+      "superseded_by": "",
+      "user_decision": ""
+    },
+    {
+      "status": "restricted",
+      "decision": "Batch B movement/stage only; no identity exposure.",
+      "evidence_source": "phase-1 review",
+      "confidence": 0.9,
+      "date": "2026-07-13T17:07:16.768485+00:00",
+      "superseded_by": "",
+      "user_decision": ""
+    }
+  ],
+  "updated_at": "2026-07-13T17:07:16.768487+00:00"
+}

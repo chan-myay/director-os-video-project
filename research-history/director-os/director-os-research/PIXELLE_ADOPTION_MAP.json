@@ -1,0 +1,33 @@
+{
+  "version": "v2.0",
+  "official_repo_verified": false,
+  "code_copied": false,
+  "source_clone_path": "local-tools/research-repos/Pixelle-Video/",
+  "components": {
+    "one_topic_quick_creation": "ADAPT_PATTERN",
+    "script_generation": "ADAPT_PATTERN",
+    "script_splitting": "ADAPT_PATTERN",
+    "image_planning": "ADAPT_PATTERN",
+    "frame_task_processing": "ADAPT_PATTERN",
+    "video_composition": "ALREADY_SUPERSEDED_BY_DIRECTOR_OS",
+    "tts_integration": "ADAPT_PATTERN",
+    "background_music": "ALREADY_SUPERSEDED_BY_DIRECTOR_OS",
+    "custom_media_analysis": "ADAPT_PATTERN",
+    "image_to_video": "ADAPT_PATTERN",
+    "digital_human_workflow": "ADAPT_PATTERN",
+    "motion_transfer": "ADAPT_PATTERN",
+    "comfyui_workflow_wrappers": "ADAPT_PATTERN",
+    "runninghub_workflow_wrappers": "INSPIRE_ONLY",
+    "direct_model_apis": "ADAPT_PATTERN",
+    "provider_configuration": "ADAPT_PATTERN",
+    "task_history": "ADAPT_PATTERN",
+    "task_cancellation": "ADAPT_PATTERN",
+    "batch_jobs": "ADAPT_PATTERN",
+    "concurrency_limits": "ADAPT_PATTERN",
+    "structured_llm_outputs": "ALREADY_SUPERSEDED_BY_DIRECTOR_OS",
+    "template_system": "ADAPT_PATTERN",
+    "error_handling": "ADAPT_PATTERN",
+    "retry_behaviour": "ADAPT_PATTERN",
+    "output_storage": "ALREADY_SUPERSEDED_BY_DIRECTOR_OS"
+  }
+}

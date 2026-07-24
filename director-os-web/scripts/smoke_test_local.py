@@ -397,9 +397,9 @@ def main() -> int:
             "renderer_selected": "seedance",
             "exact_references": "\n".join(
                 [
-                    "references/approved/REF-A1_WIFE-FACE-FRONT_APPROVED.png",
-                    "references/approved/REF-A2_WIFE-FACE-THREEQUARTER_APPROVED.png",
-                    "references/approved/REF-B_WIFE-WARDROBE-FULLBODY_APPROVED.png",
+                    "references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png",
+                    "references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png",
+                    "references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png",
                     "references/approved/REF-C_BAR-STAGE_APPROVED.png",
                     "references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png",
                 ]
@@ -446,9 +446,9 @@ def main() -> int:
             "renderer_selected": "kling",
             "exact_references": "\n".join(
                 [
-                    "references/approved/REF-A1_WIFE-FACE-FRONT_APPROVED.png",
-                    "references/approved/REF-A2_WIFE-FACE-THREEQUARTER_APPROVED.png",
-                    "references/approved/REF-B_WIFE-WARDROBE-FULLBODY_APPROVED.png",
+                    "references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png",
+                    "references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png",
+                    "references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png",
                     "references/approved/REF-C_BAR-STAGE_APPROVED.png",
                     "references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png",
                 ]

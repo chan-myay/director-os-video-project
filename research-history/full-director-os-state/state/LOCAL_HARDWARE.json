@@ -1,0 +1,12 @@
+{
+  "machine": "x86_64",
+  "architecture": "Darwin-24.6.0-x86_64-i386-64bit",
+  "macos_version": "10.16",
+  "chip_model": "sysctl: sysctl fmt -1 1024 1: Operation not permitted",
+  "cpu_core_count": 8,
+  "gpu_core_count": "UNKNOWN",
+  "unified_memory_bytes": 0,
+  "memory_pressure": "The system has 17179869184 (4194304 pages with a page size of 4096).\nSystem-wide memory free percentage: 60%",
+  "free_disk_bytes": 3520479232,
+  "total_disk_bytes": 494384795648
+}

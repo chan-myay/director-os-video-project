@@ -1,0 +1,23 @@
+shot_id: "F06_chorus_power_body"
+intent: "strong chorus body movement without close face"
+song_section_targets: ["chorus1", "chorus2_final"]
+references:
+  wardrobe_body: ["references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"]
+  location: ["references/approved/REF-C_BAR-STAGE_APPROVED.png"]
+motion:
+  type: "grounded_power_body_phrase"
+  existing_support: ["D06_trim", "D04", "D03"]
+identity:
+  face_exposure: "small_shadowed_hidden"
+body_wardrobe:
+  proportions: "natural_adult"
+  energy: "controlled_intensity"
+location:
+  world: "dark_bar_stage"
+camera_lighting:
+  scale: "medium_wide_full_body_knees_up"
+  lighting: "high_contrast_amber_crimson"
+negative_rules: ["no_close_face", "no_fake_lipsync", "no_kpop", "no_tiktok", "no_martial_arts", "no_model_body", "no_mic_center"]
+qc:
+  required_review: "normal_speed"
+  status: "not_generated"

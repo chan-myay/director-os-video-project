@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    {
+      "input_id": "51b07bfca4c4",
+      "original_name": "အခ်စ္မဲ့ ဇာတ္လမ္း - Zawgyi.txt",
+      "stored_name": "51b07bfca4c4-Zawgyi.txt",
+      "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/inputs/51b07bfca4c4-Zawgyi.txt",
+      "asset_url": "/studio-assets/burmese-music-video/inputs/51b07bfca4c4-Zawgyi.txt",
+      "sha256": "51b07bfca4c41ef2c29bddf39dd4de5c45200253a12ba468713b5b4e2efc6dcb",
+      "extension": ".txt",
+      "media_type": "text",
+      "classification": "lyrics",
+      "privacy": "local_project_asset",
+      "rights": "existing_project_or_user_supplied",
+      "metadata": {},
+      "thumbnail_url": "",
+      "preview_status": "not_created"
+    }
+  ],
+  "rejected_uploads": []
+}

@@ -1,0 +1,143 @@
+{
+  "stage": "music_analysis",
+  "summary": "Music analysis is complete and locked into a director package for The Bar Remembers Her. The song is 292.658 seconds at approximately 75.03 BPM, with low-energy intro/outro, high-energy verse/chorus/later-verse sections, and one medium instrumental breath. The treatment remains a mature Burmese heartbreak video in the approved dark teak Finnish bar with winter-window contrast, amber/crimson lighting, deep-red one-shoulder Burmese-inspired dress, Burmese craft/object symbolism, and the microphone reserved only as the final absence symbol. The package preserves approved references, selected footage, rejected decisions, face-model decisions, and failure lessons: no karaoke, no microphone-centered staging, no martial arts/kung fu, no K-pop/TikTok movement, no fake body proportions, and no fake Burmese lip-sync.",
+  "confidence": 0.88,
+  "sources": [
+    "director-os-audit/SUCCESS_REGISTER.md",
+    "director-os-audit/FAILURE_REGISTER.md",
+    "director-os-audit/phase-1-review/V2B_MISSING_COVERAGE_REVIEW.md",
+    "director-os-audit/phase-2-v2c/V2C_SAFE_EDL.csv",
+    "production/review/KNOWN-ISSUES-AND-USE-RULES.md",
+    "production/edit/roughcut-v2/song-analysis/SONG-ENERGY-MOVEMENT-DIRECTIVES.md",
+    "director-os/plans/latest/DIRECTOR_TREATMENT.md",
+    "director-os/plans/latest/EDIT_PLAN.json",
+    "director-os/plans/latest/STORYBOARD.json",
+    "director-os/state/DECISION_MEMORY.json",
+    "production/edit/roughcut-v2/song-analysis/song-energy-analysis.json"
+  ],
+  "artifacts": [
+    {
+      "path": "director-os/plans/latest/DIRECTOR_TREATMENT.md",
+      "status": "existing",
+      "use": "creative treatment for The Bar Remembers Her"
+    },
+    {
+      "path": "director-os/plans/latest/STORYBOARD.json",
+      "status": "existing",
+      "use": "24-shot director storyboard workspace"
+    },
+    {
+      "path": "director-os/plans/latest/EDIT_PLAN.json",
+      "status": "existing",
+      "use": "song-section edit timing plan"
+    },
+    {
+      "path": "director-os-audit/phase-2-v2c/V2C_SAFE_EDL.csv",
+      "status": "existing",
+      "use": "43-row safe recut EDL from existing selected material"
+    },
+    {
+      "path": "director-os/captions/latest/BURMESE_CAPTION_WORKSPACE.json",
+      "status": "existing",
+      "use": "caption workspace requiring final timing and typography pass"
+    }
+  ],
+  "blockers": [
+    "Filesystem is read-only in this run, so no new package file was written.",
+    "Sustained side-travel dance, profile movement, dress pivot, and chorus power body coverage remain under-covered if relying only on existing selected footage.",
+    "Close clear face shots and generated mouth movement are not final-safe until normal-speed review and local HiFiFace 256 or UniFace 256 correction pass.",
+    "Burmese caption timing and final choice of Burmese-only versus bilingual captions remain unresolved.",
+    "One approved motion-reference video for F01 side-travel dance is still missing."
+  ],
+  "data": {
+    "locked_truth": {
+      "project": "Burmese heartbreak music video",
+      "title": "The Bar Remembers Her",
+      "song": "audio/01.mp3",
+      "duration_seconds": 292.658,
+      "bpm": 75.03,
+      "performer": "consenting adult lead performer performer",
+      "location": "approved dark teak Finnish bar/stage with winter window",
+      "lighting": "amber/crimson cinematic lighting",
+      "wardrobe": "deep-red one-shoulder Burmese-inspired dress",
+      "world": "Burmese art/craft visual world",
+      "mood": "mature dark blues/jazz emotional pressure",
+      "microphone_rule": "final symbol only, not performance center",
+      "face_correction": {
+        "primary": "HiFiFace 256",
+        "backup": "UniFace 256",
+        "rejected": "SimSwap 512"
+      }
+    },
+    "music_sections": [
+      {
+        "section": "intro",
+        "time": "00:00.00-00:32.18",
+        "energy": "low",
+        "directive": "setup, gaze, object cuts, held poses",
+        "director_use": "winter exterior, empty bar, glasses, rose, snow window, first entrance tension"
+      },
+      {
+        "section": "verse1",
+        "time": "00:32.18-01:32.58",
+        "energy": "high",
+        "directive": "dance/body rhythm, sharper cuts",
+        "director_use": "wide/medium body rhythm, side-travel implication, silhouette, wrist/body details, object cover for identity risk"
+      },
+      {
+        "section": "chorus1",
+        "time": "01:37.66-02:44.12",
+        "energy": "high",
+        "directive": "dance/body rhythm, sharper cuts",
+        "director_use": "D06/D04/D03 power rhythm, limited D05 feet/dress punctuation, Burmese craft and rose cutaways to prevent repetition"
+      },
+      {
+        "section": "instrumental_breath",
+        "time": "02:44.12-02:56.24",
+        "energy": "medium",
+        "directive": "walking, torso/arm phrases, controlled tension",
+        "director_use": "stopped clock, aisle travel, breath before later verse"
+      },
+      {
+        "section": "later_verse",
+        "time": "02:56.24-03:54.58",
+        "energy": "high",
+        "directive": "dance/body rhythm, sharper cuts",
+        "director_use": "restart silhouette drive, profile memory only as punctuation, return-to-stage and curtain movement with faces protected"
+      },
+      {
+        "section": "chorus2_final",
+        "time": "03:55.44-04:38.22",
+        "energy": "highest",
+        "directive": "dance/body rhythm, sharper cuts",
+        "director_use": "final safe drive through silhouette and wide body movement, object cover near vocal peaks"
+      },
+      {
+        "section": "outro",
+        "time": "04:38.22-04:52.66",
+        "energy": "low",
+        "directive": "held poses, object closure",
+        "director_use": "rose placement, empty microphone, winter breath"
+      }
+    ],
+    "director_package": {
+      "composition": "Favor medium-wide, full-body, knees-up, profile, side-travel, and silhouette frames. Keep face small, shadowed, or corrected unless the shot has passed identity review. Object close-ups carry emotional story and conceal unsafe face/lip moments.",
+      "lens_strategy": "Use 35mm equivalent for bar geography, full-body movement, and side tracking. Use 50mm only for controlled emotional punctuation after face review. Avoid glamour distortion, exaggerated body shaping, and close singing-mouth frames.",
+      "lighting_strategy": "Amber/crimson key from bar practicals, dark teak falloff, winter-blue window contrast, controlled backlight for silhouette. Keep Burmese craft inserts warm and tactile, not decorative filler.",
+      "blocking_strategy": "The performer takes ownership of the room through grounded walking, lateral travel, torso/shoulder rhythm, restrained hand phrases, curtain/stage transitions, rose action, and final absence. No microphone performance, no random choreography, no kung fu, no karaoke stance.",
+      "movement_strategy": "High-energy sections require body rhythm and sharper cuts. Existing D04/D06/D03 form the current usable dance core. Batch B is movement/stage-only. D05 is limited to two short feet/dress accents. Missing F01 side-travel, F02 profile movement, F04 stronger entrance, F05 dress pivot, and F06 chorus power should be treated as coverage gaps, not solved by stretching weak footage.",
+      "performance_direction": "Adult heartbreak, contained pressure, no cheerful lounge emotion. The performance should feel like she is confronting memory inside the room, not singing to an audience. Eye-line can drift to glasses, snow, rose, door bolt, empty chair, and final microphone.",
+      "editing_strategy": "Cut on strong onsets and section boundaries. Use objects deliberately, not as a slideshow. Reduce repeated front-facing dance. Protect all close face and mouth-risk material with Batch A cutaways until local correction and normal-speed review pass.",
+      "caption_strategy": "Preserve original Burmese lyric spelling. Use Unicode Burmese-capable typography. Burmese-only is safest for first visual integrity; bilingual can be added after timing if desired. Captions should be cinematic subtitles, never karaoke bouncing text.",
+      "renderer_strategy": "Use existing local selected footage and manual/local editing as the current path. No new generation, uploads, paid APIs, or model downloads are requested. If future generation is separately approved, it must be one shot at a time with approved motion reference, natural body proportions, and strict identity/body review gates."
+    },
+    "safe_existing_coverage": {
+      "batch_a": "Safe object/environment story: winter exterior, empty bar, glasses, empty chair, rose, clock, Burmese craft, snow window, door bolt, empty microphone.",
+      "batch_b": "Movement/stage geography only; avoid identity exposure.",
+      "batch_c": "Emotional punctuation with caution; C05 mouth movement is not final lip-sync, C07 only after first 2 seconds, C09 wide/medium only.",
+      "batch_d": "Current usable dance core: D01 entrance, D03 wide/medium rhythm, D04 silhouette, D05 limited feet/dress accents, D06 trimmed power silhouette.",
+      "pilot": "P03 safe opening 00:00-00:02.5 remains approved; later identity drift requires correction."
+    },
+    "next_stage_recommendation": "director_package_lock"
+  }
+}

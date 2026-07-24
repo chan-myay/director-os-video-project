@@ -1,0 +1,51 @@
+version: "0.3"
+global_status: "stubs_only_disabled"
+rules:
+  no_cloud_api_calls: true
+  no_paid_api_calls: true
+  no_upload_without_approval: true
+  no_generation: true
+  no_media_copying: true
+connectors:
+  comfyui:
+    status: "stub"
+    enabled: false
+    local_possible: true
+    private_media_risk: "low_if_local"
+    next_step: "audit local install and workflow API"
+  seedance:
+    status: "not_connected_official_api_available"
+    enabled: false
+    local_possible: false
+    private_media_risk: "high_cloud_upload"
+    next_step: "BytePlus ModelArk credential/spend/region review required"
+  kling:
+    status: "research_only"
+    enabled: false
+    local_possible: false
+    private_media_risk: "high_cloud_upload"
+    next_step: "verify official API, terms, cost"
+  veo:
+    status: "research_only"
+    enabled: false
+    local_possible: false
+    private_media_risk: "high_cloud_upload"
+    next_step: "verify Google/Vertex availability and terms"
+  openai_video:
+    status: "blocked_until_official_docs"
+    enabled: false
+    local_possible: false
+    private_media_risk: "high_cloud_upload"
+    next_step: "verify current official video API availability"
+  wan:
+    status: "local_candidate_stub"
+    enabled: false
+    local_possible: true
+    private_media_risk: "low_if_local"
+    next_step: "audit weights, license, GPU requirements"
+  manual_upload:
+    status: "approval_workflow_stub"
+    enabled: false
+    local_possible: false
+    private_media_risk: "high_if_private_media_uploaded"
+    next_step: "build approval records before any use"

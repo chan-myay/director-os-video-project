@@ -1,0 +1,11 @@
+version: "0.3"
+queries:
+  teak_bar_stage:
+    query: "dark teak bar stage amber practicals polished wood floor"
+    notes: "location mood only"
+  winter_window_bar:
+    query: "bar interior winter window snow cinematic amber light"
+    notes: "Finnish winter contrast"
+  crimson_curtain_bar:
+    query: "crimson curtain dark bar stage cinematic lighting"
+    notes: "stage depth and color contrast"

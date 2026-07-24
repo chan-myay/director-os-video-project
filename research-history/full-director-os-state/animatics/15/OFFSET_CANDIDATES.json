@@ -1,0 +1,88 @@
+{
+  "version": "v1.0.7",
+  "current_offset_seconds": 0.46,
+  "detected_vocal_onset_median": 0.23,
+  "feedback_median": null,
+  "best_candidate": {
+    "offset_seconds": 0.8,
+    "average_distance_to_vocal_onset": 0.517,
+    "captions_starting_before_vocal_onset_count": 1,
+    "captions_inside_silence_count": 1,
+    "captions_overlapping_instrumental_gaps_count": 0,
+    "phrase_coverage_score": 0.952,
+    "likely_readability_score": 1.0,
+    "score": 2.017,
+    "reason": "fewer captions start before detected vocal onset"
+  },
+  "candidates": [
+    {
+      "offset_seconds": 0.23,
+      "average_distance_to_vocal_onset": 0.275,
+      "captions_starting_before_vocal_onset_count": 8,
+      "captions_inside_silence_count": 8,
+      "captions_overlapping_instrumental_gaps_count": 0,
+      "phrase_coverage_score": 0.619,
+      "likely_readability_score": 1.0,
+      "score": 12.275,
+      "reason": "fewer captions start before detected vocal onset"
+    },
+    {
+      "offset_seconds": 0.46,
+      "average_distance_to_vocal_onset": 0.32,
+      "captions_starting_before_vocal_onset_count": 5,
+      "captions_inside_silence_count": 5,
+      "captions_overlapping_instrumental_gaps_count": 0,
+      "phrase_coverage_score": 0.762,
+      "likely_readability_score": 1.0,
+      "score": 7.82,
+      "reason": "fewer captions start before detected vocal onset"
+    },
+    {
+      "offset_seconds": 0.6,
+      "average_distance_to_vocal_onset": 0.39,
+      "captions_starting_before_vocal_onset_count": 4,
+      "captions_inside_silence_count": 4,
+      "captions_overlapping_instrumental_gaps_count": 0,
+      "phrase_coverage_score": 0.81,
+      "likely_readability_score": 1.0,
+      "score": 6.39,
+      "reason": "fewer captions start before detected vocal onset"
+    },
+    {
+      "offset_seconds": 0.8,
+      "average_distance_to_vocal_onset": 0.517,
+      "captions_starting_before_vocal_onset_count": 1,
+      "captions_inside_silence_count": 1,
+      "captions_overlapping_instrumental_gaps_count": 0,
+      "phrase_coverage_score": 0.952,
+      "likely_readability_score": 1.0,
+      "score": 2.017,
+      "reason": "fewer captions start before detected vocal onset"
+    },
+    {
+      "offset_seconds": 1.0,
+      "average_distance_to_vocal_onset": 0.688,
+      "captions_starting_before_vocal_onset_count": 1,
+      "captions_inside_silence_count": 1,
+      "captions_overlapping_instrumental_gaps_count": 0,
+      "phrase_coverage_score": 0.952,
+      "likely_readability_score": 0.571,
+      "score": 10.288,
+      "reason": "fewer captions start before detected vocal onset"
+    },
+    {
+      "offset_seconds": 1.2,
+      "average_distance_to_vocal_onset": 0.869,
+      "captions_starting_before_vocal_onset_count": 1,
+      "captions_inside_silence_count": 1,
+      "captions_overlapping_instrumental_gaps_count": 0,
+      "phrase_coverage_score": 0.952,
+      "likely_readability_score": 0.429,
+      "score": 13.169,
+      "reason": "fewer captions start before detected vocal onset"
+    }
+  ],
+  "approved_global_offset_seconds": null,
+  "reason": "Candidate offsets are scored against local vocal-onset evidence and phrase coverage. This is not ASR or phoneme alignment.",
+  "auto_apply_allowed": false
+}

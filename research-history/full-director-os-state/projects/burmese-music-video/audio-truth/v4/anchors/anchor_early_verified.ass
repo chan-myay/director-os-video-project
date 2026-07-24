@@ -1,0 +1,14 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Myanmar MN,44,&H00FFFFFF,&H000000FF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,3,2,0,2,70,70,70,1
+Style: Meta,Arial,24,&H00D8D8D8,&H000000FF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,3,1,0,8,40,40,35,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:07.00,Meta,,0,0,0,,EARLY lyric_line_3b6a71e0_occurrence_1  song 32.98-35.62s
+Dialogue: 0,0:00:02.18,0:00:04.82,Default,,0,0,0,,အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း

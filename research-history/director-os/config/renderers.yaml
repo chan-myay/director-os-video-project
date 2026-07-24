@@ -1,0 +1,21 @@
+renderers:
+  generic:
+    status: "template only"
+    prompt_generation_allowed: false
+  kling:
+    status: "template only"
+    prompt_generation_allowed: false
+  seedance:
+    status: "template only"
+    prompt_generation_allowed: false
+  wan:
+    status: "template only"
+    prompt_generation_allowed: false
+  veo:
+    status: "template only"
+    prompt_generation_allowed: false
+
+adapter_rule:
+  use_renderer_fields_yaml: true
+  no_long_prompts_until_user_approval: true
+  no_api_call_inside_adapter: true

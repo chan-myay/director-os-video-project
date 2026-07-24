@@ -1,0 +1,30 @@
+{
+  "status": "selected_newest_valid_manual_unicode",
+  "selected": {
+    "path": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+    "filename": "အချစ်မဲ့ ဇာတ်လမ်း.txt",
+    "modified_time": 1783950706.813441,
+    "modified_time_iso": "2026-07-13T16:51:46.813441",
+    "sha256": "cfbfdc77008dac236bd40668592a45c6c6966d342f50b04f59f3ee03caa6636a",
+    "encoding_class": "unicode",
+    "encoding_confidence": 0.98,
+    "line_count": 23,
+    "lyric_phrase_count": 21,
+    "title_credit_section_count": 2,
+    "has_burmese": true,
+    "similarity_to_current_brain": 1.0,
+    "appears_manually_edited": true,
+    "referenced_by_current_production_brain": false,
+    "used_by_studio_v21": false,
+    "sample": "အချစ်မဲ့ ဇာတ်လမ်း\nတေးရေး - မောရှည်\nအလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း\nလွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ"
+  },
+  "encoding": "unicode",
+  "previous_sources": [
+    {
+      "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/inputs/51b07bfca4c4-Zawgyi.txt",
+      "status": "superseded_stale_retained_for_history",
+      "reason": "newer valid Unicode source selected"
+    }
+  ],
+  "requires_user_comparison_approval": false
+}

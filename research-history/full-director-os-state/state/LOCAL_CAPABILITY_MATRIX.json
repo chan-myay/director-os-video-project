@@ -1,0 +1,98 @@
+{
+  "execution_policy": {
+    "level_1_local_deterministic": "preferred",
+    "level_2_apple_silicon_local_ai": "available_after_model_install_or_runtime_detection",
+    "level_3_trusted_local_model_servers": "not_configured",
+    "level_4_private_remote_gpu": "private_remote_option",
+    "level_5_commercial_cloud": "cloud_optional_requires_approval"
+  },
+  "capabilities": [
+    {
+      "name": "mp4_animatic",
+      "classification": "local",
+      "operational": true,
+      "status": "operational"
+    },
+    {
+      "name": "caption_export",
+      "classification": "local",
+      "operational": true,
+      "status": "operational"
+    },
+    {
+      "name": "local_audio_metadata",
+      "classification": "local",
+      "operational": true,
+      "status": "operational"
+    },
+    {
+      "name": "local_storyboard_ai",
+      "classification": "local_after_install",
+      "operational": false,
+      "status": "local_after_install"
+    },
+    {
+      "name": "burmese_voice_generation",
+      "classification": "local_after_install",
+      "operational": false,
+      "status": "local_after_install"
+    },
+    {
+      "name": "infinitetalk_local",
+      "classification": "local_after_install",
+      "operational": false,
+      "status": "local_after_install"
+    },
+    {
+      "name": "infinitetalk_runpod",
+      "classification": "private_remote_option",
+      "operational": false,
+      "status": "private_remote_option"
+    },
+    {
+      "name": "final_video_generation_local",
+      "classification": "local_experimental",
+      "operational": false,
+      "status": "local_experimental"
+    },
+    {
+      "name": "composite_previs",
+      "classification": "local",
+      "operational": true,
+      "status": "operational"
+    },
+    {
+      "name": "result_qc",
+      "classification": "local",
+      "operational": true,
+      "status": "operational"
+    }
+  ],
+  "hardware_summary": {
+    "machine": "x86_64",
+    "architecture": "Darwin-24.6.0-x86_64-i386-64bit",
+    "macos_version": "10.16",
+    "chip_model": "sysctl: sysctl fmt -1 1024 1: Operation not permitted",
+    "cpu_core_count": 8,
+    "gpu_core_count": "UNKNOWN",
+    "unified_memory_bytes": 0,
+    "memory_pressure": "The system has 17179869184 (4194304 pages with a page size of 4096).\nSystem-wide memory free percentage: 60%",
+    "free_disk_bytes": 3520479232,
+    "total_disk_bytes": 494384795648
+  },
+  "model_count": 1870,
+  "benchmarks": [
+    {
+      "model": "none",
+      "runtime": "ffmpeg_deterministic",
+      "hardware": "sysctl: sysctl fmt -1 1024 1: Operation not permitted",
+      "startup_time": 0,
+      "processing_time": 0.26667022705078125,
+      "peak_memory": "not_measured",
+      "dimensions": "320x180",
+      "result_path": "/Users/chan/song-video-project/director-os/benchmarks/local/ffmpeg_test_frame.png",
+      "success": true,
+      "quality_review_state": "tool_health_only"
+    }
+  ]
+}

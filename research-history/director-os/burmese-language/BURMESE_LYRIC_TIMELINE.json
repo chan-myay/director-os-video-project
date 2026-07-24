@@ -1,0 +1,596 @@
+{
+  "records": [
+    {
+      "line_index": 0,
+      "original_text": "အခ်စ္မဲ့ ဇာတ္လမ္း",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "အခ်စ္မဲ့ ဇာတ္လမ္း",
+      "syllables": [
+        "အခ်စ္မဲ့",
+        "ဇာတ္လမ္း"
+      ],
+      "pronunciation_helper": "အခ်စ္မဲ့ ဇာတ္လမ္း",
+      "caption_text": "အခ်စ္မဲ့ ဇာတ္လမ္း",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 0.0,
+        "end": 8.073
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 1,
+      "original_text": "ေတးေရး - ေမာရွည္",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "ေတးေရး - ေမာရွည္",
+      "syllables": [
+        "ေတးေရး",
+        "-",
+        "ေမာရွည္"
+      ],
+      "pronunciation_helper": "ေတးေရး - ေမာရွည္",
+      "caption_text": "ေတးေရး - ေမာရွည္",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 8.073,
+        "end": 16.147
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 2,
+      "original_text": "V1:",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "V1:",
+      "syllables": [
+        "V1:"
+      ],
+      "pronunciation_helper": "V1:",
+      "caption_text": "V1:",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 16.147,
+        "end": 24.22
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 3,
+      "original_text": "အလင္းမဲ့ဒီည ဦးေႏွာက္ေတြစားဒုကၡေတြတေပြ႕တထမ္း",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "အလင္းမဲ့ဒီည ဦးေႏွာက္ေတြစားဒုကၡေတြတေပြ႕တထမ္း",
+      "syllables": [
+        "အလင္းမဲ့ဒီည",
+        "ဦးေႏွာက္ေတြစားဒုကၡေတြတေပြ႕တထမ္း"
+      ],
+      "pronunciation_helper": "အလင္းမဲ့ဒီည ဦးေႏွာက္ေတြစားဒုကၡေတြတေပြ႕တထမ္း",
+      "caption_text": "အလင္းမဲ့ဒီည / ဦးေႏွာက္ေတြစားဒုကၡေတြတေပြ႕တထမ္း",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 24.22,
+        "end": 32.293
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 4,
+      "original_text": "လြဲမွားျခင္းရဲ႕ အေၾကာင္းေတြ ေျဖရွာေနဆဲပါ",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "လြဲမွားျခင္းရဲ႕ အေၾကာင္းေတြ ေျဖရွာေနဆဲပါ",
+      "syllables": [
+        "လြဲမွားျခင္းရဲ႕",
+        "အေၾကာင္းေတြ",
+        "ေျဖရွာေနဆဲပါ"
+      ],
+      "pronunciation_helper": "လြဲမွားျခင္းရဲ႕ အေၾကာင္းေတြ ေျဖရွာေနဆဲပါ",
+      "caption_text": "လြဲမွားျခင္းရဲ႕ အေၾကာင္းေတြ / ေျဖရွာေနဆဲပါ",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 32.293,
+        "end": 40.367
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 5,
+      "original_text": "အသံေတြတိတ္ဆိတ္ အေမွာင္ေတြႏွဳတ္ပိတ္ ထားတဲ့ အရိပ္",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "အသံေတြတိတ္ဆိတ္ အေမွာင္ေတြႏွဳတ္ပိတ္ ထားတဲ့ အရိပ္",
+      "syllables": [
+        "အသံေတြတိတ္ဆိတ္",
+        "အေမွာင္ေတြႏွဳတ္ပိတ္",
+        "ထားတဲ့",
+        "အရိပ္"
+      ],
+      "pronunciation_helper": "အသံေတြတိတ္ဆိတ္ အေမွာင္ေတြႏွဳတ္ပိတ္ ထားတဲ့ အရိပ္",
+      "caption_text": "အသံေတြတိတ္ဆိတ္ အေမွာင္ေတြႏွဳတ္ပိတ္ / ထားတဲ့ အရိပ္",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 40.367,
+        "end": 48.44
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 6,
+      "original_text": "ေမွာင္မည္း ၾကီးထဲ မင္းရဲ႕တို႕ရဲ႕အေၾကာင္းဇာတ္တစ္ခန္း …",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "ေမွာင္မည္း ၾကီးထဲ မင္းရဲ႕တို႕ရဲ႕အေၾကာင္းဇာတ္တစ္ခန္း …",
+      "syllables": [
+        "ေမွာင္မည္း",
+        "ၾကီးထဲ",
+        "မင္းရဲ႕တို႕ရဲ႕အေၾကာင္းဇာတ္တစ္ခန္း",
+        "…"
+      ],
+      "pronunciation_helper": "ေမွာင္မည္း ၾကီးထဲ မင္းရဲ႕တို႕ရဲ႕အေၾကာင္းဇာတ္တစ္ခန္း …",
+      "caption_text": "ေမွာင္မည္း ၾကီးထဲ / မင္းရဲ႕တို႕ရဲ႕အေၾကာင္းဇာတ္တစ္ခန္း / …",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 48.44,
+        "end": 56.513
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 7,
+      "original_text": "Cho1:",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "Cho1:",
+      "syllables": [
+        "Cho1:"
+      ],
+      "pronunciation_helper": "Cho1:",
+      "caption_text": "Cho1:",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 56.513,
+        "end": 64.587
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 8,
+      "original_text": "မင္းေပးတဲ့ အနမ္း အခုက်ေတာ့ အလြမ္းနဲ႕ဇာတ္သိမ္း",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "မင္းေပးတဲ့ အနမ္း အခုက်ေတာ့ အလြမ္းနဲ႕ဇာတ္သိမ္း",
+      "syllables": [
+        "မင္းေပးတဲ့",
+        "အနမ္း",
+        "အခုက်ေတာ့",
+        "အလြမ္းနဲ႕ဇာတ္သိမ္း"
+      ],
+      "pronunciation_helper": "မင္းေပးတဲ့ အနမ္း အခုက်ေတာ့ အလြမ္းနဲ႕ဇာတ္သိမ္း",
+      "caption_text": "မင္းေပးတဲ့ အနမ္း အခုက်ေတာ့ / အလြမ္းနဲ႕ဇာတ္သိမ္း",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 64.587,
+        "end": 72.66
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 9,
+      "original_text": "မာယာမ်ားနဲ႕ အျပည့္ ဒဏ္ရာမ်ား က်ပ္ပိတ္သိမ္႔",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "မာယာမ်ားနဲ႕ အျပည့္ ဒဏ္ရာမ်ား က်ပ္ပိတ္သိမ္႔",
+      "syllables": [
+        "မာယာမ်ားနဲ႕",
+        "အျပည့္",
+        "ဒဏ္ရာမ်ား",
+        "က်ပ္ပိတ္သိမ္႔"
+      ],
+      "pronunciation_helper": "မာယာမ်ားနဲ႕ အျပည့္ ဒဏ္ရာမ်ား က်ပ္ပိတ္သိမ္႔",
+      "caption_text": "မာယာမ်ားနဲ႕ အျပည့္ ဒဏ္ရာမ်ား / က်ပ္ပိတ္သိမ္႔",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 72.66,
+        "end": 80.733
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 10,
+      "original_text": "ဘယ္မွာလဲေဟ႕ ရွာေသာ္လဲ မေတြ႕ ငါရဲ႕ အခ်စ္ကေလး",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "ဘယ္မွာလဲေဟ႕ ရွာေသာ္လဲ မေတြ႕ ငါရဲ႕ အခ်စ္ကေလး",
+      "syllables": [
+        "ဘယ္မွာလဲေဟ႕",
+        "ရွာေသာ္လဲ",
+        "မေတြ႕",
+        "ငါရဲ႕",
+        "အခ်စ္ကေလး"
+      ],
+      "pronunciation_helper": "ဘယ္မွာလဲေဟ႕ ရွာေသာ္လဲ မေတြ႕ ငါရဲ႕ အခ်စ္ကေလး",
+      "caption_text": "ဘယ္မွာလဲေဟ႕ ရွာေသာ္လဲ မေတြ႕ ငါရဲ႕ / အခ်စ္ကေလး",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 80.733,
+        "end": 88.807
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 11,
+      "original_text": "ၾကာေလ (ေ၀းေလး)4",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "ၾကာေလ (ေ၀းေလး)4",
+      "syllables": [
+        "ၾကာေလ",
+        "(ေ၀းေလး)4"
+      ],
+      "pronunciation_helper": "ၾကာေလ (ေ၀းေလး)4",
+      "caption_text": "ၾကာေလ (ေ၀းေလး)4",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 88.807,
+        "end": 96.88
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 12,
+      "original_text": "V3:",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "V3:",
+      "syllables": [
+        "V3:"
+      ],
+      "pronunciation_helper": "V3:",
+      "caption_text": "V3:",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 96.88,
+        "end": 104.953
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 13,
+      "original_text": "လူဘ၀ဟာဆန္းၾကယ္လြန္းတယ္ အခုမွလာ လြမ္းျပမေနနဲ႕",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "လူဘ၀ဟာဆန္းၾကယ္လြန္းတယ္ အခုမွလာ လြမ္းျပမေနနဲ႕",
+      "syllables": [
+        "လူဘ၀ဟာဆန္းၾကယ္လြန္းတယ္",
+        "အခုမွလာ",
+        "လြမ္းျပမေနနဲ႕"
+      ],
+      "pronunciation_helper": "လူဘ၀ဟာဆန္းၾကယ္လြန္းတယ္ အခုမွလာ လြမ္းျပမေနနဲ႕",
+      "caption_text": "လူဘ၀ဟာဆန္းၾကယ္လြန္းတယ္ အခုမွလာ / လြမ္းျပမေနနဲ႕",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 104.953,
+        "end": 113.027
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 14,
+      "original_text": "ေလာင္ကၽြမ္းေန အသဲေတြကြဲေၾက သရဲ တေစၦ",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "ေလာင္ကၽြမ္းေန အသဲေတြကြဲေၾက သရဲ တေစၦ",
+      "syllables": [
+        "ေလာင္ကၽြမ္းေန",
+        "အသဲေတြကြဲေၾက",
+        "သရဲ",
+        "တေစၦ"
+      ],
+      "pronunciation_helper": "ေလာင္ကၽြမ္းေန အသဲေတြကြဲေၾက သရဲ တေစၦ",
+      "caption_text": "ေလာင္ကၽြမ္းေန အသဲေတြကြဲေၾက သရဲ / တေစၦ",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 113.027,
+        "end": 121.1
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 15,
+      "original_text": "တစ္ေကာင္လို ေရာင္ေျခာက္ဆယ္",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "တစ္ေကာင္လို ေရာင္ေျခာက္ဆယ္",
+      "syllables": [
+        "တစ္ေကာင္လို",
+        "ေရာင္ေျခာက္ဆယ္"
+      ],
+      "pronunciation_helper": "တစ္ေကာင္လို ေရာင္ေျခာက္ဆယ္",
+      "caption_text": "တစ္ေကာင္လို ေရာင္ေျခာက္ဆယ္",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 121.1,
+        "end": 129.173
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 16,
+      "original_text": "နံရံေတြေျခာက္ေသြ႕အမွန္ေတြ ခလုတ္ပိတ္္ထားတဲ့ အတိတ္",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "နံရံေတြေျခာက္ေသြ႕အမွန္ေတြ ခလုတ္ပိတ္္ထားတဲ့ အတိတ္",
+      "syllables": [
+        "နံရံေတြေျခာက္ေသြ႕အမွန္ေတြ",
+        "ခလုတ္ပိတ္္ထားတဲ့",
+        "အတိတ္"
+      ],
+      "pronunciation_helper": "နံရံေတြေျခာက္ေသြ႕အမွန္ေတြ ခလုတ္ပိတ္္ထားတဲ့ အတိတ္",
+      "caption_text": "နံရံေတြေျခာက္ေသြ႕အမွန္ေတြ / ခလုတ္ပိတ္္ထားတဲ့ အတိတ္",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 129.173,
+        "end": 137.247
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 17,
+      "original_text": "ဂ်က္ထိုးပိတ္ထားတဲ့ တံခါးေတြမ်ားေဟး…ေရး…ရီး..ေရး",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "ဂ်က္ထိုးပိတ္ထားတဲ့ တံခါးေတြမ်ားေဟး…ေရး…ရီး..ေရး",
+      "syllables": [
+        "ဂ်က္ထိုးပိတ္ထားတဲ့",
+        "တံခါးေတြမ်ားေဟး…ေရး…ရီး.",
+        ".",
+        "ေရး"
+      ],
+      "pronunciation_helper": "ဂ်က္ထိုးပိတ္ထားတဲ့ တံခါးေတြမ်ားေဟး…ေရး…ရီး..ေရး",
+      "caption_text": "ဂ်က္ထိုးပိတ္ထားတဲ့ / တံခါးေတြမ်ားေဟး…ေရး…ရီး..ေရး",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 137.247,
+        "end": 145.32
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 18,
+      "original_text": "Cho2:",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "Cho2:",
+      "syllables": [
+        "Cho2:"
+      ],
+      "pronunciation_helper": "Cho2:",
+      "caption_text": "Cho2:",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 145.32,
+        "end": 153.393
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 19,
+      "original_text": "မင္းေပးတဲ႕အမုန္း အခုက်ေတာ့ အျပံဳးနဲ႕ အရံွုး",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "မင္းေပးတဲ႕အမုန္း အခုက်ေတာ့ အျပံဳးနဲ႕ အရံွုး",
+      "syllables": [
+        "မင္းေပးတဲ႕အမုန္း",
+        "အခုက်ေတာ့",
+        "အျပံဳးနဲ႕",
+        "အရံွုး"
+      ],
+      "pronunciation_helper": "မင္းေပးတဲ႕အမုန္း အခုက်ေတာ့ အျပံဳးနဲ႕ အရံွုး",
+      "caption_text": "မင္းေပးတဲ႕အမုန္း အခုက်ေတာ့ / အျပံဳးနဲ႕ အရံွုး",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 153.393,
+        "end": 161.467
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 20,
+      "original_text": "စာနာျခင္းမ်ား အေ၀း (ရီး) အ၀ါေရာင္အဆင္းနဲ႔ အျပည့္",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "စာနာျခင္းမ်ား အေ၀း (ရီး) အ၀ါေရာင္အဆင္းနဲ႔ အျပည့္",
+      "syllables": [
+        "စာနာျခင္းမ်ား",
+        "အေ၀း",
+        "(ရီး)",
+        "အ၀ါေရာင္အဆင္းနဲ႔",
+        "အျပည့္"
+      ],
+      "pronunciation_helper": "စာနာျခင္းမ်ား အေ၀း (ရီး) အ၀ါေရာင္အဆင္းနဲ႔ အျပည့္",
+      "caption_text": "စာနာျခင္းမ်ား အေ၀း (ရီး) / အ၀ါေရာင္အဆင္းနဲ႔ အျပည့္",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 161.467,
+        "end": 169.54
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 21,
+      "original_text": "ဆယ္ကမၻာလဲ မေမ႕ ထည္၀ါတဲ့ အေငြ႕သက္ေလး",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "ဆယ္ကမၻာလဲ မေမ႕ ထည္၀ါတဲ့ အေငြ႕သက္ေလး",
+      "syllables": [
+        "ဆယ္ကမၻာလဲ",
+        "မေမ႕",
+        "ထည္၀ါတဲ့",
+        "အေငြ႕သက္ေလး"
+      ],
+      "pronunciation_helper": "ဆယ္ကမၻာလဲ မေမ႕ ထည္၀ါတဲ့ အေငြ႕သက္ေလး",
+      "caption_text": "ဆယ္ကမၻာလဲ မေမ႕ ထည္၀ါတဲ့ / အေငြ႕သက္ေလး",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 169.54,
+        "end": 177.613
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 22,
+      "original_text": "ငါေလ ေတြးေလ ေဆြးေလး ေျပးေလ ေ၀းေလ ေရ….",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "ငါေလ ေတြးေလ ေဆြးေလး ေျပးေလ ေ၀းေလ ေရ….",
+      "syllables": [
+        "ငါေလ",
+        "ေတြးေလ",
+        "ေဆြးေလး",
+        "ေျပးေလ",
+        "ေ၀းေလ",
+        "ေရ…."
+      ],
+      "pronunciation_helper": "ငါေလ ေတြးေလ ေဆြးေလး ေျပးေလ ေ၀းေလ ေရ….",
+      "caption_text": "ငါေလ ေတြးေလ ေဆြးေလး ေျပးေလ ေ၀းေလ / ေရ….",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 177.613,
+        "end": 185.687
+      },
+      "approval_state": "draft"
+    },
+    {
+      "line_index": 23,
+      "original_text": "CHO1:",
+      "detected_encoding": {
+        "encoding": "unicode",
+        "zawgyi_probability": 0.0,
+        "confidence": 1.0
+      },
+      "normalized_unicode": "CHO1:",
+      "syllables": [
+        "CHO1:"
+      ],
+      "pronunciation_helper": "CHO1:",
+      "caption_text": "CHO1:",
+      "meaning": "pending",
+      "emotional_meaning": "pending",
+      "timecode": {
+        "start": 185.687,
+        "end": 193.76
+      },
+      "approval_state": "draft"
+    }
+  ],
+  "fonts": {
+    "available": true,
+    "fonts": [
+      "/System/Library/Fonts/NotoSansMyanmar.ttc",
+      "/System/Library/Fonts/NotoSerifMyanmar.ttc",
+      "/System/Library/Fonts/Supplemental/Myanmar MN.ttc",
+      "/System/Library/Fonts/Supplemental/Myanmar Sangam MN.ttc",
+      "/opt/X11/share/system_fonts/NotoSansMyanmar.ttc",
+      "/opt/X11/share/system_fonts/NotoSerifMyanmar.ttc",
+      "/opt/X11/share/system_fonts/Supplemental/Myanmar MN.ttc",
+      "/opt/X11/share/system_fonts/Supplemental/Myanmar Sangam MN.ttc"
+    ],
+    "font_files_not_redistributed": true
+  },
+  "original_preserved": true
+}

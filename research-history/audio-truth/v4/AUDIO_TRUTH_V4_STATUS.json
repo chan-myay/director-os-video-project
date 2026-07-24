@@ -1,0 +1,220 @@
+{
+  "version": "v2.4.1",
+  "created_at": "2026-07-13T16:22:26.492025+00:00",
+  "canonical_lyric_source": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+  "invalidated_v3_anchor_set": "invalidated_by_real_user_review",
+  "first_anchor": "human_verified_early_anchor",
+  "anchors": {
+    "early": {
+      "anchor_id": "anchor_early_verified",
+      "position": "early",
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/anchors/anchor_early_verified.mp4",
+      "lyric": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "english_meaning": "meaning retained from Audio Truth map; exact translation review remains separate",
+      "start": 32.98,
+      "end": 35.62,
+      "detected_vocal_start": 32.98,
+      "detected_vocal_end": 35.62,
+      "caption_start": 32.98,
+      "caption_end": 35.62,
+      "confidence": 0.835,
+      "status": "human_verified_early_anchor"
+    },
+    "middle": {
+      "anchor_id": "anchor_middle_candidate",
+      "position": "middle",
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/anchors/anchor_middle_candidate.mp4",
+      "lyric": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "english_meaning": "meaning retained from Audio Truth map; exact translation review remains separate",
+      "start": 105.54,
+      "end": 112.9,
+      "detected_vocal_start": 105.54,
+      "detected_vocal_end": 112.9,
+      "caption_start": 105.54,
+      "caption_end": 112.9,
+      "confidence": 0.83,
+      "status": "replacement_candidate"
+    },
+    "late": {
+      "anchor_id": "anchor_late_candidate",
+      "position": "late",
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/anchors/anchor_late_candidate.mp4",
+      "lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "english_meaning": "meaning retained from Audio Truth map; exact translation review remains separate",
+      "start": 144.62,
+      "end": 150.68,
+      "detected_vocal_start": 144.62,
+      "detected_vocal_end": 150.68,
+      "caption_start": 144.62,
+      "caption_end": 150.68,
+      "confidence": 0.822,
+      "status": "replacement_candidate"
+    },
+    "validation_path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/anchors/ANCHOR_VALIDATION.json"
+  },
+  "timeline": {
+    "path": "/Users/chan/song-video-project/director-os/state/AUDIO_TRUTH_TIMELINE_V4.json",
+    "occurrence_count": 21,
+    "high_confidence": 13,
+    "medium_confidence": 8,
+    "low_confidence": 0,
+    "blocked": 0
+  },
+  "captions": {
+    "path": "/Users/chan/song-video-project/director-os/captions/audio-truth-v4",
+    "review_caption_count": 21,
+    "production_ready": false,
+    "blockers": [
+      "MIDDLE_AND_LATE_ANCHOR_CONFIRMATION_REQUIRED"
+    ]
+  },
+  "lipsync": {
+    "ready_occurrence_count": 9,
+    "blocked_occurrence_count": 12,
+    "ready": [
+      "lyric_line_3b6a71e0_occurrence_1",
+      "lyric_line_6d042445_occurrence_1",
+      "lyric_line_4aefb4cd_occurrence_1",
+      "lyric_line_29f7541c_occurrence_1",
+      "lyric_line_cfe97aeb_occurrence_1",
+      "lyric_line_6545c465_occurrence_1",
+      "lyric_line_92457abb_occurrence_1",
+      "lyric_line_2f38aa93_occurrence_1",
+      "lyric_line_cfe97aeb_occurrence_2"
+    ],
+    "blocked": [
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_1",
+        "reason": [
+          "ANCHOR_PROPAGATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+        "reason": [
+          "ANCHOR_PROPAGATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+        "reason": [
+          "INVALIDATED_BY_REAL_USER_REVIEW"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_e7715751_occurrence_1",
+        "reason": [
+          "ANCHOR_PROPAGATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+        "reason": [
+          "REPLACEMENT_ANCHOR_CONFIRMATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_9129302f_occurrence_1",
+        "reason": [
+          "ANCHOR_PROPAGATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_68353461_occurrence_1",
+        "reason": [
+          "INVALIDATED_BY_REAL_USER_REVIEW"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+        "reason": [
+          "ANCHOR_PROPAGATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+        "reason": [
+          "ANCHOR_PROPAGATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_2",
+        "reason": [
+          "ANCHOR_PROPAGATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_6545c465_occurrence_2",
+        "reason": [
+          "REPLACEMENT_ANCHOR_CONFIRMATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+        "reason": [
+          "ANCHOR_PROPAGATION_PENDING"
+        ]
+      }
+    ],
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/lipsync-segments"
+  },
+  "preview": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v4",
+    "clean": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v4/CREATIVE_SKETCH_AUDIO_TRUTH_V4.mp4",
+    "captioned": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v4/CREATIVE_SKETCH_AUDIO_TRUTH_V4_WITH_CAPTIONS.mp4",
+    "review": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v4/CREATIVE_SKETCH_AUDIO_TRUTH_V4_REVIEW.mp4",
+    "url": "/studio-assets/burmese-music-video/previews/audio-truth-v4/CREATIVE_SKETCH_AUDIO_TRUTH_V4_WITH_CAPTIONS.mp4",
+    "duration_validation": {
+      "master_duration": 292.702041,
+      "preview_duration": 292.72,
+      "video_stream_duration": 292.72,
+      "audio_stream_duration": 292.663991,
+      "video_pad_applied": 98.942,
+      "difference": 0.017959000000018932,
+      "status": "ok"
+    }
+  },
+  "playback_validation": {
+    "file_exists": true,
+    "mime_expected": "video/mp4",
+    "duration": 292.72,
+    "video_duration": 292.72,
+    "audio_duration": 292.663991,
+    "has_audio": true,
+    "has_video": true,
+    "codec_compatible": true,
+    "seekable_faststart": true,
+    "http_status": 200,
+    "range_status": 206,
+    "browser_playback": "headless_chrome_metadata_loaded_seek_ok_play_advance_not_observed",
+    "playback_ready": false,
+    "repair": "V4 rebuilt with H.264/AAC/yuv420p and +faststart after V3 user-observed playback/content failure.",
+    "range_content_length": 1024,
+    "content_type": "video/mp4",
+    "browser_duration": 292.72,
+    "browser_current_time_after_seek": 289.72,
+    "browser_video_size": "1920x1080",
+    "browser_seek_ok": true,
+    "browser_play_advance_observed": false,
+    "playback_ready_reason": "MP4 route, range, codecs, faststart, audio/video durations pass; headless Chrome did not advance playback time, so real browser play-start is not fully proven."
+  },
+  "caption_audio_validation": {
+    "caption_count": 21,
+    "defect_count": 2,
+    "production_ready": false,
+    "reason": "two replacement anchors require user confirmation"
+  },
+  "soemind_forge": {
+    "repo": "/Users/chan/song-video-project/local-tools/research-repos/soemind-forge",
+    "commit": "42e055367d12346e27cb4aa1470b3d3a2bbf8d37",
+    "report": "/Users/chan/song-video-project/director-os-research/SOEMIND_FORGE_ADAPTATION_V2_4_1.md",
+    "adapted_features": 8
+  },
+  "next_action": "Review the two replacement Audio Truth anchors, then manually play the V4 preview if browser playback still fails.",
+  "no_new_model_download": true,
+  "no_cloud_upload": true,
+  "no_paid_api": true
+}

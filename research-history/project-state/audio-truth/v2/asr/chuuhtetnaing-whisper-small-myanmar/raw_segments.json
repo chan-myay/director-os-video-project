@@ -1,0 +1,90 @@
+[
+  {
+    "model": "chuuhtetnaing/whisper-small-myanmar",
+    "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_01.wav",
+    "start": 20.0,
+    "end": 45.0,
+    "raw_burmese_transcript": "ဒုတ်ခါတွေ တစ်ပွေ တစ်တန်း မှာ ခ�",
+    "normalized_transcript": "ဒုတ်ခါတွေ တစ်ပွေ တစ်တန်း မှာ ခ�",
+    "confidence": null,
+    "runtime": 9.368,
+    "hallucination_warning": false
+  },
+  {
+    "model": "chuuhtetnaing/whisper-small-myanmar",
+    "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_02.wav",
+    "start": 42.0,
+    "end": 67.0,
+    "raw_burmese_transcript": "အချက်အောင် ပေချေးေရှား မေဆယ်�",
+    "normalized_transcript": "အချက်အောင် ပေချေးေရှား မေဆယ်�",
+    "confidence": null,
+    "runtime": 4.621,
+    "hallucination_warning": false
+  },
+  {
+    "model": "chuuhtetnaing/whisper-small-myanmar",
+    "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_03.wav",
+    "start": 64.0,
+    "end": 89.0,
+    "raw_burmese_transcript": "မာကြောင်များ များ အား လည်းပျဲ �",
+    "normalized_transcript": "မာကြောင်များ များ အား လည်းပျဲ �",
+    "confidence": null,
+    "runtime": 7.231,
+    "hallucination_warning": false
+  },
+  {
+    "model": "chuuhtetnaing/whisper-small-myanmar",
+    "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_04.wav",
+    "start": 86.0,
+    "end": 111.0,
+    "raw_burmese_transcript": "ရဲလ် ရဲ့ လူ့အောင်းလုံး မှန်း မ�",
+    "normalized_transcript": "ရဲလ် ရဲ့ လူ့အောင်းလုံး မှန်း မ�",
+    "confidence": null,
+    "runtime": 7.198,
+    "hallucination_warning": false
+  },
+  {
+    "model": "chuuhtetnaing/whisper-small-myanmar",
+    "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_05.wav",
+    "start": 108.0,
+    "end": 133.0,
+    "raw_burmese_transcript": "ဲစီတကောင်း လို့ ရောင်ချောင့်�",
+    "normalized_transcript": "ဲစီတကောင်း လို့ ရောင်ချောင့်�",
+    "confidence": null,
+    "runtime": 7.173,
+    "hallucination_warning": false
+  },
+  {
+    "model": "chuuhtetnaing/whisper-small-myanmar",
+    "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_06.wav",
+    "start": 130.0,
+    "end": 155.0,
+    "raw_burmese_transcript": "စာနောက်ချင်း ရဲ့ များပွဲ အေး မ�",
+    "normalized_transcript": "စာနောက်ချင်း ရဲ့ များပွဲ အေး မ�",
+    "confidence": null,
+    "runtime": 7.27,
+    "hallucination_warning": false
+  },
+  {
+    "model": "chuuhtetnaing/whisper-small-myanmar",
+    "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_07.wav",
+    "start": 152.0,
+    "end": 177.0,
+    "raw_burmese_transcript": "လူနောက် နောက် နောက် နောက် နောက�",
+    "normalized_transcript": "လူနောက် နောက် နောက် နောက် နောက�",
+    "confidence": null,
+    "runtime": 2.99,
+    "hallucination_warning": false
+  },
+  {
+    "model": "chuuhtetnaing/whisper-small-myanmar",
+    "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_08.wav",
+    "start": 174.0,
+    "end": 199.0,
+    "raw_burmese_transcript": "ယူ့ ကိုအား လို့ ရှောင်ဆေး တစ်က�",
+    "normalized_transcript": "ယူ့ ကိုအား လို့ ရှောင်ဆေး တစ်က�",
+    "confidence": null,
+    "runtime": 2.99,
+    "hallucination_warning": false
+  }
+]

@@ -1,0 +1,24 @@
+shot_id: "F07_non_face_dance_inserts"
+intent: "non-face dance insert coverage"
+song_section_targets: ["verse_transitions", "chorus_accents", "face_risk_covers"]
+references:
+  wardrobe_body: ["references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"]
+  location: ["references/approved/REF-C_BAR-STAGE_APPROVED.png"]
+  art_optional: ["references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png"]
+motion:
+  type: "hands_waist_torso_shoulder_fabric_rhythm"
+  existing_support: ["D05", "B02", "B07"]
+identity:
+  face_exposure: "none_or_cropped"
+body_wardrobe:
+  proportions: "natural_adult_fragments"
+  framing: "tasteful_non_vulgar"
+location:
+  world: "bar_floor_shelves_curtain_amber_practicals"
+camera_lighting:
+  scale: "detail_torso_hands_waist"
+  lighting: "warm_amber_red_fabric_dark_background"
+negative_rules: ["no_clear_face", "no_vulgar_framing", "no_bad_hands", "no_fake_body", "no_tiktok", "no_kpop", "no_martial_arts", "no_fake_lipsync"]
+qc:
+  required_review: "normal_speed"
+  status: "not_generated"

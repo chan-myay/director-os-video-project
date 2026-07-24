@@ -1,0 +1,57 @@
+{
+  "project_id": "burmese-music-video",
+  "input_count": 1,
+  "classifications": {
+    "performer_identity": 0,
+    "body_full_body": 0,
+    "wardrobe": 0,
+    "location": 0,
+    "environment": 0,
+    "cultural_artwork": 0,
+    "props": 0,
+    "object_insert": 0,
+    "motion_reference": 0,
+    "voice_reference": 0,
+    "music": 0,
+    "lyrics": 1,
+    "footage": 0,
+    "generated_result": 0,
+    "rejected": 0,
+    "restricted": 0,
+    "unknown": 0
+  },
+  "director_os_found": {
+    "performer_references": "approved A1/A2 face references preserved",
+    "wardrobe_references": "approved body/wardrobe reference B preserved",
+    "location_references": "approved bar/stage reference C preserved",
+    "song": "audio/01.mp3 master preserved",
+    "lyrics": "Burmese lyric state and v6 captions preserved",
+    "usable_footage": "existing project evidence scanned from prior runs",
+    "motion_references": "available records preserved; new uploads auto-classified",
+    "rejected_restricted_media": "rejected identity and child-containing material remain blocked",
+    "missing_creative_inputs": [
+      "No new uploaded song, using existing audio/01.mp3.",
+      "No new identity upload, using approved A1/A2 references."
+    ]
+  },
+  "locked_truth": {
+    "performer": "consenting adult lead performer performer",
+    "face_references": [
+      "REF-A1",
+      "REF-A2"
+    ],
+    "wardrobe": "deep-red one-shoulder Burmese-inspired dress",
+    "location": "approved dark teak Finnish bar with winter window",
+    "lighting": "amber/crimson cinematic lighting with cold window contrast",
+    "avoid": [
+      "karaoke",
+      "kung fu",
+      "K-pop",
+      "TikTok",
+      "fake body reshaping",
+      "raw child-containing sources"
+    ]
+  },
+  "approved_asset_count": 0,
+  "source_state_status": "available"
+}

@@ -1,0 +1,24 @@
+{
+  "codex": {
+    "provider": "codex_cli",
+    "available": true,
+    "runtime": "/Users/chan/.local/bin/codex",
+    "version": "codex-cli 0.142.5",
+    "privacy_mode": "local workspace; no private upload requested by Director OS",
+    "research_permission": "web search only when explicitly enabled by Codex runtime or separate research service",
+    "fallback_status": "available_not_active",
+    "credentials_exposed": false
+  },
+  "ffmpeg": {
+    "available": true,
+    "path": "/Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffmpeg"
+  },
+  "local_ai_image": {
+    "available": false,
+    "status": "LOCAL_STORYBOARD_MODEL_REQUIRED"
+  },
+  "voice": {
+    "available": true,
+    "status": "system voice candidate only; Burmese quality unverified"
+  }
+}

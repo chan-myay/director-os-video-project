@@ -1,0 +1,4 @@
+{
+  "source": "/Users/chan/song-video-project/director-os/animatics/15/ANIMATIC.mp4",
+  "note": "Copied clean full-song sketch; lyric captions blocked until audio truth alignment."
+}

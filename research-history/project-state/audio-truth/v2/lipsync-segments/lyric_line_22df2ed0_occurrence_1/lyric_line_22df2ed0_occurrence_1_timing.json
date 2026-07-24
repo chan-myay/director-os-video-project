@@ -1,0 +1,10 @@
+{
+  "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+  "start": 92.3,
+  "end": 93.38,
+  "status": "aligned_medium_confidence",
+  "confidence": 0.617,
+  "blockers": [
+    "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+  ]
+}

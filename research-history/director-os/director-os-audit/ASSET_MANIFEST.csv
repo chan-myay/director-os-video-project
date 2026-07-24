@@ -1,0 +1,118 @@
+path,type,description,status,quality,keep/delete/unknown,notes
+audio/01.mp3,audio,Active final song master,approved,good,keep,Confirmed by user as song to use now
+audio/01-analysis.wav,audio,Derived mono analysis WAV,working,usable,keep,Not edit master
+lyrics/အခ်စ္မဲ့ ဇာတ္လမ္း - Zawgyi.txt,lyrics,Zawgyi lyric source,working,important,keep,Preserve original lyrics
+PROJECT-BRIEF.md,document,Core project brief,current,important,keep,Defines non-negotiables
+RESUME.md,document,Session resume and current state,current,important,keep,Contains active handoff and constraints
+START-HERE-TOMORROW.md,document,Front-door handoff,current,important,keep,Current quick-start state
+RESEARCH.md,document,Research index and decisions,current,important,keep,Record future research here
+output/PRODUCTION-FAILURE-AUDIT.md,document,Root-cause failure audit,current,important,keep,Explains workflow failures
+output/COMMERCIAL-CONTINUITY-PROTOCOL.md,document,Continuity and generation protocol,current,important,keep,Use for shot discipline
+output/MASTER-MUSIC-VIDEO-SCRIPT.md,document,Master treatment and script,current,important,keep,Superseded in places by current correction but still useful
+output/AUDIO-RHYTHM-ANALYSIS.md,document,Audio rhythm analysis,current,important,keep,Supports rhythm-driven edit
+output/LYRIC-PHRASE-TIMING-DRAFT.md,document,Lyric timing draft,draft,usable,keep,Needs refinement before final lip-sync
+output/LIPSYNC-PERFORMANCE-PLAN.md,document,Lip-sync workflow plan,current,important,keep,Do not rely on generated singing
+references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png,image,Approved front lead performer face reference,approved,high,keep,Use for identity only
+references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png,image,Approved three-quarter lead performer face reference,approved,high,keep,Use for identity only
+references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png,image,Approved wardrobe and body reference,approved,high,keep,Use for red dress/body proportions
+references/approved/REF-C_BAR-STAGE_APPROVED.png,image,Approved bar/stage reference,approved,high,keep,Use for location continuity
+references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png,image,Approved Burmese art/craft reference,approved,high,keep,Use for inserts/material language
+references/rejected/REF-A_PERFORMER-IDENTITY-3ANGLE_v1_REJECTED-right-profile.png,image,Rejected combined three-angle identity sheet,rejected,bad profile,keep,Preserve evidence; never upload/use
+references/identity-source-selected/IMG_4079.heic.png,image,Natural body/proportion source,selected,important,keep,Body/proportion reference
+references/identity-source-selected/IMG_6771.HEIC.png,image,Strong recent close-face source,selected,important,keep,Face source
+references/identity-source-selected/IMG_6708.HEIC.png,image,Selected identity source,selected,unknown,keep,Quality not rejudged in this audit
+references/identity-source-selected/IMG_6710.HEIC.png,image,Selected identity source,selected,unknown,keep,Quality not rejudged in this audit
+references/identity-source-selected/IMG_6717.HEIC.png,image,Selected identity source,selected,unknown,keep,Quality not rejudged in this audit
+references/identity-source-selected/IMG_6720.HEIC.png,image,Selected identity source,selected,unknown,keep,Quality not rejudged in this audit
+references/My lead performer/,folder,Original lead performer photo and video library,source,important,keep,Private source evidence; do not upload casually
+references/My lead performer/IMG_6707.MOV,video,Strong motion/front-three-quarter reference,source,high,keep,Research says strongest motion/hair/expression reference
+references/My lead performer/IMG_6742.MOV,video,Side/profile/posture source,restricted,privacy risk,keep,Excluded from training due child presence
+references/My lead performer/IMG_6417.MOV,video,Video source with sunglasses,restricted,limited,keep,Not a face reference
+references/My lead performer/IMG_5930.MOV,video,Original video source,restricted,privacy risk,keep,Contains child per notes; exclude from identity conditioning
+references/My lead performer/IMG_6737.MOV,video,Original video source,restricted,privacy risk,keep,Contains child per notes; exclude from identity conditioning
+references/working-lead performer-contact-sheet.png,image,Photo/MOV poster contact sheet,working,important,keep,Fast visual inventory
+references/working-lead performer-video-frames/,folder,Extracted MOV frames,working,important,keep,Motion/frame review material
+references/Dress/,folder,Stock dress/performance references,source,limited,keep,Use only for broad ideas; do not copy exact imagery
+pilot/selected/P03_performer-reveal_take01_SELECTED-BASE.mp4,video,Locked creative/motion base,selected,important,keep,Identity drifts after safe wide
+pilot/selected/edits/P03_SAFE-WIDE_00-00_to_00-02.5_v1.mp4,video,Approved safe wide opening,approved,high,keep,Explicitly approved for final edit
+pilot/selected/P03_FINAL-SELECTED_FULL-HIFIFACE256_v1.mp4,video,Primary face-corrected P03 master,approved,high,keep,Primary selected face correction
+pilot/selected/P03_FINAL-SELECTED_GEMINI-HIFIFACE256_v1.mp4,video,Hybrid pilot output,selected,usable,keep,Comparison/selected evidence
+pilot/selected/edits/P03_HYBRID-GEMINI-to-HIFIFACE256_v1.mp4,video,HiFiFace hybrid edit,selected,usable,keep,Face correction comparison
+pilot/selected/edits/P03_HYBRID-GEMINI-to-UNIFACE256_v1.mp4,video,UniFace hybrid edit,selected,usable,keep,Approved alternate model evidence
+pilot/selected/edits/P03_HYBRID-GEMINI-to-INSWAPPER128-FP16_v1.mp4,video,Inswapper hybrid edit,superseded,usable,keep,No longer final candidate
+pilot/selected/edits/P03_HYBRID-GEMINI-to-HYPERSWAP1B_v1.mp4,video,Hyperswap hybrid edit,comparison,unknown,keep,Comparison evidence
+pilot/selected/edits/P03_PERFORMER-IDENTITY_SIMSWAP512_v1.mp4,video,SimSwap 512 identity attempt,rejected,bad face/lips,keep,Never use final; comparison evidence only
+pilot/rejected/P04_INGREDIENTS_take01_REJECTED-IDENTITY-60PCT.mp4,video,Rejected Flow P04 take,rejected,bad,keep,Different performer/karaoke/staging issues
+pilot/rejected/P03_IDENTITY-LOCKED_START-FRAME_v1_REJECTED.png,image,Rejected identity-locked start frame,rejected,bad,keep,Preserve evidence
+production/selected/batch-a/,folder,Selected atmosphere/object/story clips,selected,usable,keep,Atmosphere and cutaways
+production/selected/batch-b/,folder,Selected movement/stage clips,selected with caution,medium,keep,Face not trusted
+production/selected/batch-c/,folder,Selected emotional punctuation clips,selected with caution,medium,keep,Close faces need correction review
+production/selected/batch-d/,folder,Selected current dance core,selected,best current dance,keep,Not enough for final alone
+production/selected/batch-f/,folder,Future selected Batch F destination,empty,unknown,keep,No generation yet
+production/raw/batch-a/,folder,Raw Batch A clips,raw,mixed,keep,Preserve source and evidence
+production/raw/batch-b/,folder,Raw Batch B clips,raw,mixed,keep,Preserve source and evidence
+production/raw/batch-c/,folder,Raw Batch C clips,raw,mixed,keep,Preserve source and evidence
+production/raw/batch-d/,folder,Raw Batch D clips,raw,mixed,keep,Preserve source and evidence
+production/raw/batch-e/,folder,Raw Batch E clips,raw,bad/mixed,keep,Preserve failed evidence
+production/raw/batch-f/,folder,Prepared Batch F folder,prepared,not generated,keep,Do not generate yet
+production/raw/batch-f/BATCH-F-PROMPTS-AND-QC.md,document,Existing Batch F prompt/QC plan,prepared,important,keep,Do not execute yet
+production/review/batch-f/BATCH-F-STATUS.md,document,Existing Batch F status,prepared,important,keep,No generated Batch F video yet
+production/selected/batch-a/A01_winter-exterior_SELECTED.mp4,video,Winter exterior selected clip,selected,usable,keep,Atmosphere
+production/selected/batch-a/A02_empty-bar_SELECTED.mp4,video,Empty bar selected clip,selected,usable,keep,Atmosphere/location
+production/selected/batch-a/A03_two-glasses_SELECTED.mp4,video,Two glasses selected clip,selected,usable,keep,Object story
+production/selected/batch-a/A04_empty-chair_SELECTED.mp4,video,Empty chair selected clip,selected,usable,keep,Object story
+production/selected/batch-a/A05_rose-macro_SELECTED.mp4,video,Rose macro selected clip,selected,usable,keep,Object story
+production/selected/batch-a/A06_stopped-clock_SELECTED.mp4,video,Stopped clock selected clip,selected,usable,keep,Object story
+production/selected/batch-a/A07_burmese-craft_SELECTED.mp4,video,Burmese craft selected clip,selected,usable,keep,Cultural insert
+production/selected/batch-a/A08_snow-window_SELECTED.mp4,video,Snow window selected clip,selected,usable,keep,Finnish winter/bar contrast
+production/selected/batch-a/A09_door-bolt_SELECTED-reversed-to-lock.mp4,video,Door bolt reversed selected clip,selected,usable,keep,Object story
+production/selected/batch-a/A10_empty-microphone_SELECTED.mp4,video,Empty microphone selected clip,selected,usable,keep,Ending symbol only
+production/selected/batch-b/B02_weight-shift-wrist_SELECTED.mp4,video,Batch B movement clip,selected with caution,medium,keep,Use for body/movement only
+production/selected/batch-b/B03_curtain-silhouette_SELECTED.mp4,video,Curtain silhouette clip,selected with caution,medium,keep,Safer non-close coverage
+production/selected/batch-b/B04_aisle-travel-a_SELECTED.mp4,video,Aisle travel clip A,selected with caution,medium,keep,Movement/stage only
+production/selected/batch-b/B05_aisle-travel-b_SELECTED.mp4,video,Aisle travel clip B,selected with caution,medium,keep,Movement/stage only
+production/selected/batch-b/B06_return-to-stage_SELECTED.mp4,video,Return-to-stage clip,selected with caution,medium,keep,Movement/stage only
+production/selected/batch-b/B07_rose-placement_SELECTED.mp4,video,Rose placement clip,selected with caution,medium,keep,Body/object action
+production/selected/batch-b/B08_curtain-exit_SELECTED-TRIM-BEFORE-CLOSE.mp4,video,Curtain exit selected trim,selected with caution,medium,keep,Avoid close face
+production/selected/batch-c/C01_verse1-stable-medium_SELECTED.mp4,video,Stable medium emotional clip,selected with caution,medium,keep,Face correction later
+production/selected/batch-c/C02_verse1-frontal-close_SELECTED.mp4,video,Frontal close emotional clip,selected with caution,medium,keep,Do not approve close face before correction review
+production/selected/batch-c/C03_verse1-threequarter-emotion_SELECTED.mp4,video,Three-quarter emotional clip,selected with caution,medium,keep,Emotional punctuation
+production/selected/batch-c/C04_pre-chorus-hand-heart_SELECTED.mp4,video,Hand/heart emotional clip,selected with caution,medium,keep,Emotional punctuation
+production/selected/batch-c/C05_chorus-emotional-front_SELECTED.mp4,video,Chorus emotional front clip,selected with caution,mouth risk,keep,Do not use as final lip-sync
+production/selected/batch-c/C06_chorus-silent-emotional-hold_SELECTED.mp4,video,Silent emotional hold clip,selected with caution,medium,keep,Emotional punctuation
+production/selected/batch-c/C07_profile-memory-look_SELECTED_use-after-00-02.mp4,video,Profile memory trim,selected with caution,usable trim,keep,Use after first 2 seconds
+production/selected/batch-c/C08_tearful-close-eye-detail_SELECTED.mp4,video,Tearful close/eye detail,selected with caution,medium,keep,Needs face correction review
+production/selected/batch-c/C09_chorus-performance-wide_SELECTED-stage-continuity-face-caution.mp4,video,Wide stage continuity clip,selected with caution,face caution,keep,Use only wide/medium
+production/selected/batch-c/C10_final-still-resolve_SELECTED.mp4,video,Final still resolve clip,selected with caution,medium,keep,Emotional punctuation
+production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4,video,Dark dance entrance selected,selected,good direction,keep,Better concept but slightly slow
+production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,video,Rhythm dance natural body selected,selected,best current,keep,Wide/medium only
+production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4,video,Backlit silhouette rhythm selected,selected,good,keep,Safer because face hidden
+production/selected/batch-d/D05_feet-dress-rhythm_SELECTED.mp4,video,Feet/dress rhythm selected,selected,usable but limited,keep,Use as punctuation only
+production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4,video,Power chorus body silhouette selected trim,selected,usable trim,keep,Avoid full take face exposure
+production/rejected/batch-a/,folder,Rejected Batch A clips,rejected,mixed,keep,Preserve evidence
+production/rejected/batch-b/,folder,Rejected Batch B clips,rejected,bad,keep,Preserve evidence
+production/rejected/batch-c/,folder,Rejected Batch C clips,rejected,bad,keep,Preserve evidence
+production/rejected/batch-d/,folder,Rejected Batch D clips,rejected,bad,keep,Preserve evidence
+production/rejected/batch-e/,folder,Rejected Batch E clips,rejected,bad,keep,Preserve evidence
+production/rejected/batch-e/E01_chorus-bar-dance-wide_take01_REJECTED_repeated-move-face-body-risk.mp4,video,Rejected Batch E clip,rejected,bad,keep,Repeated movement and face/body risk
+production/rejected/batch-e/E02_side-travel-dance_take01_REJECTED_fake-body-proportions.mp4,video,Rejected Batch E clip,rejected,bad,keep,Fake body proportions
+production/edit/roughcut-v1/ROUGH-CUT-V1_WITH-MP3.mp4,video,Rejected rough cut v1,rejected,bad concept,keep,Do not polish; diagnostic evidence only
+production/edit/roughcut-v2/ROUGH-CUT-V2_DARK-DANCE_WITH-MP3.mp4,video,Rough cut v2 diagnostic,superseded,better but flawed,keep,Overused feet/dress
+production/edit/roughcut-v2/ROUGH-CUT-V2B_DARK-DANCE_LESS-FEET_WITH-MP3.mp4,video,Current best diagnostic cut,current,not final,keep,Still lacks dance coverage
+production/edit/roughcut-v2/ROUGH-CUT-V2B_CONTACT-SHEET_8SEC.jpg,image,v2B contact sheet,current,useful,keep,Shows repetition/missing side-travel
+face-correction/model-bakeoff/videos/05_hififace_unofficial_256.mp4,video,HiFiFace 256 face model result,approved,primary,keep,Primary face-correction winner
+face-correction/model-bakeoff/videos/13_uniface_256.mp4,video,UniFace 256 face model result,approved,backup,keep,Approved alternate
+face-correction/model-bakeoff/videos/10_inswapper_128_fp16.mp4,video,Inswapper 128 fp16 result,superseded,good comparison,keep,No longer final primary
+face-correction/model-bakeoff/videos/00_ORIGINAL-GEMINI.mp4,video,Original Gemini comparison,comparison,baseline,keep,Baseline only
+face-correction/model-bakeoff/FACE-MODEL-COMPARISON-ALL-14.mp4,video,Face model comparison reel,review,important,keep,Model bake-off evidence
+face-correction/model-bakeoff/FACE-MODEL-COMPARISON-ALL-PLUS-DLIGHT.mp4,video,Face model comparison reel with DLight,review,important,keep,Model bake-off evidence
+face-correction/work/source-lead performer/faces-curated/,folder,Curated lead performer source faces,working,important,keep,Child-free curated source per notes
+face-correction/target-p03/,folder,P03 target frames,working,important,keep,192 target frames
+face-correction/work/models/p03-performer-dlight-v1/,folder,DLight v1 training model,working,not final,keep,Early output too blurred at first checkpoint
+face-correction/v2/models/p03-performer-dlight-384-v2/,folder,DLight 384 v2 model,working,unknown,keep,Quality not fully audited here
+wan-test/input/P03_FIRST-5S_MOTION-BACKGROUND.mp4,video,Wan motion/background input,prepared,important,keep,For future controlled replacement test
+wan-test/input/PERFORMER-FACE-FRONT-REFERENCE.png,image,Wan lead performer face input,prepared,important,keep,Do not upload/run yet
+wan-test/input/PERFORMER-IDENTITY-BODY-REFERENCE.png,image,Wan body identity input,prepared,important,keep,Do not upload/run yet
+tools/render-roughcut-v2b.sh,script,Local roughcut v2B render script,working,important,keep,Uses project-local ffmpeg
+tools/run-face-model-bakeoff.sh,script,Face model bake-off runner,working,important,keep,Do not run unless needed
+local-tools/,folder,Local tools environments and caches,dependency,large,unknown,Do not clean without separate dependency audit

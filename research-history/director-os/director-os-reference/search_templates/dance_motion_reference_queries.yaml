@@ -1,0 +1,11 @@
+version: "0.3"
+queries:
+  side_travel_mature:
+    query: "mature elegant side travel dance cinematic profile movement"
+    notes: "for F01 lateral motion vocabulary"
+  silhouette_body_power:
+    query: "cinematic silhouette body movement chorus power dance"
+    notes: "for non-face movement references"
+  dress_pivot:
+    query: "satin dress pivot cinematic dance controlled turn"
+    notes: "focus on cloth physics and natural body mechanics"

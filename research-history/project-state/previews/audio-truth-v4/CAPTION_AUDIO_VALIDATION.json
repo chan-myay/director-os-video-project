@@ -1,0 +1,19 @@
+{
+  "version": "audio-truth-v4",
+  "summary": {
+    "caption_count": 21,
+    "defect_count": 2,
+    "production_ready": false,
+    "reason": "two replacement anchors require user confirmation"
+  },
+  "defects": [
+    {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "code": "OLD_MIDDLE_ANCHOR_REJECTED"
+    },
+    {
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "code": "OLD_LATE_ANCHOR_REJECTED"
+    }
+  ]
+}

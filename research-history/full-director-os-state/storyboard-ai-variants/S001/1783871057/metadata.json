@@ -1,0 +1,15 @@
+{
+  "shot_number": "S001",
+  "backend_id": "fake_test_backend",
+  "origin_label": "PLACEHOLDER",
+  "prompt": "Storyboard previs for S001: mature cinematic Burmese music video, lead performer performer as consenting adult, natural adult body proportions, deep red one-shoulder Burmese-inspired dress, dark teak Finnish bar, winter window, amber and crimson practical lighting, face-safe medium-wide/profile framing, purpose: bar memory setup, movement: restrained walking, stillness, or object action. No karaoke, no microphone-centered performance, no fake lip-sync, no martial arts, no K-pop, no TikTok, no exaggerated body. Refinement: Move the performer toward the right third, retain cold negative space near the winter window, remove background people, keep arms below shoulder height, and strengthen the warm practical lighting.",
+  "refinement_text": "Move the performer toward the right third, retain cold negative space near the winter window, remove background people, keep arms below shoulder height, and strengthen the warm practical lighting.",
+  "seed": 10101,
+  "width": 1024,
+  "height": 576,
+  "generation_time": 1.1029515829999923,
+  "fake_backend": true,
+  "private_assets_used": [],
+  "no_upload": true,
+  "no_api": true
+}

@@ -1,0 +1,24 @@
+{
+  "label": "LOCAL PREVIS VIDEO SKETCH - NOT FINAL VIDEO",
+  "source": "Run 15 full-song local animatic",
+  "files": {
+    "CREATIVE_SKETCH.mp4": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/CREATIVE_SKETCH.mp4",
+    "CREATIVE_SKETCH_WITH_CAPTIONS.mp4": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/CREATIVE_SKETCH_WITH_CAPTIONS.mp4",
+    "CREATIVE_SKETCH_REVIEW.mp4": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/CREATIVE_SKETCH_REVIEW.mp4"
+  },
+  "metadata": {
+    "duration": 292.657007,
+    "size": 8137162,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1920,
+    "height": 1080,
+    "streams": 2
+  },
+  "asset_urls": {
+    "CREATIVE_SKETCH.mp4": "/studio-assets/burmese-music-video/previews/CREATIVE_SKETCH.mp4",
+    "CREATIVE_SKETCH_WITH_CAPTIONS.mp4": "/studio-assets/burmese-music-video/previews/CREATIVE_SKETCH_WITH_CAPTIONS.mp4",
+    "CREATIVE_SKETCH_REVIEW.mp4": "/studio-assets/burmese-music-video/previews/CREATIVE_SKETCH_REVIEW.mp4"
+  }
+}

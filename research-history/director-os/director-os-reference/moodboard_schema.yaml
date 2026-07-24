@@ -1,0 +1,23 @@
+version: "0.3"
+fields:
+  id: "stable moodboard id"
+  project_id: "project owner"
+  title: "human-readable name"
+  shot_pack_ids: []
+  references:
+    - url: "source URL"
+      source_name: "ShotDeck, Shot.Cafe, Flim.ai, Film Vibes, Frameset, FilmGrab, MovieStillsDB, YouTube, Vimeo, or user-owned"
+      rights_status: "link_only | user_owned | licensed | unknown"
+      store_media_allowed: false
+      tags: []
+      composition_notes: ""
+      lighting_notes: ""
+      camera_notes: ""
+      motion_notes: ""
+      cultural_notes: ""
+      do_not_copy_notes: ""
+  approval:
+    approved_for_inspiration: false
+    approved_for_upload: false
+    reviewer: ""
+    reviewed_at: ""

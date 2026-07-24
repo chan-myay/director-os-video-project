@@ -1,0 +1,19 @@
+{
+  "candidate_a": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/vocals_candidate_a.wav",
+    "source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals_16k_mono.wav",
+    "energy": 0.142548,
+    "type": "demucs_vocals"
+  },
+  "candidate_b": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/vocals_candidate_b.wav",
+    "source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/full_mix_16k_mono.wav",
+    "energy": 0.30123,
+    "type": "full_mix_reference"
+  },
+  "selected": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+    "reason": "Demucs vocal stem has lower instrumental contamination risk and preserved master timebase."
+  },
+  "duration_preserved": true
+}

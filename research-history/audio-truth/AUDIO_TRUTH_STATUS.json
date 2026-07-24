@@ -1,0 +1,467 @@
+{
+  "project_id": "burmese-music-video",
+  "canonical_lyric_source": {
+    "status": "selected_newest_valid_manual_unicode",
+    "selected": {
+      "path": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+      "filename": "အချစ်မဲ့ ဇာတ်လမ်း.txt",
+      "modified_time": 1783950706.813441,
+      "modified_time_iso": "2026-07-13T16:51:46.813441",
+      "sha256": "cfbfdc77008dac236bd40668592a45c6c6966d342f50b04f59f3ee03caa6636a",
+      "encoding_class": "unicode",
+      "encoding_confidence": 0.98,
+      "line_count": 23,
+      "lyric_phrase_count": 21,
+      "title_credit_section_count": 2,
+      "has_burmese": true,
+      "similarity_to_current_brain": 1.0,
+      "appears_manually_edited": true,
+      "referenced_by_current_production_brain": false,
+      "used_by_studio_v21": false,
+      "sample": "အချစ်မဲ့ ဇာတ်လမ်း\nတေးရေး - မောရှည်\nအလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း\nလွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ"
+    },
+    "encoding": "unicode",
+    "previous_sources": [
+      {
+        "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/inputs/51b07bfca4c4-Zawgyi.txt",
+        "status": "superseded_stale_retained_for_history",
+        "reason": "newer valid Unicode source selected"
+      }
+    ],
+    "requires_user_comparison_approval": false
+  },
+  "model_bundle": {
+    "approval_title": "LOCAL BURMESE AUDIO INTELLIGENCE BUNDLE",
+    "approval_status": "pending",
+    "reason": "Needed before Demucs separation, Burmese ASR ensemble, and CTC forced alignment can be trusted.",
+    "detected_tools": {
+      "demucs": {
+        "found": true,
+        "path": "/Users/chan/song-video-project/local-tools/envs/facefusion/bin/demucs",
+        "health": "help_ok",
+        "version": "usage: demucs.separate [-h] [-s SIG | -n NAME] [--repo REPO] [-v] [-o OUT]"
+      },
+      "mlx_whisper": {
+        "found": true,
+        "path": "/Users/chan/song-video-project/local-tools/envs/facefusion/bin/mlx_whisper",
+        "health": "help_ok",
+        "version": "usage: mlx_whisper [-h] [--model MODEL] [--output-name OUTPUT_NAME]"
+      },
+      "ffmpeg": {
+        "found": true,
+        "path": "/Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffmpeg",
+        "health": "help_ok",
+        "version": "Hyper fast Audio and Video encoder"
+      },
+      "ffprobe": {
+        "found": true,
+        "path": "/Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffprobe",
+        "health": "help_ok",
+        "version": "Simple multimedia streams analyzer"
+      }
+    },
+    "options": [
+      {
+        "id": "balanced",
+        "name": "Recommended balanced bundle",
+        "models": [
+          {
+            "name": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+            "purpose": "Primary Burmese CTC evidence and known-text forced alignment",
+            "source": "https://huggingface.co/YonaKhine/finetuned-w2v2-bert-burmese-asr",
+            "license": "MIT per model card",
+            "size_note": "0.6B params per model card; exact file download size to be confirmed before install"
+          },
+          {
+            "name": "myatsu/whisper-small-burmese-v4",
+            "purpose": "Lightweight Burmese Whisper second opinion",
+            "source": "https://huggingface.co/myatsu/whisper-small-burmese-v4",
+            "license": "check model card before install",
+            "size_note": "0.2B params per model card"
+          },
+          {
+            "name": "Demucs",
+            "purpose": "Local vocal separation",
+            "source": "https://github.com/facebookresearch/demucs",
+            "license": "MIT per upstream repository",
+            "size_note": "runtime installed; pretrained weights require approval/download if not cached"
+          }
+        ]
+      },
+      {
+        "id": "lightweight",
+        "name": "Lightweight bundle",
+        "models": [
+          "myatsu/whisper-small-burmese-v4",
+          "Demucs vocals stem"
+        ]
+      },
+      {
+        "id": "heavier",
+        "name": "Higher-accuracy/heavier bundle",
+        "models": [
+          "YonaKhine CTC",
+          "Chonlasitk/whisper-burmese",
+          "Demucs htdemucs"
+        ]
+      }
+    ],
+    "no_cloud_upload": true,
+    "no_paid_api": true,
+    "install_allowed": false
+  },
+  "vocal_separation": {
+    "status": "blocked_pending_model_approval",
+    "reason": "Demucs model execution/download requires LOCAL BURMESE AUDIO INTELLIGENCE BUNDLE approval.",
+    "master_audio": "/Users/chan/song-video-project/audio/01.mp3",
+    "master_metadata": {
+      "duration": 292.702041,
+      "size": 11787104,
+      "format": "mp3",
+      "video_codec": "",
+      "audio_codec": "mp3",
+      "width": 0,
+      "height": 0,
+      "streams": 1
+    },
+    "full_mix_normalized_16k": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/stems/full_mix_normalized_16k.wav",
+    "full_mix_metadata": {
+      "duration": 292.657625,
+      "size": 9365122,
+      "format": "wav",
+      "video_codec": "",
+      "audio_codec": "pcm_s16le",
+      "width": 0,
+      "height": 0,
+      "streams": 1
+    },
+    "vocals_wav": "",
+    "instrumental_wav": "",
+    "duration_matches_master": true,
+    "hashes": {
+      "master": "0f001b10bb4ae766d271c83cc960b91d4b8f62cc673abd679c8d6f89f381141c",
+      "full_mix_normalized_16k": "1872e3364983025deccdacd26781338c2c1c6e4abc23eeef0121c5b3ad4551d7",
+      "vocals": ""
+    },
+    "tool": "Demucs",
+    "tool_revision": "not_run_in_v2_2_without_bundle_approval"
+  },
+  "asr": {
+    "status": "blocked_pending_bundle_approval",
+    "models": [
+      {
+        "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+        "status": "blocked_pending_bundle_approval",
+        "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/stems/full_mix_normalized_16k.wav",
+        "raw_segments": [],
+        "transcript": "",
+        "confidence": {},
+        "run_metadata": {
+          "no_cloud_upload": true,
+          "no_paid_api": true
+        }
+      },
+      {
+        "model": "Chonlasitk/whisper-burmese",
+        "status": "blocked_pending_bundle_approval",
+        "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/stems/full_mix_normalized_16k.wav",
+        "raw_segments": [],
+        "transcript": "",
+        "confidence": {},
+        "run_metadata": {
+          "no_cloud_upload": true,
+          "no_paid_api": true
+        }
+      },
+      {
+        "model": "myatsu/whisper-small-burmese-v4",
+        "status": "blocked_pending_bundle_approval",
+        "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/stems/full_mix_normalized_16k.wav",
+        "raw_segments": [],
+        "transcript": "",
+        "confidence": {},
+        "run_metadata": {
+          "no_cloud_upload": true,
+          "no_paid_api": true
+        }
+      }
+    ],
+    "agreement": "not_available_until_models_run",
+    "warning": "No ASR output is treated as truth until local approved models are benchmarked."
+  },
+  "timeline": {
+    "path": "/Users/chan/song-video-project/director-os/state/AUDIO_TRUTH_TIMELINE.json",
+    "occurrence_count": 21,
+    "high_confidence": 0,
+    "medium_confidence": 0,
+    "needs_review": 0,
+    "blocked": 21
+  },
+  "verification": {
+    "canonical_source": {
+      "status": "selected_newest_valid_manual_unicode",
+      "selected": {
+        "path": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+        "filename": "အချစ်မဲ့ ဇာတ်လမ်း.txt",
+        "modified_time": 1783950706.813441,
+        "modified_time_iso": "2026-07-13T16:51:46.813441",
+        "sha256": "cfbfdc77008dac236bd40668592a45c6c6966d342f50b04f59f3ee03caa6636a",
+        "encoding_class": "unicode",
+        "encoding_confidence": 0.98,
+        "line_count": 23,
+        "lyric_phrase_count": 21,
+        "title_credit_section_count": 2,
+        "has_burmese": true,
+        "similarity_to_current_brain": 1.0,
+        "appears_manually_edited": true,
+        "referenced_by_current_production_brain": false,
+        "used_by_studio_v21": false,
+        "sample": "အချစ်မဲ့ ဇာတ်လမ်း\nတေးရေး - မောရှည်\nအလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း\nလွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ"
+      },
+      "encoding": "unicode",
+      "previous_sources": [
+        {
+          "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/inputs/51b07bfca4c4-Zawgyi.txt",
+          "status": "superseded_stale_retained_for_history",
+          "reason": "newer valid Unicode source selected"
+        }
+      ],
+      "requires_user_comparison_approval": false
+    },
+    "status": "blocked_pending_audio_model_bundle",
+    "missing_line_count": 0,
+    "extra_line_count": 0,
+    "possible_spelling_error_count": 0,
+    "repeated_chorus_missing_count": 0,
+    "unresolved": [
+      {
+        "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+        "line": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+        "status": "needs_model_evidence",
+        "reason": "No ASR/CTC evidence has been approved and run yet."
+      },
+      {
+        "occurrence_id": "lyric_line_6d042445_occurrence_1",
+        "line": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+        "status": "needs_model_evidence",
+        "reason": "No ASR/CTC evidence has been approved and run yet."
+      },
+      {
+        "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+        "line": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+        "status": "needs_model_evidence",
+        "reason": "No ASR/CTC evidence has been approved and run yet."
+      },
+      {
+        "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+        "line": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+        "status": "needs_model_evidence",
+        "reason": "No ASR/CTC evidence has been approved and run yet."
+      },
+      {
+        "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+        "line": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+        "status": "needs_model_evidence",
+        "reason": "No ASR/CTC evidence has been approved and run yet."
+      },
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_1",
+        "line": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+        "status": "needs_model_evidence",
+        "reason": "No ASR/CTC evidence has been approved and run yet."
+      },
+      {
+        "occurrence_id": "lyric_line_6545c465_occurrence_1",
+        "line": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+        "status": "needs_model_evidence",
+        "reason": "No ASR/CTC evidence has been approved and run yet."
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+        "line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+        "status": "needs_model_evidence",
+        "reason": "No ASR/CTC evidence has been approved and run yet."
+      }
+    ],
+    "unresolved_count": 21,
+    "auto_accepted_normalization_count": 0
+  },
+  "meaning": {
+    "path": "/Users/chan/song-video-project/director-os/state/SONG_MEANING_PERFORMANCE_MAP.json",
+    "phrase_count": 21
+  },
+  "captions": {
+    "path": "/Users/chan/song-video-project/director-os/captions/audio-truth-v1",
+    "review_srt": "/Users/chan/song-video-project/director-os/captions/audio-truth-v1/CAPTIONS_AUDIO_TRUTH_REVIEW.srt",
+    "production_ready": false,
+    "blocked_phrase_count": 21,
+    "blockers": [
+      "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED",
+      "NO_CTC_FORCED_ALIGNMENT_RUN",
+      "NO_ASR_ENSEMBLE_EVIDENCE",
+      "LYRIC_TEXT_VERIFICATION_BLOCKED"
+    ]
+  },
+  "lipsync": {
+    "ready_occurrence_count": 0,
+    "blocked_occurrence_count": 21,
+    "blocked": [
+      {
+        "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_6d042445_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_6545c465_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_e7715751_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_92457abb_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_9129302f_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_68353461_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_2",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_6545c465_occurrence_2",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+        "blockers": [
+          "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+        ]
+      }
+    ],
+    "status": "blocked_pending_audio_truth_alignment"
+  },
+  "preview": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v1",
+    "clean": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v1/CREATIVE_SKETCH_AUDIO_TRUTH.mp4",
+    "captioned": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v1/CREATIVE_SKETCH_AUDIO_TRUTH_WITH_CAPTIONS.mp4",
+    "review": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v1/CREATIVE_SKETCH_AUDIO_TRUTH_REVIEW.mp4",
+    "metadata": {
+      "duration": 292.657007,
+      "size": 8137162,
+      "format": "mov,mp4,m4a,3gp,3g2,mj2",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
+      "streams": 2
+    },
+    "duration_validation": {
+      "master_duration": 292.702041,
+      "preview_duration": 292.657007,
+      "difference": 0.04503399999998692,
+      "status": "ok",
+      "caption_status": "audio_truth_pending_no_lyric_captions_burned"
+    },
+    "label": "LOCAL AUDIO-TRUTH REVIEW SKETCH - LYRICS BLOCKED UNTIL ALIGNMENT"
+  },
+  "production_brain": {
+    "path": "/Users/chan/song-video-project/director-os/state/PRODUCTION_BRAIN.json",
+    "status": "blocked_pending_local_audio_model_bundle"
+  },
+  "next_action": "Approve the single LOCAL BURMESE AUDIO INTELLIGENCE BUNDLE or continue without production captions/lip-sync."
+}

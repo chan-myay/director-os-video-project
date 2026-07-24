@@ -1,0 +1,5789 @@
+{
+  "version": "audio-truth-v3",
+  "phrase_count": 21,
+  "unsupported_character_count": 0,
+  "phrases": [
+    {
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "display_text": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "normalized_display_text": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "acoustic_alignment_text": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "grapheme_sequence": [
+        "အ",
+        "လ",
+        "င",
+        "်",
+        "း",
+        "မ",
+        "ဲ",
+        "့",
+        "ဒ",
+        "ီ",
+        "ည",
+        " ",
+        "ဦ",
+        "း",
+        "န",
+        "ှ",
+        "ေ",
+        "ာ",
+        "က",
+        "်",
+        "တ",
+        "ွ",
+        "ေ",
+        "စ",
+        "ာ",
+        "း",
+        "ဒ",
+        "ု",
+        "က",
+        "္",
+        "ခ",
+        "တ",
+        "ွ",
+        "ေ",
+        "တ",
+        "ပ",
+        "ွ",
+        "ေ",
+        "့",
+        "တ",
+        "ထ",
+        "မ",
+        "်",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "အလင်",
+        "းမဲ",
+        "့ဒီ",
+        "ည",
+        "ဦးနှ",
+        "ောက်",
+        "တွေ",
+        "စား",
+        "ဒုက္",
+        "ခတွ",
+        "ေတပွ",
+        "ေ့တထမ်",
+        "း"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "ဒ",
+          "token_id": 18,
+          "supported": true
+        },
+        {
+          "text": "ီ",
+          "token_id": 42,
+          "supported": true
+        },
+        {
+          "text": "ည",
+          "token_id": 11,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဦ",
+          "token_id": 36,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "စ",
+          "token_id": 6,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ဒ",
+          "token_id": 18,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "္",
+          "token_id": 50,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ထ",
+          "token_id": 17,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_6d042445_occurrence_1",
+      "display_text": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "normalized_display_text": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "acoustic_alignment_text": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "grapheme_sequence": [
+        "လ",
+        "ွ",
+        "ဲ",
+        "မ",
+        "ှ",
+        "ာ",
+        "း",
+        "ခ",
+        "ြ",
+        "င",
+        "်",
+        "း",
+        "ရ",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "က",
+        "ြ",
+        "ေ",
+        "ာ",
+        "င",
+        "်",
+        "း",
+        "တ",
+        "ွ",
+        "ေ",
+        " ",
+        "ဖ",
+        "ြ",
+        "ေ",
+        "ရ",
+        "ှ",
+        "ာ",
+        "န",
+        "ေ",
+        "ဆ",
+        "ဲ",
+        "ပ",
+        "ါ"
+      ],
+      "syllable_like_sequence": [
+        "လွဲ",
+        "မှာ",
+        "းခြ",
+        "င်း",
+        "ရဲ့",
+        "အကြ",
+        "ောင်",
+        "းတွ",
+        "ေ",
+        "ဖြေ",
+        "ရှာ",
+        "နေဆဲ",
+        "ပါ"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဖ",
+          "token_id": 22,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ဆ",
+          "token_id": 7,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ါ",
+          "token_id": 39,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+      "display_text": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "normalized_display_text": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "acoustic_alignment_text": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "grapheme_sequence": [
+        "အ",
+        "သ",
+        "ံ",
+        "တ",
+        "ွ",
+        "ေ",
+        "တ",
+        "ိ",
+        "တ",
+        "်",
+        "ဆ",
+        "ိ",
+        "တ",
+        "်",
+        " ",
+        "အ",
+        "မ",
+        "ှ",
+        "ေ",
+        "ာ",
+        "င",
+        "်",
+        "တ",
+        "ွ",
+        "ေ",
+        "န",
+        "ှ",
+        "ု",
+        "တ",
+        "်",
+        "ပ",
+        "ိ",
+        "တ",
+        "်",
+        " ",
+        "ထ",
+        "ာ",
+        "း",
+        "တ",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "ရ",
+        "ိ",
+        "ပ",
+        "်"
+      ],
+      "syllable_like_sequence": [
+        "အသံ",
+        "တွေ",
+        "တိတ်",
+        "ဆိတ်",
+        "အမှ",
+        "ောင်",
+        "တွေ",
+        "နှု",
+        "တ်ပိ",
+        "တ်",
+        "ထား",
+        "တဲ့",
+        "အရိ",
+        "ပ်"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ံ",
+          "token_id": 47,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ဆ",
+          "token_id": 7,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ထ",
+          "token_id": 17,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+      "display_text": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "normalized_display_text": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "acoustic_alignment_text": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း",
+      "grapheme_sequence": [
+        "မ",
+        "ှ",
+        "ေ",
+        "ာ",
+        "င",
+        "်",
+        "မ",
+        "ည",
+        "်",
+        "း",
+        " ",
+        "က",
+        "ြ",
+        "ီ",
+        "း",
+        "ထ",
+        "ဲ",
+        " ",
+        "မ",
+        "င",
+        "်",
+        "း",
+        "ရ",
+        "ဲ",
+        "့",
+        "တ",
+        "ိ",
+        "ု",
+        "့",
+        "ရ",
+        "ဲ",
+        "့",
+        "အ",
+        "က",
+        "ြ",
+        "ေ",
+        "ာ",
+        "င",
+        "်",
+        "း",
+        "ဇ",
+        "ာ",
+        "တ",
+        "်",
+        "တ",
+        "စ",
+        "်",
+        "ခ",
+        "န",
+        "်",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "မှေ",
+        "ာင်",
+        "မည်",
+        "း",
+        "ကြီ",
+        "းထဲ",
+        "မင်",
+        "းရဲ",
+        "့တိ",
+        "ု့ရဲ",
+        "့အကြ",
+        "ောင်",
+        "းဇာ",
+        "တ်တစ်",
+        "ခန်",
+        "း"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ည",
+          "token_id": 11,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ီ",
+          "token_id": 42,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ထ",
+          "token_id": 17,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ဇ",
+          "token_id": 8,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "စ",
+          "token_id": 6,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [
+        "removed_unsung_punctuation:…",
+        "collapsed_duplicate_spaces"
+      ],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+      "display_text": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "normalized_display_text": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "acoustic_alignment_text": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "grapheme_sequence": [
+        "မ",
+        "င",
+        "်",
+        "း",
+        "ပ",
+        "ေ",
+        "း",
+        "တ",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "န",
+        "မ",
+        "်",
+        "း",
+        " ",
+        "အ",
+        "ခ",
+        "ု",
+        "က",
+        "ျ",
+        "တ",
+        "ေ",
+        "ာ",
+        "့",
+        " ",
+        "အ",
+        "လ",
+        "ွ",
+        "မ",
+        "်",
+        "း",
+        "န",
+        "ဲ",
+        "့",
+        "ဇ",
+        "ာ",
+        "တ",
+        "်",
+        "သ",
+        "ိ",
+        "မ",
+        "်",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "မင်",
+        "းပေ",
+        "းတဲ",
+        "့",
+        "အနမ်",
+        "း",
+        "အခု",
+        "ကျတေ",
+        "ာ့",
+        "အလွ",
+        "မ်း",
+        "နဲ့",
+        "ဇာတ်",
+        "သိမ်",
+        "း"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "ဇ",
+          "token_id": 8,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "display_text": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "normalized_display_text": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "acoustic_alignment_text": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "grapheme_sequence": [
+        "မ",
+        "ာ",
+        "ယ",
+        "ာ",
+        "မ",
+        "ျ",
+        "ာ",
+        "း",
+        "န",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "ပ",
+        "ြ",
+        "ည",
+        "့",
+        "်",
+        " ",
+        "ဒ",
+        "ဏ",
+        "်",
+        "ရ",
+        "ာ",
+        "မ",
+        "ျ",
+        "ာ",
+        "း",
+        " ",
+        "က",
+        "ျ",
+        "ပ",
+        "်",
+        "ပ",
+        "ိ",
+        "တ",
+        "်",
+        "သ",
+        "ိ",
+        "မ",
+        "့",
+        "်"
+      ],
+      "syllable_like_sequence": [
+        "မာယာ",
+        "မျာ",
+        "းနဲ",
+        "့",
+        "အပြ",
+        "ည့်",
+        "ဒဏ်",
+        "ရာမျ",
+        "ား",
+        "ကျပ်",
+        "ပိတ်",
+        "သိမ့",
+        "်"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "ယ",
+          "token_id": 26,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ည",
+          "token_id": 11,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဒ",
+          "token_id": 18,
+          "supported": true
+        },
+        {
+          "text": "ဏ",
+          "token_id": 15,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_1",
+      "display_text": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "normalized_display_text": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "acoustic_alignment_text": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "grapheme_sequence": [
+        "ဘ",
+        "ယ",
+        "်",
+        "မ",
+        "ှ",
+        "ာ",
+        "လ",
+        "ဲ",
+        "ဟ",
+        "ေ",
+        "့",
+        " ",
+        "ရ",
+        "ှ",
+        "ာ",
+        "သ",
+        "ေ",
+        "ာ",
+        "်",
+        "လ",
+        "ဲ",
+        " ",
+        "မ",
+        "တ",
+        "ွ",
+        "ေ",
+        "့",
+        " ",
+        "င",
+        "ါ",
+        "ရ",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "ခ",
+        "ျ",
+        "စ",
+        "်",
+        "က",
+        "လ",
+        "ေ",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "ဘယ်",
+        "မှာ",
+        "လဲဟေ",
+        "့",
+        "ရှာ",
+        "သော",
+        "်လဲ",
+        "မတွ",
+        "ေ့",
+        "ငါရဲ",
+        "့",
+        "အချ",
+        "စ်ကလေ",
+        "း"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "ဘ",
+          "token_id": 24,
+          "supported": true
+        },
+        {
+          "text": "ယ",
+          "token_id": 26,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "ဟ",
+          "token_id": 31,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "ါ",
+          "token_id": 39,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "စ",
+          "token_id": 6,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "display_text": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "normalized_display_text": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "acoustic_alignment_text": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "grapheme_sequence": [
+        "က",
+        "ြ",
+        "ာ",
+        "လ",
+        "ေ",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "ကြာ",
+        "လေ",
+        "ဝေး",
+        "လေး",
+        "ဝေး",
+        "လေး",
+        "ဝေး",
+        "လေး",
+        "ဝေး",
+        "လေး"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "display_text": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "normalized_display_text": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "acoustic_alignment_text": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "grapheme_sequence": [
+        "လ",
+        "ူ",
+        "ဘ",
+        "ဝ",
+        "ဟ",
+        "ာ",
+        "ဆ",
+        "န",
+        "်",
+        "း",
+        "က",
+        "ြ",
+        "ယ",
+        "်",
+        "လ",
+        "ွ",
+        "န",
+        "်",
+        "း",
+        "တ",
+        "ယ",
+        "်",
+        " ",
+        "အ",
+        "ခ",
+        "ု",
+        "မ",
+        "ှ",
+        "လ",
+        "ာ",
+        " ",
+        "လ",
+        "ွ",
+        "မ",
+        "်",
+        "း",
+        "ပ",
+        "ြ",
+        "မ",
+        "န",
+        "ေ",
+        "န",
+        "ဲ",
+        "့"
+      ],
+      "syllable_like_sequence": [
+        "လူဘဝဟာ",
+        "ဆန်",
+        "းကြ",
+        "ယ်လွ",
+        "န်း",
+        "တယ်",
+        "အခု",
+        "မှလာ",
+        "လွမ်",
+        "းပြ",
+        "မနေ",
+        "နဲ့"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ူ",
+          "token_id": 44,
+          "supported": true
+        },
+        {
+          "text": "ဘ",
+          "token_id": 24,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ဟ",
+          "token_id": 31,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "ဆ",
+          "token_id": 7,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ယ",
+          "token_id": 26,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ယ",
+          "token_id": 26,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "display_text": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "normalized_display_text": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "acoustic_alignment_text": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "grapheme_sequence": [
+        "လ",
+        "ေ",
+        "ာ",
+        "င",
+        "်",
+        "က",
+        "ျ",
+        "ွ",
+        "မ",
+        "်",
+        "း",
+        "န",
+        "ေ",
+        " ",
+        "အ",
+        "သ",
+        "ဲ",
+        "တ",
+        "ွ",
+        "ေ",
+        "က",
+        "ွ",
+        "ဲ",
+        "က",
+        "ြ",
+        "ေ",
+        " ",
+        "သ",
+        "ရ",
+        "ဲ",
+        " ",
+        "တ",
+        "စ",
+        "္",
+        "ဆ",
+        "ေ"
+      ],
+      "syllable_like_sequence": [
+        "လော",
+        "င်ကျ",
+        "ွမ်",
+        "းနေ",
+        "အသဲ",
+        "တွေ",
+        "ကွဲ",
+        "ကြေ",
+        "သရဲ",
+        "တစ္",
+        "ဆေ"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "စ",
+          "token_id": 6,
+          "supported": true
+        },
+        {
+          "text": "္",
+          "token_id": 50,
+          "supported": true
+        },
+        {
+          "text": "ဆ",
+          "token_id": 7,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_92457abb_occurrence_1",
+      "display_text": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "normalized_display_text": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "acoustic_alignment_text": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "grapheme_sequence": [
+        "တ",
+        "စ",
+        "်",
+        "က",
+        "ေ",
+        "ာ",
+        "င",
+        "်",
+        "လ",
+        "ိ",
+        "ု",
+        " ",
+        "ရ",
+        "ေ",
+        "ာ",
+        "င",
+        "်",
+        "ခ",
+        "ြ",
+        "ေ",
+        "ာ",
+        "က",
+        "်",
+        "ဆ",
+        "ယ",
+        "်"
+      ],
+      "syllable_like_sequence": [
+        "တစ်",
+        "ကော",
+        "င်လိ",
+        "ု",
+        "ရော",
+        "င်ခြ",
+        "ောက်",
+        "ဆယ်"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "စ",
+          "token_id": 6,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ဆ",
+          "token_id": 7,
+          "supported": true
+        },
+        {
+          "text": "ယ",
+          "token_id": 26,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "display_text": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "normalized_display_text": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "acoustic_alignment_text": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "grapheme_sequence": [
+        "န",
+        "ံ",
+        "ရ",
+        "ံ",
+        "တ",
+        "ွ",
+        "ေ",
+        "ခ",
+        "ြ",
+        "ေ",
+        "ာ",
+        "က",
+        "်",
+        "သ",
+        "ွ",
+        "ေ",
+        "့",
+        "အ",
+        "မ",
+        "ှ",
+        "န",
+        "်",
+        "တ",
+        "ွ",
+        "ေ",
+        " ",
+        "ခ",
+        "လ",
+        "ု",
+        "တ",
+        "်",
+        "ပ",
+        "ိ",
+        "တ",
+        "်",
+        "ထ",
+        "ာ",
+        "း",
+        "တ",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "တ",
+        "ိ",
+        "တ",
+        "်"
+      ],
+      "syllable_like_sequence": [
+        "နံရံ",
+        "တွေ",
+        "ခြေ",
+        "ာက်",
+        "သွေ",
+        "့အမှ",
+        "န်တွ",
+        "ေ",
+        "ခလု",
+        "တ်ပိ",
+        "တ်ထာ",
+        "းတဲ",
+        "့",
+        "အတိ",
+        "တ်"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ံ",
+          "token_id": 47,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ံ",
+          "token_id": 47,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ထ",
+          "token_id": 17,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "display_text": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "normalized_display_text": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "acoustic_alignment_text": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေးရေးရီးရေး",
+      "grapheme_sequence": [
+        "ဂ",
+        "ျ",
+        "က",
+        "်",
+        "ထ",
+        "ိ",
+        "ု",
+        "း",
+        "ပ",
+        "ိ",
+        "တ",
+        "်",
+        "ထ",
+        "ာ",
+        "း",
+        "တ",
+        "ဲ",
+        "့",
+        " ",
+        "တ",
+        "ံ",
+        "ခ",
+        "ါ",
+        "း",
+        "တ",
+        "ွ",
+        "ေ",
+        "မ",
+        "ျ",
+        "ာ",
+        "း",
+        "ဟ",
+        "ေ",
+        "း",
+        "ရ",
+        "ေ",
+        "း",
+        "ရ",
+        "ီ",
+        "း",
+        "ရ",
+        "ေ",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "ဂျက်",
+        "ထို",
+        "းပိ",
+        "တ်ထာ",
+        "းတဲ",
+        "့",
+        "တံခါ",
+        "းတွ",
+        "ေမျ",
+        "ားဟေ",
+        "းရေ",
+        "းရီ",
+        "းရေ",
+        "း"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "ဂ",
+          "token_id": 3,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ထ",
+          "token_id": 17,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ထ",
+          "token_id": 17,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ံ",
+          "token_id": 47,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ါ",
+          "token_id": 39,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ဟ",
+          "token_id": 31,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ီ",
+          "token_id": 42,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [
+        "removed_unsung_punctuation:…",
+        "removed_unsung_punctuation:…",
+        "removed_unsung_punctuation:.",
+        "removed_unsung_punctuation:."
+      ],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+      "display_text": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "normalized_display_text": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "acoustic_alignment_text": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "grapheme_sequence": [
+        "မ",
+        "င",
+        "်",
+        "း",
+        "ပ",
+        "ေ",
+        "း",
+        "တ",
+        "ဲ",
+        "့",
+        "အ",
+        "မ",
+        "ု",
+        "န",
+        "်",
+        "း",
+        " ",
+        "အ",
+        "ခ",
+        "ု",
+        "က",
+        "ျ",
+        "တ",
+        "ေ",
+        "ာ",
+        "့",
+        " ",
+        "အ",
+        "ပ",
+        "ြ",
+        "ု",
+        "ံ",
+        "း",
+        "န",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "ရ",
+        "ံ",
+        "ှ",
+        "ု",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "မင်",
+        "းပေ",
+        "းတဲ",
+        "့အမု",
+        "န်း",
+        "အခု",
+        "ကျတေ",
+        "ာ့",
+        "အပြ",
+        "ုံး",
+        "နဲ့",
+        "အရံ",
+        "ှုး"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "ံ",
+          "token_id": 47,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ံ",
+          "token_id": 47,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "display_text": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "normalized_display_text": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "acoustic_alignment_text": "စာနာခြင်းများ အဝေး ရီး အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "grapheme_sequence": [
+        "စ",
+        "ာ",
+        "န",
+        "ာ",
+        "ခ",
+        "ြ",
+        "င",
+        "်",
+        "း",
+        "မ",
+        "ျ",
+        "ာ",
+        "း",
+        " ",
+        "အ",
+        "ဝ",
+        "ေ",
+        "း",
+        " ",
+        "ရ",
+        "ီ",
+        "း",
+        " ",
+        "အ",
+        "ဝ",
+        "ါ",
+        "ရ",
+        "ေ",
+        "ာ",
+        "င",
+        "်",
+        "အ",
+        "ဆ",
+        "င",
+        "်",
+        "း",
+        "န",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "ပ",
+        "ြ",
+        "ည",
+        "့",
+        "်"
+      ],
+      "syllable_like_sequence": [
+        "စာနာ",
+        "ခြင်",
+        "းမျ",
+        "ား",
+        "အဝေ",
+        "း",
+        "ရီး",
+        "အဝါ",
+        "ရော",
+        "င်အဆင်",
+        "းနဲ",
+        "့",
+        "အပြ",
+        "ည့်"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "စ",
+          "token_id": 6,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ီ",
+          "token_id": 42,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ါ",
+          "token_id": 39,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ဆ",
+          "token_id": 7,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ည",
+          "token_id": 11,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [
+        "removed_unsung_punctuation:(",
+        "removed_unsung_punctuation:)"
+      ],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "display_text": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "normalized_display_text": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "acoustic_alignment_text": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "grapheme_sequence": [
+        "ဆ",
+        "ယ",
+        "်",
+        "က",
+        "မ",
+        "္",
+        "ဘ",
+        "ာ",
+        "လ",
+        "ဲ",
+        " ",
+        "မ",
+        "မ",
+        "ေ",
+        "့",
+        " ",
+        "ထ",
+        "ည",
+        "်",
+        "ဝ",
+        "ါ",
+        "တ",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "င",
+        "ွ",
+        "ေ",
+        "့",
+        "သ",
+        "က",
+        "်",
+        "လ",
+        "ေ",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "ဆယ်",
+        "ကမ္",
+        "ဘာလဲ",
+        "မမေ",
+        "့",
+        "ထည်",
+        "ဝါတဲ",
+        "့",
+        "အငွ",
+        "ေ့သက်",
+        "လေး"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "ဆ",
+          "token_id": 7,
+          "supported": true
+        },
+        {
+          "text": "ယ",
+          "token_id": 26,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "္",
+          "token_id": 50,
+          "supported": true
+        },
+        {
+          "text": "ဘ",
+          "token_id": 24,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ထ",
+          "token_id": 17,
+          "supported": true
+        },
+        {
+          "text": "ည",
+          "token_id": 11,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ါ",
+          "token_id": 39,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "display_text": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "normalized_display_text": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "acoustic_alignment_text": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ",
+      "grapheme_sequence": [
+        "င",
+        "ါ",
+        "လ",
+        "ေ",
+        " ",
+        "တ",
+        "ွ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        " ",
+        "ဆ",
+        "ွ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း",
+        " ",
+        "ပ",
+        "ြ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        " ",
+        "ရ",
+        "ေ"
+      ],
+      "syllable_like_sequence": [
+        "ငါလေ",
+        "တွေ",
+        "းလေ",
+        "ဆွေ",
+        "းလေ",
+        "း",
+        "ပြေ",
+        "းလေ",
+        "ဝေး",
+        "လေ",
+        "ရေ"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "ါ",
+          "token_id": 39,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဆ",
+          "token_id": 7,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [
+        "removed_unsung_punctuation:…",
+        "removed_unsung_punctuation:."
+      ],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+      "display_text": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "normalized_display_text": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "acoustic_alignment_text": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "grapheme_sequence": [
+        "မ",
+        "င",
+        "်",
+        "း",
+        "ပ",
+        "ေ",
+        "း",
+        "တ",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "န",
+        "မ",
+        "်",
+        "း",
+        " ",
+        "အ",
+        "ခ",
+        "ု",
+        "က",
+        "ျ",
+        "တ",
+        "ေ",
+        "ာ",
+        "့",
+        " ",
+        "အ",
+        "လ",
+        "ွ",
+        "မ",
+        "်",
+        "း",
+        "န",
+        "ဲ",
+        "့",
+        "ဇ",
+        "ာ",
+        "တ",
+        "်",
+        "သ",
+        "ိ",
+        "မ",
+        "်",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "မင်",
+        "းပေ",
+        "းတဲ",
+        "့",
+        "အနမ်",
+        "း",
+        "အခု",
+        "ကျတေ",
+        "ာ့",
+        "အလွ",
+        "မ်း",
+        "နဲ့",
+        "ဇာတ်",
+        "သိမ်",
+        "း"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ု",
+          "token_id": 43,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "ဇ",
+          "token_id": 8,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "display_text": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "normalized_display_text": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "acoustic_alignment_text": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "grapheme_sequence": [
+        "မ",
+        "ာ",
+        "ယ",
+        "ာ",
+        "မ",
+        "ျ",
+        "ာ",
+        "း",
+        "န",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "ပ",
+        "ြ",
+        "ည",
+        "့",
+        "်",
+        " ",
+        "ဒ",
+        "ဏ",
+        "်",
+        "ရ",
+        "ာ",
+        "မ",
+        "ျ",
+        "ာ",
+        "း",
+        " ",
+        "က",
+        "ျ",
+        "ပ",
+        "်",
+        "ပ",
+        "ိ",
+        "တ",
+        "်",
+        "သ",
+        "ိ",
+        "မ",
+        "့",
+        "်"
+      ],
+      "syllable_like_sequence": [
+        "မာယာ",
+        "မျာ",
+        "းနဲ",
+        "့",
+        "အပြ",
+        "ည့်",
+        "ဒဏ်",
+        "ရာမျ",
+        "ား",
+        "ကျပ်",
+        "ပိတ်",
+        "သိမ့",
+        "်"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "ယ",
+          "token_id": 26,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "န",
+          "token_id": 20,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ည",
+          "token_id": 11,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဒ",
+          "token_id": 18,
+          "supported": true
+        },
+        {
+          "text": "ဏ",
+          "token_id": 15,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "ပ",
+          "token_id": 21,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ိ",
+          "token_id": 41,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "display_text": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "normalized_display_text": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "acoustic_alignment_text": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "grapheme_sequence": [
+        "ဘ",
+        "ယ",
+        "်",
+        "မ",
+        "ှ",
+        "ာ",
+        "လ",
+        "ဲ",
+        "ဟ",
+        "ေ",
+        "့",
+        " ",
+        "ရ",
+        "ှ",
+        "ာ",
+        "သ",
+        "ေ",
+        "ာ",
+        "်",
+        "လ",
+        "ဲ",
+        " ",
+        "မ",
+        "တ",
+        "ွ",
+        "ေ",
+        "့",
+        " ",
+        "င",
+        "ါ",
+        "ရ",
+        "ဲ",
+        "့",
+        " ",
+        "အ",
+        "ခ",
+        "ျ",
+        "စ",
+        "်",
+        "က",
+        "လ",
+        "ေ",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "ဘယ်",
+        "မှာ",
+        "လဲဟေ",
+        "့",
+        "ရှာ",
+        "သော",
+        "်လဲ",
+        "မတွ",
+        "ေ့",
+        "ငါရဲ",
+        "့",
+        "အချ",
+        "စ်ကလေ",
+        "း"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "ဘ",
+          "token_id": 24,
+          "supported": true
+        },
+        {
+          "text": "ယ",
+          "token_id": 26,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "ဟ",
+          "token_id": 31,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ှ",
+          "token_id": 55,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "သ",
+          "token_id": 30,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "မ",
+          "token_id": 25,
+          "supported": true
+        },
+        {
+          "text": "တ",
+          "token_id": 16,
+          "supported": true
+        },
+        {
+          "text": "ွ",
+          "token_id": 54,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "င",
+          "token_id": 5,
+          "supported": true
+        },
+        {
+          "text": "ါ",
+          "token_id": 39,
+          "supported": true
+        },
+        {
+          "text": "ရ",
+          "token_id": 27,
+          "supported": true
+        },
+        {
+          "text": "ဲ",
+          "token_id": 46,
+          "supported": true
+        },
+        {
+          "text": "့",
+          "token_id": 48,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "အ",
+          "token_id": 33,
+          "supported": true
+        },
+        {
+          "text": "ခ",
+          "token_id": 2,
+          "supported": true
+        },
+        {
+          "text": "ျ",
+          "token_id": 52,
+          "supported": true
+        },
+        {
+          "text": "စ",
+          "token_id": 6,
+          "supported": true
+        },
+        {
+          "text": "်",
+          "token_id": 51,
+          "supported": true
+        },
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "display_text": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "normalized_display_text": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "acoustic_alignment_text": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "grapheme_sequence": [
+        "က",
+        "ြ",
+        "ာ",
+        "လ",
+        "ေ",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း",
+        " ",
+        "ဝ",
+        "ေ",
+        "း",
+        "လ",
+        "ေ",
+        "း"
+      ],
+      "syllable_like_sequence": [
+        "ကြာ",
+        "လေ",
+        "ဝေး",
+        "လေး",
+        "ဝေး",
+        "လေး",
+        "ဝေး",
+        "လေး",
+        "ဝေး",
+        "လေး"
+      ],
+      "tokenizer_sequence": [
+        {
+          "text": "က",
+          "token_id": 1,
+          "supported": true
+        },
+        {
+          "text": "ြ",
+          "token_id": 53,
+          "supported": true
+        },
+        {
+          "text": "ာ",
+          "token_id": 40,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": " ",
+          "token_id": null,
+          "supported": true
+        },
+        {
+          "text": "ဝ",
+          "token_id": 29,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        },
+        {
+          "text": "လ",
+          "token_id": 28,
+          "supported": true
+        },
+        {
+          "text": "ေ",
+          "token_id": 45,
+          "supported": true
+        },
+        {
+          "text": "း",
+          "token_id": 49,
+          "supported": true
+        }
+      ],
+      "unsupported_characters": [],
+      "transformations": [],
+      "reversible_mapping": "display_text retained; acoustic text used only for alignment scoring"
+    }
+  ]
+}

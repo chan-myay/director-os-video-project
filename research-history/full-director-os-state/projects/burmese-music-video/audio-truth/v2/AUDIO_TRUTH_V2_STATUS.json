@@ -1,0 +1,458 @@
+{
+  "version": "v2.3",
+  "created_at": "2026-07-19T18:13:32.906476+00:00",
+  "runtime_seconds": 362.495,
+  "canonical_lyric_source": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+  "canonical_source_audit": {
+    "canonical": {
+      "path": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+      "sha256": "cfbfdc77008dac236bd40668592a45c6c6966d342f50b04f59f3ee03caa6636a",
+      "encoding": "unicode",
+      "status": "selected_manual_unicode"
+    },
+    "stale_zawgyi_copy": {
+      "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/inputs/51b07bfca4c4-Zawgyi.txt",
+      "exists": true,
+      "sha256": "51b07bfca4c41ef2c29bddf39dd4de5c45200253a12ba468713b5b4e2efc6dcb",
+      "status": "superseded_stale_retained_for_history"
+    }
+  },
+  "install": {
+    "environment": "/Users/chan/song-video-project/.venvs/audio-truth",
+    "python": "Python 3.12.13",
+    "package_lock": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/PACKAGE_LOCK.txt",
+    "model_root": "/Users/chan/song-video-project/local-models/audio-truth",
+    "models": {
+      "ctc": {
+        "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--YonaKhine--finetuned-w2v2-bert-burmese-asr/snapshots/3a0bb058936140acfe7c905171eefc78234e93be",
+        "exists": true,
+        "bytes": 2423085242,
+        "files": [
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--YonaKhine--finetuned-w2v2-bert-burmese-asr/snapshots/3a0bb058936140acfe7c905171eefc78234e93be/model.safetensors",
+            "bytes": 2423081060,
+            "sha256": "bd29d610fb9145288ec06b90329b9875526800860470a4294268f9a28aa00585"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--YonaKhine--finetuned-w2v2-bert-burmese-asr/snapshots/3a0bb058936140acfe7c905171eefc78234e93be/added_tokens.json",
+            "bytes": 30,
+            "sha256": "7519df794e2ee7e7bddd35cac4658bf8a939d9db09dfd6f25799f83657d9f2d5"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--YonaKhine--finetuned-w2v2-bert-burmese-asr/snapshots/3a0bb058936140acfe7c905171eefc78234e93be/tokenizer_config.json",
+            "bytes": 1084,
+            "sha256": "2e2872b3f1bd547e03dff4174babccd3a867c551c8cc8b57653322feb9f1df6b"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--YonaKhine--finetuned-w2v2-bert-burmese-asr/snapshots/3a0bb058936140acfe7c905171eefc78234e93be/special_tokens_map.json",
+            "bytes": 96,
+            "sha256": "f17f705b191ddb9aef0b42e40869d325d79b2a1e229e0d51d72698b5d3e4fc90"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--YonaKhine--finetuned-w2v2-bert-burmese-asr/snapshots/3a0bb058936140acfe7c905171eefc78234e93be/config.json",
+            "bytes": 1868,
+            "sha256": "4c41fce5481b4aeee88c347964a5db4eb11d27621d590d7ec07bd1d4d743b32a"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--YonaKhine--finetuned-w2v2-bert-burmese-asr/snapshots/3a0bb058936140acfe7c905171eefc78234e93be/vocab.json",
+            "bytes": 827,
+            "sha256": "38b624ff782e0e2816a3dbcc57f94aba58f36412db8d735f9028ac7365b88eac"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--YonaKhine--finetuned-w2v2-bert-burmese-asr/snapshots/3a0bb058936140acfe7c905171eefc78234e93be/preprocessor_config.json",
+            "bytes": 277,
+            "sha256": "35dc9c7c24235e112d9a8ecb98435d130e00f08de5388cdac1c670db4e6c0ff3"
+          }
+        ]
+      },
+      "whisper": {
+        "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd",
+        "exists": true,
+        "bytes": 968904221,
+        "files": [
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/model.safetensors",
+            "bytes": 966995080,
+            "sha256": "faa0ef26bfc1f56ec686275339526a18ae8dbb860265bc9e6a25a09791cf0c84"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/added_tokens.json",
+            "bytes": 34604,
+            "sha256": "9715fd2243b6f06a5858b5e32950d2853f73dd5bc201aafcf76f5082a2d8acd1"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/tokenizer_config.json",
+            "bytes": 282683,
+            "sha256": "2a4c4281cf9f51ac6ccc406fdc711a087afe6530f671fa7b80953edc498275ce"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/special_tokens_map.json",
+            "bytes": 2194,
+            "sha256": "e67ae3a0aaa99abcd9f187138e12db1f65c16a14761c50ef10eef2c174a7a691"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/config.json",
+            "bytes": 2255,
+            "sha256": "d30938c50f09168e81954ea26ccf638311ce10b3eb2d99214e129f96e4c2e082"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/generation_config.json",
+            "bytes": 3947,
+            "sha256": "712db4c94996c56fcefd44f2eedcfb0af541a7b93b49e42d6640c5567512f262"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/normalizer.json",
+            "bytes": 52666,
+            "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/merges.txt",
+            "bytes": 493869,
+            "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/vocab.json",
+            "bytes": 1036584,
+            "sha256": "50d6a919f0a0601d56a04eb583c780d18553aa388254ba3158eb6a00f13e2c1a"
+          },
+          {
+            "path": "/Users/chan/song-video-project/local-models/audio-truth/hf/hub/models--chuuhtetnaing--whisper-small-myanmar/snapshots/f3de3c167914fec3c0974aad1189eda3fa77d8cd/preprocessor_config.json",
+            "bytes": 339,
+            "sha256": "a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d"
+          }
+        ]
+      }
+    },
+    "licenses": {
+      "YonaKhine/finetuned-w2v2-bert-burmese-asr": "mit per downloaded model metadata",
+      "chuuhtetnaing/whisper-small-myanmar": "apache-2.0 per downloaded model metadata",
+      "demucs": "mit per upstream package metadata"
+    },
+    "uninstall": "rm -rf /Users/chan/song-video-project/.venvs/audio-truth /Users/chan/song-video-project/local-models/audio-truth /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2 /Users/chan/song-video-project/director-os/captions/audio-truth-v2 /Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2"
+  },
+  "health": {
+    "sample": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/health/health_sample.wav",
+    "demucs": {
+      "status": "passed",
+      "log": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/health/demucs_health.log",
+      "vocal_energy": 0.188113
+    },
+    "ctc": {
+      "status": "passed",
+      "load_and_infer_seconds": 3.638,
+      "decoded_text": "ရဲ့[UNK]ကြျောင်း ဇာတ်တ[UNK]ခ[UNK]း[UNK]မိန်း ပြည်းတဲ့ [UNK]န[UNK] [UNK]ခု[UNK]ကျ[UNK]တော့ လွှမ်[UNK]နင်[UNK]်[UNK] စဇာတ်[UNK]သ[UNK]ိေ်း[UNK]ရိ[UNK]်[UNK] [UNK]မာ[UNK]ယ[UNK]ာ[UNK]မျှာ[UNK]း[UNK]နင်းဖြေ[UNK]",
+      "logit_shape": [
+        1,
+        300,
+        65
+      ],
+      "tokenizer_char_coverage": {
+        "covered": 42,
+        "total": 42
+      }
+    },
+    "whisper": {
+      "status": "passed",
+      "load_and_infer_seconds": 4.269,
+      "decoded_text": "ရဲ့ကြောင်း ဇာတ်ခါး အား အမ်း မင�",
+      "hallucination_warning": false
+    },
+    "ctc_alignment": {
+      "status": "technically_possible",
+      "monotonic": true,
+      "method": "ctc_logits_available_for_known_text_alignment"
+    }
+  },
+  "stems": {
+    "master_audio": "/Users/chan/song-video-project/audio/01.mp3",
+    "master": {
+      "duration": 292.702041,
+      "size": 11787104,
+      "codec": "mp3",
+      "sample_rate": "44100",
+      "channels": 2
+    },
+    "vocals": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals.wav",
+    "instrumental": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/instrumental.wav",
+    "vocals_16k_mono": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals_16k_mono.wav",
+    "full_mix_16k_mono": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/full_mix_16k_mono.wav",
+    "vocal_energy": 0.135849,
+    "duration_matches_master": true,
+    "status": "separated",
+    "tool": "demucs 4.0.1 htdemucs two-stem cpu segment=7 jobs=1",
+    "hashes": {
+      "01.mp3": "0f001b10bb4ae766d271c83cc960b91d4b8f62cc673abd679c8d6f89f381141c",
+      "full_mix_16k_mono.wav": "1872e3364983025deccdacd26781338c2c1c6e4abc23eeef0121c5b3ad4551d7",
+      "vocals_16k_mono.wav": "e4eb4efc28219c3c5d3180c3161d879d4e8e4b039a2a65d214ecd64e56302099",
+      "instrumental.wav": "b8a59d1ed8e229776ea44671594ee0478874ef4ec8d908985247b4eac99fad1c"
+    }
+  },
+  "evidence": {
+    "model_count": 2,
+    "segment_count": 18,
+    "models": [
+      {
+        "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+        "status": "completed",
+        "revision": "3a0bb058936140acfe7c905171eefc78234e93be"
+      },
+      {
+        "model": "chuuhtetnaing/whisper-small-myanmar",
+        "status": "completed",
+        "revision": "f3de3c167914fec3c0974aad1189eda3fa77d8cd"
+      }
+    ]
+  },
+  "timeline": {
+    "path": "/Users/chan/song-video-project/director-os/state/AUDIO_TRUTH_TIMELINE_V2.json",
+    "occurrence_count": 21,
+    "high_confidence": 0,
+    "medium_confidence": 20,
+    "low_confidence": 0,
+    "failed": 1
+  },
+  "verification": {
+    "status": "needs_targeted_review",
+    "unresolved_count": 21,
+    "unresolved": [
+      {
+        "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+        "line": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_6d042445_occurrence_1",
+        "line": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+        "line": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+        "line": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+        "line": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_1",
+        "line": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_6545c465_occurrence_1",
+        "line": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+        "line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+        "line": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      },
+      {
+        "occurrence_id": "lyric_line_e7715751_occurrence_1",
+        "line": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+        "status": "needs_targeted_review",
+        "reason": "Model evidence ran locally, but this occurrence is not high-confidence enough for production captions or lip-sync."
+      }
+    ],
+    "auto_accepted_normalization_count": 0,
+    "meaning_changing_corrections_auto_applied": 0
+  },
+  "captions": {
+    "path": "/Users/chan/song-video-project/director-os/captions/audio-truth-v2",
+    "review_caption_count": 20,
+    "production_ready": false,
+    "blockers": [
+      "NO_HIGH_CONFIDENCE_FULL_ALIGNMENT"
+    ]
+  },
+  "lipsync": {
+    "ready_occurrence_count": 0,
+    "ready": [],
+    "blocked_occurrence_count": 21,
+    "blocked": [
+      {
+        "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_6d042445_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_6545c465_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_e7715751_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_92457abb_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_9129302f_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_68353461_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_2",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_6545c465_occurrence_2",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+        "blockers": [
+          "ALIGNMENT_NOT_HIGH_CONFIDENCE"
+        ]
+      }
+    ],
+    "status": "blocked_no_high_confidence_occurrences"
+  },
+  "meaning": {
+    "path": "/Users/chan/song-video-project/director-os/state/SONG_MEANING_PERFORMANCE_MAP.json",
+    "occurrences": 21
+  },
+  "preview": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2",
+    "clean": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2/CREATIVE_SKETCH_AUDIO_TRUTH_V2.mp4",
+    "captioned": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2/CREATIVE_SKETCH_AUDIO_TRUTH_V2_WITH_CAPTIONS.mp4",
+    "review": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2/CREATIVE_SKETCH_AUDIO_TRUTH_V2_REVIEW.mp4",
+    "duration_validation": {
+      "master_duration": 292.702041,
+      "preview_duration": 292.657007,
+      "difference": 0.04503399999998692,
+      "status": "ok"
+    },
+    "metadata": {
+      "duration": 292.657007,
+      "size": 8137162,
+      "codec": "h264",
+      "sample_rate": null,
+      "channels": null
+    }
+  },
+  "production_brain": {
+    "path": "/Users/chan/song-video-project/director-os/state/PRODUCTION_BRAIN.json",
+    "status": "review_required"
+  },
+  "log": [
+    "ffmpeg -y -ss 55 -t 12 -i /Users/chan/song-video-project/audio/01.mp3 -ac 1 -ar 16000 /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/health/health_sample.wav -> 0",
+    "ffmpeg -y -i /Users/chan/song-video-project/audio/01.mp3 -ac 1 -ar 16000 /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/full_mix_16k_mono.wav -> 0",
+    "ffmpeg -y -i /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals.wav -ac 1 -ar 16000 /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals_16k_mono.wav -> 0",
+    "ffmpeg -y -i /Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2/CREATIVE_SKETCH_AUDIO_TRUTH_V2.mp4 -vf subtitles=/Users/chan/song-video-project/director-os/captions/audio-truth-v2/CAPTIONS_AUDIO_TRUTH_REVIEW.ass -c:v libx264 -pix_fmt yuv420p -c:a copy /Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2/CREATIVE_SKETCH_AUDIO_TRUTH_V2_WITH_CAPTIONS.mp4 -> 0"
+  ],
+  "next_action": "Review 21 lyric occurrences where model evidence is weak before production captions or lip-sync."
+}

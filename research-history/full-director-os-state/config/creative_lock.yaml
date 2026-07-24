@@ -1,0 +1,36 @@
+creative_lock:
+  performer: "user's consenting adult lead performer"
+  project_type: "commercial Burmese music video"
+  mood:
+    - "cinematic blues/jazz bar tension"
+    - "dark rhythmic dance-performance"
+    - "Black-Swan-style theatrical control"
+    - "mature elegant sensuality"
+  world:
+    - "dark teak bar"
+    - "winter window"
+    - "crimson curtain"
+    - "liquor shelves"
+    - "polished wooden floor"
+    - "warm amber practicals"
+    - "Burmese art/craft inserts"
+  wardrobe:
+    color: "deep red"
+    style: "Burmese-inspired one-shoulder satin dress"
+    body_rule: "natural adult body proportions"
+  microphone:
+    role: "symbol only"
+    performance_center: false
+
+forbidden_direction:
+  - "karaoke"
+  - "lounge singer"
+  - "microphone-centered performance"
+  - "fake singing"
+  - "fake lip-sync"
+  - "kung fu"
+  - "martial arts"
+  - "K-pop"
+  - "TikTok"
+  - "exaggerated sexy/model body"
+  - "nightclub vulgarity"

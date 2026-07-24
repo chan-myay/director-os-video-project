@@ -1,0 +1,90 @@
+{
+  "ready_occurrence_count": 9,
+  "blocked_occurrence_count": 12,
+  "ready": [
+    "lyric_line_3b6a71e0_occurrence_1",
+    "lyric_line_6d042445_occurrence_1",
+    "lyric_line_4aefb4cd_occurrence_1",
+    "lyric_line_29f7541c_occurrence_1",
+    "lyric_line_cfe97aeb_occurrence_1",
+    "lyric_line_6545c465_occurrence_1",
+    "lyric_line_92457abb_occurrence_1",
+    "lyric_line_2f38aa93_occurrence_1",
+    "lyric_line_cfe97aeb_occurrence_2"
+  ],
+  "blocked": [
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "reason": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "reason": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "reason": [
+        "INVALIDATED_BY_REAL_USER_REVIEW"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "reason": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "reason": [
+        "REPLACEMENT_ANCHOR_CONFIRMATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "reason": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "reason": [
+        "INVALIDATED_BY_REAL_USER_REVIEW"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "reason": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "reason": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "reason": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "reason": [
+        "REPLACEMENT_ANCHOR_CONFIRMATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "reason": [
+        "ANCHOR_PROPAGATION_PENDING"
+      ]
+    }
+  ],
+  "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v4/lipsync-segments"
+}

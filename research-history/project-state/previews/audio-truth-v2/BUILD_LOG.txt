@@ -1,0 +1,9 @@
+{
+  "log": [
+    "ffmpeg -y -ss 55 -t 12 -i /Users/chan/song-video-project/audio/01.mp3 -ac 1 -ar 16000 /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/health/health_sample.wav -> 0",
+    "ffmpeg -y -i /Users/chan/song-video-project/audio/01.mp3 -ac 1 -ar 16000 /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/full_mix_16k_mono.wav -> 0",
+    "ffmpeg -y -i /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals.wav -ac 1 -ar 16000 /Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals_16k_mono.wav -> 0",
+    "ffmpeg -y -i /Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2/CREATIVE_SKETCH_AUDIO_TRUTH_V2.mp4 -vf subtitles=/Users/chan/song-video-project/director-os/captions/audio-truth-v2/CAPTIONS_AUDIO_TRUTH_REVIEW.ass -c:v libx264 -pix_fmt yuv420p -c:a copy /Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v2/CREATIVE_SKETCH_AUDIO_TRUTH_V2_WITH_CAPTIONS.mp4 -> 0"
+  ],
+  "source": "/Users/chan/song-video-project/director-os/animatics/15/ANIMATIC.mp4"
+}

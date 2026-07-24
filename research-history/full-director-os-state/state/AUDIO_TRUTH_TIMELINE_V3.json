@@ -1,0 +1,1193 @@
+{
+  "version": "audio-truth-v3",
+  "created_at": "2026-07-13T15:25:55.191981+00:00",
+  "master_song": "/Users/chan/song-video-project/audio/01.mp3",
+  "master_duration": 292.702041,
+  "canonical_lyric_source": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+  "supersedes_for_production_timing": "AUDIO_TRUTH_TIMELINE_V2.json",
+  "full_song_path": {
+    "method": "monotonic_occurrence_path_from_v2_regions_recalibrated_with_ctc_order_energy",
+    "path_valid": true,
+    "overlap_count": 0,
+    "instrumental_conflict_count": 0,
+    "path_score": 0.798
+  },
+  "occurrences": [
+    {
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "phrase_id": 1,
+      "canonical_unicode_lyric": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "source_line": 5,
+      "occurrence_number": 1,
+      "song_section": "verse_1",
+      "original_v2_timing": {
+        "start": 32.98,
+        "end": 35.62,
+        "confidence": 0.657
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 32.98,
+        "end": 35.62
+      },
+      "ctc_timing": {
+        "start": 32.98,
+        "end": 35.62,
+        "score": 0.75,
+        "path_score": 0.705
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 1,
+        "text_similarity": 0.444
+      },
+      "vocal_onset": 32.98,
+      "vocal_offset": 35.62,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 32.98,
+        "end": 35.62
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 32.98,
+        "end": 35.62
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.835,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_6d042445_occurrence_1",
+      "phrase_id": 2,
+      "canonical_unicode_lyric": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "source_line": 6,
+      "occurrence_number": 1,
+      "song_section": "verse_1",
+      "original_v2_timing": {
+        "start": 36.34,
+        "end": 38.42,
+        "confidence": 0.647
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 36.34,
+        "end": 38.42
+      },
+      "ctc_timing": {
+        "start": 36.34,
+        "end": 38.42,
+        "score": 0.71,
+        "path_score": 0.667
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.52
+      },
+      "vocal_onset": 36.34,
+      "vocal_offset": 38.42,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 36.34,
+        "end": 38.42
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 36.34,
+        "end": 38.42
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.826,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+      "phrase_id": 3,
+      "canonical_unicode_lyric": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "source_line": 7,
+      "occurrence_number": 1,
+      "song_section": "verse_1",
+      "original_v2_timing": {
+        "start": 39.66,
+        "end": 45.9,
+        "confidence": 0.634
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 39.66,
+        "end": 45.9
+      },
+      "ctc_timing": {
+        "start": 39.66,
+        "end": 45.9,
+        "score": 0.656,
+        "path_score": 0.617
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.37
+      },
+      "vocal_onset": 39.66,
+      "vocal_offset": 45.9,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 39.66,
+        "end": 45.9
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 39.66,
+        "end": 45.9
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.806,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+      "phrase_id": 4,
+      "canonical_unicode_lyric": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "source_line": 8,
+      "occurrence_number": 1,
+      "song_section": "chorus_1",
+      "original_v2_timing": {
+        "start": 46.22,
+        "end": 48.62,
+        "confidence": 0.629
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 46.22,
+        "end": 48.62
+      },
+      "ctc_timing": {
+        "start": 46.22,
+        "end": 48.62,
+        "score": 0.636,
+        "path_score": 0.598
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.444
+      },
+      "vocal_onset": 46.22,
+      "vocal_offset": 48.62,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 46.22,
+        "end": 48.62
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 46.22,
+        "end": 48.62
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.803,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+      "phrase_id": 5,
+      "canonical_unicode_lyric": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "source_line": 11,
+      "occurrence_number": 1,
+      "song_section": "chorus_1",
+      "original_v2_timing": {
+        "start": 49.22,
+        "end": 65.74,
+        "confidence": 0.634
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 49.22,
+        "end": 65.74
+      },
+      "ctc_timing": {
+        "start": 49.22,
+        "end": 65.74,
+        "score": 0.656,
+        "path_score": 0.617
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 1,
+        "text_similarity": 0.4
+      },
+      "vocal_onset": 49.22,
+      "vocal_offset": 65.74,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 49.22,
+        "end": 65.74
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 49.22,
+        "end": 65.74
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.803,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "phrase_id": 6,
+      "canonical_unicode_lyric": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "source_line": 12,
+      "occurrence_number": 1,
+      "song_section": "chorus_1",
+      "original_v2_timing": {
+        "start": 65.96,
+        "end": 72.2,
+        "confidence": 0.602
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 65.96,
+        "end": 72.2
+      },
+      "ctc_timing": {
+        "start": 65.96,
+        "end": 72.2,
+        "score": 0.529,
+        "path_score": 0.497
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.435
+      },
+      "vocal_onset": 65.96,
+      "vocal_offset": 72.2,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 65.96,
+        "end": 72.2
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 65.96,
+        "end": 72.2
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_usable",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.769,
+      "confidence_class": "medium",
+      "status": "aligned_medium_confidence",
+      "lyric_verification_state": "text_preserved_needs_anchor_validation",
+      "production_caption_readiness": false,
+      "lip_sync_segment_readiness": false,
+      "unresolved_blocker": [
+        "ANCHOR_VALIDATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_1",
+      "phrase_id": 7,
+      "canonical_unicode_lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "source_line": 13,
+      "occurrence_number": 1,
+      "song_section": "chorus_1",
+      "original_v2_timing": {
+        "start": 72.44,
+        "end": 78.92,
+        "confidence": 0.644
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 72.44,
+        "end": 78.92
+      },
+      "ctc_timing": {
+        "start": 72.44,
+        "end": 78.92,
+        "score": 0.697,
+        "path_score": 0.655
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 1,
+        "text_similarity": 0.385
+      },
+      "vocal_onset": 72.44,
+      "vocal_offset": 78.92,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 72.44,
+        "end": 78.92
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 72.44,
+        "end": 78.92
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.814,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "phrase_id": 8,
+      "canonical_unicode_lyric": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "source_line": 14,
+      "occurrence_number": 1,
+      "song_section": "chorus_1",
+      "original_v2_timing": {
+        "start": 79.2,
+        "end": 91.28,
+        "confidence": 0.584
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 79.2,
+        "end": 91.28
+      },
+      "ctc_timing": {
+        "start": 79.2,
+        "end": 91.28,
+        "score": 0.455,
+        "path_score": 0.428
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.429
+      },
+      "vocal_onset": 79.2,
+      "vocal_offset": 91.28,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 79.2,
+        "end": 91.28
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 79.2,
+        "end": 91.28
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [
+        "ctc_text_evidence_weak"
+      ],
+      "confidence_score": 0.748,
+      "confidence_class": "medium",
+      "status": "aligned_medium_confidence",
+      "lyric_verification_state": "text_preserved_needs_anchor_validation",
+      "production_caption_readiness": false,
+      "lip_sync_segment_readiness": false,
+      "unresolved_blocker": [
+        "ANCHOR_VALIDATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "phrase_id": 9,
+      "canonical_unicode_lyric": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "source_line": 17,
+      "occurrence_number": 1,
+      "song_section": "verse_bridge",
+      "original_v2_timing": {
+        "start": 92.3,
+        "end": 93.38,
+        "confidence": 0.632
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 92.3,
+        "end": 93.38
+      },
+      "ctc_timing": {
+        "start": 92.3,
+        "end": 93.38,
+        "score": 0.75,
+        "path_score": 0.705
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.481
+      },
+      "vocal_onset": 92.3,
+      "vocal_offset": 93.38,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 92.3,
+        "end": 93.38
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 92.3,
+        "end": 93.38
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.836,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "phrase_id": 10,
+      "canonical_unicode_lyric": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "source_line": 18,
+      "occurrence_number": 1,
+      "song_section": "verse_bridge",
+      "original_v2_timing": {
+        "start": 98.46,
+        "end": 101.36,
+        "confidence": 0.622
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 98.46,
+        "end": 101.36
+      },
+      "ctc_timing": {
+        "start": 98.46,
+        "end": 101.36,
+        "score": 0.606,
+        "path_score": 0.57
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 1,
+        "text_similarity": 0.44
+      },
+      "vocal_onset": 98.46,
+      "vocal_offset": 101.36,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 98.46,
+        "end": 101.36
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 98.46,
+        "end": 101.36
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_usable",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.794,
+      "confidence_class": "medium",
+      "status": "aligned_medium_confidence",
+      "lyric_verification_state": "text_preserved_needs_anchor_validation",
+      "production_caption_readiness": false,
+      "lip_sync_segment_readiness": false,
+      "unresolved_blocker": [
+        "ANCHOR_VALIDATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_92457abb_occurrence_1",
+      "phrase_id": 11,
+      "canonical_unicode_lyric": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "source_line": 19,
+      "occurrence_number": 1,
+      "song_section": "verse_bridge",
+      "original_v2_timing": {
+        "start": 101.62,
+        "end": 104.86,
+        "confidence": 0.641
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 101.62,
+        "end": 104.86
+      },
+      "ctc_timing": {
+        "start": 101.62,
+        "end": 104.86,
+        "score": 0.684,
+        "path_score": 0.643
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.684
+      },
+      "vocal_onset": 101.62,
+      "vocal_offset": 104.86,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 101.62,
+        "end": 104.86
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 101.62,
+        "end": 104.86
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.824,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "phrase_id": 12,
+      "canonical_unicode_lyric": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "source_line": 20,
+      "occurrence_number": 1,
+      "song_section": "verse_bridge",
+      "original_v2_timing": {
+        "start": 105.54,
+        "end": 112.9,
+        "confidence": 0.65
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 105.54,
+        "end": 112.9
+      },
+      "ctc_timing": {
+        "start": 105.54,
+        "end": 112.9,
+        "score": 0.719,
+        "path_score": 0.676
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.56
+      },
+      "vocal_onset": 105.54,
+      "vocal_offset": 112.9,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 105.54,
+        "end": 112.9
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 105.54,
+        "end": 112.9
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.83,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "phrase_id": 13,
+      "canonical_unicode_lyric": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "source_line": 21,
+      "occurrence_number": 1,
+      "song_section": "verse_bridge",
+      "original_v2_timing": {
+        "start": 113.3,
+        "end": 114.32,
+        "confidence": 0.617
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 113.3,
+        "end": 114.32
+      },
+      "ctc_timing": {
+        "start": 113.3,
+        "end": 114.32,
+        "score": 0.588,
+        "path_score": 0.553
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.5
+      },
+      "vocal_onset": 113.3,
+      "vocal_offset": 114.32,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 113.3,
+        "end": 114.32
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 113.3,
+        "end": 114.32
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_usable",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.791,
+      "confidence_class": "medium",
+      "status": "aligned_medium_confidence",
+      "lyric_verification_state": "text_preserved_needs_anchor_validation",
+      "production_caption_readiness": false,
+      "lip_sync_segment_readiness": false,
+      "unresolved_blocker": [
+        "ANCHOR_VALIDATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+      "phrase_id": 14,
+      "canonical_unicode_lyric": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "source_line": 24,
+      "occurrence_number": 1,
+      "song_section": "verse_bridge",
+      "original_v2_timing": {
+        "start": 114.84,
+        "end": 118.24,
+        "confidence": 0.629
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 114.84,
+        "end": 118.24
+      },
+      "ctc_timing": {
+        "start": 114.84,
+        "end": 118.24,
+        "score": 0.636,
+        "path_score": 0.598
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.636
+      },
+      "vocal_onset": 114.84,
+      "vocal_offset": 118.24,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 114.84,
+        "end": 118.24
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 114.84,
+        "end": 118.24
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.809,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "phrase_id": 15,
+      "canonical_unicode_lyric": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "source_line": 25,
+      "occurrence_number": 1,
+      "song_section": "chorus_2",
+      "original_v2_timing": {
+        "start": 118.76,
+        "end": 124.48,
+        "confidence": 0.629
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 118.76,
+        "end": 124.48
+      },
+      "ctc_timing": {
+        "start": 118.76,
+        "end": 124.48,
+        "score": 0.636,
+        "path_score": 0.598
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 1,
+        "text_similarity": 0.462
+      },
+      "vocal_onset": 118.76,
+      "vocal_offset": 124.48,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 118.76,
+        "end": 124.48
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 118.76,
+        "end": 124.48
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.804,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "phrase_id": 16,
+      "canonical_unicode_lyric": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "source_line": 26,
+      "occurrence_number": 1,
+      "song_section": "chorus_2",
+      "original_v2_timing": {
+        "start": 124.66,
+        "end": 131.16,
+        "confidence": 0.624
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 124.66,
+        "end": 131.16
+      },
+      "ctc_timing": {
+        "start": 124.66,
+        "end": 131.16,
+        "score": 0.618,
+        "path_score": 0.581
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.357
+      },
+      "vocal_onset": 124.66,
+      "vocal_offset": 131.16,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 124.66,
+        "end": 131.16
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 124.66,
+        "end": 131.16
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_usable",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.795,
+      "confidence_class": "medium",
+      "status": "aligned_medium_confidence",
+      "lyric_verification_state": "text_preserved_needs_anchor_validation",
+      "production_caption_readiness": false,
+      "lip_sync_segment_readiness": false,
+      "unresolved_blocker": [
+        "ANCHOR_VALIDATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "phrase_id": 17,
+      "canonical_unicode_lyric": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "source_line": 27,
+      "occurrence_number": 1,
+      "song_section": "chorus_2",
+      "original_v2_timing": {
+        "start": 131.56,
+        "end": 134.0,
+        "confidence": 0.561
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 131.56,
+        "end": 134.0
+      },
+      "ctc_timing": {
+        "start": 131.56,
+        "end": 134.0,
+        "score": 0.364,
+        "path_score": 0.342
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.318
+      },
+      "vocal_onset": 131.56,
+      "vocal_offset": 134.0,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 131.56,
+        "end": 134.0
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 131.56,
+        "end": 134.0
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [
+        "ctc_text_evidence_weak"
+      ],
+      "confidence_score": 0.723,
+      "confidence_class": "medium",
+      "status": "aligned_medium_confidence",
+      "lyric_verification_state": "text_preserved_needs_anchor_validation",
+      "production_caption_readiness": false,
+      "lip_sync_segment_readiness": false,
+      "unresolved_blocker": [
+        "ANCHOR_VALIDATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+      "phrase_id": 18,
+      "canonical_unicode_lyric": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "source_line": 29,
+      "occurrence_number": 2,
+      "song_section": "chorus_2",
+      "original_v2_timing": {
+        "start": 134.78,
+        "end": 140.5,
+        "confidence": 0.634
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 134.78,
+        "end": 140.5
+      },
+      "ctc_timing": {
+        "start": 134.78,
+        "end": 140.5,
+        "score": 0.656,
+        "path_score": 0.617
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.542
+      },
+      "vocal_onset": 134.78,
+      "vocal_offset": 140.5,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 134.78,
+        "end": 140.5
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 134.78,
+        "end": 140.5
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.808,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "phrase_id": 19,
+      "canonical_unicode_lyric": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "source_line": 30,
+      "occurrence_number": 2,
+      "song_section": "chorus_2",
+      "original_v2_timing": {
+        "start": 141.1,
+        "end": 144.26,
+        "confidence": 0.602
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 141.1,
+        "end": 144.26
+      },
+      "ctc_timing": {
+        "start": 141.1,
+        "end": 144.26,
+        "score": 0.529,
+        "path_score": 0.497
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 1,
+        "text_similarity": 0.385
+      },
+      "vocal_onset": 141.1,
+      "vocal_offset": 144.26,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 141.1,
+        "end": 144.26
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 141.1,
+        "end": 144.26
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_usable",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.767,
+      "confidence_class": "medium",
+      "status": "aligned_medium_confidence",
+      "lyric_verification_state": "text_preserved_needs_anchor_validation",
+      "production_caption_readiness": false,
+      "lip_sync_segment_readiness": false,
+      "unresolved_blocker": [
+        "ANCHOR_VALIDATION_PENDING"
+      ]
+    },
+    {
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "phrase_id": 20,
+      "canonical_unicode_lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "source_line": 31,
+      "occurrence_number": 2,
+      "song_section": "chorus_2",
+      "original_v2_timing": {
+        "start": 144.62,
+        "end": 150.68,
+        "confidence": 0.644
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 144.62,
+        "end": 150.68
+      },
+      "ctc_timing": {
+        "start": 144.62,
+        "end": 150.68,
+        "score": 0.697,
+        "path_score": 0.655
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.625
+      },
+      "vocal_onset": 144.62,
+      "vocal_offset": 150.68,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 144.62,
+        "end": 150.68
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 144.62,
+        "end": 150.68
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "ctc_text_evidence_strong",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [],
+      "confidence_score": 0.822,
+      "confidence_class": "high",
+      "status": "aligned_high_confidence",
+      "lyric_verification_state": "model_supported_text_preserved",
+      "production_caption_readiness": true,
+      "lip_sync_segment_readiness": true,
+      "unresolved_blocker": []
+    },
+    {
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "phrase_id": 21,
+      "canonical_unicode_lyric": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "source_line": 32,
+      "occurrence_number": 2,
+      "song_section": "chorus_2",
+      "original_v2_timing": {
+        "start": 150.9,
+        "end": 153.66,
+        "confidence": 0.584
+      },
+      "selected_stem": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+      "global_path_region": {
+        "start": 150.9,
+        "end": 153.66
+      },
+      "ctc_timing": {
+        "start": 150.9,
+        "end": 153.66,
+        "score": 0.455,
+        "path_score": 0.428
+      },
+      "whisper_timing_evidence": {
+        "overlap_count": 2,
+        "text_similarity": 0.455
+      },
+      "vocal_onset": 150.9,
+      "vocal_offset": 153.66,
+      "anchor_correction": 0.0,
+      "drift_correction": 0.0,
+      "final_caption_timing": {
+        "start": 150.9,
+        "end": 153.66
+      },
+      "exact_master_audio_segment_timing": {
+        "start": 150.9,
+        "end": 153.66
+      },
+      "alignment_method": "constrained_full_song_path_ctc_vocal_energy_recalibrated",
+      "evidence": [
+        "tokenizer_coverage_complete",
+        "monotonic_full_song_path",
+        "whisper_supports_region"
+      ],
+      "contradicting_evidence": [
+        "ctc_text_evidence_weak"
+      ],
+      "confidence_score": 0.749,
+      "confidence_class": "medium",
+      "status": "aligned_medium_confidence",
+      "lyric_verification_state": "text_preserved_needs_anchor_validation",
+      "production_caption_readiness": false,
+      "lip_sync_segment_readiness": false,
+      "unresolved_blocker": [
+        "ANCHOR_VALIDATION_PENDING"
+      ]
+    }
+  ],
+  "production_caption_allowed": false,
+  "lipsync_allowed_count": 13
+}

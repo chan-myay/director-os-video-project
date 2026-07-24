@@ -1,0 +1,11 @@
+{
+  "current_status": "v0.9 autonomous studio connected to v0.8 workspace and v0.6 production/QC engine",
+  "master_audio": "audio/01.mp3",
+  "current_best_cut": "production/edit/roughcut-v2/ROUGH-CUT-V2C_SAFE-LOCAL-RECUT_WITH-MP3.mp4",
+  "blocked": [
+    "LOCAL_STORYBOARD_MODEL_REQUIRED",
+    "FFMPEG_REQUIRED_FOR_MP4_ANIMATIC",
+    "VOICE_PROVIDER_NOT_CONFIGURED"
+  ],
+  "updated_at": "2026-07-19T18:49:58.844722+00:00"
+}

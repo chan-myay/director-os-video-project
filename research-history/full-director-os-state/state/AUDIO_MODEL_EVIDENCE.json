@@ -1,0 +1,280 @@
+{
+  "models": [
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "status": "completed",
+      "revision": "3a0bb058936140acfe7c905171eefc78234e93be"
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "status": "completed",
+      "revision": "f3de3c167914fec3c0974aad1189eda3fa77d8cd"
+    }
+  ],
+  "segments": [
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_01.wav",
+      "start": 20.0,
+      "end": 45.0,
+      "raw_burmese_transcript": "[UNK]အလွင်းငဲ့် ဒီ[UNK]ည[UNK]ား[UNK]း[UNK]း[UNK]း[UNK]အုန်း[UNK]နောက်တွေ စား[UNK]း[UNK]ဒုက္ခ[UNK]တွေ[UNK] တ[UNK]ဘွေ[UNK] တ[UNK]ထ[UNK]မ်းလွဲ[UNK]မာ[UNK]ချင်း ရဲ့ အကြောင်းဘွေ[UNK] ဖြေ့[UNK]း[UNK]ရှား [UNK]နေ[UNK]ဆ[UNK]ဲ[UNK]ပါး[UNK]",
+      "normalized_transcript": "[UNK]အလွင်းငဲ့် ဒီ[UNK]ည[UNK]ား[UNK]း[UNK]း[UNK]း[UNK]အုန်း[UNK]နောက်တွေ စား[UNK]း[UNK]ဒုက္ခ[UNK]တွေ[UNK] တ[UNK]ဘွေ[UNK] တ[UNK]ထ[UNK]မ်းလွဲ[UNK]မာ[UNK]ချင်း ရဲ့ အကြောင်းဘွေ[UNK] ဖြေ့[UNK]း[UNK]ရှား [UNK]နေ[UNK]ဆ[UNK]ဲ[UNK]ပါး[UNK]",
+      "confidence": null,
+      "runtime": 16.366,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_02.wav",
+      "start": 42.0,
+      "end": 67.0,
+      "raw_burmese_transcript": "[UNK] အကျောင်း ဘေ[UNK] [UNK]ဖြေး[UNK]ရှား [UNK]နေ[UNK]ဆဲ[UNK]ပါး[UNK]သံ[UNK]တွေ တိတ်ဆ[UNK]ဲ်[UNK]ဲ[UNK]မောင်[UNK]တွေ န[UNK]ုတ်[UNK]ဖွေ[UNK]ထားတဲ့ အရ[UNK]်[UNK]န်း [UNK]မဲ[UNK]မောင်[UNK]ကြီးီး[UNK]း[UNK]ထဲ[UNK]မင်းနဲ[UNK]ဒိုး[UNK]ရဲ့ အကြောင်း ဇာတ်တ[UNK]ခ[UNK]န်း[UNK] [UNK]မင်းပြေး[UNK]တဲ့ နှ[UNK]န်း[UNK]အ[UNK]ခု[UNK]ကျ[UNK]တော့ လွမ်း[UNK]န[UNK]ဲ[UNK] [UNK]ဇာတ်သိ[UNK]်း[UNK]ိန်း[UNK] [UNK]မာ[UNK]ရျ[UNK]ာ[UNK]မြ[UNK]ား[UNK] န[UNK]င့် ပြိတ",
+      "normalized_transcript": "[UNK] အကျောင်း ဘေ[UNK] [UNK]ဖြေး[UNK]ရှား [UNK]နေ[UNK]ဆဲ[UNK]ပါး[UNK]သံ[UNK]တွေ တိတ်ဆ[UNK]ဲ်[UNK]ဲ[UNK]မောင်[UNK]တွေ န[UNK]ုတ်[UNK]ဖွေ[UNK]ထားတဲ့ အရ[UNK]်[UNK]န်း [UNK]မဲ[UNK]မောင်[UNK]ကြီးီး[UNK]း[UNK]ထဲ[UNK]မင်းနဲ[UNK]ဒိုး[UNK]ရဲ့ အကြောင်း ဇာတ်တ[UNK]ခ[UNK]န်း[UNK] [UNK]မင်းပြေး[UNK]တဲ့ နှ[UNK]န်း[UNK]အ[UNK]ခု[UNK]ကျ[UNK]တော့ လွမ်း[UNK]န[UNK]ဲ[UNK] [UNK]ဇာတ်သိ[UNK]်း[UNK]ိန်း[UNK] [UNK]မာ[UNK]ရျ[UNK]ာ[UNK]မြ[UNK]ား[UNK] န[UNK]င့် ပြိတ",
+      "confidence": null,
+      "runtime": 9.388,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_03.wav",
+      "start": 64.0,
+      "end": 89.0,
+      "raw_burmese_transcript": "[UNK]ိ[UNK]်[UNK]န်[UNK]မာ[UNK]ရ[UNK]ာ[UNK]မျ[UNK]ား[UNK] နေ်[UNK]ပြေ[UNK]း[UNK] [UNK]ဒ[UNK]န်[UNK]ရ[UNK]ာ[UNK]မျ[UNK]ား[UNK]ကျ[UNK]ပ်ပိတ်[UNK]သိန်န်[UNK] [UNK]ဘယ်[UNK]မာ[UNK]လဲ[UNK] ဟေး[UNK]ရှာ[UNK]သော်လည်း မ[UNK]ထွေး[UNK]န[UNK]ာ[UNK]ချ[UNK]စ် က[UNK]လေး[UNK]ကျ[UNK]ာ[UNK]လေ[UNK] ဝေ[UNK]လေ[UNK] ဝေ[UNK]လေ[UNK] ဝေ[UNK]လေ[UNK] ဝေ[UNK] လေ[UNK] [UNK]ရေ[UNK]း[UNK] ၎ီ[UNK]း[UNK]ရွေး[UNK] ၎ီ[UNK]ရွေ[UNK]း[UNK] [UNK]ရ[UNK]ု်[UNK]ရ[UNK]် ရ[UNK]ည် ရ[UNK]်[UNK]် [UNK]လုံ်[UNK]နုန်းနုန်းနုံ",
+      "normalized_transcript": "[UNK]ိ[UNK]်[UNK]န်[UNK]မာ[UNK]ရ[UNK]ာ[UNK]မျ[UNK]ား[UNK] နေ်[UNK]ပြေ[UNK]း[UNK] [UNK]ဒ[UNK]န်[UNK]ရ[UNK]ာ[UNK]မျ[UNK]ား[UNK]ကျ[UNK]ပ်ပိတ်[UNK]သိန်န်[UNK] [UNK]ဘယ်[UNK]မာ[UNK]လဲ[UNK] ဟေး[UNK]ရှာ[UNK]သော်လည်း မ[UNK]ထွေး[UNK]န[UNK]ာ[UNK]ချ[UNK]စ် က[UNK]လေး[UNK]ကျ[UNK]ာ[UNK]လေ[UNK] ဝေ[UNK]လေ[UNK] ဝေ[UNK]လေ[UNK] ဝေ[UNK]လေ[UNK] ဝေ[UNK] လေ[UNK] [UNK]ရေ[UNK]း[UNK] ၎ီ[UNK]း[UNK]ရွေး[UNK] ၎ီ[UNK]ရွေ[UNK]း[UNK] [UNK]ရ[UNK]ု်[UNK]ရ[UNK]် ရ[UNK]ည် ရ[UNK]်[UNK]် [UNK]လုံ်[UNK]နုန်းနုန်းနုံ",
+      "confidence": null,
+      "runtime": 7.113,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_04.wav",
+      "start": 86.0,
+      "end": 111.0,
+      "raw_burmese_transcript": "[UNK]ဲ[UNK] [UNK]ဝုက်လုန်းလုန်း လိုး[UNK]ိုး[UNK] [UNK]ိုး[UNK]ိုးဟိုး[UNK]လု့[UNK]ဘွဝား ဟာ[UNK]စ[UNK]မ်း[UNK]း[UNK]ကျ[UNK]ယ် လို့နယဲ် [UNK] အ[UNK]ခု[UNK] မှ[UNK] လာ[UNK]လွမ်း[UNK]ပြ[UNK]ား မနေ[UNK]နဲ[UNK] [UNK]လောင်ကျွမ်း နှေ သညဲ[UNK]တွေ[UNK] ကွဲ[UNK]ချေ် တ[UNK]ရဲ[UNK] တစီ်တစ်ကောင်းလိုး [UNK]ရောင်ခြောက်ဆ[UNK]ဲ[UNK] [UNK]န[UNK]န်ရ[UNK]်",
+      "normalized_transcript": "[UNK]ဲ[UNK] [UNK]ဝုက်လုန်းလုန်း လိုး[UNK]ိုး[UNK] [UNK]ိုး[UNK]ိုးဟိုး[UNK]လု့[UNK]ဘွဝား ဟာ[UNK]စ[UNK]မ်း[UNK]း[UNK]ကျ[UNK]ယ် လို့နယဲ် [UNK] အ[UNK]ခု[UNK] မှ[UNK] လာ[UNK]လွမ်း[UNK]ပြ[UNK]ား မနေ[UNK]နဲ[UNK] [UNK]လောင်ကျွမ်း နှေ သညဲ[UNK]တွေ[UNK] ကွဲ[UNK]ချေ် တ[UNK]ရဲ[UNK] တစီ်တစ်ကောင်းလိုး [UNK]ရောင်ခြောက်ဆ[UNK]ဲ[UNK] [UNK]န[UNK]န်ရ[UNK]်",
+      "confidence": null,
+      "runtime": 5.304,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_05.wav",
+      "start": 108.0,
+      "end": 133.0,
+      "raw_burmese_transcript": "[UNK]စီ်တစ်ကောင်း လို့ [UNK]ရောင်[UNK]ခြောက်ဆ[UNK]ဲ[UNK] [UNK]န[UNK]်ရန်[UNK]နွေ[UNK] ချြောက်သွိတ် [UNK]ြ[UNK]ာ[UNK]အမှန်[UNK]တွေ ခလုပ် ပ[UNK]်[UNK]း[UNK]မ်[UNK]ထ[UNK]ား[UNK]တဲ့ [UNK]ထ[UNK]်[UNK]ဝိ[UNK]န်း[UNK] [UNK]ကြ[UNK]ပ်[UNK]ထိုး[UNK] ပ[UNK]ိတ်ထား[UNK]တွေ့ တ[UNK]ကား[UNK]ရွီ[UNK]များ ဟရိေ[UNK]်[UNK]ရေ[UNK] ၎ီး[UNK]ရေ[UNK] ၎ီး[UNK]ရေ[UNK] [UNK]မင်း[UNK]ပြည်းတဲ့ မုံ[UNK]ခု[UNK]ကြ[UNK]ား[UNK]လောက် ဖြို[UNK]း[UNK]း[UNK]ကျ[UNK]ပ်ရျှိုး[UNK]ယိ[UNK]စာ[UNK]နာ[UNK]ချင်း[UNK]မြ[UNK]ား[UNK]ဝေ[UNK]၎[UNK]း",
+      "normalized_transcript": "[UNK]စီ်တစ်ကောင်း လို့ [UNK]ရောင်[UNK]ခြောက်ဆ[UNK]ဲ[UNK] [UNK]န[UNK]်ရန်[UNK]နွေ[UNK] ချြောက်သွိတ် [UNK]ြ[UNK]ာ[UNK]အမှန်[UNK]တွေ ခလုပ် ပ[UNK]်[UNK]း[UNK]မ်[UNK]ထ[UNK]ား[UNK]တဲ့ [UNK]ထ[UNK]်[UNK]ဝိ[UNK]န်း[UNK] [UNK]ကြ[UNK]ပ်[UNK]ထိုး[UNK] ပ[UNK]ိတ်ထား[UNK]တွေ့ တ[UNK]ကား[UNK]ရွီ[UNK]များ ဟရိေ[UNK]်[UNK]ရေ[UNK] ၎ီး[UNK]ရေ[UNK] ၎ီး[UNK]ရေ[UNK] [UNK]မင်း[UNK]ပြည်းတဲ့ မုံ[UNK]ခု[UNK]ကြ[UNK]ား[UNK]လောက် ဖြို[UNK]း[UNK]း[UNK]ကျ[UNK]ပ်ရျှိုး[UNK]ယိ[UNK]စာ[UNK]နာ[UNK]ချင်း[UNK]မြ[UNK]ား[UNK]ဝေ[UNK]၎[UNK]း",
+      "confidence": null,
+      "runtime": 5.279,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_06.wav",
+      "start": 130.0,
+      "end": 155.0,
+      "raw_burmese_transcript": "[UNK]စာ[UNK]ာ[UNK]ခ[UNK]င်းံ်း[UNK]များ[UNK]ဝေး[UNK]၎ီ[UNK] [UNK]ဝါ[UNK]ရောင် ဆ[UNK]င်း[UNK]်[UNK]မန[UNK]က်[UNK]ဖြေ့ေ[UNK] [UNK]ဆယ်[UNK]ကမ္ဘာ လက် မ[UNK]မ[UNK]ေ[UNK]း[UNK]ရွေ[UNK]း[UNK]ထဲ[UNK]ဝါ[UNK]တဲ့ အမွှေး[UNK] [UNK]တ[UNK]်လေး[UNK]င[UNK]ာ[UNK]လေ[UNK] [UNK]တွေး[UNK]လေ[UNK] ဆွေး[UNK] လေ[UNK] ဖြေး[UNK]လေ ဝေး[UNK] လေ[UNK] ရေး[UNK] အီး[UNK]ရေ[UNK]း[UNK] ၎ီး ရေ[UNK]း[UNK] [UNK]အု[UNK]အု[UNK]့[UNK]အေု[UNK]အု[UNK]း[UNK]း[UNK]အ[UNK]နောင်[UNK]နောင်[UNK]နောင်းနော[UNK]င့်း",
+      "normalized_transcript": "[UNK]စာ[UNK]ာ[UNK]ခ[UNK]င်းံ်း[UNK]များ[UNK]ဝေး[UNK]၎ီ[UNK] [UNK]ဝါ[UNK]ရောင် ဆ[UNK]င်း[UNK]်[UNK]မန[UNK]က်[UNK]ဖြေ့ေ[UNK] [UNK]ဆယ်[UNK]ကမ္ဘာ လက် မ[UNK]မ[UNK]ေ[UNK]း[UNK]ရွေ[UNK]း[UNK]ထဲ[UNK]ဝါ[UNK]တဲ့ အမွှေး[UNK] [UNK]တ[UNK]်လေး[UNK]င[UNK]ာ[UNK]လေ[UNK] [UNK]တွေး[UNK]လေ[UNK] ဆွေး[UNK] လေ[UNK] ဖြေး[UNK]လေ ဝေး[UNK] လေ[UNK] ရေး[UNK] အီး[UNK]ရေ[UNK]း[UNK] ၎ီး ရေ[UNK]း[UNK] [UNK]အု[UNK]အု[UNK]့[UNK]အေု[UNK]အု[UNK]း[UNK]း[UNK]အ[UNK]နောင်[UNK]နောင်[UNK]နောင်းနော[UNK]င့်း",
+      "confidence": null,
+      "runtime": 5.242,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_07.wav",
+      "start": 152.0,
+      "end": 177.0,
+      "raw_burmese_transcript": "[UNK] အနောင်နောင်းနောင်းနော[UNK]း[UNK]င့်း [UNK] အ[UNK]နောင်းနောင်းနောင်း နှောင်း်း ဟို[UNK] ို[UNK]ဟို[UNK]ော[UNK] [UNK] အ[UNK]ဟေု[UNK]ဟော[UNK]ဟ[UNK]ရူု[UNK]ဘဝာ[UNK]းဟာ",
+      "normalized_transcript": "[UNK] အနောင်နောင်းနောင်းနော[UNK]း[UNK]င့်း [UNK] အ[UNK]နောင်းနောင်းနောင်း နှောင်း်း ဟို[UNK] ို[UNK]ဟို[UNK]ော[UNK] [UNK] အ[UNK]ဟေု[UNK]ဟော[UNK]ဟ[UNK]ရူု[UNK]ဘဝာ[UNK]းဟာ",
+      "confidence": null,
+      "runtime": 5.993,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_08.wav",
+      "start": 174.0,
+      "end": 199.0,
+      "raw_burmese_transcript": "[UNK]လု့[UNK]ဘ[UNK]ဝ[UNK] ဟာ[UNK]စ[UNK]မန်း[UNK]ချယ် လိုန့်နယ်ာ[UNK] [UNK] အ[UNK]ခု မှ[UNK] လာ[UNK]လွမ်းပြ[UNK] မနေ[UNK]နဲ့[UNK]လာ[UNK]လာ[UNK]လာ[UNK] [UNK]လောင်[UNK]ကျွမ်း နေ အသဲ[UNK]တွေ ကွဲ[UNK]ချေ[UNK] သ[UNK]ရဲ[UNK]တ[UNK]ဆ[UNK]ေ တစ်ကောင်း လို့ [UNK]ရောင်ခြောက်ဆဲ်[UNK] [UNK]န[UNK]ရန်[UNK]တွေ ချောက်[UNK]သွေး[UNK]း[UNK] အမှန်[UNK]တွေ ခ[UNK]လှုပ် ပ[UNK]ေ[UNK]်္[UNK]း[UNK]း[UNK]ိ[UNK]တ်[UNK]ထားတဲ့ အကျ[UNK]က်[UNK]က[UNK]ိတ် [UNK]ကျ[UNK]တ်[UNK]ထူး[UNK] ပိတ်[UNK]ထား[UNK]တယ် တ[UNK]ကါး[UNK]",
+      "normalized_transcript": "[UNK]လု့[UNK]ဘ[UNK]ဝ[UNK] ဟာ[UNK]စ[UNK]မန်း[UNK]ချယ် လိုန့်နယ်ာ[UNK] [UNK] အ[UNK]ခု မှ[UNK] လာ[UNK]လွမ်းပြ[UNK] မနေ[UNK]နဲ့[UNK]လာ[UNK]လာ[UNK]လာ[UNK] [UNK]လောင်[UNK]ကျွမ်း နေ အသဲ[UNK]တွေ ကွဲ[UNK]ချေ[UNK] သ[UNK]ရဲ[UNK]တ[UNK]ဆ[UNK]ေ တစ်ကောင်း လို့ [UNK]ရောင်ခြောက်ဆဲ်[UNK] [UNK]န[UNK]ရန်[UNK]တွေ ချောက်[UNK]သွေး[UNK]း[UNK] အမှန်[UNK]တွေ ခ[UNK]လှုပ် ပ[UNK]ေ[UNK]်္[UNK]း[UNK]း[UNK]ိ[UNK]တ်[UNK]ထားတဲ့ အကျ[UNK]က်[UNK]က[UNK]ိတ် [UNK]ကျ[UNK]တ်[UNK]ထူး[UNK] ပိတ်[UNK]ထား[UNK]တယ် တ[UNK]ကါး[UNK]",
+      "confidence": null,
+      "runtime": 9.096,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_09.wav",
+      "start": 196.0,
+      "end": 221.0,
+      "raw_burmese_transcript": "[UNK]ကျာတ်ထူး[UNK] [UNK]ပိတ်[UNK]ထား[UNK]တဲ့ တ[UNK]ကား[UNK]တွေ မျြား[UNK]လယ[UNK]နင်[UNK]ရေ[UNK]း[UNK] ရီးရွေး[UNK] ရီး[UNK]ရေ[UNK]မင့် ပေး[UNK]တဲ့ မ[UNK]ု[UNK]း[UNK]ုံ်း[UNK]အ[UNK]ခု ကျ[UNK]တော့ ဖြ[UNK]ု[UNK]း[UNK]ုန်[UNK]လဲ့ ရှု[UNK]့ုန်[UNK]စာ[UNK]နာ[UNK]က[UNK]င်း[UNK]်း[UNK]မြား[UNK]ဝေး[UNK]အ၎ီ[UNK]း [UNK]ဝါ[UNK]ရောင် ဆ[UNK]င်း[UNK]င်[UNK]း[UNK]န်း[UNK]လဲ့ ဖြ[UNK]ိ[UNK]က်[UNK]်[UNK]် [UNK]ယ[UNK]ယ်ကမ္ဘာ လဲ့ မ[UNK]မိတ်[UNK]တွေး[UNK]ေ[UNK]ေ[UNK]ထညဲ[UNK] ဝါ[UNK]တဲ့ အငွေ[UNK]တ[UNK]",
+      "normalized_transcript": "[UNK]ကျာတ်ထူး[UNK] [UNK]ပိတ်[UNK]ထား[UNK]တဲ့ တ[UNK]ကား[UNK]တွေ မျြား[UNK]လယ[UNK]နင်[UNK]ရေ[UNK]း[UNK] ရီးရွေး[UNK] ရီး[UNK]ရေ[UNK]မင့် ပေး[UNK]တဲ့ မ[UNK]ု[UNK]း[UNK]ုံ်း[UNK]အ[UNK]ခု ကျ[UNK]တော့ ဖြ[UNK]ု[UNK]း[UNK]ုန်[UNK]လဲ့ ရှု[UNK]့ုန်[UNK]စာ[UNK]နာ[UNK]က[UNK]င်း[UNK]်း[UNK]မြား[UNK]ဝေး[UNK]အ၎ီ[UNK]း [UNK]ဝါ[UNK]ရောင် ဆ[UNK]င်း[UNK]င်[UNK]း[UNK]န်း[UNK]လဲ့ ဖြ[UNK]ိ[UNK]က်[UNK]်[UNK]် [UNK]ယ[UNK]ယ်ကမ္ဘာ လဲ့ မ[UNK]မိတ်[UNK]တွေး[UNK]ေ[UNK]ေ[UNK]ထညဲ[UNK] ဝါ[UNK]တဲ့ အငွေ[UNK]တ[UNK]",
+      "confidence": null,
+      "runtime": 10.193,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_10.wav",
+      "start": 218.0,
+      "end": 243.0,
+      "raw_burmese_transcript": "[UNK]ထယ်[UNK]ဝါ[UNK]တဲ့ [UNK]ငွေ[UNK]ေ[UNK]တ[UNK]လေး[UNK]ရေ[UNK] [UNK]န[UNK]ာ[UNK]လေ[UNK] [UNK]တွေး[UNK]လေ ဆွေး[UNK] လေ[UNK] ပြေး[UNK] လေ[UNK] ဝေး[UNK] လေ[UNK] ရ[UNK]ေ်း[UNK] ၎ီး[UNK]ရေ်း[UNK] ရီး[UNK]ရေ[UNK]န[UNK]င်ပေး[UNK]တဲ့ [UNK]န[UNK]န်း[UNK]ခု[UNK]ကျ[UNK]တော့ အလွမ်း[UNK]နဲ့ [UNK]ဇာတ်သိမ်[UNK] [UNK]မာ[UNK]ရာ[UNK]မျ[UNK]း[UNK] နဲ့ ပြိ[UNK]တ္်း[UNK]း[UNK]တ[UNK]န်[UNK]ရာ[UNK]မျှ[UNK]း[UNK]ကျက်ပိတ်သိမ် [UNK]ဘယ်[UNK]မာ[UNK]လဲ[UNK] [UNK]ဟေ့[UNK]",
+      "normalized_transcript": "[UNK]ထယ်[UNK]ဝါ[UNK]တဲ့ [UNK]ငွေ[UNK]ေ[UNK]တ[UNK]လေး[UNK]ရေ[UNK] [UNK]န[UNK]ာ[UNK]လေ[UNK] [UNK]တွေး[UNK]လေ ဆွေး[UNK] လေ[UNK] ပြေး[UNK] လေ[UNK] ဝေး[UNK] လေ[UNK] ရ[UNK]ေ်း[UNK] ၎ီး[UNK]ရေ်း[UNK] ရီး[UNK]ရေ[UNK]န[UNK]င်ပေး[UNK]တဲ့ [UNK]န[UNK]န်း[UNK]ခု[UNK]ကျ[UNK]တော့ အလွမ်း[UNK]နဲ့ [UNK]ဇာတ်သိမ်[UNK] [UNK]မာ[UNK]ရာ[UNK]မျ[UNK]း[UNK] နဲ့ ပြိ[UNK]တ္်း[UNK]း[UNK]တ[UNK]န်[UNK]ရာ[UNK]မျှ[UNK]း[UNK]ကျက်ပိတ်သိမ် [UNK]ဘယ်[UNK]မာ[UNK]လဲ[UNK] [UNK]ဟေ့[UNK]",
+      "confidence": null,
+      "runtime": 7.851,
+      "logit_shape": [
+        1,
+        625,
+        65
+      ],
+      "repetition_warning": false
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_01.wav",
+      "start": 20.0,
+      "end": 45.0,
+      "raw_burmese_transcript": "ဒုတ်ခါတွေ တစ်ပွေ တစ်တန်း မှာ ခ�",
+      "normalized_transcript": "ဒုတ်ခါတွေ တစ်ပွေ တစ်တန်း မှာ ခ�",
+      "confidence": null,
+      "runtime": 9.368,
+      "hallucination_warning": false
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_02.wav",
+      "start": 42.0,
+      "end": 67.0,
+      "raw_burmese_transcript": "အချက်အောင် ပေချေးေရှား မေဆယ်�",
+      "normalized_transcript": "အချက်အောင် ပေချေးေရှား မေဆယ်�",
+      "confidence": null,
+      "runtime": 4.621,
+      "hallucination_warning": false
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_03.wav",
+      "start": 64.0,
+      "end": 89.0,
+      "raw_burmese_transcript": "မာကြောင်များ များ အား လည်းပျဲ �",
+      "normalized_transcript": "မာကြောင်များ များ အား လည်းပျဲ �",
+      "confidence": null,
+      "runtime": 7.231,
+      "hallucination_warning": false
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_04.wav",
+      "start": 86.0,
+      "end": 111.0,
+      "raw_burmese_transcript": "ရဲလ် ရဲ့ လူ့အောင်းလုံး မှန်း မ�",
+      "normalized_transcript": "ရဲလ် ရဲ့ လူ့အောင်းလုံး မှန်း မ�",
+      "confidence": null,
+      "runtime": 7.198,
+      "hallucination_warning": false
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_05.wav",
+      "start": 108.0,
+      "end": 133.0,
+      "raw_burmese_transcript": "ဲစီတကောင်း လို့ ရောင်ချောင့်�",
+      "normalized_transcript": "ဲစီတကောင်း လို့ ရောင်ချောင့်�",
+      "confidence": null,
+      "runtime": 7.173,
+      "hallucination_warning": false
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_06.wav",
+      "start": 130.0,
+      "end": 155.0,
+      "raw_burmese_transcript": "စာနောက်ချင်း ရဲ့ များပွဲ အေး မ�",
+      "normalized_transcript": "စာနောက်ချင်း ရဲ့ များပွဲ အေး မ�",
+      "confidence": null,
+      "runtime": 7.27,
+      "hallucination_warning": false
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_07.wav",
+      "start": 152.0,
+      "end": 177.0,
+      "raw_burmese_transcript": "လူနောက် နောက် နောက် နောက် နောက�",
+      "normalized_transcript": "လူနောက် နောက် နောက် နောက် နောက�",
+      "confidence": null,
+      "runtime": 2.99,
+      "hallucination_warning": false
+    },
+    {
+      "model": "chuuhtetnaing/whisper-small-myanmar",
+      "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_08.wav",
+      "start": 174.0,
+      "end": 199.0,
+      "raw_burmese_transcript": "ယူ့ ကိုအား လို့ ရှောင်ဆေး တစ်က�",
+      "normalized_transcript": "ယူ့ ကိုအား လို့ ရှောင်ဆေး တစ်က�",
+      "confidence": null,
+      "runtime": 2.99,
+      "hallucination_warning": false
+    }
+  ],
+  "summary": {
+    "model_count": 2,
+    "segment_count": 18,
+    "models": [
+      {
+        "model": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+        "status": "completed",
+        "revision": "3a0bb058936140acfe7c905171eefc78234e93be"
+      },
+      {
+        "model": "chuuhtetnaing/whisper-small-myanmar",
+        "status": "completed",
+        "revision": "f3de3c167914fec3c0974aad1189eda3fa77d8cd"
+      }
+    ]
+  }
+}

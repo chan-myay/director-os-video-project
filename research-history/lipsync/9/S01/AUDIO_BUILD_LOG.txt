@@ -1,0 +1,35 @@
+$ /Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffmpeg -y -ss 32.180 -t 2.640 -i /Users/chan/song-video-project/audio/01.mp3 -ar 44100 -ac 1 /Users/chan/song-video-project/director-os/lipsync/9/S01/FULL_MIX_SEGMENT.wav
+ffmpeg version 6.0-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers
+  built with Apple clang version 11.0.0 (clang-1100.0.33.17)
+  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay
+  libavutil      58.  2.100 / 58.  2.100
+  libavcodec     60.  3.100 / 60.  3.100
+  libavformat    60.  3.100 / 60.  3.100
+  libavdevice    60.  1.100 / 60.  1.100
+  libavfilter     9.  3.100 /  9.  3.100
+  libswscale      7.  1.100 /  7.  1.100
+  libswresample   4. 10.100 /  4. 10.100
+  libpostproc    57.  1.100 / 57.  1.100
+Input #0, mp3, from '/Users/chan/song-video-project/audio/01.mp3':
+  Metadata:
+    TBPM            : 0
+    compilation     : 0
+  Duration: 00:04:52.70, start: 0.025057, bitrate: 322 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 320 kb/s
+    Metadata:
+      encoder         : LAME3.100
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/Users/chan/song-video-project/director-os/lipsync/9/S01/FULL_MIX_SEGMENT.wav':
+  Metadata:
+    TBPM            : 0
+    compilation     : 0
+    ISFT            : Lavf60.3.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+    Metadata:
+      encoder         : Lavc60.3.100 pcm_s16le
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    
+size=     227kB time=00:00:02.61 bitrate= 712.3kbits/s speed= 518x    
+video:0kB audio:227kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.033498%
+

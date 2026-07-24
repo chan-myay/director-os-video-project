@@ -1,0 +1,25 @@
+shot_number,title,start,end,renderer,status
+S001,Object Prologue,00:00.00,00:08.00,manual/local existing,approved
+S002,Stronger Entrance,00:08.04,00:16.05,Seedance or Kling after refs,planned
+S003,Side Travel,00:16.09,00:24.09,"Seedance first, Kling fallback",planned
+S004,Profile Shadow,00:24.13,00:32.13,Kling/Seedance after motion ref,planned
+S005,Dress Pivot,00:32.18,00:40.18,Seedance,planned
+S006,Chorus Power,00:47.28,00:55.28,Kling Motion Control if start frame exists,planned
+S007,Non-face Inserts,01:02.38,01:10.38,local/existing cutaways,planned
+S008,Final Symbol,01:17.48,01:25.48,existing footage,planned
+S009,Object Prologue,01:37.66,01:45.66,manual/local existing,planned
+S010,Stronger Entrance,01:54.28,02:02.28,Seedance or Kling after refs,planned
+S011,Side Travel,02:10.89,02:18.89,"Seedance first, Kling fallback",planned
+S012,Profile Shadow,02:27.50,02:35.50,Kling/Seedance after motion ref,planned
+S013,Dress Pivot,02:44.12,02:50.18,Seedance,planned
+S014,Chorus Power,02:50.18,02:56.24,Kling Motion Control if start frame exists,planned
+S015,Non-face Inserts,02:56.24,03:04.24,local/existing cutaways,planned
+S016,Final Symbol,03:10.83,03:18.83,existing footage,planned
+S017,Object Prologue,03:25.41,03:33.41,manual/local existing,planned
+S018,Stronger Entrance,03:40.00,03:48.00,Seedance or Kling after refs,planned
+S019,Side Travel,03:55.44,04:03.44,"Seedance first, Kling fallback",planned
+S020,Profile Shadow,04:06.13,04:14.13,Kling/Seedance after motion ref,planned
+S021,Dress Pivot,04:16.83,04:24.83,Seedance,planned
+S022,Chorus Power,04:27.53,04:35.53,Kling Motion Control if start frame exists,planned
+S023,Non-face Inserts,04:38.22,04:45.44,local/existing cutaways,planned
+S024,Final Symbol,04:45.44,04:52.66,existing footage,planned

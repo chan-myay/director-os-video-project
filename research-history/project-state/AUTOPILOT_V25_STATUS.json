@@ -1,0 +1,102 @@
+{
+  "version": "v2.5",
+  "created_at": "2026-07-24T00:33:19.607812+00:00",
+  "default_route": "/studio/projects/burmese-music-video",
+  "autopilot_enabled": true,
+  "timeline": {
+    "path": "/Users/chan/song-video-project/director-os/state/AUDIO_TRUTH_TIMELINE_V5.json",
+    "occurrence_count": 21,
+    "trusted_visible": 1,
+    "hidden": 20
+  },
+  "captions": {
+    "version": "audio-truth-v5",
+    "review_caption_count": 21,
+    "verified_caption_count": 1,
+    "hidden_occurrence_count": 20,
+    "production_ready": false,
+    "font_readability": "passed"
+  },
+  "font": {
+    "version": "font-validation-v2",
+    "font_name": "Noto Sans Myanmar",
+    "font_file": "/System/Library/Fonts/NotoSansMyanmar.ttc",
+    "font_exists": true,
+    "sample_text": "မြန်မာစာ စမ်းသပ်မှု ၁၂၃ ABC\nအချစ်မဲ့ ဇာတ်လမ်း",
+    "sample_path": "/Users/chan/song-video-project/director-os/captions/font-validation-v2/BURMESE_SAMPLE.png",
+    "player_sample_path": "/Users/chan/song-video-project/director-os/captions/font-validation-v2/PLAYER_CAPTION_SAMPLE.png",
+    "ass_sample_path": "/Users/chan/song-video-project/director-os/captions/font-validation-v2/ASS_CAPTION_SAMPLE.png",
+    "readability_status": "passed",
+    "caption_style": {
+      "font_size_1080p": 72,
+      "outline_px": 5,
+      "shadow_px": 2,
+      "bottom_margin_px": 110,
+      "max_lines": 2,
+      "background_box": "semi_transparent_black"
+    },
+    "checks": {
+      "burmese_shaping": "rendered_sample_created",
+      "combining_marks": "included_in_sample",
+      "line_wrapping": "two_line_sample",
+      "mixed_burmese_english": "included_in_sample"
+    }
+  },
+  "preview": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/autopilot-v25",
+    "clean": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/autopilot-v25/BEST_CLEAN_VIDEO.mp4",
+    "captioned_verified_only": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/autopilot-v25/BEST_VERIFIED_CAPTIONED_VIDEO.mp4",
+    "review_debug": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/autopilot-v25/REVIEW_DEBUG_VIDEO.mp4",
+    "clean_url": "/studio-assets/burmese-music-video/previews/autopilot-v25/BEST_CLEAN_VIDEO.mp4",
+    "captioned_url": "/studio-assets/burmese-music-video/previews/autopilot-v25/BEST_VERIFIED_CAPTIONED_VIDEO.mp4",
+    "review_url": "/studio-assets/burmese-music-video/previews/autopilot-v25/REVIEW_DEBUG_VIDEO.mp4",
+    "validation": {
+      "clean": {
+        "duration": 292.72,
+        "video_duration": 292.72,
+        "audio_duration": 292.663991,
+        "has_video": true,
+        "has_audio": true,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "captioned": {
+        "duration": 292.72,
+        "video_duration": 292.72,
+        "audio_duration": 292.663991,
+        "has_video": true,
+        "has_audio": true,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "http_range_required": true,
+      "status": "ok"
+    }
+  },
+  "inventory": {
+    "concepts": true,
+    "storyboard_frames": 24,
+    "generated_images": 0,
+    "composite_frames": 24,
+    "generated_videos": 18,
+    "prompt_packages": 24,
+    "captions": 13,
+    "audio_analysis": true,
+    "lip_sync_segments": 21,
+    "production_packages": 24
+  },
+  "prompt_packages": {
+    "package_count": 24,
+    "export_all_ready": true
+  },
+  "lip_sync": {
+    "ready_occurrence_count": 0,
+    "status": "blocked_by_v5_caption_truth_gate"
+  },
+  "production_brain": {
+    "path": "/Users/chan/song-video-project/director-os/state/PRODUCTION_BRAIN.json",
+    "status": "updated"
+  },
+  "report": "/Users/chan/song-video-project/director-os-web/WEB_V2_5_DEFAULT_AUTOPILOT_AND_CAPTION_TRUTH_REPORT.md",
+  "next_action": "Open the default Autopilot Studio and review the clean video; enable verified captions only if desired."
+}

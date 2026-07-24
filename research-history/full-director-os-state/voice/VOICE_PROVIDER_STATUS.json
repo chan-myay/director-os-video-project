@@ -1,0 +1,16 @@
+{
+  "system_voice": {
+    "available": true,
+    "status": "local_system_candidate"
+  },
+  "azure": {
+    "available": false,
+    "status": "requires_explicit_cloud_approval"
+  },
+  "local_burmese": {
+    "available": false,
+    "status": "LOCAL_VOICE_MODEL_REQUIRED"
+  },
+  "operational": false,
+  "blocker": "VOICE_PROVIDER_NOT_CONFIGURED"
+}

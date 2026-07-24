@@ -1,0 +1,40 @@
+{
+  "failures": [
+    {
+      "code": "LOUNGE_KARAOKE_DRIFT",
+      "problem": "Warm lounge/karaoke direction weakened the song.",
+      "reusable_lesson": "Use rhythm, pressure, dance/performance.",
+      "confidence": 0.94,
+      "date": "2026-07-13T17:07:16.768490+00:00"
+    },
+    {
+      "code": "FAKE_LIPSYNC",
+      "problem": "Generated singing mouth is not final Burmese lip-sync.",
+      "reusable_lesson": "Hide mouth; lip-sync only after edit and face lock.",
+      "confidence": 0.95,
+      "date": "2026-07-13T17:07:16.768492+00:00"
+    },
+    {
+      "code": "FAKE_BODY_PROPORTIONS",
+      "problem": "Batch D/E failures enlarged hips/body or modelized shape.",
+      "reusable_lesson": "Natural adult body lock; use motion reference.",
+      "confidence": 0.96,
+      "date": "2026-07-13T17:07:16.768494+00:00"
+    },
+    {
+      "code": "REPEATED_FRONT_DANCE",
+      "problem": "Current cut repeats front-facing movement.",
+      "reusable_lesson": "Add side-travel/profile/silhouette/non-face inserts.",
+      "confidence": 0.9,
+      "date": "2026-07-13T17:07:16.768496+00:00"
+    },
+    {
+      "code": "WRONG_VENUE_FACE",
+      "problem": "Some selected/rejected clips have wrong face or wrong venue.",
+      "reusable_lesson": "Use only with caution or after correction.",
+      "confidence": 0.89,
+      "date": "2026-07-13T17:07:16.768499+00:00"
+    }
+  ],
+  "updated_at": "2026-07-13T17:07:16.768501+00:00"
+}

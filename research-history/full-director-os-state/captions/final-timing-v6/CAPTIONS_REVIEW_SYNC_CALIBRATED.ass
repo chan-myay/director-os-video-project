@@ -1,0 +1,34 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Burmese,Noto Sans Myanmar,52,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,0,0,0,0,100,100,0,0,3,4,1,2,80,80,92,1
+Style: Warning,Noto Sans Myanmar,42,&H0000FFFF,&H000000FF,&H00000000,&HAA000000,1,0,0,0,100,100,0,0,3,2,1,8,60,60,48,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:02:33.66,Warning,,0,0,0,,SYNC CALIBRATED REVIEW - LOW CONFIDENCE UNTIL APPROVED
+Dialogue: 0,0:00:32.98,0:00:35.62,Burmese,,0,0,0,,P1 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း
+Dialogue: 0,0:00:36.34,0:00:38.42,Burmese,,0,0,0,,P2 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ
+Dialogue: 0,0:00:39.66,0:00:45.90,Burmese,,0,0,0,,P3 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်
+Dialogue: 0,0:00:46.22,0:00:48.62,Burmese,,0,0,0,,P4 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …
+Dialogue: 0,0:00:49.22,0:01:05.74,Burmese,,0,0,0,,P5 UNVERIFIED vocal_onset_corrected conf 0.61 offset +0.80s: မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း
+Dialogue: 0,0:01:05.96,0:01:12.20,Burmese,,0,0,0,,P6 UNVERIFIED vocal_onset_corrected conf 0.66 offset +0.80s: မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်
+Dialogue: 0,0:01:12.44,0:01:18.92,Burmese,,0,0,0,,P7 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး
+Dialogue: 0,0:01:19.20,0:01:31.28,Burmese,,0,0,0,,P8 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး
+Dialogue: 0,0:01:32.30,0:01:33.38,Burmese,,0,0,0,,P9 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့
+Dialogue: 0,0:01:38.46,0:01:41.36,Burmese,,0,0,0,,P10 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ
+Dialogue: 0,0:01:41.62,0:01:44.86,Burmese,,0,0,0,,P11 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: တစ်ကောင်လို ရောင်ခြောက်ဆယ်
+Dialogue: 0,0:01:45.54,0:01:52.90,Burmese,,0,0,0,,P12 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်
+Dialogue: 0,0:01:53.30,0:01:54.32,Burmese,,0,0,0,,P13 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး
+Dialogue: 0,0:01:54.84,0:01:58.24,Burmese,,0,0,0,,P14 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး
+Dialogue: 0,0:01:58.76,0:02:04.48,Burmese,,0,0,0,,P15 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်
+Dialogue: 0,0:02:04.66,0:02:11.16,Burmese,,0,0,0,,P16 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး
+Dialogue: 0,0:02:11.56,0:02:14.00,Burmese,,0,0,0,,P17 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….
+Dialogue: 0,0:02:14.78,0:02:20.50,Burmese,,0,0,0,,P18 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း
+Dialogue: 0,0:02:21.10,0:02:24.26,Burmese,,0,0,0,,P19 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်
+Dialogue: 0,0:02:24.62,0:02:30.68,Burmese,,0,0,0,,P20 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး
+Dialogue: 0,0:02:30.90,0:02:33.66,Burmese,,0,0,0,,P21 UNVERIFIED vocal_onset_corrected conf 0.71 offset +0.80s: ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး

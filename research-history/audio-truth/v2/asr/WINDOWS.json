@@ -1,0 +1,62 @@
+[
+  {
+    "index": 1,
+    "start": 20.0,
+    "end": 45.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_01.wav"
+  },
+  {
+    "index": 2,
+    "start": 42.0,
+    "end": 67.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_02.wav"
+  },
+  {
+    "index": 3,
+    "start": 64.0,
+    "end": 89.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_03.wav"
+  },
+  {
+    "index": 4,
+    "start": 86.0,
+    "end": 111.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_04.wav"
+  },
+  {
+    "index": 5,
+    "start": 108.0,
+    "end": 133.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_05.wav"
+  },
+  {
+    "index": 6,
+    "start": 130.0,
+    "end": 155.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_06.wav"
+  },
+  {
+    "index": 7,
+    "start": 152.0,
+    "end": 177.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_07.wav"
+  },
+  {
+    "index": 8,
+    "start": 174.0,
+    "end": 199.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_08.wav"
+  },
+  {
+    "index": 9,
+    "start": 196.0,
+    "end": 221.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_09.wav"
+  },
+  {
+    "index": 10,
+    "start": 218.0,
+    "end": 243.0,
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/asr/windows/window_10.wav"
+  }
+]

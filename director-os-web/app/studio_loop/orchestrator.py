@@ -96,7 +96,7 @@ def build_production_brain(loop_id: int, iteration: int) -> dict[str, Any]:
         "pronunciation": [event.get("pronunciation_helper") for event in brain_timeline.get("events", [])],
         "meaning": _read_optional(ENGINE_ROOT / "state" / "LYRIC_MEANING_EMOTION_MAP.json"),
         "emotional_arc": "phrase-level heuristic/director-inferred; not automatic emotion recognition",
-        "characters": {"wife_performer": "consenting adult performer; private identity assets restricted"},
+        "characters": {"lead_performer_performer": "consenting adult performer; private identity assets restricted"},
         "identity": {"approved_refs": ["REF-A1", "REF-A2"], "privacy": "exact approved only"},
         "wardrobe": {"locked": "deep-red one-shoulder Burmese-inspired dress"},
         "locations": {"locked": "approved dark Finnish bar, winter window"},

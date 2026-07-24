@@ -1,0 +1,8 @@
+{
+  "review_captions_available": true,
+  "production_captions_ready": false,
+  "timing_source": "phrase_boundary_local_analysis",
+  "verified_phrases": 0,
+  "unverified_phrases": 21,
+  "wrong_line_phrases": 0
+}

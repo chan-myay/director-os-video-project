@@ -21,9 +21,9 @@ Status: planning/assembly pass before any new credit spending.
 |---|---:|---|---|---|
 | 01 | 00:00–00:12 | Finnish winter exterior; warm bar window | A01 winter exterior | None |
 | 02 | 00:12–00:24 | Empty bar push; Burmese craft punctuation | A02 + A07 | None |
-| 03 | 00:24–00:32 | Wife three-quarter emotional reveal; tiny natural movement | Mouth-safe C03/C10 hold | G01 only if existing hold is insufficient |
+| 03 | 00:24–00:32 | lead performer three-quarter emotional reveal; tiny natural movement | Mouth-safe C03/C10 hold | G01 only if existing hold is insufficient |
 | 04 | 00:32–00:45 | Stable mature portrait; eyes lowered then raised | Mouth-safe C01 sections | New portrait only if mouth cannot be hidden |
-| 05 | 00:45–00:56 | Winter window and wife profile alternating | A08 + mouth-safe C07 after 00:02 | None initially |
+| 05 | 00:45–00:56 | Winter window and lead performer profile alternating | A08 + mouth-safe C07 after 00:02 | None initially |
 | 06 | 00:56–01:08 | Two glasses, empty chair, rose | A03 + A04 + A05 | None |
 | 07 | 01:08–01:22 | Close emotional portrait; natural over-40 face | C06/C08/C10 holds | G01 alternate only if needed |
 | 08 | 01:22–01:37 | Stopped clock, snow branches, Burmese lacquer | A06 + A08 + A07 | None |
@@ -41,7 +41,7 @@ Status: planning/assembly pass before any new credit spending.
 | 20 | 04:10–04:22 | Rose and glass decision; hands only | A05 + A03 + clean B07 fragment | None if hand QC passes |
 | 21 | 04:22–04:35 | Strong final portrait with slow pull-back | C10/C06 hold | G08 only if existing hold cannot cover |
 | 22 | 04:35–04:42 | Burmese lacquer, carved teak and snow window | A07 + A08 | None |
-| 23 | 04:42–04:48 | Final still wife portrait; breath and gaze only | C10 | G09 only if C10 identity fails |
+| 23 | 04:42–04:48 | Final still lead performer portrait; breath and gaze only | C10 | G09 only if C10 identity fails |
 | 24 | 04:48–04:52.66 | Rose beside empty microphone; light fades | A10 + A05 | None |
 
 ## Images to generate first
@@ -50,7 +50,7 @@ Do not generate 24 new images. Generate only the missing composition locks:
 
 ### I01 / G01 performer portrait
 
-- Exact wife, mature over 40.
+- Exact lead performer, mature over 40.
 - Same approved red dress and same approved bar.
 - Three-quarter medium-close at eye level.
 - Winter window behind.
@@ -113,7 +113,7 @@ Never place these in the revised timeline:
 
 ## Clean-version performance rule
 
-The wife is clearly the emotional singer, but until reliable Burmese lip-sync
+The lead performer is clearly the emotional singer, but until reliable Burmese lip-sync
 exists, visible mouths remain closed, concealed in profile, held between words
 or covered by motivated cutaways. The original master song remains untouched.
 

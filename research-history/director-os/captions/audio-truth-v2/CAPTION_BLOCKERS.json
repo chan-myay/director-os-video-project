@@ -1,0 +1,7 @@
+{
+  "production_captions_ready": false,
+  "blockers": [
+    "NO_HIGH_CONFIDENCE_FULL_ALIGNMENT"
+  ],
+  "review_caption_count": 20
+}

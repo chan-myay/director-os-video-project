@@ -1,0 +1,15 @@
+{
+  "status": "awaiting_approval",
+  "score": 57.53,
+  "critical_failures": [
+    "CAPTION_SYNC_UNVERIFIED"
+  ],
+  "approvals_required": [
+    {
+      "approval_type": "local_model_or_asr_setup",
+      "summary": "Choose one local storyboard/ASR capability before final AI generation or trusted lyric alignment can pass.",
+      "status": "pending"
+    }
+  ],
+  "next_action": "Choose one local storyboard/ASR capability before final AI generation or trusted lyric alignment can pass."
+}

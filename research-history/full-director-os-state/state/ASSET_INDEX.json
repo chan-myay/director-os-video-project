@@ -1,0 +1,586 @@
+{
+  "records": [
+    {
+      "path": "references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png",
+      "role": "identity_front",
+      "status": "approved",
+      "exists": true,
+      "sha256": "63b51490c006178edfada123ffc0eab58899af150b47d13a4f39a724db1fb836",
+      "size": 707768,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png",
+      "role": "identity_threequarter",
+      "status": "approved",
+      "exists": true,
+      "sha256": "77580430c4a37644b778851fbef87909debb2f56849fa165857c60d282524a3c",
+      "size": 707424,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png",
+      "role": "wardrobe_body",
+      "status": "approved",
+      "exists": true,
+      "sha256": "4d91c416d78ffbcdcd2f37b1faf83914758fd42bef8baaf87bfc82f9f5420ed5",
+      "size": 1683529,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "references/identity-source-selected/IMG_4079.heic.png",
+      "role": "natural_body_source",
+      "status": "approved",
+      "exists": true,
+      "sha256": "5fc46ebda9e0c219e19706480d42a84b80ced83f03780e8bfc07d5f72e95a902",
+      "size": 9544795,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "references/approved/REF-C_BAR-STAGE_APPROVED.png",
+      "role": "bar_stage",
+      "status": "approved",
+      "exists": true,
+      "sha256": "1248f7538eb484fcc5d2ba95cb20a29dc5184e70dd78368fd9d8b65938169312",
+      "size": 2344972,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png",
+      "role": "burmese_art_world",
+      "status": "approved",
+      "exists": true,
+      "sha256": "807c535cbda91767a16335d261c04cd9f9cf683930c1d6edfaf9c36d173de0c5",
+      "size": 2565261,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/.DS_Store",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "a975096583505ebbafa01aeafab3b4d16b15b95cd6cb9470e96e672ac9b7270a",
+      "size": 6148,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A01_winter-exterior_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "7e244b919bea42f05c5349870cc9c7b09e6676668f52238bf9d01fe13de35458",
+      "size": 6291785,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A02_empty-bar_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "84f1b18e541d57b8012679b2a8658466c51b4c1f6bde824438c77fa9e047fc85",
+      "size": 5911705,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A03_two-glasses_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "744f4d582b40caf3df92d09c40b9e716ac3c0c2885423b30c19665a5cfcad145",
+      "size": 3797156,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A04_empty-chair_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "14bca6b8ca2dfcdf5c59a87d1e9628357cc5af6995e24a941b02e2b661f55620",
+      "size": 2392952,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A05_rose-macro_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "7c8eb194aa6f81facd73393b395b98043cc1d40917803264f3f859d4df2250e2",
+      "size": 1618644,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A06_stopped-clock_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "6fa38497aaac5eb7738899aa724c4c852a97ae25ca7d40e5cc830819724d6f87",
+      "size": 1890717,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A07_burmese-craft_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "a5118bc3d01fede4a38b222af6c7e328e120571a21847b2664702d2aa2c66da8",
+      "size": 3919436,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A08_snow-window_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "586b00520338d9f262896a06336ba4c0857bf22031a4f28689480d25b809653b",
+      "size": 6155886,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A09_door-bolt_SELECTED-reversed-to-lock.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "5bb2df2faa8412f3ef3de053f04050aa28fb7d11075937367c8ad934a8b88fdf",
+      "size": 8190983,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-a/A10_empty-microphone_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "3e0aae0d92c320c77da8b93e85320e401d168c3636f524b4ed71cd7a7b4599fc",
+      "size": 2573723,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-b/B02_weight-shift-wrist_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "fb46a5f431f950b0e32230a5f3487ed461125a455f63b9a6b563a9f42342f4fb",
+      "size": 2968632,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-b/B03_curtain-silhouette_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "53a61a163947fbf8c8d32c3a5f54788a6fb814404d4742cf509276185a6810b1",
+      "size": 3170148,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-b/B04_aisle-travel-a_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "124a8fbc58f7926492ebcc5e366a475843f2c693258f469508fdc6e136c62b9d",
+      "size": 5621577,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-b/B05_aisle-travel-b_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "065ccdf6bf5b83aa6414178e226f66abff811d8772063fa04eeab433584c3927",
+      "size": 5424372,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-b/B06_return-to-stage_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "831a4133f14d77f7032e267bdb11bffd6e7caa1176bf23fd596273aaee8e02b8",
+      "size": 5977321,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-b/B07_rose-placement_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "f08f55cec82397e4501bceeb806b6843849d36a0acc09c9895f80970d39e6463",
+      "size": 2958315,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-b/B08_curtain-exit_SELECTED-TRIM-BEFORE-CLOSE.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "c6e647e38772c995ffae3204be20e0129b82d6a7c56ea0ad0cc66ed30335ad6f",
+      "size": 3195977,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C01_verse1-stable-medium_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "493768a15e182eb96dd84c30226aa4e06ca9c115ce478acc7bba5f014cdce7ab",
+      "size": 2270246,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C02_verse1-frontal-close_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "8ae5af552b4a984ce015b60b968b90e12beea2fc4c7aa56617655262a395c23f",
+      "size": 1493629,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C03_verse1-threequarter-emotion_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "786c3408146958e5ac588c4f5dcf201d915d52194947de7997ca8ad44cf0fb66",
+      "size": 1945860,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C04_pre-chorus-hand-heart_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "7f984c34c85f5cbdc415ee5806f522fadfb923ee637279697df06577ddc0ab63",
+      "size": 1562535,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C05_chorus-emotional-front_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "e455e39c52406b7322d6231ff24852dc7c454fd7f9478529b89ff2daa2c56b31",
+      "size": 2062810,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C06_chorus-silent-emotional-hold_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "dbaec52ea1770d293fa223e48808286bd2d61b8d1cfaa7648c4a424e6469f63e",
+      "size": 1737870,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C07_profile-memory-look_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "988753063f89539e7b47bdc7e3b5226c6e21f20dcb553541b22af2b843e33d0c",
+      "size": 2134348,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C07_profile-memory-look_SELECTED_use-after-00-02.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "49b506ff7c1c5eca2b99fd5edba10a8c2dfbce9454431846db97284da34e7b09",
+      "size": 1729453,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C08_tearful-close-eye-detail_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "8a110f1e08b29dfac83fecee1713141fa0b3232f1e0b035ba13266f8ef43a027",
+      "size": 1742330,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C09_chorus-performance-wide_SELECTED-stage-continuity-face-caution.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "6508ae264744a988348a02e2dd9a84508d65a7ad61c85eda0d86ea6e3ee8c31f",
+      "size": 4265030,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-c/C10_final-still-resolve_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "14675743aab77aa7dff95802e24c18029dadf5326540f43a3af1d6fc950c409d",
+      "size": 1611183,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "62de45001b3533059a0ca4f3cca33e1ffbb2f77ce0366568ee3b508d4f06df77",
+      "size": 4363177,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "7a1ce1d09d77fe0fb2bc6351ec28a8fde1553d112028b10a682eca5bdb7581b8",
+      "size": 4194190,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-d/D04_backlit-silhouette-rhythm_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "3353398c1c8673da4ebf9e6b64e389b97c47f00b8366c8035461b6e1b12d6563",
+      "size": 4298389,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-d/D05_feet-dress-rhythm_SELECTED.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "0f286bec25df7b3b77bc131b4a04676376bd0831f7990cbd348f22c5bf6c5d2d",
+      "size": 2865887,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4",
+      "role": "selected_clip",
+      "status": "selected",
+      "exists": true,
+      "sha256": "f7c899670ec8e01e8fe8247101b8a0b4dd744ffc8512edc9ce4bd8b1d0c28b19",
+      "size": 2847870,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-a/A04_empty-chair_take01_REJECTED-prop-and-camera-continuity.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "79839a4a0f8acc9ffbbd167c04692dc8807e227b35214cdffeddffa975a2c6f3",
+      "size": 2559022,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-a/A09_door-bolt_take01_REJECTED-unlocks-instead-of-locks.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "cff7e78c745b376d9d90be3424fe27c247553064ebb169a45dde66d1d98d6e41",
+      "size": 2754915,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-a/A09_door-bolt_take02_REJECTED-entire-housing-slides.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "4107d1ca30401dd78f347c893d9521d7281533f4738019338e78aee0960337d6",
+      "size": 2600105,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-a/A10_empty-microphone_take01_REJECTED-cartoon-props-wrong-stage-no-fade.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "c3f5dd2b6a14a37e17a996744116079e1cb6c07193d44586449c7bda22f90ff6",
+      "size": 2248576,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-b/B01_microphone-half-turn_take01_REJECTED-walks-forward-no-half-turn.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "282a8f165d6e715338720e7aaed997c36c25b9eebe2a1b4e5cb0114dcd7267a1",
+      "size": 3263072,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-b/B01_microphone-half-turn_take02_REJECTED-doll-like-turn-motion.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "e2cddee54c3a3f93e4125d3ca7bbfabb6a5ae9c914ff520ef7728cca22b079f2",
+      "size": 2793353,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-b/B01_microphone-half-turn_take03_REJECTED-performer-replacement-magic-disappearance.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "d04406cafab02e56ea9fab7800c3e44ebd26ac67e080e831f636d39fb6067805",
+      "size": 3807587,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-b/B06_return-to-stage_take01_REJECTED-back-symbols-hair-and-hem-continuity.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "6ed936dd411089a8d6fd3bed44e3cce4c9b4ae6ebbceac34fa45361f4752cf5c",
+      "size": 4399434,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-b/B07_rose-placement_take01_REJECTED-microphone-waist-height.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "1b25f03da2df608fb1327c822748920ee7cd932b76d8bf1eca22aea8d2fc72c5",
+      "size": 2981665,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-b/B08_curtain-exit_take01_REJECTED-hair-changes-to-bun.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "999f9c3330bce6b8d2eb4c18cabcafb112c676e5b130b561f9f9082c97151df1",
+      "size": 2967023,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-b/B08_curtain-exit_take02_REJECTED-turns-back-and-poses.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "83027978ea1b29e195bf7378764fe6e53905d0272987b4acb2d64f4342bc02ee",
+      "size": 2866242,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-c/C02_verse1-frontal-close_take01_REJECTED_wrong-wardrobe-project-direction.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "344426265d03d79d31c86ad59bb4225f175732dbc733fc1e7233d1425befc27c",
+      "size": 1373882,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-c/C09_chorus-performance-wide_OLD-SELECTED_MOVED-TO-REJECTED_wrong-venue-wrong-face.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "247f321e307648543daedb3d8073c89aa59cb64fa388a8dad79c75c4d4c773d6",
+      "size": 2701689,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-c/C09_chorus-performance-wide_take01_REJECTED_wrong-venue-piano-drums.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "247f321e307648543daedb3d8073c89aa59cb64fa388a8dad79c75c4d4c773d6",
+      "size": 2701689,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-d/D02_rhythm-bar-dance_take01_REJECTED_fake-body-proportions_concept-reference.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "072e6ea8731cb5c35c1c5ae4e9048001c780f35cca7ea44e284ab49fba089325",
+      "size": 4553664,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-d/D06_power-chorus-body-silhouette_FULL-TAKE_face-exposed-caution.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "0beec4a46f01b0c8997dbce3286f575ecaa9dc311fbabb34d773d8fefe4fc533",
+      "size": 3570251,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-e/E01_chorus-bar-dance-wide_take01_REJECTED_repeated-move-face-body-risk.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "709cc8e431d3643c601f48a49ede8f60cbbbf7c32be7828de4bf9d13180f322d",
+      "size": 3918029,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    },
+    {
+      "path": "production/rejected/batch-e/E02_side-travel-dance_take01_REJECTED_fake-body-proportions.mp4",
+      "role": "rejected_clip",
+      "status": "rejected",
+      "exists": true,
+      "sha256": "49351b2b1c0b35246a5af65bf9521f1a8284d6a700960913cdf1c459125a82d5",
+      "size": 4722609,
+      "evidence_source": "filesystem",
+      "confidence": 0.95
+    }
+  ],
+  "count": 58,
+  "updated_at": "2026-07-13T17:07:16.768453+00:00"
+}

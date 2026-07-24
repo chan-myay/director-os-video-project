@@ -1,0 +1,711 @@
+{
+  "version": "audio-truth-v1",
+  "master_song": "/Users/chan/song-video-project/audio/01.mp3",
+  "master_duration": 292.702041,
+  "canonical_lyric_source": {
+    "status": "selected_newest_valid_manual_unicode",
+    "selected": {
+      "path": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+      "filename": "အချစ်မဲ့ ဇာတ်လမ်း.txt",
+      "modified_time": 1783950706.813441,
+      "modified_time_iso": "2026-07-13T16:51:46.813441",
+      "sha256": "cfbfdc77008dac236bd40668592a45c6c6966d342f50b04f59f3ee03caa6636a",
+      "encoding_class": "unicode",
+      "encoding_confidence": 0.98,
+      "line_count": 23,
+      "lyric_phrase_count": 21,
+      "title_credit_section_count": 2,
+      "has_burmese": true,
+      "similarity_to_current_brain": 1.0,
+      "appears_manually_edited": true,
+      "referenced_by_current_production_brain": false,
+      "used_by_studio_v21": false,
+      "sample": "အချစ်မဲ့ ဇာတ်လမ်း\nတေးရေး - မောရှည်\nအလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း\nလွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ"
+    },
+    "encoding": "unicode",
+    "previous_sources": [
+      {
+        "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/inputs/51b07bfca4c4-Zawgyi.txt",
+        "status": "superseded_stale_retained_for_history",
+        "reason": "newer valid Unicode source selected"
+      }
+    ],
+    "requires_user_comparison_approval": false
+  },
+  "alignment_basis": "blocked_until_ctc_asr_bundle_approved",
+  "occurrences": [
+    {
+      "phrase_id": 1,
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "canonical_unicode_lyric": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "source_line": 5,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 32.98,
+      "phrase_end": 35.62,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 2,
+      "occurrence_id": "lyric_line_6d042445_occurrence_1",
+      "canonical_unicode_lyric": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "source_line": 6,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 36.34,
+      "phrase_end": 38.42,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 3,
+      "occurrence_id": "lyric_line_4aefb4cd_occurrence_1",
+      "canonical_unicode_lyric": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "source_line": 7,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 39.66,
+      "phrase_end": 45.9,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 4,
+      "occurrence_id": "lyric_line_29f7541c_occurrence_1",
+      "canonical_unicode_lyric": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "source_line": 8,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 46.22,
+      "phrase_end": 48.62,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 5,
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_1",
+      "canonical_unicode_lyric": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "source_line": 11,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 49.22,
+      "phrase_end": 65.74,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": true,
+        "occurrence_index": 1,
+        "total_occurrences": 2
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 6,
+      "occurrence_id": "lyric_line_8118d138_occurrence_1",
+      "canonical_unicode_lyric": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "source_line": 12,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 65.96,
+      "phrase_end": 72.2,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": true,
+        "occurrence_index": 1,
+        "total_occurrences": 2
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 7,
+      "occurrence_id": "lyric_line_6545c465_occurrence_1",
+      "canonical_unicode_lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "source_line": 13,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 72.44,
+      "phrase_end": 78.92,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": true,
+        "occurrence_index": 1,
+        "total_occurrences": 2
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 8,
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+      "canonical_unicode_lyric": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "source_line": 14,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 79.2,
+      "phrase_end": 91.28,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": true,
+        "occurrence_index": 1,
+        "total_occurrences": 2
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 9,
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "canonical_unicode_lyric": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "source_line": 17,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 92.3,
+      "phrase_end": 93.38,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 10,
+      "occurrence_id": "lyric_line_e7715751_occurrence_1",
+      "canonical_unicode_lyric": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "source_line": 18,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 98.46,
+      "phrase_end": 101.36,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 11,
+      "occurrence_id": "lyric_line_92457abb_occurrence_1",
+      "canonical_unicode_lyric": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "source_line": 19,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 101.62,
+      "phrase_end": 104.86,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 12,
+      "occurrence_id": "lyric_line_7a8eb022_occurrence_1",
+      "canonical_unicode_lyric": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "source_line": 20,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 105.54,
+      "phrase_end": 112.9,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 13,
+      "occurrence_id": "lyric_line_9129302f_occurrence_1",
+      "canonical_unicode_lyric": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "source_line": 21,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 113.3,
+      "phrase_end": 114.32,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 14,
+      "occurrence_id": "lyric_line_2f38aa93_occurrence_1",
+      "canonical_unicode_lyric": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "source_line": 24,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 114.84,
+      "phrase_end": 118.24,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 15,
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "canonical_unicode_lyric": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "source_line": 25,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 118.76,
+      "phrase_end": 124.48,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 16,
+      "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+      "canonical_unicode_lyric": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "source_line": 26,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 124.66,
+      "phrase_end": 131.16,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 17,
+      "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+      "canonical_unicode_lyric": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "source_line": 27,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 131.56,
+      "phrase_end": 134.0,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": false,
+        "occurrence_index": 1,
+        "total_occurrences": 1
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 18,
+      "occurrence_id": "lyric_line_cfe97aeb_occurrence_2",
+      "canonical_unicode_lyric": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "source_line": 29,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 134.78,
+      "phrase_end": 140.5,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": true,
+        "occurrence_index": 2,
+        "total_occurrences": 2
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 19,
+      "occurrence_id": "lyric_line_8118d138_occurrence_2",
+      "canonical_unicode_lyric": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "source_line": 30,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 141.1,
+      "phrase_end": 144.26,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": true,
+        "occurrence_index": 2,
+        "total_occurrences": 2
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 20,
+      "occurrence_id": "lyric_line_6545c465_occurrence_2",
+      "canonical_unicode_lyric": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "source_line": 31,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 144.62,
+      "phrase_end": 150.68,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": true,
+        "occurrence_index": 2,
+        "total_occurrences": 2
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "phrase_id": 21,
+      "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+      "canonical_unicode_lyric": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "source_line": 32,
+      "candidate_corrected_lyric": "",
+      "phrase_start": 150.9,
+      "phrase_end": 153.66,
+      "word_timing": [],
+      "syllable_timing": [],
+      "vocal_onset": null,
+      "vocal_offset": null,
+      "asr_transcripts": [],
+      "ctc_alignment_score": 0.0,
+      "model_agreement": "not_available",
+      "phrase_order_score": 0.5,
+      "repeated_line_mapping": {
+        "repeated": true,
+        "occurrence_index": 2,
+        "total_occurrences": 2
+      },
+      "confidence": 0.0,
+      "evidence": [
+        "canonical_unicode_source",
+        "previous_brain_timing_not_audio_truth"
+      ],
+      "status": "needs_audio_model_approval",
+      "blockers": [
+        "LOCAL_BURMESE_AUDIO_INTELLIGENCE_BUNDLE_APPROVAL_REQUIRED"
+      ]
+    }
+  ],
+  "instrumental_regions": [
+    {
+      "section": "intro",
+      "start": 0,
+      "end": 32.18,
+      "type": "instrumental_or_pre_vocal"
+    },
+    {
+      "section": "vocal_phrase_region",
+      "start": 32.18,
+      "end": 133.2,
+      "type": "vocal"
+    },
+    {
+      "section": "outro_or_missing_later_vocals",
+      "start": 133.2,
+      "end": 292.657625,
+      "type": "instrumental_or_unmapped"
+    }
+  ],
+  "production_caption_allowed": false,
+  "lipsync_allowed": false
+}

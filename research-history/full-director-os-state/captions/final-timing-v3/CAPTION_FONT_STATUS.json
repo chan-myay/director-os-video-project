@@ -1,0 +1,30 @@
+{
+  "detected_fonts": [
+    {
+      "name": "Noto Sans Myanmar",
+      "path": "/System/Library/Fonts/NotoSansMyanmar.ttc",
+      "exists": true
+    },
+    {
+      "name": "Myanmar MN",
+      "path": "/System/Library/Fonts/Supplemental/Myanmar MN.ttc",
+      "exists": true
+    },
+    {
+      "name": "Myanmar Sangam MN",
+      "path": "/System/Library/Fonts/Supplemental/Myanmar Sangam MN.ttc",
+      "exists": true
+    },
+    {
+      "name": "Padauk",
+      "path": "/Library/Fonts/Padauk.ttf",
+      "exists": false
+    }
+  ],
+  "selected_font": "Noto Sans Myanmar",
+  "selected_font_path": "/System/Library/Fonts/NotoSansMyanmar.ttc",
+  "readable": true,
+  "warnings": [],
+  "ass_style": "Fontsize 58, outline 3, shadow 1, safe bottom margin 88, high contrast",
+  "sample_text": "အချစ်မဲ့ ဇာတ်လမ်း"
+}

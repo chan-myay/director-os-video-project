@@ -1,0 +1,12 @@
+{
+  "concepts": true,
+  "storyboard_frames": 24,
+  "generated_images": 0,
+  "composite_frames": 24,
+  "generated_videos": 18,
+  "prompt_packages": 24,
+  "captions": 13,
+  "audio_analysis": true,
+  "lip_sync_segments": 21,
+  "production_packages": 24
+}

@@ -1,0 +1,21 @@
+shot_id,clip_path,visible_face_level,model_primary,model_backup,continuous_shot_group,review_required,notes
+V2C-004,production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4,medium,HiFiFace 256,UniFace 256,D01_reuse_group,yes,Entrance face visible enough to review
+V2C-005,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,small/medium,HiFiFace 256,UniFace 256,D03_reuse_group,yes,Keep wide medium and review identity drift
+V2C-009,production/selected/batch-b/B04_aisle-travel-a_SELECTED.mp4,small/medium,HiFiFace 256,UniFace 256,B04_single_group,yes,Batch B face not trusted; use movement only if possible
+V2C-010,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,small/medium,HiFiFace 256,UniFace 256,D03_reuse_group,yes,Same source group as other D03 uses
+V2C-011,production/selected/batch-c/C01_verse1-stable-medium_SELECTED.mp4,medium/clear,HiFiFace 256,UniFace 256,C01_single_group,yes,Emotional punctuation only after correction review
+V2C-014,production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4,small/medium,HiFiFace 256,UniFace 256,D06_trim_group,yes,Trim avoids close face but still review late frames
+V2C-017,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,small/medium,HiFiFace 256,UniFace 256,D03_reuse_group,yes,Do not mix model within D03 group
+V2C-019,production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4,small/medium,HiFiFace 256,UniFace 256,D06_trim_group,yes,Same source group as D06
+V2C-020,production/selected/batch-b/B03_curtain-silhouette_SELECTED.mp4,shadowed/small,HiFiFace 256,UniFace 256,B03_single_group,optional,Use as silhouette if possible; may not need correction
+V2C-021,production/selected/batch-c/C08_tearful-close-eye-detail_SELECTED.mp4,close/detail,HiFiFace 256,UniFace 256,C08_single_group,yes,Detail only before approval
+V2C-024,production/selected/batch-b/B05_aisle-travel-b_SELECTED.mp4,small/medium,HiFiFace 256,UniFace 256,B05_single_group,yes,Batch B identity not trusted; movement only preferred
+V2C-026,production/selected/batch-c/C07_profile-memory-look_SELECTED_use-after-00-02.mp4,profile medium,HiFiFace 256,UniFace 256,C07_trim_group,yes,Use trimmed profile only
+V2C-027,production/selected/batch-b/B06_return-to-stage_SELECTED.mp4,small/medium,HiFiFace 256,UniFace 256,B06_single_group,yes,Batch B movement only unless correction passes
+V2C-028,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,small/medium,HiFiFace 256,UniFace 256,D03_reuse_group,yes,Same source group as D03
+V2C-030,production/selected/batch-b/B08_curtain-exit_SELECTED-TRIM-BEFORE-CLOSE.mp4,small/medium,HiFiFace 256,UniFace 256,B08_trim_group,yes,Trim before close face
+V2C-031,production/selected/batch-d/D01_dark-dance-entrance_SELECTED.mp4,medium,HiFiFace 256,UniFace 256,D01_reuse_group,yes,Same source group as D01
+V2C-033,production/selected/batch-d/D06_power-chorus-body-silhouette_SELECTED_trim-before-face-close.mp4,small/medium,HiFiFace 256,UniFace 256,D06_trim_group,yes,Same source group as D06
+V2C-035,production/selected/batch-d/D03_rhythm-dance-natural-body_SELECTED-wide-medium-caution.mp4,small/medium,HiFiFace 256,UniFace 256,D03_reuse_group,yes,Same source group as D03
+V2C-036,production/selected/batch-c/C06_chorus-silent-emotional-hold_SELECTED.mp4,medium/clear,HiFiFace 256,UniFace 256,C06_single_group,yes,Close emotional hold requires correction review
+V2C-038,production/selected/batch-b/B07_rose-placement_SELECTED.mp4,small/medium,HiFiFace 256,UniFace 256,B07_single_group,optional,Prefer hand/rose action without face

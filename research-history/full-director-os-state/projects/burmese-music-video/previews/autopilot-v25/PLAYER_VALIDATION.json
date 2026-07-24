@@ -1,0 +1,22 @@
+{
+  "clean": {
+    "duration": 292.72,
+    "video_duration": 292.72,
+    "audio_duration": 292.663991,
+    "has_video": true,
+    "has_audio": true,
+    "video_codec": "h264",
+    "audio_codec": "aac"
+  },
+  "captioned": {
+    "duration": 292.72,
+    "video_duration": 292.72,
+    "audio_duration": 292.663991,
+    "has_video": true,
+    "has_audio": true,
+    "video_codec": "h264",
+    "audio_codec": "aac"
+  },
+  "http_range_required": true,
+  "status": "ok"
+}

@@ -1,0 +1,8 @@
+{
+  "approval_recorded": true,
+  "decision_id": 3,
+  "selected_option": "primary",
+  "download_executed": false,
+  "operational": false,
+  "reason": "Approval records intent only; model download and benchmark require explicit install execution."
+}

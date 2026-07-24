@@ -1,0 +1,27 @@
+{
+  "version": "v2.4.1",
+  "created_at": "2026-07-24T00:42:13.747098+00:00",
+  "status": "invalidated_by_real_user_review",
+  "evidence_source": "user_observed_audio_truth_page_review",
+  "anchors": {
+    "early": {
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "status": "accepted_correct",
+      "use_as": "human_verified_early_anchor"
+    },
+    "middle": {
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "status": "invalid_no_clear_vocal_or_caption_late",
+      "use_as": "rejected_acceptance_anchor"
+    },
+    "late": {
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "status": "invalid_alignment",
+      "use_as": "rejected_acceptance_anchor"
+    }
+  },
+  "final_preview": {
+    "status": "playback_or_content_failure",
+    "repair_required": true
+  }
+}

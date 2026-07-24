@@ -1,0 +1,755 @@
+{
+  "run_id": 1,
+  "eligibility": [
+    {
+      "shot_id": "S001",
+      "song_timecode": "00:00.00",
+      "lyric_line": "အလင်းမဲ့ဒီည / ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "phrase_id": 64,
+      "phrase_index": 1,
+      "phrase_start": 32.18,
+      "phrase_end": 34.82,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "low",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S002",
+      "song_timecode": "00:08.04",
+      "lyric_line": "အလင်းမဲ့ဒီည / ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "phrase_id": 64,
+      "phrase_index": 1,
+      "phrase_start": 32.18,
+      "phrase_end": 34.82,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S003",
+      "song_timecode": "00:16.09",
+      "lyric_line": "အလင်းမဲ့ဒီည / ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "phrase_id": 64,
+      "phrase_index": 1,
+      "phrase_start": 32.18,
+      "phrase_end": 34.82,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S004",
+      "song_timecode": "00:24.13",
+      "lyric_line": "အလင်းမဲ့ဒီည / ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "phrase_id": 64,
+      "phrase_index": 1,
+      "phrase_start": 32.18,
+      "phrase_end": 34.82,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S005",
+      "song_timecode": "00:32.18",
+      "lyric_line": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ / ဖြေရှာနေဆဲပါ",
+      "phrase_id": 65,
+      "phrase_index": 2,
+      "phrase_start": 35.54,
+      "phrase_end": 37.62,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S006",
+      "song_timecode": "00:47.28",
+      "lyric_line": "မှောင်မည်း ကြီးထဲ / မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း / …",
+      "phrase_id": 67,
+      "phrase_index": 4,
+      "phrase_start": 45.42,
+      "phrase_end": 47.82,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S007",
+      "song_timecode": "01:02.38",
+      "lyric_line": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ / ကျပ်ပိတ်သိမ့်",
+      "phrase_id": 69,
+      "phrase_index": 6,
+      "phrase_start": 65.16,
+      "phrase_end": 71.4,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S008",
+      "song_timecode": "01:17.48",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 71,
+      "phrase_index": 8,
+      "phrase_start": 78.4,
+      "phrase_end": 90.48,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "medium_unknown",
+      "motion_risk": "medium",
+      "identity_risk": "low",
+      "eligibility": "lipsync_required",
+      "recommended_method": "infinitetalk_video_to_video_after_edit_lock",
+      "expected_benefit": "Can align visible mouth motion to approved song audio after edit lock.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset"
+      ],
+      "reasons": [
+        "Readable face and vocal phrase may benefit from lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S009",
+      "song_timecode": "01:37.66",
+      "lyric_line": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "phrase_id": 74,
+      "phrase_index": 11,
+      "phrase_start": 100.82,
+      "phrase_end": 104.06,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "low",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S010",
+      "song_timecode": "01:54.28",
+      "lyric_line": "မင်းပေးတဲ့အမုန်း အခုကျတော့ / အပြုံးနဲ့ အရံှုး",
+      "phrase_id": 77,
+      "phrase_index": 14,
+      "phrase_start": 114.04,
+      "phrase_end": 117.44,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S011",
+      "song_timecode": "02:10.89",
+      "lyric_line": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ / အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "phrase_id": 81,
+      "phrase_index": 18,
+      "phrase_start": 133.98,
+      "phrase_end": 139.7,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S012",
+      "song_timecode": "02:27.50",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S013",
+      "song_timecode": "02:44.12",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "No confident vocal lyric attached.",
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S014",
+      "song_timecode": "02:50.18",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "No confident vocal lyric attached.",
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S015",
+      "song_timecode": "02:56.24",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S016",
+      "song_timecode": "03:10.83",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "medium_unknown",
+      "motion_risk": "medium",
+      "identity_risk": "low",
+      "eligibility": "lipsync_required",
+      "recommended_method": "infinitetalk_video_to_video_after_edit_lock",
+      "expected_benefit": "Can align visible mouth motion to approved song audio after edit lock.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset"
+      ],
+      "reasons": [
+        "Readable face and vocal phrase may benefit from lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S017",
+      "song_timecode": "03:25.41",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "low",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S018",
+      "song_timecode": "03:40.00",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S019",
+      "song_timecode": "03:55.44",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S020",
+      "song_timecode": "04:06.13",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S021",
+      "song_timecode": "04:16.83",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S022",
+      "song_timecode": "04:27.53",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "high without motion reference",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review.",
+        "Movement-heavy coverage should not receive automatic lip-sync."
+      ]
+    },
+    {
+      "shot_id": "S023",
+      "song_timecode": "04:38.22",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "small_or_profile",
+      "motion_risk": "medium",
+      "identity_risk": "medium",
+      "eligibility": "face_too_small",
+      "recommended_method": "do_not_lipsync",
+      "expected_benefit": "Avoids damaging face/body continuity on shots where mouth sync is not needed.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset",
+        "unreviewable small mouth",
+        "body deformation",
+        "background instability"
+      ],
+      "reasons": [
+        "Face is too small/profile/silhouette for reliable mouth review."
+      ]
+    },
+    {
+      "shot_id": "S024",
+      "song_timecode": "04:45.44",
+      "lyric_line": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "phrase_id": 84,
+      "phrase_index": 21,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "timing_source": "phrase_boundary_local_analysis",
+      "source_clip": "",
+      "face_visibility": "medium_unknown",
+      "motion_risk": "medium",
+      "identity_risk": "low",
+      "eligibility": "lipsync_required",
+      "recommended_method": "infinitetalk_video_to_video_after_edit_lock",
+      "expected_benefit": "Can align visible mouth motion to approved song audio after edit lock.",
+      "expected_failure_modes": [
+        "identity drift",
+        "mouth deformation",
+        "temporal flicker",
+        "audio offset"
+      ],
+      "reasons": [
+        "Readable face and vocal phrase may benefit from lip-sync."
+      ]
+    }
+  ],
+  "provider_health": [
+    {
+      "provider": "local_infinitetalk",
+      "classification": "local_after_install",
+      "status": "not_installed",
+      "health": {
+        "found_paths": [],
+        "model_downloaded": false,
+        "operational": false,
+        "reason": "No approved local InfiniteTalk model benchmark exists."
+      }
+    },
+    {
+      "provider": "runpod_infinitetalk",
+      "classification": "private_remote_option",
+      "status": "not_configured",
+      "health": {
+        "api_key_present": false,
+        "endpoint_id_present": false,
+        "base_url_present": false,
+        "max_cost_usd": "",
+        "max_runtime_minutes": "",
+        "submission_enabled": false
+      }
+    },
+    {
+      "provider": "manual_infinitetalk",
+      "classification": "private_remote_option",
+      "status": "available_manual_package_only",
+      "health": {
+        "upload": "manual_only_after_user_approval",
+        "api_calls": false,
+        "paid_execution": false
+      }
+    }
+  ],
+  "policy": {
+    "audio_authoritative": true,
+    "no_runpod_submission_without_approval": true,
+    "no_lipsync_for_wide_dance_silhouette_or_object_inserts": true,
+    "face_correction_order": [
+      "lock source clip and edit timing",
+      "create lip-sync output",
+      "perform lip-sync QC",
+      "perform identity QC",
+      "apply HiFiFace/UniFace only when required",
+      "rerun lip-sync QC after face correction"
+    ]
+  }
+}

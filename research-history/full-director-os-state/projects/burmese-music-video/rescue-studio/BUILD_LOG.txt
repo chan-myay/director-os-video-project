@@ -1,0 +1,8 @@
+Rescue Studio build
+Clean source: validated full-song autopilot storyboard animation
+Duration: 292.72 seconds
+Video: H.264 yuv420p faststart
+Audio: AAC
+Captions: none in clean version
+Lip-sync: disabled
+Frames: 24 LOCAL ASSET COMPOSITES; never represented as AI-generated frames

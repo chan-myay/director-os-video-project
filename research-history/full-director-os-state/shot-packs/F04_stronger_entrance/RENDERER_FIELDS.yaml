@@ -1,0 +1,23 @@
+shot_id: "F04_stronger_entrance"
+intent: "stronger confident dance entrance"
+song_section_targets: ["intro", "verse1"]
+references:
+  identity: ["references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png"]
+  wardrobe_body: ["references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"]
+  location: ["references/approved/REF-C_BAR-STAGE_APPROVED.png"]
+motion:
+  type: "confident_walk_in_to_subtle_dance_phrase"
+  existing_support: ["D01", "P03_safe_opening"]
+identity:
+  face_exposure: "medium_wide_no_close"
+body_wardrobe:
+  proportions: "natural_adult"
+location:
+  world: "dark_bar_stage_entrance"
+camera_lighting:
+  scale: "full_body_to_knees_up"
+  camera: "slow_dolly_or_stable_wide"
+negative_rules: ["no_lounge", "no_karaoke", "no_mic_center", "no_fake_lipsync", "no_martial_arts", "no_model_body"]
+qc:
+  required_review: "normal_speed"
+  status: "not_generated"

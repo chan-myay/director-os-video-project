@@ -1,0 +1,20 @@
+{
+  "version": "v2.0",
+  "loop_id": 14,
+  "iteration": 2,
+  "status": "awaiting_approval",
+  "quality_score": 57.53,
+  "brain_path": "/Users/chan/song-video-project/director-os/state/PRODUCTION_BRAIN.json",
+  "evaluation_path": "/Users/chan/song-video-project/director-os/evaluations/14/EVALUATION.json",
+  "defects_path": "/Users/chan/song-video-project/director-os/evaluations/14/DEFECTS.json",
+  "repairs_path": "/Users/chan/song-video-project/director-os/evaluations/14/REPAIRS.json",
+  "acceptance_path": "/Users/chan/song-video-project/director-os/evaluations/14/FINAL_ACCEPTANCE.json",
+  "budget": {
+    "status": "no_spend",
+    "cloud_calls_allowed": false,
+    "paid_api_allowed": false,
+    "model_download_allowed": false,
+    "reason": "No explicit spend/upload/model approval was provided."
+  },
+  "updated_at": "2026-07-24T00:34:36.330955+00:00"
+}

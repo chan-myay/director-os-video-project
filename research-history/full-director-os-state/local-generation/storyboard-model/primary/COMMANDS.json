@@ -1,0 +1,29 @@
+[
+  [
+    "python3",
+    "-m",
+    "venv",
+    "director-os/local-generation/storyboard-model/primary/.venv"
+  ],
+  [
+    "director-os/local-generation/storyboard-model/primary/.venv/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--upgrade",
+    "pip"
+  ],
+  [
+    "director-os/local-generation/storyboard-model/primary/.venv/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "git+https://github.com/filipstrand/mflux.git@97ac5e6280e8c65e48a609722229eb9d03ef2cbe"
+  ],
+  [
+    "director-os/local-generation/storyboard-model/primary/.venv/bin/python",
+    "-m",
+    "mflux",
+    "--help"
+  ]
+]

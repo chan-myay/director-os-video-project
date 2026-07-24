@@ -1,0 +1,11 @@
+version: "0.3"
+queries:
+  dark_bar_tension:
+    query: "dark cinematic bar amber practicals crimson curtain winter window"
+    notes: "composition and lighting only; do not copy exact stills"
+  black_swan_tension:
+    query: "controlled theatrical dance tension dark stage close shadow"
+    notes: "study body pressure and framing, not costume copying"
+  blues_jazz_bar:
+    query: "cinematic blues jazz bar moody amber practical lighting"
+    notes: "avoid lounge/karaoke drift"

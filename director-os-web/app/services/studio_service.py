@@ -227,7 +227,7 @@ def project_scan(project_id: str) -> dict[str, Any]:
         role = record.get("classification", "unknown")
         counts[role] = counts.get(role, 0) + 1
     locked_truth = {
-        "performer": "consenting adult wife performer",
+        "performer": "consenting adult lead performer performer",
         "face_references": ["REF-A1", "REF-A2"],
         "wardrobe": "deep-red one-shoulder Burmese-inspired dress",
         "location": "approved dark teak Finnish bar with winter window",
@@ -565,7 +565,7 @@ def classify_asset(name: str, suffix: str) -> str:
         if any(token in lowered for token in ["motion", "dance", "walk", "reference"]):
             return "motion_reference"
         return "footage"
-    if any(token in lowered for token in ["face", "front", "threequarter", "identity", "wife"]):
+    if any(token in lowered for token in ["face", "front", "threequarter", "identity", "lead performer"]):
         return "performer_identity"
     if any(token in lowered for token in ["body", "wardrobe", "dress", "fullbody"]):
         return "wardrobe"

@@ -1,0 +1,34 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Burmese,Noto Sans Myanmar,52,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,0,0,0,0,100,100,0,0,3,4,1,2,80,80,92,1
+Style: Warning,Noto Sans Myanmar,42,&H0000FFFF,&H000000FF,&H00000000,&HAA000000,1,0,0,0,100,100,0,0,3,2,1,8,60,60,48,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:02:33.32,Warning,,0,0,0,,BRAIN SYNC REVIEW - UNVERIFIED TIMING
+Dialogue: 0,0:00:32.64,0:00:35.28,Burmese,,0,0,0,,P1 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း
+Dialogue: 0,0:00:36.00,0:00:38.08,Burmese,,0,0,0,,P2 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ
+Dialogue: 0,0:00:39.32,0:00:45.56,Burmese,,0,0,0,,P3 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်
+Dialogue: 0,0:00:45.88,0:00:48.28,Burmese,,0,0,0,,P4 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …
+Dialogue: 0,0:00:48.88,0:01:05.40,Burmese,,0,0,0,,P5 UNVERIFIED boundary_plus_global_offset conf 0.58 offset +0.46s: မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း
+Dialogue: 0,0:01:05.62,0:01:11.86,Burmese,,0,0,0,,P6 UNVERIFIED boundary_plus_global_offset conf 0.63 offset +0.46s: မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်
+Dialogue: 0,0:01:12.10,0:01:18.58,Burmese,,0,0,0,,P7 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး
+Dialogue: 0,0:01:18.86,0:01:30.94,Burmese,,0,0,0,,P8 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး
+Dialogue: 0,0:01:31.96,0:01:33.04,Burmese,,0,0,0,,P9 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့
+Dialogue: 0,0:01:38.12,0:01:41.02,Burmese,,0,0,0,,P10 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ
+Dialogue: 0,0:01:41.28,0:01:44.52,Burmese,,0,0,0,,P11 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: တစ်ကောင်လို ရောင်ခြောက်ဆယ်
+Dialogue: 0,0:01:45.20,0:01:52.56,Burmese,,0,0,0,,P12 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်
+Dialogue: 0,0:01:52.96,0:01:53.98,Burmese,,0,0,0,,P13 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး
+Dialogue: 0,0:01:54.50,0:01:57.90,Burmese,,0,0,0,,P14 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး
+Dialogue: 0,0:01:58.42,0:02:04.14,Burmese,,0,0,0,,P15 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်
+Dialogue: 0,0:02:04.32,0:02:10.82,Burmese,,0,0,0,,P16 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး
+Dialogue: 0,0:02:11.22,0:02:13.66,Burmese,,0,0,0,,P17 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….
+Dialogue: 0,0:02:14.44,0:02:20.16,Burmese,,0,0,0,,P18 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း
+Dialogue: 0,0:02:20.76,0:02:23.92,Burmese,,0,0,0,,P19 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်
+Dialogue: 0,0:02:24.28,0:02:30.34,Burmese,,0,0,0,,P20 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး
+Dialogue: 0,0:02:30.56,0:02:33.32,Burmese,,0,0,0,,P21 UNVERIFIED boundary_plus_global_offset conf 0.68 offset +0.46s: ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး

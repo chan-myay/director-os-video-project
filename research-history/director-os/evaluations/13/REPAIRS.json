@@ -1,0 +1,64 @@
+{
+  "repairs": [
+    {
+      "defect_code": "CAPTION_SYNC_UNVERIFIED",
+      "action": "rebuild_sync_calibrated_animatic",
+      "status": "planned",
+      "approval_required": false,
+      "summary": "Rebuild v15 full-song sync-calibrated review from brain timeline.",
+      "metadata": {}
+    },
+    {
+      "defect_code": "LIPSYNC_PROVIDER_UNAVAILABLE",
+      "action": "wait_for_lipsync_prerequisites",
+      "status": "blocked",
+      "approval_required": true,
+      "summary": "Lip-sync requires approved sync and provider setup.",
+      "metadata": {}
+    },
+    {
+      "defect_code": "LOCAL_ASR_UNAVAILABLE",
+      "action": "request_local_asr_setup",
+      "status": "requires_approval",
+      "approval_required": true,
+      "summary": "Consolidated local ASR setup approval required for stronger lyric alignment.",
+      "metadata": {}
+    },
+    {
+      "defect_code": "AI_GENERATION_UNAVAILABLE",
+      "action": "request_local_storyboard_model",
+      "status": "requires_approval",
+      "approval_required": true,
+      "summary": "Consolidated local storyboard/image model approval required for real AI frames.",
+      "metadata": {}
+    }
+  ],
+  "repair_results": [],
+  "repair_history": [
+    {
+      "iteration": 1,
+      "repair_results": [
+        {
+          "repair": "rebuild_sync_calibrated_animatic",
+          "status": "completed",
+          "artifact": "/Users/chan/song-video-project/director-os/animatics/15"
+        },
+        {
+          "repair": "wait_for_lipsync_prerequisites",
+          "status": "awaiting_approval",
+          "summary": "Lip-sync requires approved sync and provider setup."
+        },
+        {
+          "repair": "request_local_asr_setup",
+          "status": "awaiting_approval",
+          "summary": "Consolidated local ASR setup approval required for stronger lyric alignment."
+        },
+        {
+          "repair": "request_local_storyboard_model",
+          "status": "awaiting_approval",
+          "summary": "Consolidated local storyboard/image model approval required for real AI frames."
+        }
+      ]
+    }
+  ]
+}

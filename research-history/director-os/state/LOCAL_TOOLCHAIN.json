@@ -1,0 +1,63 @@
+{
+  "python": {
+    "python3": "Python 3.7.9",
+    "active": "3.7.9"
+  },
+  "homebrew": {
+    "path": "/usr/local/bin/brew",
+    "version": "Homebrew >=4.1.0 (shallow or no git repository)"
+  },
+  "xcode_select": "/Library/Developer/CommandLineTools",
+  "swift": {
+    "path": "/usr/bin/swift",
+    "version": ""
+  },
+  "ffmpeg": {
+    "found": true,
+    "path": "/Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffmpeg",
+    "version": "ffmpeg version 6.0-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2023 the FFmpeg developers"
+  },
+  "ffprobe": {
+    "found": true,
+    "path": "/Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffprobe",
+    "version": "ffprobe version 6.0-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2007-2023 the FFmpeg developers"
+  },
+  "metal": {
+    "classification": "local",
+    "status": "unknown"
+  },
+  "mps": {
+    "available": false,
+    "version": "",
+    "error": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'torch'"
+  },
+  "mlx": {
+    "available": false,
+    "version": "",
+    "error": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'mlx'"
+  },
+  "coremltools": {
+    "available": false,
+    "version": "",
+    "error": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'coremltools'"
+  },
+  "opencv": {
+    "available": false,
+    "version": "",
+    "error": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'cv2'"
+  },
+  "pyscenedetect": {
+    "available": false,
+    "version": "",
+    "error": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'scenedetect'"
+  },
+  "opentimelineio": {
+    "available": false,
+    "version": "",
+    "error": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'opentimelineio'"
+  },
+  "ml_for_audio": {
+    "mlx_whisper": "/Users/chan/song-video-project/local-tools/envs/facefusion/bin/mlx_whisper"
+  },
+  "comfyui_code": true
+}

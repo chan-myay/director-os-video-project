@@ -1,0 +1,31 @@
+project:
+  name: "Burmese music video - A Chit Mae Zat Lan"
+  master_audio: "audio/01.mp3"
+  current_diagnostic_cut: "production/edit/roughcut-v2/ROUGH-CUT-V2C_SAFE-LOCAL-RECUT_WITH-MP3.mp4"
+  preserve_existing_project: true
+
+hard_stops:
+  no_generation_without_user_approval: true
+  no_cloud_api_calls: true
+  no_gemini: true
+  no_render_by_default: true
+  no_face_correction_by_default: true
+  no_lip_sync_by_default: true
+  no_rejected_references: true
+  no_child_containing_sources: true
+
+evidence_policy:
+  preserve_rejected_assets: true
+  mark_unknown_when_uncertain: true
+  normal_speed_review_required: true
+  rejected_files_are_evidence: true
+
+face_correction:
+  primary_model: "HiFiFace 256"
+  backup_model: "UniFace 256"
+  rejected_model: "SimSwap 512"
+  no_model_switch_inside_continuous_shot: true
+
+lip_sync:
+  generated_singing_is_not_final_sync: true
+  final_lip_sync_after_face_review: true

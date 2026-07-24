@@ -2,19 +2,19 @@
   "project_id": "burmese-music-video",
   "title": "Burmese Music Video",
   "concept": "The Bar Remembers Her",
-  "creative_direction": "Adult wife performs alone in a dark teak Finnish bar with winter window and Burmese material identity.",
+  "creative_direction": "Adult lead performer performs alone in a dark teak Finnish bar with winter window and Burmese material identity.",
   "inputs": [
     {
       "name": "Performer identity A1/A2",
       "kind": "performer photos",
       "status": "approved source",
-      "url": "/reference-assets/approved/REF-A1_WIFE-FACE-FRONT_APPROVED.png"
+      "url": "/reference-assets/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png"
     },
     {
       "name": "Wardrobe / body B",
       "kind": "wardrobe",
       "status": "approved source",
-      "url": "/reference-assets/approved/REF-B_WIFE-WARDROBE-FULLBODY_APPROVED.png"
+      "url": "/reference-assets/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"
     },
     {
       "name": "Dark teak bar C",

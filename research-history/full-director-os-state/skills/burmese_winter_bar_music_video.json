@@ -1,0 +1,52 @@
+{
+  "skill_id": "burmese_winter_bar_music_video",
+  "version": "1.0",
+  "privacy": "private_project_derived_no_identity_media",
+  "applicability": [
+    "Burmese music video",
+    "single adult performer",
+    "dark bar or winter interior",
+    "mature restrained emotional performance"
+  ],
+  "locked_lessons": [
+    "dark teak bar",
+    "winter visual contrast",
+    "Burmese material identity",
+    "mature restrained performance",
+    "deep-red one-shoulder dress",
+    "natural adult body",
+    "no karaoke",
+    "no microphone-centered performance",
+    "no kung fu",
+    "no K-pop",
+    "no TikTok",
+    "motion-reference control for complex movement",
+    "face-safe wide/profile/silhouette coverage",
+    "object-story inserts",
+    "face correction after edit lock",
+    "HiFiFace primary",
+    "UniFace backup",
+    "normal-speed QC",
+    "rejected references blocked",
+    "child-containing media excluded"
+  ],
+  "stages": [
+    "project_archaeology",
+    "burmese_language_analysis",
+    "research",
+    "concept",
+    "visual_grammar",
+    "movement",
+    "storyboard",
+    "animatic",
+    "renderer_strategy",
+    "qc"
+  ],
+  "approval_policy": {
+    "cloud_upload": "explicit",
+    "paid_spend": "explicit",
+    "model_download": "explicit",
+    "voice_cloning": "explicit",
+    "final_submission": "explicit"
+  }
+}

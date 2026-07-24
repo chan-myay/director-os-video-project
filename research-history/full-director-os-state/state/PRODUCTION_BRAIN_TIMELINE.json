@@ -1,0 +1,1740 @@
+{
+  "version": "v1.0.7",
+  "master_song": "/Users/chan/song-video-project/audio/01.mp3",
+  "master_duration": 292.702041,
+  "song_sections": [
+    {
+      "section": "intro",
+      "start": 0,
+      "end": 32.18,
+      "type": "instrumental_or_pre_vocal"
+    },
+    {
+      "section": "vocal_phrase_region",
+      "start": 32.18,
+      "end": 133.2,
+      "type": "vocal"
+    },
+    {
+      "section": "outro_or_missing_later_vocals",
+      "start": 133.2,
+      "end": 292.657625,
+      "type": "instrumental_or_unmapped"
+    }
+  ],
+  "music_analysis_path": "/Users/chan/song-video-project/director-os/state/MUSIC_ANALYSIS.json",
+  "offset_analysis_path": "/Users/chan/song-video-project/director-os/state/SYNC_OFFSET_ANALYSIS.json",
+  "lyric_meaning_emotion_path": "/Users/chan/song-video-project/director-os/state/LYRIC_MEANING_EMOTION_MAP.json",
+  "sync_method_counts": {
+    "vocal_onset_corrected": 21
+  },
+  "high_confidence_phrase_count": 0,
+  "low_confidence_phrase_count": 2,
+  "blocked_phrase_count": 21,
+  "offset": {
+    "version": "v1.0.6",
+    "user_report": "captions_ahead",
+    "global_caption_delay_seconds": 0.46,
+    "drift_seconds_per_minute": -0.3307,
+    "phrase_level_offsets": [
+      {
+        "phrase_id": 332,
+        "phrase_index": 1,
+        "expected_vocal_onset": 32.93,
+        "current_caption_onset": 32.18,
+        "offset_seconds": 0.75,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.35,
+        "local_correction": 0.75,
+        "reason": "user reported captions ahead; local onset weak"
+      },
+      {
+        "phrase_id": 333,
+        "phrase_index": 2,
+        "expected_vocal_onset": 35.6,
+        "current_caption_onset": 35.54,
+        "offset_seconds": 0.06,
+        "ahead_or_late": "near",
+        "confidence": 0.58,
+        "local_correction": 0.06,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 334,
+        "phrase_index": 3,
+        "expected_vocal_onset": 38.9,
+        "current_caption_onset": 38.86,
+        "offset_seconds": 0.04,
+        "ahead_or_late": "near",
+        "confidence": 0.58,
+        "local_correction": 0.04,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 335,
+        "phrase_index": 4,
+        "expected_vocal_onset": 45.45,
+        "current_caption_onset": 45.42,
+        "offset_seconds": 0.03,
+        "ahead_or_late": "near",
+        "confidence": 0.58,
+        "local_correction": 0.03,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 336,
+        "phrase_index": 5,
+        "expected_vocal_onset": 48.65,
+        "current_caption_onset": 48.42,
+        "offset_seconds": 0.23,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.23,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 337,
+        "phrase_index": 6,
+        "expected_vocal_onset": 65.65,
+        "current_caption_onset": 65.16,
+        "offset_seconds": 0.49,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.49,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 338,
+        "phrase_index": 7,
+        "expected_vocal_onset": 71.65,
+        "current_caption_onset": 71.64,
+        "offset_seconds": 0.01,
+        "ahead_or_late": "near",
+        "confidence": 0.58,
+        "local_correction": 0.01,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 339,
+        "phrase_index": 8,
+        "expected_vocal_onset": 78.75,
+        "current_caption_onset": 78.4,
+        "offset_seconds": 0.35,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.35,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 340,
+        "phrase_index": 9,
+        "expected_vocal_onset": 91.8,
+        "current_caption_onset": 91.5,
+        "offset_seconds": 0.3,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.3,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 341,
+        "phrase_index": 10,
+        "expected_vocal_onset": 98.41,
+        "current_caption_onset": 97.66,
+        "offset_seconds": 0.75,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.35,
+        "local_correction": 0.75,
+        "reason": "user reported captions ahead; local onset weak"
+      },
+      {
+        "phrase_id": 342,
+        "phrase_index": 11,
+        "expected_vocal_onset": 101.0,
+        "current_caption_onset": 100.82,
+        "offset_seconds": 0.18,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.18,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 343,
+        "phrase_index": 12,
+        "expected_vocal_onset": 105.2,
+        "current_caption_onset": 104.74,
+        "offset_seconds": 0.46,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.46,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 344,
+        "phrase_index": 13,
+        "expected_vocal_onset": 112.55,
+        "current_caption_onset": 112.5,
+        "offset_seconds": 0.05,
+        "ahead_or_late": "near",
+        "confidence": 0.58,
+        "local_correction": 0.05,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 345,
+        "phrase_index": 14,
+        "expected_vocal_onset": 114.1,
+        "current_caption_onset": 114.04,
+        "offset_seconds": 0.06,
+        "ahead_or_late": "near",
+        "confidence": 0.58,
+        "local_correction": 0.06,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 346,
+        "phrase_index": 15,
+        "expected_vocal_onset": 118.0,
+        "current_caption_onset": 117.96,
+        "offset_seconds": 0.04,
+        "ahead_or_late": "near",
+        "confidence": 0.58,
+        "local_correction": 0.04,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 347,
+        "phrase_index": 16,
+        "expected_vocal_onset": 124.0,
+        "current_caption_onset": 123.86,
+        "offset_seconds": 0.14,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.14,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 348,
+        "phrase_index": 17,
+        "expected_vocal_onset": 132.2,
+        "current_caption_onset": 130.76,
+        "offset_seconds": 1.44,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 1.44,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 349,
+        "phrase_index": 18,
+        "expected_vocal_onset": 134.65,
+        "current_caption_onset": 133.98,
+        "offset_seconds": 0.67,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.67,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 350,
+        "phrase_index": 19,
+        "expected_vocal_onset": 141.2,
+        "current_caption_onset": 140.3,
+        "offset_seconds": 0.9,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.9,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 351,
+        "phrase_index": 20,
+        "expected_vocal_onset": 144.2,
+        "current_caption_onset": 143.82,
+        "offset_seconds": 0.38,
+        "ahead_or_late": "caption_ahead",
+        "confidence": 0.58,
+        "local_correction": 0.38,
+        "reason": "local RMS rise after caption onset"
+      },
+      {
+        "phrase_id": 352,
+        "phrase_index": 21,
+        "expected_vocal_onset": 150.2,
+        "current_caption_onset": 150.1,
+        "offset_seconds": 0.1,
+        "ahead_or_late": "near",
+        "confidence": 0.58,
+        "local_correction": 0.1,
+        "reason": "local RMS rise after caption onset"
+      }
+    ],
+    "confidence": 0.62,
+    "reason": "User review reported captions ahead; local RMS/onset evidence is used as support, not as word alignment.",
+    "safe_to_auto_apply": true,
+    "warnings": [
+      "not_word_or_phoneme_alignment",
+      "review_version_only"
+    ]
+  },
+  "feedback": {
+    "version": "v1.0.7",
+    "global_user_offset_seconds": 0.0,
+    "approved_global_offset_seconds": null,
+    "events": []
+  },
+  "events": [
+    {
+      "phrase_id": 332,
+      "phrase_index": 1,
+      "original_burmese": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "approved_unicode": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "pronunciation_helper": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "rough_english_meaning": "darkness, silence, and emotional isolation",
+      "emotional_meaning": "heightened darkness, silence, and emotional isolation",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 32.18,
+      "phrase_end": 34.82,
+      "caption_start": 32.98,
+      "caption_end": 35.62,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S005",
+      "storyboard_relationship": "Dress Pivot",
+      "lip_sync_segment_start": 32.98,
+      "lip_sync_segment_end": 35.62,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 32.18,
+        "end": 34.82
+      },
+      "run14_corrected_timing": {
+        "start": 32.64,
+        "end": 35.28,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 32.98,
+        "end": 35.62,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 32.98,
+        "end": 35.62
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 333,
+      "phrase_index": 2,
+      "original_burmese": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "approved_unicode": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "pronunciation_helper": "လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ",
+      "rough_english_meaning": "heartbreak memory and emotional pressure",
+      "emotional_meaning": "heightened heartbreak memory and emotional pressure",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 35.54,
+      "phrase_end": 37.62,
+      "caption_start": 36.34,
+      "caption_end": 38.42,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S005",
+      "storyboard_relationship": "Dress Pivot",
+      "lip_sync_segment_start": 36.34,
+      "lip_sync_segment_end": 38.42,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 35.54,
+        "end": 37.62
+      },
+      "run14_corrected_timing": {
+        "start": 36.0,
+        "end": 38.08,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 36.34,
+        "end": 38.42,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 36.34,
+        "end": 38.42
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 334,
+      "phrase_index": 3,
+      "original_burmese": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "approved_unicode": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "pronunciation_helper": "အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်",
+      "rough_english_meaning": "darkness, silence, and emotional isolation",
+      "emotional_meaning": "heightened darkness, silence, and emotional isolation",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 38.86,
+      "phrase_end": 45.1,
+      "caption_start": 39.66,
+      "caption_end": 45.9,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 39.66,
+      "lip_sync_segment_end": 45.9,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 38.86,
+        "end": 45.1
+      },
+      "run14_corrected_timing": {
+        "start": 39.32,
+        "end": 45.56,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 39.66,
+        "end": 45.9,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 39.66,
+        "end": 45.9
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 335,
+      "phrase_index": 4,
+      "original_burmese": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "approved_unicode": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "pronunciation_helper": "မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …",
+      "rough_english_meaning": "darkness, silence, and emotional isolation",
+      "emotional_meaning": "heightened darkness, silence, and emotional isolation",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 45.42,
+      "phrase_end": 47.82,
+      "caption_start": 46.22,
+      "caption_end": 48.62,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 46.22,
+      "lip_sync_segment_end": 48.62,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 45.42,
+        "end": 47.82
+      },
+      "run14_corrected_timing": {
+        "start": 45.88,
+        "end": 48.28,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 46.22,
+        "end": 48.62,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 46.22,
+        "end": 48.62
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 336,
+      "phrase_index": 5,
+      "original_burmese": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "approved_unicode": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "pronunciation_helper": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "rough_english_meaning": "longing, grief, and remembered love",
+      "emotional_meaning": "heightened longing, grief, and remembered love",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.61,
+      "phrase_start": 48.42,
+      "phrase_end": 64.94,
+      "caption_start": 49.22,
+      "caption_end": 65.74,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 49.22,
+      "lip_sync_segment_end": 65.74,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 48.42,
+        "end": 64.94
+      },
+      "run14_corrected_timing": {
+        "start": 48.88,
+        "end": 65.4,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 49.22,
+        "end": 65.74,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 49.22,
+        "end": 65.74
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 337,
+      "phrase_index": 6,
+      "original_burmese": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "approved_unicode": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "pronunciation_helper": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "rough_english_meaning": "darkness, silence, and emotional isolation",
+      "emotional_meaning": "heightened darkness, silence, and emotional isolation",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.66,
+      "phrase_start": 65.16,
+      "phrase_end": 71.4,
+      "caption_start": 65.96,
+      "caption_end": 72.2,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S007",
+      "storyboard_relationship": "Non-face Inserts",
+      "lip_sync_segment_start": 65.96,
+      "lip_sync_segment_end": 72.2,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 65.16,
+        "end": 71.4
+      },
+      "run14_corrected_timing": {
+        "start": 65.62,
+        "end": 71.86,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 65.96,
+        "end": 72.2,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 65.96,
+        "end": 72.2
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 338,
+      "phrase_index": 7,
+      "original_burmese": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "approved_unicode": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "pronunciation_helper": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "rough_english_meaning": "lost intimacy and love",
+      "emotional_meaning": "heightened lost intimacy and love",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 71.64,
+      "phrase_end": 78.12,
+      "caption_start": 72.44,
+      "caption_end": 78.92,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 72.44,
+      "lip_sync_segment_end": 78.92,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 71.64,
+        "end": 78.12
+      },
+      "run14_corrected_timing": {
+        "start": 72.1,
+        "end": 78.58,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 72.44,
+        "end": 78.92,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 72.44,
+        "end": 78.92
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 339,
+      "phrase_index": 8,
+      "original_burmese": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "approved_unicode": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "pronunciation_helper": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "rough_english_meaning": "heartbreak memory and emotional pressure",
+      "emotional_meaning": "heightened heartbreak memory and emotional pressure",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 78.4,
+      "phrase_end": 90.48,
+      "caption_start": 79.2,
+      "caption_end": 91.28,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S008",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 79.2,
+      "lip_sync_segment_end": 91.28,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 78.4,
+        "end": 90.48
+      },
+      "run14_corrected_timing": {
+        "start": 78.86,
+        "end": 90.94,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 79.2,
+        "end": 91.28,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 79.2,
+        "end": 91.28
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 340,
+      "phrase_index": 9,
+      "original_burmese": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "approved_unicode": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "pronunciation_helper": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "rough_english_meaning": "longing, grief, and remembered love",
+      "emotional_meaning": "heightened longing, grief, and remembered love",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 91.5,
+      "phrase_end": 92.58,
+      "caption_start": 92.3,
+      "caption_end": 93.38,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 92.3,
+      "lip_sync_segment_end": 93.38,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 91.5,
+        "end": 92.58
+      },
+      "run14_corrected_timing": {
+        "start": 91.96,
+        "end": 93.04,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 92.3,
+        "end": 93.38,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 92.3,
+        "end": 93.38
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 341,
+      "phrase_index": 10,
+      "original_burmese": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "approved_unicode": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "pronunciation_helper": "လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ",
+      "rough_english_meaning": "heartbreak memory and emotional pressure",
+      "emotional_meaning": "heightened heartbreak memory and emotional pressure",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 97.66,
+      "phrase_end": 100.56,
+      "caption_start": 98.46,
+      "caption_end": 101.36,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S009",
+      "storyboard_relationship": "Object Prologue",
+      "lip_sync_segment_start": 98.46,
+      "lip_sync_segment_end": 101.36,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 97.66,
+        "end": 100.56
+      },
+      "run14_corrected_timing": {
+        "start": 98.12,
+        "end": 101.02,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 98.46,
+        "end": 101.36,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 98.46,
+        "end": 101.36
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 342,
+      "phrase_index": 11,
+      "original_burmese": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "approved_unicode": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "pronunciation_helper": "တစ်ကောင်လို ရောင်ခြောက်ဆယ်",
+      "rough_english_meaning": "heartbreak memory and emotional pressure",
+      "emotional_meaning": "heightened heartbreak memory and emotional pressure",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 100.82,
+      "phrase_end": 104.06,
+      "caption_start": 101.62,
+      "caption_end": 104.86,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S009",
+      "storyboard_relationship": "Object Prologue",
+      "lip_sync_segment_start": 101.62,
+      "lip_sync_segment_end": 104.86,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 100.82,
+        "end": 104.06
+      },
+      "run14_corrected_timing": {
+        "start": 101.28,
+        "end": 104.52,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 101.62,
+        "end": 104.86,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 101.62,
+        "end": 104.86
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 343,
+      "phrase_index": 12,
+      "original_burmese": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "approved_unicode": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "pronunciation_helper": "နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်",
+      "rough_english_meaning": "heartbreak memory and emotional pressure",
+      "emotional_meaning": "heightened heartbreak memory and emotional pressure",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 104.74,
+      "phrase_end": 112.1,
+      "caption_start": 105.54,
+      "caption_end": 112.9,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 105.54,
+      "lip_sync_segment_end": 112.9,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 104.74,
+        "end": 112.1
+      },
+      "run14_corrected_timing": {
+        "start": 105.2,
+        "end": 112.56,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 105.54,
+        "end": 112.9,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 105.54,
+        "end": 112.9
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 344,
+      "phrase_index": 13,
+      "original_burmese": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "approved_unicode": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "pronunciation_helper": "ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး",
+      "rough_english_meaning": "heartbreak memory and emotional pressure",
+      "emotional_meaning": "heightened heartbreak memory and emotional pressure",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 112.5,
+      "phrase_end": 113.52,
+      "caption_start": 113.3,
+      "caption_end": 114.32,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 113.3,
+      "lip_sync_segment_end": 114.32,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 112.5,
+        "end": 113.52
+      },
+      "run14_corrected_timing": {
+        "start": 112.96,
+        "end": 113.98,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 113.3,
+        "end": 114.32,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 113.3,
+        "end": 114.32
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 345,
+      "phrase_index": 14,
+      "original_burmese": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "approved_unicode": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "pronunciation_helper": "မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး",
+      "rough_english_meaning": "heartbreak memory and emotional pressure",
+      "emotional_meaning": "heightened heartbreak memory and emotional pressure",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 114.04,
+      "phrase_end": 117.44,
+      "caption_start": 114.84,
+      "caption_end": 118.24,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S010",
+      "storyboard_relationship": "Stronger Entrance",
+      "lip_sync_segment_start": 114.84,
+      "lip_sync_segment_end": 118.24,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 114.04,
+        "end": 117.44
+      },
+      "run14_corrected_timing": {
+        "start": 114.5,
+        "end": 117.9,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 114.84,
+        "end": 118.24,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 114.84,
+        "end": 118.24
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 346,
+      "phrase_index": 15,
+      "original_burmese": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "approved_unicode": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "pronunciation_helper": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "rough_english_meaning": "darkness, silence, and emotional isolation",
+      "emotional_meaning": "heightened darkness, silence, and emotional isolation",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 117.96,
+      "phrase_end": 123.68,
+      "caption_start": 118.76,
+      "caption_end": 124.48,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S010",
+      "storyboard_relationship": "Stronger Entrance",
+      "lip_sync_segment_start": 118.76,
+      "lip_sync_segment_end": 124.48,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 117.96,
+        "end": 123.68
+      },
+      "run14_corrected_timing": {
+        "start": 118.42,
+        "end": 124.14,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 118.76,
+        "end": 124.48,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 118.76,
+        "end": 124.48
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 347,
+      "phrase_index": 16,
+      "original_burmese": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "approved_unicode": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "pronunciation_helper": "ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး",
+      "rough_english_meaning": "darkness, silence, and emotional isolation",
+      "emotional_meaning": "heightened darkness, silence, and emotional isolation",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 123.86,
+      "phrase_end": 130.36,
+      "caption_start": 124.66,
+      "caption_end": 131.16,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 124.66,
+      "lip_sync_segment_end": 131.16,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 123.86,
+        "end": 130.36
+      },
+      "run14_corrected_timing": {
+        "start": 124.32,
+        "end": 130.82,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 124.66,
+        "end": 131.16,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 124.66,
+        "end": 131.16
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 348,
+      "phrase_index": 17,
+      "original_burmese": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "approved_unicode": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "pronunciation_helper": "ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….",
+      "rough_english_meaning": "longing, grief, and remembered love",
+      "emotional_meaning": "heightened longing, grief, and remembered love",
+      "song_section": "vocal_phrase_region",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 130.76,
+      "phrase_end": 133.2,
+      "caption_start": 131.56,
+      "caption_end": 134.0,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S011",
+      "storyboard_relationship": "Side Travel",
+      "lip_sync_segment_start": 131.56,
+      "lip_sync_segment_end": 134.0,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 130.76,
+        "end": 133.2
+      },
+      "run14_corrected_timing": {
+        "start": 131.22,
+        "end": 133.66,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 131.56,
+        "end": 134.0,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 131.56,
+        "end": 134.0
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 349,
+      "phrase_index": 18,
+      "original_burmese": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "approved_unicode": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "pronunciation_helper": "မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း",
+      "rough_english_meaning": "longing, grief, and remembered love",
+      "emotional_meaning": "heightened longing, grief, and remembered love",
+      "song_section": "outro_or_missing_later_vocals",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 133.98,
+      "phrase_end": 139.7,
+      "caption_start": 134.78,
+      "caption_end": 140.5,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S011",
+      "storyboard_relationship": "Side Travel",
+      "lip_sync_segment_start": 134.78,
+      "lip_sync_segment_end": 140.5,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 133.98,
+        "end": 139.7
+      },
+      "run14_corrected_timing": {
+        "start": 134.44,
+        "end": 140.16,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 134.78,
+        "end": 140.5,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 134.78,
+        "end": 140.5
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 350,
+      "phrase_index": 19,
+      "original_burmese": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "approved_unicode": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "pronunciation_helper": "မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်",
+      "rough_english_meaning": "darkness, silence, and emotional isolation",
+      "emotional_meaning": "heightened darkness, silence, and emotional isolation",
+      "song_section": "outro_or_missing_later_vocals",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 140.3,
+      "phrase_end": 143.46,
+      "caption_start": 141.1,
+      "caption_end": 144.26,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 141.1,
+      "lip_sync_segment_end": 144.26,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 140.3,
+        "end": 143.46
+      },
+      "run14_corrected_timing": {
+        "start": 140.76,
+        "end": 143.92,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 141.1,
+        "end": 144.26,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 141.1,
+        "end": 144.26
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 351,
+      "phrase_index": 20,
+      "original_burmese": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "approved_unicode": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "pronunciation_helper": "ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး",
+      "rough_english_meaning": "lost intimacy and love",
+      "emotional_meaning": "heightened lost intimacy and love",
+      "song_section": "outro_or_missing_later_vocals",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 143.82,
+      "phrase_end": 149.88,
+      "caption_start": 144.62,
+      "caption_end": 150.68,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S024",
+      "storyboard_relationship": "Final Symbol",
+      "lip_sync_segment_start": 144.62,
+      "lip_sync_segment_end": 150.68,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 143.82,
+        "end": 149.88
+      },
+      "run14_corrected_timing": {
+        "start": 144.28,
+        "end": 150.34,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 144.62,
+        "end": 150.68,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 144.62,
+        "end": 150.68
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    },
+    {
+      "phrase_id": 352,
+      "phrase_index": 21,
+      "original_burmese": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "approved_unicode": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "pronunciation_helper": "ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး",
+      "rough_english_meaning": "heartbreak memory and emotional pressure",
+      "emotional_meaning": "heightened heartbreak memory and emotional pressure",
+      "song_section": "outro_or_missing_later_vocals",
+      "sync_method": "vocal_onset_corrected",
+      "confidence": 0.71,
+      "phrase_start": 150.1,
+      "phrase_end": 152.86,
+      "caption_start": 150.9,
+      "caption_end": 153.66,
+      "offset_applied": 0.8,
+      "warning": "UNVERIFIED",
+      "needs_review": true,
+      "shot_id": "S012",
+      "storyboard_relationship": "Profile Shadow",
+      "lip_sync_segment_start": 150.9,
+      "lip_sync_segment_end": 153.66,
+      "voice_segment_status": "not_tested_no_voice_audio",
+      "blockers": [
+        "LOW_CONFIDENCE_SYNC_CALIBRATION"
+      ],
+      "user_corrections": [],
+      "evidence": [
+        "local_vocal_boundaries",
+        "offset_candidate_search",
+        "phrase_order",
+        "rms_onset_offset",
+        "sync_calibration",
+        "user_report_captions_ahead"
+      ],
+      "original_boundary_timing": {
+        "start": 150.1,
+        "end": 152.86
+      },
+      "run14_corrected_timing": {
+        "start": 150.56,
+        "end": 153.32,
+        "offset": 0.46
+      },
+      "candidate_corrected_timing": {
+        "start": 150.9,
+        "end": 153.66,
+        "offset": 0.8
+      },
+      "user_approved_timing": {
+        "approved": false,
+        "source": ""
+      },
+      "asr_timing": {
+        "classification": "asr_unavailable"
+      },
+      "final_review_timing": {
+        "start": 150.9,
+        "end": 153.66
+      },
+      "feedback_count": 0,
+      "production_ready": false
+    }
+  ],
+  "warning": "Sync-calibrated review timing. Production captions and lip-sync still require human approval or verified ASR support.",
+  "confidence_counts": {
+    "high": 0,
+    "medium": 19,
+    "low": 2
+  },
+  "medium_confidence_phrase_count": 19,
+  "offset_candidates_path": "/Users/chan/song-video-project/director-os/state/SYNC_OFFSET_CANDIDATES.json",
+  "selected_offset_seconds": 0.8,
+  "selected_offset_source": "best_review_candidate",
+  "offset_candidates": {
+    "version": "v1.0.7",
+    "current_offset_seconds": 0.46,
+    "detected_vocal_onset_median": 0.23,
+    "feedback_median": null,
+    "best_candidate": {
+      "offset_seconds": 0.8,
+      "average_distance_to_vocal_onset": 0.517,
+      "captions_starting_before_vocal_onset_count": 1,
+      "captions_inside_silence_count": 1,
+      "captions_overlapping_instrumental_gaps_count": 0,
+      "phrase_coverage_score": 0.952,
+      "likely_readability_score": 1.0,
+      "score": 2.017,
+      "reason": "fewer captions start before detected vocal onset"
+    },
+    "candidates": [
+      {
+        "offset_seconds": 0.23,
+        "average_distance_to_vocal_onset": 0.275,
+        "captions_starting_before_vocal_onset_count": 8,
+        "captions_inside_silence_count": 8,
+        "captions_overlapping_instrumental_gaps_count": 0,
+        "phrase_coverage_score": 0.619,
+        "likely_readability_score": 1.0,
+        "score": 12.275,
+        "reason": "fewer captions start before detected vocal onset"
+      },
+      {
+        "offset_seconds": 0.46,
+        "average_distance_to_vocal_onset": 0.32,
+        "captions_starting_before_vocal_onset_count": 5,
+        "captions_inside_silence_count": 5,
+        "captions_overlapping_instrumental_gaps_count": 0,
+        "phrase_coverage_score": 0.762,
+        "likely_readability_score": 1.0,
+        "score": 7.82,
+        "reason": "fewer captions start before detected vocal onset"
+      },
+      {
+        "offset_seconds": 0.6,
+        "average_distance_to_vocal_onset": 0.39,
+        "captions_starting_before_vocal_onset_count": 4,
+        "captions_inside_silence_count": 4,
+        "captions_overlapping_instrumental_gaps_count": 0,
+        "phrase_coverage_score": 0.81,
+        "likely_readability_score": 1.0,
+        "score": 6.39,
+        "reason": "fewer captions start before detected vocal onset"
+      },
+      {
+        "offset_seconds": 0.8,
+        "average_distance_to_vocal_onset": 0.517,
+        "captions_starting_before_vocal_onset_count": 1,
+        "captions_inside_silence_count": 1,
+        "captions_overlapping_instrumental_gaps_count": 0,
+        "phrase_coverage_score": 0.952,
+        "likely_readability_score": 1.0,
+        "score": 2.017,
+        "reason": "fewer captions start before detected vocal onset"
+      },
+      {
+        "offset_seconds": 1.0,
+        "average_distance_to_vocal_onset": 0.688,
+        "captions_starting_before_vocal_onset_count": 1,
+        "captions_inside_silence_count": 1,
+        "captions_overlapping_instrumental_gaps_count": 0,
+        "phrase_coverage_score": 0.952,
+        "likely_readability_score": 0.571,
+        "score": 10.288,
+        "reason": "fewer captions start before detected vocal onset"
+      },
+      {
+        "offset_seconds": 1.2,
+        "average_distance_to_vocal_onset": 0.869,
+        "captions_starting_before_vocal_onset_count": 1,
+        "captions_inside_silence_count": 1,
+        "captions_overlapping_instrumental_gaps_count": 0,
+        "phrase_coverage_score": 0.952,
+        "likely_readability_score": 0.429,
+        "score": 13.169,
+        "reason": "fewer captions start before detected vocal onset"
+      }
+    ],
+    "approved_global_offset_seconds": null,
+    "reason": "Candidate offsets are scored against local vocal-onset evidence and phrase coverage. This is not ASR or phoneme alignment.",
+    "auto_apply_allowed": false
+  },
+  "asr_alignment": {
+    "version": "v1.0.7",
+    "classification": "asr_unavailable",
+    "available": false,
+    "burmese_verified": false,
+    "segments": [],
+    "warnings": [
+      "no ASR model was downloaded or installed",
+      "singing Burmese ASR must be treated as evidence, not authority"
+    ],
+    "providers": [
+      {
+        "provider": "mlx_whisper",
+        "available": false,
+        "path": "",
+        "downloads_performed": false
+      },
+      {
+        "provider": "whisper_cli",
+        "available": false,
+        "path": "",
+        "downloads_performed": false
+      },
+      {
+        "provider": "whisper_cpp",
+        "available": false,
+        "path": "",
+        "downloads_performed": false
+      }
+    ]
+  }
+}

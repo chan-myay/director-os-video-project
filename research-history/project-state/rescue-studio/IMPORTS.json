@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "1784852331763-SHOT_001_v2",
+      "name": "SHOT_001_v2.png",
+      "managed_name": "1784852331763-SHOT_001_v2.png",
+      "url": "/rescue-assets/imports/1784852331763-SHOT_001_v2.png",
+      "inferred_shot": null,
+      "assigned_shot": null,
+      "status": "imported candidate",
+      "kind": "generated image",
+      "plays": true
+    },
+    {
+      "id": "1784852394056-F07_final",
+      "name": "F07_final.png",
+      "managed_name": "1784852394056-F07_final.png",
+      "url": "/rescue-assets/imports/1784852394056-F07_final.png",
+      "inferred_shot": 7,
+      "assigned_shot": 7,
+      "status": "imported candidate",
+      "kind": "generated image",
+      "plays": true,
+      "duration": 0.04,
+      "width": 480,
+      "height": 270,
+      "resolution": "480x270",
+      "aspect_ratio": 1.778,
+      "codec": "mjpeg"
+    }
+  ]
+}

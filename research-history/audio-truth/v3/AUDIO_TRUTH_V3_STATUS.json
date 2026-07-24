@@ -1,0 +1,145 @@
+{
+  "version": "v2.4",
+  "created_at": "2026-07-13T15:26:23.795050+00:00",
+  "canonical_lyric_source": "/Users/chan/song-video-project/lyrics/အချစ်မဲ့ ဇာတ်လမ်း.txt",
+  "v2_zero_high_confidence_cause": "blanket_medium_confidence_classification",
+  "tokenizer": {
+    "phrase_count": 21,
+    "unsupported_character_count": 0
+  },
+  "selected_stem": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/selected_vocals_16k_mono.wav",
+    "reason": "Demucs vocal stem has lower instrumental contamination risk and preserved master timebase.",
+    "comparison_path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/stems/STEM_COMPARISON.json"
+  },
+  "full_song_path": {
+    "method": "monotonic_occurrence_path_from_v2_regions_recalibrated_with_ctc_order_energy",
+    "path_valid": true,
+    "overlap_count": 0,
+    "instrumental_conflict_count": 0,
+    "path_score": 0.798
+  },
+  "repeated_occurrence_mapping": {
+    "repeated_base_count": 4,
+    "ambiguous_after_neighbour_check": 0,
+    "method": "monotonic_order_plus_neighbouring_unique_lines"
+  },
+  "timeline": {
+    "path": "/Users/chan/song-video-project/director-os/state/AUDIO_TRUTH_TIMELINE_V3.json",
+    "occurrence_count": 21,
+    "high_confidence": 13,
+    "medium_confidence": 8,
+    "low_confidence": 0,
+    "blocked": 0
+  },
+  "anchors": {
+    "anchor_count": 3,
+    "status": "pending_user_confirmation",
+    "feedback_path": "/Users/chan/song-video-project/director-os/state/AUDIO_TRUTH_ANCHOR_FEEDBACK.json"
+  },
+  "captions": {
+    "path": "/Users/chan/song-video-project/director-os/captions/audio-truth-v3",
+    "review_caption_count": 21,
+    "production_ready": false,
+    "production_caption_count": 13,
+    "blockers": [
+      "ANCHOR_CONFIRMATION_REQUIRED_FOR_MEDIUM_CONFIDENCE_OCCURRENCES"
+    ]
+  },
+  "lipsync": {
+    "ready_occurrence_count": 13,
+    "ready": [
+      "lyric_line_3b6a71e0_occurrence_1",
+      "lyric_line_6d042445_occurrence_1",
+      "lyric_line_4aefb4cd_occurrence_1",
+      "lyric_line_29f7541c_occurrence_1",
+      "lyric_line_cfe97aeb_occurrence_1",
+      "lyric_line_6545c465_occurrence_1",
+      "lyric_line_22df2ed0_occurrence_1",
+      "lyric_line_92457abb_occurrence_1",
+      "lyric_line_7a8eb022_occurrence_1",
+      "lyric_line_2f38aa93_occurrence_1",
+      "lyric_line_68353461_occurrence_1",
+      "lyric_line_cfe97aeb_occurrence_2",
+      "lyric_line_6545c465_occurrence_2"
+    ],
+    "blocked_occurrence_count": 8,
+    "blocked": [
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_1",
+        "reason": [
+          "ANCHOR_VALIDATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_1",
+        "reason": [
+          "ANCHOR_VALIDATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_e7715751_occurrence_1",
+        "reason": [
+          "ANCHOR_VALIDATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_9129302f_occurrence_1",
+        "reason": [
+          "ANCHOR_VALIDATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_a3e2ead6_occurrence_1",
+        "reason": [
+          "ANCHOR_VALIDATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8bc3a7b6_occurrence_1",
+        "reason": [
+          "ANCHOR_VALIDATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_8118d138_occurrence_2",
+        "reason": [
+          "ANCHOR_VALIDATION_PENDING"
+        ]
+      },
+      {
+        "occurrence_id": "lyric_line_0d3a08bf_occurrence_2",
+        "reason": [
+          "ANCHOR_VALIDATION_PENDING"
+        ]
+      }
+    ],
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/lipsync-segments"
+  },
+  "evaluation": {
+    "defect_count": 8,
+    "caption_count": 21,
+    "production_ready": false,
+    "timing_plot": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/evaluation/CAPTION_VOCAL_TIMING.png"
+  },
+  "preview": {
+    "path": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v3",
+    "clean": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v3/CREATIVE_SKETCH_AUDIO_TRUTH_V3.mp4",
+    "captioned": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v3/CREATIVE_SKETCH_AUDIO_TRUTH_V3_WITH_CAPTIONS.mp4",
+    "review": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/previews/audio-truth-v3/CREATIVE_SKETCH_AUDIO_TRUTH_V3_REVIEW.mp4",
+    "duration_validation": {
+      "master_duration": 292.702041,
+      "preview_duration": 292.657007,
+      "difference": 0.04503399999998692,
+      "status": "ok"
+    }
+  },
+  "production_brain": {
+    "path": "/Users/chan/song-video-project/director-os/state/PRODUCTION_BRAIN.json",
+    "status": "anchor_confirmation_required"
+  },
+  "next_action": "Confirm the three Audio Truth anchor clips.",
+  "no_new_model_download": true,
+  "no_cloud_upload": true,
+  "no_paid_api": true
+}

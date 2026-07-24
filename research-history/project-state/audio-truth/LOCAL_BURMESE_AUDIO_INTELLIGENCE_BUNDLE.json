@@ -1,0 +1,80 @@
+{
+  "approval_title": "LOCAL BURMESE AUDIO INTELLIGENCE BUNDLE",
+  "approval_status": "pending",
+  "reason": "Needed before Demucs separation, Burmese ASR ensemble, and CTC forced alignment can be trusted.",
+  "detected_tools": {
+    "demucs": {
+      "found": true,
+      "path": "/Users/chan/song-video-project/local-tools/envs/facefusion/bin/demucs",
+      "health": "help_ok",
+      "version": "usage: demucs.separate [-h] [-s SIG | -n NAME] [--repo REPO] [-v] [-o OUT]"
+    },
+    "mlx_whisper": {
+      "found": true,
+      "path": "/Users/chan/song-video-project/local-tools/envs/facefusion/bin/mlx_whisper",
+      "health": "help_ok",
+      "version": "usage: mlx_whisper [-h] [--model MODEL] [--output-name OUTPUT_NAME]"
+    },
+    "ffmpeg": {
+      "found": true,
+      "path": "/Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffmpeg",
+      "health": "help_ok",
+      "version": "Hyper fast Audio and Video encoder"
+    },
+    "ffprobe": {
+      "found": true,
+      "path": "/Users/chan/song-video-project/local-tools/envs/faceswap/bin/ffprobe",
+      "health": "help_ok",
+      "version": "Simple multimedia streams analyzer"
+    }
+  },
+  "options": [
+    {
+      "id": "balanced",
+      "name": "Recommended balanced bundle",
+      "models": [
+        {
+          "name": "YonaKhine/finetuned-w2v2-bert-burmese-asr",
+          "purpose": "Primary Burmese CTC evidence and known-text forced alignment",
+          "source": "https://huggingface.co/YonaKhine/finetuned-w2v2-bert-burmese-asr",
+          "license": "MIT per model card",
+          "size_note": "0.6B params per model card; exact file download size to be confirmed before install"
+        },
+        {
+          "name": "myatsu/whisper-small-burmese-v4",
+          "purpose": "Lightweight Burmese Whisper second opinion",
+          "source": "https://huggingface.co/myatsu/whisper-small-burmese-v4",
+          "license": "check model card before install",
+          "size_note": "0.2B params per model card"
+        },
+        {
+          "name": "Demucs",
+          "purpose": "Local vocal separation",
+          "source": "https://github.com/facebookresearch/demucs",
+          "license": "MIT per upstream repository",
+          "size_note": "runtime installed; pretrained weights require approval/download if not cached"
+        }
+      ]
+    },
+    {
+      "id": "lightweight",
+      "name": "Lightweight bundle",
+      "models": [
+        "myatsu/whisper-small-burmese-v4",
+        "Demucs vocals stem"
+      ]
+    },
+    {
+      "id": "heavier",
+      "name": "Higher-accuracy/heavier bundle",
+      "models": [
+        "YonaKhine CTC",
+        "Chonlasitk/whisper-burmese",
+        "Demucs htdemucs"
+      ]
+    }
+  ],
+  "no_cloud_upload": true,
+  "no_paid_api": true,
+  "install_allowed": false
+}

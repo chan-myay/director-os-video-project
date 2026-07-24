@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "skills": [
+    "cinematic_music_video",
+    "performance_music_video",
+    "narrative_music_video",
+    "lyric_video",
+    "narrative_short",
+    "documentary",
+    "commercial_ad",
+    "product_film",
+    "interview",
+    "social_short",
+    "cinematic_trailer",
+    "burmese_winter_bar_music_video"
+  ],
+  "private_project_skill_policy": {
+    "may_reuse_lessons": true,
+    "may_include_private_identity_files": false,
+    "may_include_voice_recordings": false,
+    "may_include_absolute_private_media_copies": false
+  }
+}

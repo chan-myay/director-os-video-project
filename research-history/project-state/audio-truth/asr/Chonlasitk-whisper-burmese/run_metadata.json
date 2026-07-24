@@ -1,0 +1,12 @@
+{
+  "model": "Chonlasitk/whisper-burmese",
+  "status": "blocked_pending_bundle_approval",
+  "audio_source": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/stems/full_mix_normalized_16k.wav",
+  "raw_segments": [],
+  "transcript": "",
+  "confidence": {},
+  "run_metadata": {
+    "no_cloud_upload": true,
+    "no_paid_api": true
+  }
+}

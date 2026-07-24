@@ -1,0 +1,12 @@
+{
+  "run_id": 1,
+  "jobs": "existing v0.5+ job system remains available",
+  "exports": "manual export and readiness gates remain available",
+  "qc": "result import/QC/decision system remains available",
+  "blocked_until_approval": [
+    "cloud upload",
+    "paid API",
+    "voice cloning",
+    "final renderer submission"
+  ]
+}

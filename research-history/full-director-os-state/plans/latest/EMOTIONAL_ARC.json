@@ -1,0 +1,39 @@
+{
+  "arc": [
+    {
+      "section": "intro",
+      "emotion": "controlled heartbreak pressure",
+      "energy": "LOW: setup, gaze, object cuts, held poses"
+    },
+    {
+      "section": "verse1",
+      "emotion": "controlled heartbreak pressure",
+      "energy": "HIGH: dance/body rhythm, sharper cuts"
+    },
+    {
+      "section": "chorus1",
+      "emotion": "controlled heartbreak pressure",
+      "energy": "HIGH: dance/body rhythm, sharper cuts"
+    },
+    {
+      "section": "instrumental_breath",
+      "emotion": "controlled heartbreak pressure",
+      "energy": "MEDIUM: walking, torso/arm phrases, controlled tension"
+    },
+    {
+      "section": "later_verse",
+      "emotion": "controlled heartbreak pressure",
+      "energy": "HIGH: dance/body rhythm, sharper cuts"
+    },
+    {
+      "section": "chorus2_final",
+      "emotion": "controlled heartbreak pressure",
+      "energy": "HIGH: dance/body rhythm, sharper cuts"
+    },
+    {
+      "section": "outro",
+      "emotion": "controlled heartbreak pressure",
+      "energy": "LOW: setup, gaze, object cuts, held poses"
+    }
+  ]
+}

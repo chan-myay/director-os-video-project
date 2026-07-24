@@ -1,0 +1,7 @@
+{
+  "source": "AUDIO_TRUTH_TIMELINE_V2.json",
+  "caption_count": 20,
+  "instrumental_leakage_detected": false,
+  "production_ready": false,
+  "warning": "Review captions remain blocked from production unless high-confidence alignment or targeted approval exists."
+}

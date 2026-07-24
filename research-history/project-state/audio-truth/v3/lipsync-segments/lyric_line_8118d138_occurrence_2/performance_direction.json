@@ -1,0 +1,5 @@
+{
+  "face": "restrained",
+  "body": "grounded",
+  "camera": "face-safe only when alignment trusted"
+}

@@ -1,0 +1,23 @@
+shot_id: "F05_dress_pivot"
+intent: "controlled full-body dress pivot"
+song_section_targets: ["chorus_accent", "instrumental_breath", "later_verse"]
+references:
+  wardrobe_body: ["references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"]
+  location: ["references/approved/REF-C_BAR-STAGE_APPROVED.png"]
+motion:
+  type: "single_controlled_pivot"
+  existing_support: ["D05", "D03"]
+identity:
+  face_exposure: "small_shadowed_or_none"
+body_wardrobe:
+  proportions: "natural_adult"
+  dress_physics: "realistic_swing"
+location:
+  world: "polished_bar_floor"
+camera_lighting:
+  scale: "full_body_or_knees_up"
+  lighting: "amber_floor_red_fabric"
+negative_rules: ["no_stunt_spin", "no_martial_arts", "no_fake_body", "no_bad_feet", "no_close_face", "no_fake_lipsync"]
+qc:
+  required_review: "normal_speed"
+  status: "not_generated"

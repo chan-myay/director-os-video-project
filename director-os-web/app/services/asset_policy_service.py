@@ -6,28 +6,28 @@ from app.services.db import connect, initialize_database
 
 
 CHILD_CONTAINING_SOURCES = [
-    "references/My wife/IMG_5930.MOV",
-    "references/My wife/IMG_6737.MOV",
-    "references/My wife/IMG_6742.MOV",
+    "references/My lead performer/IMG_5930.MOV",
+    "references/My lead performer/IMG_6737.MOV",
+    "references/My lead performer/IMG_6742.MOV",
 ]
 
 REJECTED_REFERENCE_MARKERS = [
     "references/rejected/",
-    "REF-A_WIFE-IDENTITY-3ANGLE",
+    "REF-A_PERFORMER-IDENTITY-3ANGLE",
     "REJECTED",
     "SIMSWAP512",
 ]
 
 BROAD_PRIVATE_MARKERS = [
-    "references/My wife",
-    "references/My wife/",
-    "My wife/",
+    "references/My lead performer",
+    "references/My lead performer/",
+    "My lead performer/",
 ]
 
 F01_REQUIRED_REFERENCES = {
-    "identity_front": "references/approved/REF-A1_WIFE-FACE-FRONT_APPROVED.png",
-    "identity_threequarter": "references/approved/REF-A2_WIFE-FACE-THREEQUARTER_APPROVED.png",
-    "wardrobe_body": "references/approved/REF-B_WIFE-WARDROBE-FULLBODY_APPROVED.png",
+    "identity_front": "references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png",
+    "identity_threequarter": "references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png",
+    "wardrobe_body": "references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png",
     "bar_stage": "references/approved/REF-C_BAR-STAGE_APPROVED.png",
     "burmese_art_world": "references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png",
 }
@@ -133,7 +133,7 @@ def evaluate_asset_policy(
         if any(marker in ref for marker in REJECTED_REFERENCE_MARKERS):
             blockers.append(f"rejected reference marker found: {ref}")
         if any(marker in ref for marker in BROAD_PRIVATE_MARKERS) and not ref.endswith((".png", ".jpg", ".jpeg", ".heic.png", ".HEIC.png")):
-            blockers.append(f"broad private wife/source folder referenced: {ref}")
+            blockers.append(f"broad private lead performer/source folder referenced: {ref}")
 
     if connector and not connector["local_possible"]:
         warnings.append("cloud/manual renderer would require upload approval later; v0.5 dry-run does not upload")

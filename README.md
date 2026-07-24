@@ -3,16 +3,34 @@
 Private development backup for the Director OS rescue studio and the music video
 **The Bar Remembers Her**.
 
+Start with [`PROJECT_HANDOFF.md`](PROJECT_HANDOFF.md). It is the authoritative
+production state, creative lock, lip-sync status, asset policy, and continuation
+sequence.
+
+The retained engineering evidence is indexed in
+[`RESEARCH_INDEX.md`](RESEARCH_INDEX.md). GPU continuation for Audio Truth,
+InfiniteTalk/RunPod, face correction, QC, privacy, and non-destructive execution
+is covered by [`GPU_SERVER_RUNBOOK.md`](GPU_SERVER_RUNBOOK.md).
+
+The complete legacy Advanced surface and its preserved implementation/evidence
+mapping is in
+[`ADVANCED_SYSTEM_COVERAGE.md`](ADVANCED_SYSTEM_COVERAGE.md), including the
+historical database export and full media-free Director OS state.
+
 ## Current creative direction
 
-- Adult wife performs alone in the established dark-teak Finnish bar.
-- Mature, emotionally intense singing performance; no dance choreography.
+- Adult lead performer performs alone in the established dark-teak Finnish bar.
+- Mature, emotionally intense singing performance; the lead performer is not
+  required to dance.
 - Only natural micro-movement: breathing, small weight shifts, restrained head and
   shoulder response.
 - Deep-red Burmese-inspired one-shoulder dress, realistic body proportions,
   amber/crimson light, and a Finnish winter window.
 - Burmese art, architecture, cultural materials, quiet band coverage, sparse
   mature audience, and exterior winter cutaways can expand the world.
+- The bar is the narrative anchor, not the only visual location. Winter nature,
+  memory imagery, Burmese spaces, symbolic inserts, and tasteful adult
+  background movement may be used when supported by the song.
 - No karaoke staging, microphone-centred lounge performance, martial arts, K-pop,
   TikTok movement, identity drift, generic replacement, body/rear emphasis, or
   child-containing references.
@@ -53,7 +71,7 @@ intentionally excluded from GitHub. They remain in the original workstation at:
 - `/Users/chan/song-video-project/local-tools/`
 
 This includes the canonical master song, corrected Unicode lyric source,
-approved wife A1/A2 references, body/wardrobe B, bar C, Burmese world E, generated
+approved lead performer A1/A2 references, body/wardrobe B, bar C, Burmese world E, generated
 images and clips, full animatics, face-correction models, and provider exports.
 Do not delete those local folders after cloning this repository.
 
@@ -62,10 +80,10 @@ The two approved face workflows remain:
 - HiFiFace 256
 - UniFace 256
 
-Current trained wife model directories:
+Current trained lead performer model directories:
 
-- `face-correction/work/models/p03-wife-dlight-v1/`
-- `face-correction/v2/models/p03-wife-dlight-384-v2/`
+- `face-correction/work/models/p03-performer-dlight-v1/`
+- `face-correction/v2/models/p03-performer-dlight-384-v2/`
 
 ## Continue the production
 
@@ -85,4 +103,3 @@ export/import workflow unless explicit API access is configured later.
 
 See `docs/STORAGE_CLEANUP_AUDIT.md`. Nothing was deleted when this repository was
 prepared.
-

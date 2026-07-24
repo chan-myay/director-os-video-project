@@ -1,0 +1,12 @@
+shot_id: S01
+job_id: 4
+provider: manual_infinitetalk
+mode: video_to_video
+audio_authoritative: true
+phrase_id: 85
+phrase_index: 1
+timing_source: phrase_boundary_local_analysis
+vocal_segment: /Users/chan/song-video-project/director-os/lipsync/9/S01/VOCAL_SEGMENT.wav
+full_mix_segment: /Users/chan/song-video-project/director-os/lipsync/9/S01/FULL_MIX_SEGMENT.wav
+no_api_call: true
+no_upload: true

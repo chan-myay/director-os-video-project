@@ -1,0 +1,14 @@
+{
+  "phrase_id": 85,
+  "phrase_index": 1,
+  "shot_id": "S01",
+  "source_audio": "/Users/chan/song-video-project/audio/01.mp3",
+  "start_time": 32.18,
+  "end_time": 34.82,
+  "duration": 2.6400000000000006,
+  "timing_source": "phrase_boundary_local_analysis",
+  "lipsync_timing_locked": true,
+  "full_mix_segment": "/Users/chan/song-video-project/director-os/lipsync/9/S01/FULL_MIX_SEGMENT.wav",
+  "vocal_segment": "/Users/chan/song-video-project/director-os/lipsync/9/S01/VOCAL_SEGMENT.wav",
+  "ffmpeg_returncode": 0
+}

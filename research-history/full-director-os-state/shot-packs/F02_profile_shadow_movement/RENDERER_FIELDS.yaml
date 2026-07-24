@@ -1,0 +1,23 @@
+shot_id: "F02_profile_shadow_movement"
+intent: "profile movement with small shadowed face"
+song_section_targets: ["verse1", "later_verse"]
+references:
+  identity: ["references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png", "references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png"]
+  wardrobe_body: ["references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"]
+  location: ["references/approved/REF-C_BAR-STAGE_APPROVED.png"]
+motion:
+  type: "profile_weight_shift_or_slow_travel"
+  existing_support: ["D03", "C07_trim", "Batch_B_side_back"]
+identity:
+  face_exposure: "profile_shadow_small"
+body_wardrobe:
+  proportions: "natural_adult"
+location:
+  world: "bar_shelves_or_winter_window"
+camera_lighting:
+  scale: "medium_wide_or_knees_up"
+  lighting: "amber_edge_shadowed_face"
+negative_rules: ["no_close_face", "no_fake_lipsync", "no_karaoke", "no_martial_arts", "no_wrong_profile_reference"]
+qc:
+  required_review: "normal_speed"
+  status: "not_generated"

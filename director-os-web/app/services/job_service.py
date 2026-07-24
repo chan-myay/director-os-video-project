@@ -149,7 +149,7 @@ def _write_package_files(
         f"- Privacy acknowledged: {privacy_acknowledged}\n"
         "- No child-containing sources allowed.\n"
         "- No rejected reference sheets allowed.\n"
-        "- No broad private wife/source folders allowed.\n"
+        "- No broad private lead performer/source folders allowed.\n"
         "- v0.5 performs no upload.\n",
         encoding="utf-8",
     )

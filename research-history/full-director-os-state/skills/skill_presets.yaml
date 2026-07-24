@@ -1,0 +1,42 @@
+skills:
+  cinematic_music_video:
+    purpose: "Song-aligned cinematic music video with director treatment, storyboard, shot plan and renderer strategy."
+  performance_music_video:
+    purpose: "Human performer-centered music video with acting, movement, camera and identity-risk control."
+  narrative_music_video:
+    purpose: "Music video driven by story progression, symbols and timed emotional beats."
+  narrative_short:
+    purpose: "Short film with character arc, scene plan, storyboard and production design."
+  commercial_ad:
+    purpose: "Commercial spot with product promise, visual benefit, edit rhythm and delivery formats."
+  product_film:
+    purpose: "Product-focused film with macro details, materials, lighting and hero frames."
+  documentary:
+    purpose: "Nonfiction structure with interview, archival, b-roll and ethics controls."
+  lyric_video:
+    purpose: "Caption/typography-led music video with lyric timing and visual restraint."
+  social_short:
+    purpose: "Short vertical/social format with hook, retention beats and platform variants."
+  interview:
+    purpose: "Interview plan with lighting, framing, sound, b-roll and edit beats."
+  cinematic_trailer:
+    purpose: "Trailer structure with escalation, typography, sound design and climax pacing."
+  burmese_winter_bar_music_video:
+    purpose: "Reusable project-specific skill for mature Burmese bar-stage heartbreak music videos."
+    locked_lessons:
+      - "dark teak Finnish bar"
+      - "winter contrast"
+      - "Burmese material identity"
+      - "mature emotional performance"
+      - "natural adult proportions"
+      - "no karaoke"
+      - "no microphone-centered staging"
+      - "no kung fu, martial arts, K-pop or TikTok"
+      - "motion reference before choreography-heavy generation"
+      - "object-story strategy"
+      - "face correction after edit lock"
+      - "HiFiFace primary / UniFace backup"
+      - "normal-speed QC"
+      - "rejected references blocked"
+      - "child-containing sources excluded"
+    privacy_rule: "Do not expose private identity reference paths to unrelated projects."

@@ -1,0 +1,7 @@
+{
+  "ready": false,
+  "source": "AUDIO_TRUTH_TIMELINE_V4",
+  "blockers": [
+    "INVALIDATED_BY_REAL_USER_REVIEW"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "master_audio": "/Users/chan/song-video-project/audio/01.mp3",
+  "master": {
+    "duration": 292.702041,
+    "size": 11787104,
+    "codec": "mp3",
+    "sample_rate": "44100",
+    "channels": 2
+  },
+  "vocals": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals.wav",
+  "instrumental": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/instrumental.wav",
+  "vocals_16k_mono": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/vocals_16k_mono.wav",
+  "full_mix_16k_mono": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v2/stems/full_mix_16k_mono.wav",
+  "vocal_energy": 0.135849,
+  "duration_matches_master": true,
+  "status": "separated",
+  "tool": "demucs 4.0.1 htdemucs two-stem cpu segment=7 jobs=1",
+  "hashes": {
+    "01.mp3": "0f001b10bb4ae766d271c83cc960b91d4b8f62cc673abd679c8d6f89f381141c",
+    "full_mix_16k_mono.wav": "1872e3364983025deccdacd26781338c2c1c6e4abc23eeef0121c5b3ad4551d7",
+    "vocals_16k_mono.wav": "e4eb4efc28219c3c5d3180c3161d879d4e8e4b039a2a65d214ecd64e56302099",
+    "instrumental.wav": "b8a59d1ed8e229776ea44671594ee0478874ef4ec8d908985247b4eac99fad1c"
+  }
+}

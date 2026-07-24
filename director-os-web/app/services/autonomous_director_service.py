@@ -18,7 +18,7 @@ from app.services.engine_reader import read_text
 
 DEFAULT_IDEA = (
     "Create a world-class cinematic Burmese music video from this existing project. "
-    "My wife performs alone in the approved dark Finnish bar. The performance must be "
+    "My lead performer performs alone in the approved dark Finnish bar. The performance must be "
     "mature, elegant, emotionally intense and physically realistic. Continue from all "
     "approved work and failures. Avoid karaoke, random choreography, martial arts, "
     "K-pop, fake lip-sync and fake body proportions."
@@ -30,9 +30,9 @@ LATEST_PLAN = PLAN_ROOT / "latest"
 STORYBOARD_ROOT = ENGINE_ROOT / "storyboards" / "latest"
 
 APPROVED_REFERENCES = {
-    "identity_front": "references/approved/REF-A1_WIFE-FACE-FRONT_APPROVED.png",
-    "identity_threequarter": "references/approved/REF-A2_WIFE-FACE-THREEQUARTER_APPROVED.png",
-    "wardrobe_body": "references/approved/REF-B_WIFE-WARDROBE-FULLBODY_APPROVED.png",
+    "identity_front": "references/approved/REF-A1_PERFORMER-FACE-FRONT_APPROVED.png",
+    "identity_threequarter": "references/approved/REF-A2_PERFORMER-FACE-THREEQUARTER_APPROVED.png",
+    "wardrobe_body": "references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png",
     "natural_body_source": "references/identity-source-selected/IMG_4079.heic.png",
     "bar_stage": "references/approved/REF-C_BAR-STAGE_APPROVED.png",
     "burmese_art_world": "references/approved/REF-E_BURMESE-ART-INSERTS_APPROVED.png",
@@ -41,7 +41,7 @@ APPROVED_REFERENCES = {
 LOCKED_TRUTH = {
     "project": "Burmese heartbreak music video",
     "song": "audio/01.mp3",
-    "performer": "consenting adult wife performer",
+    "performer": "consenting adult lead performer performer",
     "location": "approved dark teak Finnish bar/stage with winter window",
     "lighting": "amber/crimson cinematic lighting",
     "wardrobe": "deep-red one-shoulder Burmese-inspired dress",
@@ -60,7 +60,7 @@ HARD_NEGATIVES = [
     "generated singing treated as final Burmese lip-sync",
     "rejected three-angle identity sheet",
     "child-containing source material",
-    "broad private wife/source folders in cloud upload packages",
+    "broad private lead performer/source folders in cloud upload packages",
 ]
 
 AGENTS = [
@@ -248,7 +248,7 @@ def asset_record(project: Path, path: Path, role: str, status: str) -> dict[str,
 def build_decision_memory(evidence: dict[str, Any]) -> dict[str, Any]:
     return {
         "decisions": [
-            decision("approved", "Use separate A1/A2 wife face references only.", "SUCCESS_REGISTER.md", 0.96),
+            decision("approved", "Use separate A1/A2 lead performer face references only.", "SUCCESS_REGISTER.md", 0.96),
             decision("approved", "Deep-red one-shoulder Burmese-inspired dress is locked.", "SUCCESS_REGISTER.md", 0.95),
             decision("approved", "Dark teak Finnish bar, winter window, amber/crimson lighting locked.", "SUCCESS_REGISTER.md", 0.95),
             decision("restricted", "Microphone is final symbol only.", "SUCCESS_REGISTER.md and movement directives", 0.93),
@@ -276,7 +276,7 @@ def build_creative_concepts() -> list[dict[str, Any]]:
     return [
         {
             "title": "The Bar Remembers Her",
-            "summary": "A lonely Burmese heartbreak performance where the bar, snow, rose, glasses, and empty microphone become memory witnesses while the wife performer slowly takes control of the room.",
+            "summary": "A lonely Burmese heartbreak performance where the bar, snow, rose, glasses, and empty microphone become memory witnesses while the lead performer performer slowly takes control of the room.",
             "confidence": 0.86,
             "why": "Best match to existing approved assets, object story, dark bar world, and missing coverage needs.",
         },
@@ -459,7 +459,7 @@ def storyboard_frame_svg(shot: dict[str, Any]) -> str:
 
 def bible_documents(state: dict[str, Any], selected: dict[str, Any]) -> dict[str, str]:
     return {
-        "CHARACTER_BIBLE.md": "# Character Bible\n\nThe performer is the consenting adult wife, anchored only by approved A1/A2 identity references. She is alone, restrained, emotionally pressurized, and never turned into a generic model body.\n",
+        "CHARACTER_BIBLE.md": "# Character Bible\n\nThe performer is the consenting adult lead performer, anchored only by approved A1/A2 identity references. She is alone, restrained, emotionally pressurized, and never turned into a generic model body.\n",
         "PERFORMANCE_BIBLE.md": "# Performance Bible\n\nPerformance is mature, inward, rhythm-aware, and cinematic. No karaoke, no lounge singing, no fake Burmese lip-sync. Mouth exposure is minimized until dedicated lip-sync exists.\n",
         "WARDROBE_BIBLE.md": "# Wardrobe Bible\n\nDeep-red one-shoulder Burmese-inspired satin dress. Natural adult proportions. Fabric movement must be physically plausible and tied to actual motion references.\n",
         "LOCATION_BIBLE.md": "# Location Bible\n\nApproved dark teak Finnish bar/stage, winter window, shelves, floor, curtain and amber/crimson falloff. Do not introduce piano/drums/band lounge venue drift.\n",
@@ -573,7 +573,7 @@ def executive_summary(idea: str, state: dict[str, Any], selected: dict[str, Any]
 
 - Existing project is a Burmese heartbreak music video.
 - Master song: `{LOCKED_TRUTH['song']}`.
-- Performer: consenting adult wife, using only approved A1/A2 face references.
+- Performer: consenting adult lead performer, using only approved A1/A2 face references.
 - World: approved dark teak Finnish bar/stage, winter window, amber/crimson light, Burmese craft/art inserts.
 - Wardrobe/body: deep-red one-shoulder Burmese-inspired dress and natural adult proportions.
 - Current weakness: repeated front-facing dance, missing side-travel/profile/silhouette/dress-pivot/power-body coverage.
@@ -608,7 +608,7 @@ def director_treatment(state: dict[str, Any], selected: dict[str, Any]) -> str:
 ## {selected['title']}
 
 The video is a cinematic Burmese heartbreak performance staged as a memory
-inside the approved dark Finnish bar. The wife performer is alone. She does not
+inside the approved dark Finnish bar. The lead performer performer is alone. She does not
 sing to camera as karaoke; she moves through the room as if the room is holding
 the memory with her.
 

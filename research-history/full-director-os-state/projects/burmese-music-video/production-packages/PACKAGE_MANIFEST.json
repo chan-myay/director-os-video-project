@@ -1,0 +1,1255 @@
+{
+  "project_id": "burmese-music-video",
+  "package_count": 24,
+  "packages": [
+    {
+      "shot_id": "S001",
+      "renderer": "manual/local existing",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S001: bar memory setup",
+      "full_technical_prompt": "S001: bar memory setup. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: static/slow push. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "00:08.00",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S001: bar memory setup. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: static/slow push. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S002",
+      "renderer": "Seedance or Kling after refs",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S002: performer takes ownership",
+      "full_technical_prompt": "S002: performer takes ownership. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow forward then lateral. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "00:16.05",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S002: performer takes ownership. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow forward then lateral. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S003",
+      "renderer": "Seedance first, Kling fallback",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S003: room ownership through movement",
+      "full_technical_prompt": "S003: room ownership through movement. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side tracking. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: sustained lateral travel from approved motion reference. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "sustained lateral travel from approved motion reference",
+      "duration": "00:24.09",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S003: room ownership through movement. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side tracking. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: sustained lateral travel from approved motion reference. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S004",
+      "renderer": "Kling/Seedance after motion ref",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S004: hide face risk, increase pressure",
+      "full_technical_prompt": "S004: hide face risk, increase pressure. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side/profile track. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: profile-weight shift and shoulder/torso rhythm. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "profile-weight shift and shoulder/torso rhythm",
+      "duration": "00:32.13",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S004: hide face risk, increase pressure. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side/profile track. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: profile-weight shift and shoulder/torso rhythm. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S005",
+      "renderer": "Seedance",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S005: fabric punctuation",
+      "full_technical_prompt": "S005: fabric punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: controlled pivot only from reference. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: controlled pivot only if present in motion source. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "controlled pivot only if present in motion source",
+      "duration": "00:40.18",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S005: fabric punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: controlled pivot only from reference. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: controlled pivot only if present in motion source. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S006",
+      "renderer": "Kling Motion Control if start frame exists",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S006: chorus body power",
+      "full_technical_prompt": "S006: chorus body power. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: backlit lateral rhythm. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: grounded power body movement with low arms. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "grounded power body movement with low arms",
+      "duration": "00:55.28",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S006: chorus body power. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: backlit lateral rhythm. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: grounded power body movement with low arms. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S007",
+      "renderer": "local/existing cutaways",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S007: beat punctuation",
+      "full_technical_prompt": "S007: beat punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: short inserts. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "01:10.38",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S007: beat punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: short inserts. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S008",
+      "renderer": "existing footage",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S008: song resolves into absence",
+      "full_technical_prompt": "S008: song resolves into absence. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow hold. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "01:25.48",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S008: song resolves into absence. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow hold. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S009",
+      "renderer": "manual/local existing",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S009: bar memory setup",
+      "full_technical_prompt": "S009: bar memory setup. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: static/slow push. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "01:45.66",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S009: bar memory setup. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: static/slow push. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S010",
+      "renderer": "Seedance or Kling after refs",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S010: performer takes ownership",
+      "full_technical_prompt": "S010: performer takes ownership. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow forward then lateral. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "02:02.28",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S010: performer takes ownership. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow forward then lateral. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S011",
+      "renderer": "Seedance first, Kling fallback",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S011: room ownership through movement",
+      "full_technical_prompt": "S011: room ownership through movement. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side tracking. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: sustained lateral travel from approved motion reference. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "sustained lateral travel from approved motion reference",
+      "duration": "02:18.89",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S011: room ownership through movement. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side tracking. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: sustained lateral travel from approved motion reference. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S012",
+      "renderer": "Kling/Seedance after motion ref",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S012: hide face risk, increase pressure",
+      "full_technical_prompt": "S012: hide face risk, increase pressure. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side/profile track. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: profile-weight shift and shoulder/torso rhythm. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "profile-weight shift and shoulder/torso rhythm",
+      "duration": "02:35.50",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S012: hide face risk, increase pressure. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side/profile track. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: profile-weight shift and shoulder/torso rhythm. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S013",
+      "renderer": "Seedance",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S013: fabric punctuation",
+      "full_technical_prompt": "S013: fabric punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: controlled pivot only from reference. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: controlled pivot only if present in motion source. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "controlled pivot only if present in motion source",
+      "duration": "02:50.18",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S013: fabric punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: controlled pivot only from reference. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: controlled pivot only if present in motion source. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S014",
+      "renderer": "Kling Motion Control if start frame exists",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S014: chorus body power",
+      "full_technical_prompt": "S014: chorus body power. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: backlit lateral rhythm. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: grounded power body movement with low arms. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "grounded power body movement with low arms",
+      "duration": "02:56.24",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S014: chorus body power. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: backlit lateral rhythm. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: grounded power body movement with low arms. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S015",
+      "renderer": "local/existing cutaways",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S015: beat punctuation",
+      "full_technical_prompt": "S015: beat punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: short inserts. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "03:04.24",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S015: beat punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: short inserts. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S016",
+      "renderer": "existing footage",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S016: song resolves into absence",
+      "full_technical_prompt": "S016: song resolves into absence. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow hold. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "03:18.83",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S016: song resolves into absence. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow hold. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S017",
+      "renderer": "manual/local existing",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S017: bar memory setup",
+      "full_technical_prompt": "S017: bar memory setup. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: static/slow push. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "03:33.41",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S017: bar memory setup. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: static/slow push. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S018",
+      "renderer": "Seedance or Kling after refs",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S018: performer takes ownership",
+      "full_technical_prompt": "S018: performer takes ownership. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow forward then lateral. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "03:48.00",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S018: performer takes ownership. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow forward then lateral. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S019",
+      "renderer": "Seedance first, Kling fallback",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S019: room ownership through movement",
+      "full_technical_prompt": "S019: room ownership through movement. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side tracking. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: sustained lateral travel from approved motion reference. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "sustained lateral travel from approved motion reference",
+      "duration": "04:03.44",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S019: room ownership through movement. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side tracking. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: sustained lateral travel from approved motion reference. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S020",
+      "renderer": "Kling/Seedance after motion ref",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S020: hide face risk, increase pressure",
+      "full_technical_prompt": "S020: hide face risk, increase pressure. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side/profile track. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: profile-weight shift and shoulder/torso rhythm. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "profile-weight shift and shoulder/torso rhythm",
+      "duration": "04:14.13",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S020: hide face risk, increase pressure. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: side/profile track. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: profile-weight shift and shoulder/torso rhythm. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S021",
+      "renderer": "Seedance",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S021: fabric punctuation",
+      "full_technical_prompt": "S021: fabric punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: controlled pivot only from reference. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: controlled pivot only if present in motion source. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "controlled pivot only if present in motion source",
+      "duration": "04:24.83",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S021: fabric punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: controlled pivot only from reference. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: controlled pivot only if present in motion source. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S022",
+      "renderer": "Kling Motion Control if start frame exists",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S022: chorus body power",
+      "full_technical_prompt": "S022: chorus body power. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: backlit lateral rhythm. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: grounded power body movement with low arms. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "grounded power body movement with low arms",
+      "duration": "04:35.53",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S022: chorus body power. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: backlit lateral rhythm. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: grounded power body movement with low arms. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S023",
+      "renderer": "local/existing cutaways",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S023: beat punctuation",
+      "full_technical_prompt": "S023: beat punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: short inserts. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "04:45.44",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S023: beat punctuation. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: short inserts. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    },
+    {
+      "shot_id": "S024",
+      "renderer": "existing footage",
+      "fallback_renderer": "existing footage / local storyboard mock / manual export",
+      "short_director_instruction": "S024: song resolves into absence",
+      "full_technical_prompt": "S024: song resolves into absence. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow hold. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+      "negative_prompt": "karaoke, lounge singer, microphone-centered staging, martial arts, kung fu, K-pop, TikTok, fake body reshaping, child, generic Asian decor",
+      "input_reference_mapping": [
+        "approved face refs A1/A2 only when explicitly allowed",
+        "approved wardrobe/body B",
+        "approved bar C",
+        "approved Burmese art E"
+      ],
+      "motion_mapping": "restrained walking, stillness, or object action",
+      "duration": "04:52.66",
+      "identity_rules": "Use only exact approved references; no broad private folders.",
+      "body_rules": "Natural adult proportions; no reshaping.",
+      "privacy_state": "local package; cloud upload requires approval.",
+      "likely_failures": [
+        "caption sync unverified",
+        "identity drift",
+        "generic choreography"
+      ],
+      "qc_scorecard": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism"
+      ],
+      "lyric_meaning_relationship": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "caption_truth_policy": "Use verified-only captions in main output; unresolved lyrics are review/debug only.",
+      "renderer_specific_prompts": {
+        "local_image_backend": "S024: song resolves into absence. Mature solo Burmese performance in approved dark teak Finnish bar, winter window, amber/crimson practical lighting. Camera: slow hold. Lighting: amber/crimson key with winter-window contrast and dark teak falloff. Movement: restrained walking, stillness, or object action. Natural adult proportions. No karaoke, kung fu, K-pop, TikTok.",
+        "local_video_backend": "Use local motion sketch unless an approved video backend is operational.",
+        "seedance": "Provider package prepared only; paid/cloud use requires approval.",
+        "kling": "Provider package prepared only; paid/cloud use requires approval.",
+        "runway": "Provider package prepared only; paid/cloud use requires approval.",
+        "veo": "Provider package prepared only; paid/cloud use requires approval.",
+        "infinitetalk": "Only eligible after Audio Truth and lip-sync gates pass."
+      },
+      "qc_requirements": [
+        "identity",
+        "body realism",
+        "Burmese cultural specificity",
+        "caption timing",
+        "motion realism",
+        "caption_truth_gate",
+        "readable_burmese_font",
+        "no_wrong_lyrics_in_main_player"
+      ]
+    }
+  ],
+  "export_all_ready": true
+}

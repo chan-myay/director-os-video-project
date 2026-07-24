@@ -1,0 +1,46 @@
+{
+  "version": "audio-truth-v3",
+  "anchors": [
+    {
+      "anchor_id": "anchor_early",
+      "occurrence_id": "lyric_line_3b6a71e0_occurrence_1",
+      "position": "early",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/anchors/anchor_early.mp4",
+      "lyric": "အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း",
+      "english_meaning": "restrained heartbreak / memory pressure; exact translation should be reviewed with Burmese speaker",
+      "start": 32.98,
+      "end": 35.62,
+      "confidence": 0.835,
+      "status": "pending_user_confirmation"
+    },
+    {
+      "anchor_id": "anchor_middle",
+      "occurrence_id": "lyric_line_22df2ed0_occurrence_1",
+      "position": "middle",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/anchors/anchor_middle.mp4",
+      "lyric": "လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့",
+      "english_meaning": "restrained heartbreak / memory pressure; exact translation should be reviewed with Burmese speaker",
+      "start": 92.3,
+      "end": 93.38,
+      "confidence": 0.836,
+      "status": "pending_user_confirmation"
+    },
+    {
+      "anchor_id": "anchor_late",
+      "occurrence_id": "lyric_line_68353461_occurrence_1",
+      "position": "late",
+      "clip": "/Users/chan/song-video-project/director-os/projects/burmese-music-video/audio-truth/v3/anchors/anchor_late.mp4",
+      "lyric": "စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်",
+      "english_meaning": "restrained heartbreak / memory pressure; exact translation should be reviewed with Burmese speaker",
+      "start": 118.76,
+      "end": 124.48,
+      "confidence": 0.804,
+      "status": "pending_user_confirmation"
+    }
+  ],
+  "summary": {
+    "anchor_count": 3,
+    "status": "pending_user_confirmation",
+    "feedback_path": "/Users/chan/song-video-project/director-os/state/AUDIO_TRUTH_ANCHOR_FEEDBACK.json"
+  }
+}

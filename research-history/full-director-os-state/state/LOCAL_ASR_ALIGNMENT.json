@@ -1,0 +1,31 @@
+{
+  "version": "v1.0.7",
+  "classification": "asr_unavailable",
+  "available": false,
+  "burmese_verified": false,
+  "segments": [],
+  "warnings": [
+    "no ASR model was downloaded or installed",
+    "singing Burmese ASR must be treated as evidence, not authority"
+  ],
+  "providers": [
+    {
+      "provider": "mlx_whisper",
+      "available": false,
+      "path": "",
+      "downloads_performed": false
+    },
+    {
+      "provider": "whisper_cli",
+      "available": false,
+      "path": "",
+      "downloads_performed": false
+    },
+    {
+      "provider": "whisper_cpp",
+      "available": false,
+      "path": "",
+      "downloads_performed": false
+    }
+  ]
+}

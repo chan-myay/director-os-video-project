@@ -1,0 +1,22 @@
+shot_id: "F03_silhouette_variation"
+intent: "face-safe silhouette dance variation"
+song_section_targets: ["chorus1", "later_verse", "chorus2_final"]
+references:
+  wardrobe_body: ["references/approved/REF-B_PERFORMER-WARDROBE-FULLBODY_APPROVED.png"]
+  location: ["references/approved/REF-C_BAR-STAGE_APPROVED.png"]
+motion:
+  type: "backlit_silhouette_rhythm"
+  existing_support: ["D04", "D06_trim", "B03"]
+identity:
+  face_exposure: "hidden_unreadable"
+body_wardrobe:
+  proportions: "natural_adult_silhouette"
+location:
+  world: "curtain_window_bar_stage"
+camera_lighting:
+  scale: "wide_or_medium_wide"
+  lighting: "backlit_amber_edge"
+negative_rules: ["no_readable_close_face", "no_fake_body", "no_martial_arts", "no_fake_lipsync", "no_mic_center"]
+qc:
+  required_review: "normal_speed"
+  status: "not_generated"

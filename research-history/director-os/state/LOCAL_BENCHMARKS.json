@@ -1,0 +1,16 @@
+{
+  "benchmarks": [
+    {
+      "model": "none",
+      "runtime": "ffmpeg_deterministic",
+      "hardware": "sysctl: sysctl fmt -1 1024 1: Operation not permitted",
+      "startup_time": 0,
+      "processing_time": 0.26667022705078125,
+      "peak_memory": "not_measured",
+      "dimensions": "320x180",
+      "result_path": "/Users/chan/song-video-project/director-os/benchmarks/local/ffmpeg_test_frame.png",
+      "success": true,
+      "quality_review_state": "tool_health_only"
+    }
+  ]
+}

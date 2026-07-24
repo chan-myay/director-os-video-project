@@ -1,0 +1,104 @@
+1
+00:00:32,980 --> 00:00:35,620
+အလင်းမဲ့ဒီည ဦးနှောက်တွေစားဒုက္ခတွေတပွေ့တထမ်း
+[REVIEW lyric_line_3b6a71e0_occurrence_1 · verified_main_caption]
+
+2
+00:00:36,340 --> 00:00:38,420
+လွဲမှားခြင်းရဲ့ အကြောင်းတွေ ဖြေရှာနေဆဲပါ
+[REVIEW lyric_line_6d042445_occurrence_1 · hidden_from_main_player]
+
+3
+00:00:39,660 --> 00:00:45,900
+အသံတွေတိတ်ဆိတ် အမှောင်တွေနှုတ်ပိတ် ထားတဲ့ အရိပ်
+[REVIEW lyric_line_4aefb4cd_occurrence_1 · hidden_from_main_player]
+
+4
+00:00:46,220 --> 00:00:48,620
+မှောင်မည်း ကြီးထဲ မင်းရဲ့တို့ရဲ့အကြောင်းဇာတ်တစ်ခန်း …
+[REVIEW lyric_line_29f7541c_occurrence_1 · hidden_from_main_player]
+
+5
+00:00:49,220 --> 00:01:05,740
+မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း
+[REVIEW lyric_line_cfe97aeb_occurrence_1 · hidden_from_main_player]
+
+6
+00:01:05,960 --> 00:01:12,200
+မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်
+[REVIEW lyric_line_8118d138_occurrence_1 · hidden_from_main_player]
+
+7
+00:01:12,440 --> 00:01:18,920
+ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး
+[REVIEW lyric_line_6545c465_occurrence_1 · hidden_from_main_player]
+
+8
+00:01:19,200 --> 00:01:31,280
+ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး
+[REVIEW lyric_line_0d3a08bf_occurrence_1 · hidden_from_main_player]
+
+9
+00:01:32,300 --> 00:01:33,380
+လူဘဝဟာဆန်းကြယ်လွန်းတယ် အခုမှလာ လွမ်းပြမနေနဲ့
+[REVIEW lyric_line_22df2ed0_occurrence_1 · hidden_from_main_player]
+
+10
+00:01:38,460 --> 00:01:41,360
+လောင်ကျွမ်းနေ အသဲတွေကွဲကြေ သရဲ တစ္ဆေ
+[REVIEW lyric_line_e7715751_occurrence_1 · hidden_from_main_player]
+
+11
+00:01:41,620 --> 00:01:44,860
+တစ်ကောင်လို ရောင်ခြောက်ဆယ်
+[REVIEW lyric_line_92457abb_occurrence_1 · hidden_from_main_player]
+
+12
+00:01:45,540 --> 00:01:52,900
+နံရံတွေခြောက်သွေ့အမှန်တွေ ခလုတ်ပိတ်ထားတဲ့ အတိတ်
+[REVIEW lyric_line_7a8eb022_occurrence_1 · hidden_from_main_player]
+
+13
+00:01:53,300 --> 00:01:54,320
+ဂျက်ထိုးပိတ်ထားတဲ့ တံခါးတွေများဟေး…ရေး…ရီး..ရေး
+[REVIEW lyric_line_9129302f_occurrence_1 · hidden_from_main_player]
+
+14
+00:01:54,840 --> 00:01:58,240
+မင်းပေးတဲ့အမုန်း အခုကျတော့ အပြုံးနဲ့ အရံှုး
+[REVIEW lyric_line_2f38aa93_occurrence_1 · hidden_from_main_player]
+
+15
+00:01:58,760 --> 00:02:04,480
+စာနာခြင်းများ အဝေး (ရီး) အဝါရောင်အဆင်းနဲ့ အပြည့်
+[REVIEW lyric_line_68353461_occurrence_1 · hidden_from_main_player]
+
+16
+00:02:04,660 --> 00:02:11,160
+ဆယ်ကမ္ဘာလဲ မမေ့ ထည်ဝါတဲ့ အငွေ့သက်လေး
+[REVIEW lyric_line_a3e2ead6_occurrence_1 · hidden_from_main_player]
+
+17
+00:02:11,560 --> 00:02:14,000
+ငါလေ တွေးလေ ဆွေးလေး ပြေးလေ ဝေးလေ ရေ….
+[REVIEW lyric_line_8bc3a7b6_occurrence_1 · hidden_from_main_player]
+
+18
+00:02:14,780 --> 00:02:20,500
+မင်းပေးတဲ့ အနမ်း အခုကျတော့ အလွမ်းနဲ့ဇာတ်သိမ်း
+[REVIEW lyric_line_cfe97aeb_occurrence_2 · hidden_from_main_player]
+
+19
+00:02:21,100 --> 00:02:24,260
+မာယာများနဲ့ အပြည့် ဒဏ်ရာများ ကျပ်ပိတ်သိမ့်
+[REVIEW lyric_line_8118d138_occurrence_2 · hidden_from_main_player]
+
+20
+00:02:24,620 --> 00:02:30,680
+ဘယ်မှာလဲဟေ့ ရှာသော်လဲ မတွေ့ ငါရဲ့ အချစ်ကလေး
+[REVIEW lyric_line_6545c465_occurrence_2 · hidden_from_main_player]
+
+21
+00:02:30,900 --> 00:02:33,660
+ကြာလေ ဝေးလေး ဝေးလေး ဝေးလေး ဝေးလေး
+[REVIEW lyric_line_0d3a08bf_occurrence_2 · hidden_from_main_player]
