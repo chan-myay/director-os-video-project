@@ -1,4 +1,9 @@
-"""CPU-first private Burmese narrated-video renderer for Director OS."""
+"""CPU-first, private Burmese narrated-video renderer for Director OS.
+
+No external API calls or model downloads happen here. The approved Nara Mini
+model must already exist at NARA_MINI_ROOT. Intermediate media and input text
+stay under the private CREATOR_OUTPUT_ROOT.
+"""
 from __future__ import annotations
 
 import json
@@ -11,20 +16,25 @@ import wave
 from pathlib import Path
 from uuid import uuid4
 
+
 MAX_TEXT = 5000
 DEFAULT_VOICE = "ko-banyar"
 SUPPORTED_VOICES = ("ko-banyar", "shoon", "thazin", "htet-myat")
 
+
 def output_root() -> Path:
     return Path(os.environ.get("CREATOR_OUTPUT_ROOT", str(Path.home() / ".director-os" / "private-creator"))).expanduser().resolve()
+
 
 def safe_job_id(value: str) -> str:
     if not re.fullmatch(r"[a-f0-9]{32}", value):
         raise ValueError("Invalid job identifier")
     return value
 
+
 def job_dir(job_id: str) -> Path:
     return output_root() / safe_job_id(job_id)
+
 
 def new_job(text: str, voice: str = DEFAULT_VOICE, *, visual: bytes | None = None, visual_name: str = "") -> str:
     text = text.strip()
@@ -48,7 +58,9 @@ def new_job(text: str, voice: str = DEFAULT_VOICE, *, visual: bytes | None = Non
     write_status(job_id, "queued", voice=voice, visual_ext=visual_ext)
     return job_id
 
+
 def validate_and_store_visual(folder: Path, content: bytes, filename: str) -> str:
+    # Filenames from browsers are never used as output paths.
     ext = Path(filename).suffix.lower()
     if ext not in {".png", ".jpg", ".jpeg", ".webp"}:
         raise ValueError("Upload a PNG, JPEG or WebP still image")
@@ -69,6 +81,7 @@ def validate_and_store_visual(folder: Path, content: bytes, filename: str) -> st
     (folder / "visual.jpg").chmod(0o600)
     return ".jpg"
 
+
 def write_status(job_id: str, state: str, **extra: object) -> None:
     folder = job_dir(job_id)
     old = {}
@@ -81,16 +94,20 @@ def write_status(job_id: str, state: str, **extra: object) -> None:
     temp.replace(f)
     f.chmod(0o600)
 
+
 def read_status(job_id: str) -> dict:
     f = job_dir(job_id) / "status.json"
     if not f.is_file():
         raise FileNotFoundError(job_id)
     return json.loads(f.read_text(encoding="utf-8"))
 
+
 def segments(text: str) -> list[str]:
+    # Sentence-level timing avoids pretending to have word-level forced alignment.
     text = text.strip()
-    pieces = re.split(r"(?<=[။!?])\s*|(?<=။)", text)
+    pieces = re.split(r"(?<=[။!?။!?])\s*|(?<=။)", text)
     pieces = [p.strip() for p in pieces if p.strip()]
+    # Chunk overly long paragraphs at whitespace, keeping exact text order.
     out: list[str] = []
     for piece in pieces:
         if len(piece) <= 240:
@@ -108,12 +125,15 @@ def segments(text: str) -> list[str]:
             out.append(buf)
     return out or [text]
 
+
 def exec_checked(args: list[str], *, cwd: Path | None = None, timeout: int = 300) -> None:
     if not args or not shutil.which(args[0]) and not Path(args[0]).exists():
         raise RuntimeError(f"Missing executable: {args[0]}")
     result = subprocess.run(args, cwd=cwd, text=True, capture_output=True, timeout=timeout, check=False)
     if result.returncode:
+        # Don't leak full private source or installed path in UI errors.
         raise RuntimeError(f"Renderer failed ({Path(args[0]).name}, exit {result.returncode})")
+
 
 def synthesize_segments(folder: Path, text: str, voice: str) -> list[tuple[str, float]]:
     root_str = os.environ.get("NARA_MINI_ROOT", "")
@@ -154,12 +174,14 @@ def synthesize_segments(folder: Path, text: str, voice: str) -> list[tuple[str, 
     master.chmod(0o600)
     return phrase_timings
 
+
 def srt_time(seconds: float) -> str:
     ms = max(0, round(seconds * 1000))
     hh, rest = divmod(ms, 3_600_000)
     mm, rest = divmod(rest, 60_000)
     ss, msec = divmod(rest, 1000)
     return f"{hh:02}:{mm:02}:{ss:02},{msec:03}"
+
 
 def write_subtitles(folder: Path, timings: list[tuple[str, float]]) -> float:
     lines = []
@@ -171,9 +193,13 @@ def write_subtitles(folder: Path, timings: list[tuple[str, float]]) -> float:
     (folder / "captions.srt").write_text("\n".join(lines), encoding="utf-8")
     return start
 
+
 def placeholder_visual(folder: Path) -> None:
-    # Distinguish graphics from AI-generated images.
-    from PIL import Image, ImageDraw
+    # Fallback is an honestly labeled graphic background, NOT an AI-generated scene.
+    try:
+        from PIL import Image, ImageDraw
+    except ImportError as exc:
+        raise RuntimeError("Install Pillow or provide a reference image") from exc
     im = Image.new("RGB", (720, 1280), (18, 24, 42))
     painter = ImageDraw.Draw(im)
     for i in range(70):
@@ -183,10 +209,13 @@ def placeholder_visual(folder: Path) -> None:
     im.save(folder / "visual.jpg", "JPEG", quality=93)
     (folder / "visual.jpg").chmod(0o600)
 
+
 def render_video(folder: Path, duration: float) -> None:
     image = folder / "visual.jpg"
     if not image.exists():
         placeholder_visual(folder)
+    # Force scale/crop to vertical; slow diagonal drift is CPU-cheap and deterministic.
+    # Burn subtitles from SRT via libass; font selection is provided by the host OS.
     filter_expr = (
         "scale=780:1387:force_original_aspect_ratio=increase,"
         "crop=720:1280:x='(in_w-out_w)*(0.50+0.15*sin(n/105))':"
@@ -203,6 +232,7 @@ def render_video(folder: Path, duration: float) -> None:
         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", "video.mp4",
     ], cwd=folder, timeout=int(os.environ.get("CREATOR_VIDEO_TIMEOUT", "900")))
     exec_checked(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", "narration.wav", "-codec:a", "libmp3lame", "-qscale:a", "3", "narration.mp3"], cwd=folder)
+
 
 def render_job(job_id: str) -> None:
     status = read_status(job_id)
