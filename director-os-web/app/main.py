@@ -5,6 +5,7 @@ from pathlib import Path
 import re
 
 from fastapi import FastAPI, Request
+from app.creator_server import creator_app
 from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse, Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -176,6 +177,7 @@ from app.services.rescue_studio_service import (
 
 
 app = FastAPI(title=APP_NAME, version=APP_VERSION)
+app.mount("/creator", creator_app)
 app.mount("/static", StaticFiles(directory=APP_ROOT / "app" / "static"), name="static")
 RESCUE_ROOT.mkdir(parents=True, exist_ok=True)
 app.mount("/rescue-assets", StaticFiles(directory=RESCUE_ROOT), name="rescue-assets")
